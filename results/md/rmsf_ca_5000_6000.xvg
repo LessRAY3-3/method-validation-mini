@@ -1,0 +1,37 @@
+# This file was created Tue Nov 10 12:49:54 2026
+# Created by:
+#                  :-) GROMACS - gmx rmsf, 2026.4-Homebrew (-:
+# 
+# Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+# Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+# Working dir:  <project>
+# Command line:
+#   gmx rmsf -s results/md/md.tpr -f results/md/md_all_fit.xtc -o results/md/rmsf_ca_5000_6000.xvg -res -b 5000 -e 6000
+# gmx rmsf is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.1177
+    2   0.0907
+    3   0.0673
+    4   0.0459
+    5   0.0491
+    6   0.0405
+    7   0.0448
+    8   0.0667
+    9   0.0758
+   10   0.0785
+   11   0.0487
+   12   0.0683
+   13   0.0568
+   14   0.0651
+   15   0.1087
+   16   0.0914
+   17   0.0749
+   18   0.0746
+   19   0.1072
+   20   0.1643

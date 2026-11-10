@@ -1,0 +1,33 @@
+{
+  "rmsd_backbone_nm": {
+    "frames": 101,
+    "start": 0.0005185,
+    "end": 0.193337,
+    "mean": 0.13648674653465348,
+    "minimum": 0.0005185,
+    "maximum": 0.2484107
+  },
+  "radius_of_gyration_nm": {
+    "frames": 101,
+    "start": 0.7338,
+    "end": 0.723166,
+    "mean": 0.7363128613861387,
+    "minimum": 0.710592,
+    "maximum": 0.761636
+  },
+  "protein_internal_hbonds": {
+    "frames": 101,
+    "start": 10.0,
+    "end": 13.0,
+    "mean": 10.158415841584159,
+    "minimum": 5.0,
+    "maximum": 15.0
+  },
+  "rmsf_ca_nm": {
+    "residues": 20,
+    "mean": 0.09,
+    "maximum": 0.2079,
+    "maximum_residue": 20
+  },
+  "limitations": "1 ns single trajectory; not evidence of convergence, folding, thermodynamic stability, or binding mechanism."
+}

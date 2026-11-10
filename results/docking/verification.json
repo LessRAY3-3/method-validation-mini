@@ -1,0 +1,21 @@
+{
+  "repeat_run": {
+    "exhaustiveness": 32,
+    "seed": 42,
+    "original_sha256": "19b61c04d9ce82e7f75c82228efcdceac7006a7b9214b79efcfe9808fe37bb16",
+    "repeat_sha256": "19b61c04d9ce82e7f75c82228efcdceac7006a7b9214b79efcfe9808fe37bb16",
+    "byte_identical": true
+  },
+  "independent_rmsd_check": {
+    "mode": 1,
+    "graph_isomorphism_mappings": 4,
+    "plain_rmsd_angstrom": 0.9057300773260062,
+    "symmetry_corrected_rmsd_angstrom": 0.37786426849519017,
+    "matches_main_analysis": true
+  },
+  "structure_check": {
+    "raw_1iep_chains": ["A", "B"],
+    "prepared_receptor_chain": "A",
+    "raw_hetatm": "STI, CL, HOH present in both chains; official prepared receptor contains ATOM records only"
+  }
+}

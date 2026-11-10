@@ -1,0 +1,5 @@
+file	url	access_date	sha256
+1IEP.pdb	https://files.rcsb.org/download/1IEP.pdb	2026-11-10	577386b4b8bc58a570facba0c8a843386842caef5ed7b60106c685d0f68d4218
+1iep_receptorH.pdb	https://raw.githubusercontent.com/ccsb-scripps/AutoDock-Vina/develop/example/basic_docking/data/1iep_receptorH.pdb	2026-11-10	5f6aee6029f9a2a2c2be32d4eb948ae70808690573e1b69a0850cdffd7048ca7
+1iep_ligand.sdf	https://raw.githubusercontent.com/ccsb-scripps/AutoDock-Vina/develop/example/basic_docking/data/1iep_ligand.sdf	2026-11-10	051b8742c32adc05c07fb486a4e7c9327f84e131cee33ac4e6a568d07553eb38
+1L2Y.pdb	https://files.rcsb.org/download/1L2Y.pdb	2026-11-10	5d1bbb545a312dfff1ae1e64b6d8addecb2f561ddc4011aeb5bee9d1dfcd4438

@@ -1,0 +1,18 @@
+记录日期：2026-11-10
+操作系统：macOS 27.0.1 (26A434)
+硬件：Apple M4，arm64
+micromamba：2.10.0
+Python：3.11.18（项目内 .conda）
+AutoDock Vina：1.2.7
+Meeko：0.8.0
+RDKit：2026.03.1
+spyrmsd：0.9.0
+NumPy：1.26.4
+Matplotlib：3.11.2
+GROMACS：2026.4-Homebrew，mixed precision，thread-MPI，ARM_NEON_ASIMD，无 GPU
+PyMOL：3.1.0 Open-Source（2026-11-05）
+ESMFold：ESMFOLD V1（返回 PDB HEADER）；ESM Atlas foldSequence/v1/pdb 接口
+ColabFold：1.6.3；alphafold-colabfold 2.3.20；JAX/JAXlib 0.11.2；MMseqs2 18.8cc5c；CPU
+ColabFold Python：3.13.18（独立 .colabfold 环境）
+
+完整 Conda 环境：config/environment.yml

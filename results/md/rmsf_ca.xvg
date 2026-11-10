@@ -1,0 +1,37 @@
+# This file was created Tue Nov 10 11:10:06 2026
+# Created by:
+#                  :-) GROMACS - gmx rmsf, 2026.4-Homebrew (-:
+# 
+# Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+# Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+# Working dir:  <project>
+# Command line:
+#   gmx rmsf -s results/md/md.tpr -f results/md/md_fit.xtc -o results/md/rmsf_ca.xvg -res
+# gmx rmsf is part of G R O M A C S:
+#
+# GROtesk MACabre and Sinister
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.1116
+    2   0.1392
+    3   0.1090
+    4   0.0462
+    5   0.0609
+    6   0.0523
+    7   0.0602
+    8   0.0994
+    9   0.0999
+   10   0.0805
+   11   0.0564
+   12   0.0806
+   13   0.0601
+   14   0.0599
+   15   0.0905
+   16   0.0770
+   17   0.0851
+   18   0.0931
+   19   0.1302
+   20   0.2079

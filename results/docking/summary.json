@@ -1,0 +1,53 @@
+{
+  "reference": "1IEP STI crystal ligand, hydrogens removed",
+  "rmsd_method": "spyrmsd symmetry-corrected heavy-atom RMSD; no centering or alignment",
+  "reference_heavy_atoms": 37,
+  "crystal_ligand_centroid_angstrom": [
+    15.61389189189189,
+    53.38013513513513,
+    15.45483783783784
+  ],
+  "common_redocking_reference_cutoff_angstrom": 2.0,
+  "runs": [
+    {
+      "exhaustiveness": 8,
+      "seed": 42,
+      "top_score_mode": 1,
+      "top_score_affinity_kcal_mol": -13.237,
+      "top_score_rmsd_angstrom": 0.3778642684951902,
+      "minimum_rmsd_mode": 1,
+      "minimum_rmsd_angstrom": 0.3778642684951902,
+      "minimum_rmsd_affinity_kcal_mol": -13.237
+    },
+    {
+      "exhaustiveness": 32,
+      "seed": 42,
+      "top_score_mode": 1,
+      "top_score_affinity_kcal_mol": -13.237,
+      "top_score_rmsd_angstrom": 0.3778642684951902,
+      "minimum_rmsd_mode": 1,
+      "minimum_rmsd_angstrom": 0.3778642684951902,
+      "minimum_rmsd_affinity_kcal_mol": -13.237
+    },
+    {
+      "exhaustiveness": 32,
+      "seed": 2026,
+      "top_score_mode": 1,
+      "top_score_affinity_kcal_mol": -13.233,
+      "top_score_rmsd_angstrom": 0.34709804674479766,
+      "minimum_rmsd_mode": 1,
+      "minimum_rmsd_angstrom": 0.34709804674479766,
+      "minimum_rmsd_affinity_kcal_mol": -13.233
+    },
+    {
+      "exhaustiveness": 32,
+      "seed": 20261110,
+      "top_score_mode": 1,
+      "top_score_affinity_kcal_mol": -13.285,
+      "top_score_rmsd_angstrom": 0.3711301949742457,
+      "minimum_rmsd_mode": 1,
+      "minimum_rmsd_angstrom": 0.3711301949742457,
+      "minimum_rmsd_affinity_kcal_mol": -13.285
+    }
+  ]
+}

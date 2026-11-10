@@ -1,0 +1,34 @@
+{
+  "sequence": "NLYIQWLKDGGPSSGRPPPS",
+  "sequence_source": "PDB 1L2Y, model 1",
+  "esmfold": {
+    "status": "completed",
+    "endpoint": "https://api.esmatlas.com/foldSequence/v1/pdb/",
+    "run_date": "2026-11-10",
+    "model_header": "ESMFOLD V1 PREDICTION FOR INPUT",
+    "output": "esmfold_1L2Y.pdb",
+    "sha256": "b71041dfe959c7f2d3adba23d5c3b559a35a78da635b883c4ba2ad2ad9f290a7"
+  },
+  "colabfold": {
+    "status": "completed",
+    "run_date": "2026-11-10",
+    "version": "1.6.3",
+    "model_type": "alphafold2_ptm",
+    "num_models": 1,
+    "num_recycles": 3,
+    "random_seed": 20261110,
+    "msa_mode": "mmseqs2_uniref_env",
+    "templates": false,
+    "amber_relax": false,
+    "device": "CPU",
+    "actual_max_seq": 4,
+    "actual_max_extra_seq": 1,
+    "mean_plddt": 85.2995,
+    "ptm": 0.11,
+    "mean_pae_angstrom": 3.84535,
+    "maximum_pae_angstrom": 14.6953125,
+    "output_directory": "colabfold",
+    "first_attempt": "Timed out during weight download at 72%; rerun without a fixed task timeout completed.",
+    "repeat_check": "Same-seed rerun produced exactly identical pLDDT, PAE and pTM values."
+  }
+}

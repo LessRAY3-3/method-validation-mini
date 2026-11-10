@@ -1,0 +1,19 @@
+{
+  "ESMFold": {
+    "source": "ESM Atlas API foldSequence/v1/pdb",
+    "run_date": "2026-11-10",
+    "sequence_length": 20,
+    "plddt_from": "PDB B-factor field at C\u03b1 atoms",
+    "input_plddt_scale": "0\u20131",
+    "mean_plddt": 91.15,
+    "minimum_plddt": 82.0,
+    "minimum_plddt_residue": 1,
+    "pae": "not provided by this endpoint"
+  },
+  "ColabFold": {
+    "scores_file": "1L2Y_model1_scores_rank_001_alphafold2_ptm_model_1_seed_20261110.json",
+    "mean_plddt": 85.2995,
+    "mean_pae_angstrom": 3.8453500000000003,
+    "maximum_pae_angstrom": 14.7
+  }
+}

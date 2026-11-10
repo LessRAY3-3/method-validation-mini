@@ -1,0 +1,37 @@
+# This file was created Tue Nov 10 14:34:23 2026
+# Created by:
+#                  :-) GROMACS - gmx rmsf, 2026.4-Homebrew (-:
+# 
+# Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+# Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+# Working dir:  <project>
+# Command line:
+#   gmx rmsf -s results/md/md.tpr -f results/md/md_all_fit_11ns.xtc -o results/md/rmsf_ca_7000_8000_11ns.xvg -res -b 7000 -e 8000
+# gmx rmsf is part of G R O M A C S:
+#
+# GROningen MAchine for Chemical Simulation
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.1471
+    2   0.0420
+    3   0.0383
+    4   0.0409
+    5   0.0374
+    6   0.0293
+    7   0.0335
+    8   0.0375
+    9   0.0440
+   10   0.0554
+   11   0.0350
+   12   0.0572
+   13   0.0540
+   14   0.0395
+   15   0.0532
+   16   0.0396
+   17   0.0494
+   18   0.0504
+   19   0.0537
+   20   0.1237
