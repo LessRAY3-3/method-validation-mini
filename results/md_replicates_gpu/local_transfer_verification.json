@@ -1,0 +1,35 @@
+{
+  "status": "local_transferred_trajectory_and_tpr_hashes_verified",
+  "files": [
+    {
+      "file": "results/md_replicates_gpu/seed_20261110/md.xtc",
+      "sha256": "eae566962ddfb3c83190fed0be08a90be73d2fbb02150097e3152ee983e53e71"
+    },
+    {
+      "file": "results/md_replicates_gpu/seed_20261110/md.tpr",
+      "sha256": "99eab97e06bd078fc48d58206d78172d6223245806c540949e8f6335c58a0f5b"
+    },
+    {
+      "file": "results/md_replicates_gpu/seed_20261111/md.xtc",
+      "sha256": "1fc896619bdf9f8c4172671fefdab901498c35fc06caad6d5d43760b522d141a"
+    },
+    {
+      "file": "results/md_replicates_gpu/seed_20261111/md.tpr",
+      "sha256": "6616ba103ca0ba0a629ac7d09eed3c0dbe3586f72aec3345fdc53683c9410c44"
+    },
+    {
+      "file": "results/md_replicates_gpu/seed_20261112/md.xtc",
+      "sha256": "3ea735d42f17ca56d012573a7614ea7508aeb94f090f5a7868662595e25ffce0"
+    },
+    {
+      "file": "results/md_replicates_gpu/seed_20261112/md.tpr",
+      "sha256": "e77cf022f7080fa80db3b08361b0ea79730c82238546616c9d2fb2a71f0abb46"
+    }
+  ],
+  "remote_aggregate_status": "three_completed_replicates_verified",
+  "frames_per_trajectory": [
+    1101,
+    1101,
+    1101
+  ]
+}

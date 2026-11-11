@@ -1,0 +1,55 @@
+{
+  "status": "planning_only; no additional inference launched",
+  "existing_m4_pilot": "results/prediction_ablation: all 9 runs completed and verified; 60.213807 seconds summed subprocess wall time with existing weights/cache",
+  "hardware_split": {
+    "M3": "Primary CPU node: standard Vina, CPU analyses and optional short CPU predictions; preserve within-experiment environment consistency.",
+    "RTX4070": "Primary CUDA node: formal MD replicates and any necessary GPU prediction bridge. Schedule MD and inference sequentially on the same card.",
+    "M4": "Validation, tests, plots, reports and orchestration; secondary CPU capacity when M3 is busy."
+  },
+  "estimated_budget_not_benchmark": {
+    "existing_m4": "5.28–9.79 seconds per run measured in this session",
+    "M3": "Tentative several minutes for all 9 after environment/weights are ready; measure one run before promising throughput.",
+    "RTX4070": "Inference is tiny; first compilation and environment setup may dominate. Budget 10–30 minutes for setup/preflight excluding downloads, and measure first run; no GPU timing claimed."
+  },
+  "gpu_environment": {
+    "platform": "Linux x86_64 preferred; Windows must use a supported WSL2/Linux setup, not native Windows CUDA JAX wheels",
+    "separate_environment": "Create method-validation-gpu; do not modify existing macOS locks/environments",
+    "driver": "CUDA12 JAX requires Linux NVIDIA driver >=525 per official JAX installation page; verify nvidia-smi on the target machine",
+    "candidate_commands_not_executed": [
+      "conda create -n method-validation-gpu -c conda-forge -c bioconda python=3.13 mmseqs2=18.8cc5c",
+      "conda activate method-validation-gpu",
+      "python -m pip install \"colabfold[alphafold,openmm]==1.6.3\" \"jax[cuda12]==0.11.2\"",
+      "python -m pip check",
+      "python -c \"import jax; print(jax.__version__, jax.devices()); assert any(d.platform == 'gpu' for d in jax.devices())\"",
+      "python -m pip freeze > config/colabfold-gpu-requirements.txt"
+    ],
+    "if_resolver_fails": "Stop and record the conflict; do not silently change versions. These GPU commands are planned, not tested here."
+  },
+  "execution_protocol": [
+    "Copy source, saved A3M and existing AlphaFold2 parameters with the plan weight SHA-256. No online MSA searches.",
+    "Prepare a separate plan with: python scripts/run_prediction_ablation.py --device gpu --weights-dir /path/to/colabfold-cache --colabfold-python /path/to/gpu-env/bin/python --output-dir results/prediction_ablation_4070",
+    "Inspect the new plan.json and pending status.json. Default prepares only; no inference starts.",
+    "Only at the intended evening execution time rerun the same command with --execute.",
+    "Create a STOP file in the experiment directory to stop before the next run. Completed run directories are verified then skipped; incomplete ones are preserved and rejected for overwrite.",
+    "Validate all planned runs, all inputs/output hashes, actual recycle logs and model configuration; analyze all three seeds and all 38 NMR models without selecting successes."
+  ],
+  "references": [
+    "https://github.com/sokrypton/ColabFold#installation",
+    "https://docs.jax.dev/en/latest/installation.html#nvidia-gpu"
+  ],
+  "user_hardware_priority": {
+    "cpu": [
+      "M3",
+      "M4",
+      "RTX4070_host_CPU"
+    ],
+    "gpu": [
+      "RTX4070",
+      "M3",
+      "M4"
+    ],
+    "basis": "User-specified measured/preferred ordering, not independently benchmarked here",
+    "interpretation": "RTX4070_host_CPU means the CPU in the Ubuntu machine containing the discrete GPU"
+  },
+  "execution_gate": "Remaining heavy jobs stay paused until hardware is connected. Verify actual device use and measure a short pilot first. Apple GPU priority does not imply compatibility with CUDA-only workflows."
+}

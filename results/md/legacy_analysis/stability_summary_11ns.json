@@ -1,0 +1,17 @@
+{
+  "trajectory": "continuous 11 ns trajectory analyzed in 11 one-ns windows",
+  "frames_expected": 1101,
+  "criteria": {
+    "rmsd_last_3_window_mean_range_nm_max_0.03": true,
+    "rmsd_last_3_window_absolute_slopes_nm_per_ns_max_0.03": true,
+    "gyrate_last_3_window_mean_range_nm_max_0.02": true,
+    "hbond_last_3_window_mean_range_max_2": true
+  },
+  "all_project_plateau_criteria_met": true,
+  "interpretation": "These are project-specific descriptive heuristics, not proof of thermodynamic convergence or folding stability.",
+  "temperature_pressure_files": [
+    "md_temperature_pressure.xvg",
+    "md_extended_temperature_pressure.xvg",
+    "md_extended2_temperature_pressure.xvg"
+  ]
+}

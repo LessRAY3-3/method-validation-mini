@@ -1,0 +1,179 @@
+{
+  "all_match": true,
+  "files": [
+    {
+      "file": "aminoacids.arn",
+      "ubuntu_sha256": "45cadf54d614d57bdc56680baed016347a61e2f54c7fffe86767d622c82da35b",
+      "macos_sha256": "45cadf54d614d57bdc56680baed016347a61e2f54c7fffe86767d622c82da35b",
+      "match": true
+    },
+    {
+      "file": "aminoacids.c.tdb",
+      "ubuntu_sha256": "30dd9f50e9d411f1875ee9e62ce8b2872c9c6d5a2c33a26227309e78c453caff",
+      "macos_sha256": "30dd9f50e9d411f1875ee9e62ce8b2872c9c6d5a2c33a26227309e78c453caff",
+      "match": true
+    },
+    {
+      "file": "aminoacids.hdb",
+      "ubuntu_sha256": "dbbf077e6daa84e39717586dcd625c2b7cb4b07c3123778fdc50c7223ab3459d",
+      "macos_sha256": "dbbf077e6daa84e39717586dcd625c2b7cb4b07c3123778fdc50c7223ab3459d",
+      "match": true
+    },
+    {
+      "file": "aminoacids.n.tdb",
+      "ubuntu_sha256": "30dd9f50e9d411f1875ee9e62ce8b2872c9c6d5a2c33a26227309e78c453caff",
+      "macos_sha256": "30dd9f50e9d411f1875ee9e62ce8b2872c9c6d5a2c33a26227309e78c453caff",
+      "match": true
+    },
+    {
+      "file": "aminoacids.r2b",
+      "ubuntu_sha256": "594c8d2d7335369e4715cd12a8526d8ec6db4a2c73cc7ae7f343daf8375aa994",
+      "macos_sha256": "594c8d2d7335369e4715cd12a8526d8ec6db4a2c73cc7ae7f343daf8375aa994",
+      "match": true
+    },
+    {
+      "file": "aminoacids.rtp",
+      "ubuntu_sha256": "d031eb9706ab0858a58fed876ecbf0fa58007214814551fed98cf4dffa24a017",
+      "macos_sha256": "d031eb9706ab0858a58fed876ecbf0fa58007214814551fed98cf4dffa24a017",
+      "match": true
+    },
+    {
+      "file": "aminoacids.vsd",
+      "ubuntu_sha256": "637827cb6ee5615d56dd5ad53d105089f47ca9fbad5a6cd3f39874323221bf92",
+      "macos_sha256": "637827cb6ee5615d56dd5ad53d105089f47ca9fbad5a6cd3f39874323221bf92",
+      "match": true
+    },
+    {
+      "file": "atomtypes.atp",
+      "ubuntu_sha256": "6acc0dc03db15b21f3cf2ded8307ad4198a3a1a6b4f5b4a384c451c0a1bca266",
+      "macos_sha256": "6acc0dc03db15b21f3cf2ded8307ad4198a3a1a6b4f5b4a384c451c0a1bca266",
+      "match": true
+    },
+    {
+      "file": "dna.arn",
+      "ubuntu_sha256": "7d4060fa38daf653cb1d91bb62e322113208c084c5a9dda86e44e3e72746230e",
+      "macos_sha256": "7d4060fa38daf653cb1d91bb62e322113208c084c5a9dda86e44e3e72746230e",
+      "match": true
+    },
+    {
+      "file": "dna.hdb",
+      "ubuntu_sha256": "e0b03f8000e1969a0b266b42271de2a2cef2c4be5e0a541f83fab64fd9f04172",
+      "macos_sha256": "e0b03f8000e1969a0b266b42271de2a2cef2c4be5e0a541f83fab64fd9f04172",
+      "match": true
+    },
+    {
+      "file": "dna.r2b",
+      "ubuntu_sha256": "fbec89b6f1b8ff4f31d1956d54d2b00bbf20dc52664effe344df066ff2537905",
+      "macos_sha256": "fbec89b6f1b8ff4f31d1956d54d2b00bbf20dc52664effe344df066ff2537905",
+      "match": true
+    },
+    {
+      "file": "dna.rtp",
+      "ubuntu_sha256": "e9f3a329876a6ebc884dfa98c2e18ef93bb0f792d03fc832bd5457f869313b10",
+      "macos_sha256": "e9f3a329876a6ebc884dfa98c2e18ef93bb0f792d03fc832bd5457f869313b10",
+      "match": true
+    },
+    {
+      "file": "ffbonded.itp",
+      "ubuntu_sha256": "9875fb0c4a5c4b05948ee9b73b5b88c5bde4e9fe1c24a1ad257cc2a1fda37fac",
+      "macos_sha256": "9875fb0c4a5c4b05948ee9b73b5b88c5bde4e9fe1c24a1ad257cc2a1fda37fac",
+      "match": true
+    },
+    {
+      "file": "ffnonbonded.itp",
+      "ubuntu_sha256": "4c712502e6bd0d96b4aa5400b63f9d24c3768c805850df7f1065807aa0d9c5ce",
+      "macos_sha256": "4c712502e6bd0d96b4aa5400b63f9d24c3768c805850df7f1065807aa0d9c5ce",
+      "match": true
+    },
+    {
+      "file": "forcefield.doc",
+      "ubuntu_sha256": "8150eb1425bd194fc9700bbc0f609932c0b35ccaf91358a9ef887002d56daad7",
+      "macos_sha256": "8150eb1425bd194fc9700bbc0f609932c0b35ccaf91358a9ef887002d56daad7",
+      "match": true
+    },
+    {
+      "file": "forcefield.itp",
+      "ubuntu_sha256": "605a1fd9cdb4abde32531c58b5502c7147c17173d6a5b943b6d26182c447401c",
+      "macos_sha256": "605a1fd9cdb4abde32531c58b5502c7147c17173d6a5b943b6d26182c447401c",
+      "match": true
+    },
+    {
+      "file": "ions.itp",
+      "ubuntu_sha256": "d6cbb4aeb3389fd15c981bdbff335c32ccbfe887ef004e0b7119d6da813cb098",
+      "macos_sha256": "d6cbb4aeb3389fd15c981bdbff335c32ccbfe887ef004e0b7119d6da813cb098",
+      "match": true
+    },
+    {
+      "file": "rna.arn",
+      "ubuntu_sha256": "facaec3626144bd3939e7c8dae4414c9c7fbbb45841e71453fd609ec6872737b",
+      "macos_sha256": "facaec3626144bd3939e7c8dae4414c9c7fbbb45841e71453fd609ec6872737b",
+      "match": true
+    },
+    {
+      "file": "rna.hdb",
+      "ubuntu_sha256": "db938616259c0fe730a8831f1c782f8573a93c03596f16def07f39bb8e79623f",
+      "macos_sha256": "db938616259c0fe730a8831f1c782f8573a93c03596f16def07f39bb8e79623f",
+      "match": true
+    },
+    {
+      "file": "rna.r2b",
+      "ubuntu_sha256": "ec41f5bbc4fd9be5b65215f3d587b6f32832088c3f250335a965e66a0a6332cf",
+      "macos_sha256": "ec41f5bbc4fd9be5b65215f3d587b6f32832088c3f250335a965e66a0a6332cf",
+      "match": true
+    },
+    {
+      "file": "rna.rtp",
+      "ubuntu_sha256": "dd504cf035a410326b2481de69da1689188daecbba578228b824d7e9dca07830",
+      "macos_sha256": "dd504cf035a410326b2481de69da1689188daecbba578228b824d7e9dca07830",
+      "match": true
+    },
+    {
+      "file": "spc.itp",
+      "ubuntu_sha256": "9031c25f6b9ed49f0d2f22d0b3747fdb7cb385b27c6e7e78a9f0c0803a981c91",
+      "macos_sha256": "9031c25f6b9ed49f0d2f22d0b3747fdb7cb385b27c6e7e78a9f0c0803a981c91",
+      "match": true
+    },
+    {
+      "file": "spce.itp",
+      "ubuntu_sha256": "7aed1c2af7236f422e60c7ef9fcc637d14c16492fea5bcff876a08414a421105",
+      "macos_sha256": "7aed1c2af7236f422e60c7ef9fcc637d14c16492fea5bcff876a08414a421105",
+      "match": true
+    },
+    {
+      "file": "tip3p.itp",
+      "ubuntu_sha256": "c3eeb41bd1840248b0da6070e40bc8229a94d253830a1f392542f329d1ff386b",
+      "macos_sha256": "c3eeb41bd1840248b0da6070e40bc8229a94d253830a1f392542f329d1ff386b",
+      "match": true
+    },
+    {
+      "file": "tip4p.itp",
+      "ubuntu_sha256": "764abe1a3085cfbd20ab1ad0bb89f3d983834c1e65568d25c8288d6ff8f42c2f",
+      "macos_sha256": "764abe1a3085cfbd20ab1ad0bb89f3d983834c1e65568d25c8288d6ff8f42c2f",
+      "match": true
+    },
+    {
+      "file": "tip4pew.itp",
+      "ubuntu_sha256": "805e679a542d1c5d7d461e291bda4f4507249b0cd41ec87436dc589d93e4d22a",
+      "macos_sha256": "805e679a542d1c5d7d461e291bda4f4507249b0cd41ec87436dc589d93e4d22a",
+      "match": true
+    },
+    {
+      "file": "tip5p.itp",
+      "ubuntu_sha256": "35d78616a55a6ffefb3ddb9191638045b76dd8e72e61d911074af9c5c02aa4d9",
+      "macos_sha256": "35d78616a55a6ffefb3ddb9191638045b76dd8e72e61d911074af9c5c02aa4d9",
+      "match": true
+    },
+    {
+      "file": "urea.itp",
+      "ubuntu_sha256": "3301745b840423447afc73827121717f4903f81e45156fb2b62e0e4e3af4f5ea",
+      "macos_sha256": "3301745b840423447afc73827121717f4903f81e45156fb2b62e0e4e3af4f5ea",
+      "match": true
+    },
+    {
+      "file": "watermodels.dat",
+      "ubuntu_sha256": "71182f700ba0f197a4bc8d9c7d8ca1f7c4ff8837d29a7d3dc757ffcf005b2aba",
+      "macos_sha256": "71182f700ba0f197a4bc8d9c7d8ca1f7c4ff8837d29a7d3dc757ffcf005b2aba",
+      "match": true
+    }
+  ]
+}

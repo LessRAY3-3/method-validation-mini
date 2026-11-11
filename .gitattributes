@@ -1,0 +1,4 @@
+# Preserve scientific artifact and frozen-source bytes on every checkout.
+* -text
+# CSV writer CRLF endings are intentional and covered by recorded hashes.
+*.csv whitespace=-blank-at-eol

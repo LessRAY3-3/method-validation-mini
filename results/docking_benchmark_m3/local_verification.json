@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "remote_host": "m3",
+  "remote_directory": "/Users/leisirui/codex-runs/method-validation-20261110-m3",
+  "remote_runner_exit_code": 0,
+  "runs_completed": 15,
+  "poses_saved": 57,
+  "local_reanalysis_matches_remote_byte_for_byte": true,
+  "remote_and_local_analysis_sha256": {
+    "summary.json": "0b2f586c0177619a4e485aef1f5a72bbcc618130f8f7d15660883897762cd5fe",
+    "run_summary.csv": "df8185a1fce68dad9f06f414133e997940a53e5d7d3bd9f2da85b4e7853055b6",
+    "all_poses.csv": "4ee0e7fcc40f10c24ff347942b17bc3a4014290ee327fdf087f88f09c6f45735"
+  },
+  "checks": "Every declared input/output SHA256 verified; all 57 symmetry RMSDs independently reproduced by RDKit mapping enumeration and NumPy geometry within 1e-8 angstrom; both final plots visually inspected."
+}

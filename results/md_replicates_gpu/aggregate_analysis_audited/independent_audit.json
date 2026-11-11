@@ -1,0 +1,227 @@
+{
+  "status": "passed",
+  "coordinate_arrays_identical": true,
+  "velocity_arrays_distinct": true,
+  "analysis_note": "Local GROMACS 2026.4 reanalysis compared against original Ubuntu 2026.3; original formal dynamics remain entirely on Ubuntu. Coordinate precision follows GRO 0.001nm. RMSD independent Bio.SVDSuperimposer; Q explicit pair loops at 0,8,11ns per trajectory.",
+  "runs": [
+    {
+      "seed": 20261110,
+      "nvt_initial_arrays_sha256": {
+        "x": "21e5292233d8225b460b60dfec4396d16a118563aea11d7dfe0b5960fdc84940",
+        "v": "0c48063d7f45da6fe6b30d15798c34ebb346f9022b091eeefd650a73c23fa31e"
+      },
+      "stage_health": [
+        {
+          "stage": "nvt",
+          "ld_seed": "20261110",
+          "gen_vel": "yes",
+          "gen_seed": "20261110",
+          "lincs_warning_count": 0,
+          "fatal_error_count": 0,
+          "gpu_short_range": true,
+          "gpu_pme": true
+        },
+        {
+          "stage": "npt",
+          "ld_seed": "20261110",
+          "gen_vel": "no",
+          "gen_seed": "",
+          "lincs_warning_count": 0,
+          "fatal_error_count": 0,
+          "gpu_short_range": true,
+          "gpu_pme": true
+        },
+        {
+          "stage": "md",
+          "ld_seed": "20261110",
+          "gen_vel": "no",
+          "gen_seed": "",
+          "lincs_warning_count": 0,
+          "fatal_error_count": 0,
+          "gpu_short_range": true,
+          "gpu_pme": true
+        }
+      ],
+      "energy_samples": 11001,
+      "temperature_mean_K": 299.98172976756655,
+      "temperature_temporal_sd_K": 3.5546510460828316,
+      "pressure_mean_bar": 1.5813763579674585,
+      "pressure_temporal_sd_bar": 262.7306319084287,
+      "independent_sample_checks": [
+        {
+          "frame": 0,
+          "rmsd_error_angstrom": 4.440892098500626e-16,
+          "q_error": 0.0
+        },
+        {
+          "frame": 800,
+          "rmsd_error_angstrom": 1.1102230246251565e-16,
+          "q_error": 0.0
+        },
+        {
+          "frame": 1100,
+          "rmsd_error_angstrom": 4.440892098500626e-16,
+          "q_error": 0.0
+        }
+      ],
+      "original_vs_local_reanalysis_max_absolute_difference": {
+        "ca_rmsd_nmr1_angstrom": 2.220446049250313e-15,
+        "q_ca_7A": 0.0,
+        "q_ca_8A": 0.0,
+        "q_ca_9A": 0.0,
+        "heavy_min_6_12_angstrom": 0.0,
+        "heavy_min_6_18_angstrom": 0.0,
+        "heavy_min_3_19_angstrom": 0.0,
+        "backbone_rmsd_common_reference_nm": 1.0000000000287557e-07,
+        "gyrate_nm": 1.0000000000287557e-06,
+        "protein_internal_hbonds": 0.0
+      }
+    },
+    {
+      "seed": 20261111,
+      "nvt_initial_arrays_sha256": {
+        "x": "21e5292233d8225b460b60dfec4396d16a118563aea11d7dfe0b5960fdc84940",
+        "v": "040f798f08ec3c72848ded69dfd6783cd4d2141c15c539d98e442eda03ba3eea"
+      },
+      "stage_health": [
+        {
+          "stage": "nvt",
+          "ld_seed": "20261111",
+          "gen_vel": "yes",
+          "gen_seed": "20261111",
+          "lincs_warning_count": 0,
+          "fatal_error_count": 0,
+          "gpu_short_range": true,
+          "gpu_pme": true
+        },
+        {
+          "stage": "npt",
+          "ld_seed": "20261111",
+          "gen_vel": "no",
+          "gen_seed": "",
+          "lincs_warning_count": 0,
+          "fatal_error_count": 0,
+          "gpu_short_range": true,
+          "gpu_pme": true
+        },
+        {
+          "stage": "md",
+          "ld_seed": "20261111",
+          "gen_vel": "no",
+          "gen_seed": "",
+          "lincs_warning_count": 0,
+          "fatal_error_count": 0,
+          "gpu_short_range": true,
+          "gpu_pme": true
+        }
+      ],
+      "energy_samples": 11001,
+      "temperature_mean_K": 299.94078619316423,
+      "temperature_temporal_sd_K": 3.556945111542259,
+      "pressure_mean_bar": -0.8000965626761203,
+      "pressure_temporal_sd_bar": 259.3027189622985,
+      "independent_sample_checks": [
+        {
+          "frame": 0,
+          "rmsd_error_angstrom": 0.0,
+          "q_error": 0.0
+        },
+        {
+          "frame": 800,
+          "rmsd_error_angstrom": 4.440892098500626e-16,
+          "q_error": 0.0
+        },
+        {
+          "frame": 1100,
+          "rmsd_error_angstrom": 3.3306690738754696e-16,
+          "q_error": 0.0
+        }
+      ],
+      "original_vs_local_reanalysis_max_absolute_difference": {
+        "ca_rmsd_nmr1_angstrom": 2.1094237467877974e-15,
+        "q_ca_7A": 0.0,
+        "q_ca_8A": 0.0,
+        "q_ca_9A": 0.0,
+        "heavy_min_6_12_angstrom": 0.0,
+        "heavy_min_6_18_angstrom": 0.0,
+        "heavy_min_3_19_angstrom": 0.0,
+        "backbone_rmsd_common_reference_nm": 1.0000000000287557e-07,
+        "gyrate_nm": 1.0000000000287557e-06,
+        "protein_internal_hbonds": 0.0
+      }
+    },
+    {
+      "seed": 20261112,
+      "nvt_initial_arrays_sha256": {
+        "x": "21e5292233d8225b460b60dfec4396d16a118563aea11d7dfe0b5960fdc84940",
+        "v": "0416d2c3578d5db39dd663f33d4fdf09d5332a89818d82536710c6661ed8263b"
+      },
+      "stage_health": [
+        {
+          "stage": "nvt",
+          "ld_seed": "20261112",
+          "gen_vel": "yes",
+          "gen_seed": "20261112",
+          "lincs_warning_count": 0,
+          "fatal_error_count": 0,
+          "gpu_short_range": true,
+          "gpu_pme": true
+        },
+        {
+          "stage": "npt",
+          "ld_seed": "20261112",
+          "gen_vel": "no",
+          "gen_seed": "",
+          "lincs_warning_count": 0,
+          "fatal_error_count": 0,
+          "gpu_short_range": true,
+          "gpu_pme": true
+        },
+        {
+          "stage": "md",
+          "ld_seed": "20261112",
+          "gen_vel": "no",
+          "gen_seed": "",
+          "lincs_warning_count": 0,
+          "fatal_error_count": 0,
+          "gpu_short_range": true,
+          "gpu_pme": true
+        }
+      ],
+      "energy_samples": 11001,
+      "temperature_mean_K": 299.98516871675304,
+      "temperature_temporal_sd_K": 3.5477823524383654,
+      "pressure_mean_bar": -1.0541427843832387,
+      "pressure_temporal_sd_bar": 264.20037523458365,
+      "independent_sample_checks": [
+        {
+          "frame": 0,
+          "rmsd_error_angstrom": 4.996003610813204e-16,
+          "q_error": 0.0
+        },
+        {
+          "frame": 800,
+          "rmsd_error_angstrom": 3.3306690738754696e-16,
+          "q_error": 0.0
+        },
+        {
+          "frame": 1100,
+          "rmsd_error_angstrom": 8.881784197001252e-16,
+          "q_error": 0.0
+        }
+      ],
+      "original_vs_local_reanalysis_max_absolute_difference": {
+        "ca_rmsd_nmr1_angstrom": 2.55351295663786e-15,
+        "q_ca_7A": 0.0,
+        "q_ca_8A": 0.0,
+        "q_ca_9A": 0.0,
+        "heavy_min_6_12_angstrom": 0.0,
+        "heavy_min_6_18_angstrom": 0.0,
+        "heavy_min_3_19_angstrom": 0.0,
+        "backbone_rmsd_common_reference_nm": 1.0000000000287557e-07,
+        "gyrate_nm": 1.0000000000287557e-06,
+        "protein_internal_hbonds": 0.0
+      }
+    }
+  ]
+}

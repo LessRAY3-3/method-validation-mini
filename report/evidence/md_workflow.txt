@@ -1,0 +1,1433 @@
+Saved 305 PDB records and 20 residues
+                 :-) GROMACS - gmx pdb2gmx, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx pdb2gmx -f data/prepared/1L2Y_model1.pdb -o results/md/prepared.gro -p results/md/topol.top -i posre.itp -ff amber99sb-ildn -water tip3p -ignh
+
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/aminoacids.r2b
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/dna.r2b
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/rna.r2b
+All occupancies are one
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/atomtypes.atp
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/aminoacids.rtp
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/dna.rtp
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/rna.rtp
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/aminoacids.hdb
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/dna.hdb
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/rna.hdb
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/aminoacids.n.tdb
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/aminoacids.c.tdb
+9 out of 9 lines of specbond.dat converted successfully
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/aminoacids.arn
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/dna.arn
+Opening force field file /opt/homebrew/bin/../Cellar/gromacs/2026.4/share/gromacs/top/amber99sb-ildn.ff/rna.arn
+Before cleaning: 818 pairs
+Before cleaning: 873 dihedrals
+
+GROMACS reminds you: "Base eight is just like base ten really, if you're missing two fingers." (Tom Lehrer)
+
+Using the Amber99sb-ildn force field in directory amber99sb-ildn.ff
+
+going to rename amber99sb-ildn.ff/aminoacids.r2b
+
+going to rename amber99sb-ildn.ff/dna.r2b
+
+going to rename amber99sb-ildn.ff/rna.r2b
+Reading data/prepared/1L2Y_model1.pdb...
+Read '', 154 atoms
+
+Analyzing pdb file
+Splitting chemical chains based on TER records or chain id changing.
+
+There are 1 chains and 0 blocks of water and 20 residues with 154 atoms
+
+  chain  #res #atoms
+
+  1 'A'    20    154  
+
+All occupancies are one
+
+Reading residue database... (Amber99sb-ildn)
+
+Preserving residues names by default
+
+Preserving residues names by default
+
+Preserving residues names by default
+
+Processing chain 1 'A' (154 atoms, 20 residues)
+
+Identified residue ASN1 as a starting terminus.
+
+Identified residue SER20 as a ending terminus.
+
+Checking for duplicate atoms....
+
+Generating any missing hydrogen atoms and/or adding termini.
+
+Now there are 20 residues with 304 atoms
+
+Making bonds...
+
+Number of bonds was 311, now 310
+
+Generating angles, dihedrals and pairs...
+
+Making cmap torsions...
+
+There are  873 dihedrals,   61 impropers,  565 angles
+           812 pairs,      310 bonds and     0 virtual sites
+
+Total mass 2170.450 a.m.u.
+
+Total charge 1.000 e
+
+Writing topology
+
+Writing coordinate file...
+
+		--------- PLEASE NOTE ------------
+
+You have successfully generated a topology from: data/prepared/1L2Y_model1.pdb.
+
+The Amber99sb-ildn force field and the tip3p water model are used.
+
+		--------- ETON ESAELP ------------
+                :-) GROMACS - gmx editconf, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx editconf -f results/md/prepared.gro -o results/md/boxed.gro -c -d 1.0 -bt cubic
+
+
+GROMACS reminds you: "Base eight is just like base ten really, if you're missing two fingers." (Tom Lehrer)
+
+Note that major changes are planned in future for editconf, to improve usability and utility.
+Read 304 atoms
+Volume: 6.3772 nm^3, corresponds to roughly 2800 electrons
+No velocities found
+    system size :  2.299  2.012  1.378 (nm)
+    diameter    :  2.392               (nm)
+    center      :  0.010  0.002 -0.001 (nm)
+    box vectors :  2.299  2.012  1.379 (nm)
+    box angles  :  90.00  90.00  90.00 (degrees)
+    box volume  :   6.38               (nm^3)
+    shift       :  2.186  2.194  2.197 (nm)
+new center      :  2.196  2.196  2.196 (nm)
+new box vectors :  4.392  4.392  4.392 (nm)
+new box angles  :  90.00  90.00  90.00 (degrees)
+new box volume  :  84.74               (nm^3)
+                 :-) GROMACS - gmx solvate, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx solvate -cp results/md/boxed.gro -cs spc216 -o results/md/solvated.gro -p results/md/topol.top
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary. Note, that this functionality may
+         be removed in a future GROMACS version. Please, consider
+         using another file format for your input.
+
+         The atomic radii are set according to:
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. (1964)
+https://doi.org/10.1021/j100785a001
+-------- -------- --- Thank You --- -------- --------
+
+Generating solvent configuration
+Will generate new solvent configuration of 3x3x3 boxes
+Solvent box contains 10383 atoms in 3461 residues
+Removed 2046 solvent atoms due to solvent-solvent overlap
+Removed 300 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  2679 residues
+Generated solvent containing 8037 atoms in 2679 residues
+Writing generated configuration to results/md/solvated.gro
+
+Output configuration contains 8341 atoms in 2699 residues
+Volume                 :      84.737 (nm^3)
+Density                :     991.162 (g/l)
+Number of solvent molecules:   2679   
+
+Processing topology
+
+Back Off! I just backed up results/md/topol.top to results/md/#topol.top.1#
+
+GROMACS reminds you: "Base eight is just like base ten really, if you're missing two fingers." (Tom Lehrer)
+
+Adding line for 2679 solvent molecules with resname (SOL) to topology file (results/md/topol.top)
+                 :-) GROMACS - gmx grompp, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx grompp -f config/ions.mdp -c results/md/solvated.gro -p results/md/topol.top -o results/md/ions.tpr -maxwarn 1
+
+Generating 1-4 interactions: fudge = 0.5
+
+NOTE 1 [file topol.top, line 3015]:
+  System has non-zero total charge: 1.000000
+  Total charge should normally be an integer. See
+  https://manual.gromacs.org/current/user-guide/floating-point.html
+  for discussion on how close it should be to an integer.
+
+
+
+
+WARNING 1 [file topol.top, line 3015]:
+  You are using Ewald electrostatics in a system with net charge. This can
+  lead to severe artifacts, such as ions moving into regions with low
+  dielectric, due to the uniform background charge. We suggest to
+  neutralize your system with counter ions, possibly in combination with a
+  physiological salt concentration.
+
+Setting the LD random seed to -1828017258
+
+Generated 2145 of the 2145 non-bonded parameter combinations
+
+Generated 2145 of the 2145 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+J. S. Hub, B. L. de Groot, H. Grubmüller, G. Groenhof
+Quantifying Artifacts in Ewald Simulations of Inhomogeneous Systems with a Net
+Charge
+J. Chem. Theory Comput. (2014)
+https://doi.org/10.1021/ct400626b
+-------- -------- --- Thank You --- -------- --------
+
+
+NOTE 2 [file topol.top, line 3015]:
+  For energy conservation with LINCS, lincs_iter should be 2 or larger.
+
+
+Number of degrees of freedom in T-Coupling group rest is 16833.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 3 [file config/ions.mdp]:
+  NVE simulation with an initial temperature of zero: will use a Verlet
+  buffer of 10%. Check your energy drift!
+
+
+There were 3 NOTEs
+
+There was 1 WARNING
+
+GROMACS reminds you: "Base eight is just like base ten really, if you're missing two fingers." (Tom Lehrer)
+
+
+Taking velocities from 'results/md/solvated.gro', all velocities are zero
+Analysing residue names:
+There are:    20    Protein residues
+There are:  2679      Water residues
+Analysing Protein...
+
+The largest distance between excluded atoms is 0.398 nm between atom 229 and 237
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 40x40x40, spacing 0.110 0.110 0.110
+
+Estimate for the relative computational load of the PME mesh part: 0.19
+
+This run will generate roughly 1 Mb of data
+                 :-) GROMACS - gmx genion, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx genion -s results/md/ions.tpr -o results/md/ionized.gro -p results/md/topol.top -pname NA -nname CL -neutral
+
+Reading file results/md/ions.tpr, VERSION 2026.4-Homebrew (single precision)
+Reading file results/md/ions.tpr, VERSION 2026.4-Homebrew (single precision)
+Group     0 (         System) has  8341 elements
+Group     1 (        Protein) has   304 elements
+Group     2 (      Protein-H) has   154 elements
+Group     3 (        C-alpha) has    20 elements
+Group     4 (       Backbone) has    60 elements
+Group     5 (      MainChain) has    81 elements
+Group     6 (   MainChain+Cb) has    98 elements
+Group     7 (    MainChain+H) has    99 elements
+Group     8 (      SideChain) has   205 elements
+Group     9 (    SideChain-H) has    73 elements
+Group    10 (    Prot-Masses) has   304 elements
+Group    11 (    non-Protein) has  8037 elements
+Group    12 (          Water) has  8037 elements
+Group    13 (            SOL) has  8037 elements
+Group    14 (      non-Water) has   304 elements
+Select a group: Number of (3-atomic) solvent molecules: 2679
+
+Back Off! I just backed up results/md/topol.top to results/md/#topol.top.2#
+Using random seed 1978656603.
+Replacing solvent molecule 645 (atom 2239) with CL
+
+
+GROMACS reminds you: "Base eight is just like base ten really, if you're missing two fingers." (Tom Lehrer)
+
+Will try to add 0 NA ions and 1 CL ions.
+Select a continuous group of solvent molecules
+Selected 13: 'SOL'
+
+Processing topology
+Replacing 1 solute molecules in topology file (results/md/topol.top)  by 0 NA and 1 CL ions.
+                 :-) GROMACS - gmx grompp, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx grompp -f config/minim.mdp -c results/md/ionized.gro -p results/md/topol.top -o results/md/minim.tpr
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group rest is 16980.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+GROMACS reminds you: "Base eight is just like base ten really, if you're missing two fingers." (Tom Lehrer)
+
+Setting the LD random seed to -436469898
+
+Generated 2145 of the 2145 non-bonded parameter combinations
+
+Generated 2145 of the 2145 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Excluding 1 bonded neighbours molecule type 'CL'
+Analysing residue names:
+There are:    20    Protein residues
+There are:  2678      Water residues
+There are:     1        Ion residues
+Analysing Protein...
+
+The largest distance between excluded atoms is 0.398 nm between atom 229 and 237
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 40x40x40, spacing 0.110 0.110 0.110
+
+Estimate for the relative computational load of the PME mesh part: 0.21
+
+This run will generate roughly 1 Mb of data
+                  :-) GROMACS - gmx mdrun, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx mdrun -s results/md/minim.tpr -deffnm results/md/minim -nt 4
+
+Reading file results/md/minim.tpr, VERSION 2026.4-Homebrew (single precision)
+Using 1 MPI thread
+Using 4 OpenMP threads 
+
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+02
+   Number of steps    =        50000
+
+writing lowest energy coordinates.
+
+Steepest Descents converged to Fmax < 100 in 4513 steps
+Potential Energy  = -1.3312809e+05
+Maximum force     =  9.9793465e+01 on atom 302
+Norm of force     =  6.1588304e+00
+
+GROMACS reminds you: "Almost without exception, the talented women I have known have believed they had less ability than they actually had. And almost without exception, the talented men I have known believed they had more." (Gregory Petsko)
+
+                 :-) GROMACS - gmx grompp, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx grompp -f config/nvt.mdp -c results/md/minim.gro -r results/md/minim.gro -p results/md/topol.top -o results/md/nvt.tpr
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group Protein is 761.86
+Number of degrees of freedom in T-Coupling group non-Protein is 16068.14
+
+NOTE 1 [file config/nvt.mdp]:
+  Removing center of mass motion in the presence of position restraints
+  might cause artifacts. When you are using position restraints to
+  equilibrate a macro-molecule, the artifacts are usually negligible.
+
+
+There was 1 NOTE
+
+GROMACS reminds you: "Almost without exception, the talented women I have known have believed they had less ability than they actually had. And almost without exception, the talented men I have known believed they had more." (Gregory Petsko)
+
+Generated 2145 of the 2145 non-bonded parameter combinations
+
+Generated 2145 of the 2145 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+
+Velocities were taken from a Maxwell distribution at 300 K
+Analysing residue names:
+There are:    20    Protein residues
+There are:  2678      Water residues
+There are:     1        Ion residues
+Analysing Protein...
+
+The largest distance between excluded atoms is 0.396 nm between atom 140 and 149
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.035 nm, buffer size 0.035 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 40x40x40, spacing 0.110 0.110 0.110
+
+Estimate for the relative computational load of the PME mesh part: 0.23
+
+This run will generate roughly 1 Mb of data
+                  :-) GROMACS - gmx mdrun, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx mdrun -s results/md/nvt.tpr -deffnm results/md/nvt -nt 4
+
+Reading file results/md/nvt.tpr, VERSION 2026.4-Homebrew (single precision)
+Changing nstlist from 10 to 50, rlist from 1 to 1.11
+
+Using 1 MPI thread
+Using 4 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      405.800      101.450      400.0
+                 (ns/day)    (hour/ns)    (ms/step)  (Matom*steps/s) 
+Performance:       85.167        0.282        2.029            4.110 
+
+GROMACS reminds you: "Load Up Your Rubber Bullets" (10 CC)
+
+                 :-) GROMACS - gmx grompp, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx grompp -f config/npt.mdp -c results/md/nvt.gro -r results/md/nvt.gro -t results/md/nvt.cpt -p results/md/topol.top -o results/md/npt.tpr
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group Protein is 761.86
+Number of degrees of freedom in T-Coupling group non-Protein is 16068.14
+
+NOTE 1 [file config/npt.mdp]:
+  Removing center of mass motion in the presence of position restraints
+  might cause artifacts. When you are using position restraints to
+  equilibrate a macro-molecule, the artifacts are usually negligible.
+
+
+Last frame         -1 time  100.000   
+
+There was 1 NOTE
+
+GROMACS reminds you: "Load Up Your Rubber Bullets" (10 CC)
+
+Generated 2145 of the 2145 non-bonded parameter combinations
+
+Generated 2145 of the 2145 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+
+Taking velocities from 'results/md/nvt.gro'
+Analysing residue names:
+There are:    20    Protein residues
+There are:  2678      Water residues
+There are:     1        Ion residues
+Analysing Protein...
+
+The largest distance between excluded atoms is 0.399 nm between atom 67 and 74
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.035 nm, buffer size 0.035 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+  rest:       	 2.228  2.177  2.206
+  rest:       	 2.228  2.177  2.206
+
+Reading Coordinates, Velocities and Box size from old trajectory
+
+Will read whole trajectory
+
+Using frame at t = 100 ps
+
+Starting time for run is 0 ps
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 40x40x40, spacing 0.110 0.110 0.110
+
+Estimate for the relative computational load of the PME mesh part: 0.23
+
+This run will generate roughly 1 Mb of data
+                  :-) GROMACS - gmx mdrun, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx mdrun -s results/md/npt.tpr -deffnm results/md/npt -nt 4
+
+Reading file results/md/npt.tpr, VERSION 2026.4-Homebrew (single precision)
+Changing nstlist from 10 to 50, rlist from 1 to 1.11
+
+Using 1 MPI thread
+Using 4 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      390.238       97.560      400.0
+                 (ns/day)    (hour/ns)    (ms/step)  (Matom*steps/s) 
+Performance:       88.563        0.271        1.951            4.274 
+
+GROMACS reminds you: "This really is a pretty scene, could you ask your kid to smile please?" (Joe Jackson)
+
+                 :-) GROMACS - gmx grompp, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx grompp -f config/md.mdp -c results/md/npt.gro -t results/md/npt.cpt -p results/md/topol.top -o results/md/md.tpr
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group Protein is 761.86
+Number of degrees of freedom in T-Coupling group non-Protein is 16068.14
+
+Last frame         -1 time  100.000   
+
+GROMACS reminds you: "This really is a pretty scene, could you ask your kid to smile please?" (Joe Jackson)
+
+Generated 2145 of the 2145 non-bonded parameter combinations
+
+Generated 2145 of the 2145 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+
+Taking velocities from 'results/md/npt.gro'
+Analysing residue names:
+There are:    20    Protein residues
+There are:  2678      Water residues
+There are:     1        Ion residues
+Analysing Protein...
+
+The largest distance between excluded atoms is 0.405 nm between atom 67 and 74
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.035 nm, buffer size 0.035 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+Reading Coordinates, Velocities and Box size from old trajectory
+
+Will read whole trajectory
+
+Using frame at t = 100 ps
+
+Starting time for run is 0 ps
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 40x40x40, spacing 0.109 0.109 0.109
+
+Estimate for the relative computational load of the PME mesh part: 0.22
+
+This run will generate roughly 9 Mb of data
+                  :-) GROMACS - gmx mdrun, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx mdrun -s results/md/md.tpr -deffnm results/md/md -nt 4
+
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Changing nstlist from 10 to 50, rlist from 1 to 1.11
+
+Using 1 MPI thread
+Using 4 OpenMP threads 
+
+starting mdrun 'Protein in water'
+500000 steps,   1000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     5766.247     1441.562      400.0
+                 (ns/day)    (hour/ns)    (ms/step)  (Matom*steps/s) 
+Performance:       59.935        0.400        2.883            2.892 
+
+GROMACS reminds you: "Creativity in science, as in art, cannot be organized. It arises spontaneously from individual talent. Well-run laboratories can foster it, but hierarchical organizations, inflexible bureaucratic rules, and mountains of futile paperwork can kill it." (Max Perutz)
+
+                 :-) GROMACS - gmx energy, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx energy -f results/md/nvt.edr -o results/md/nvt_temperature.xvg
+
+Opened results/md/nvt.edr as single precision energy file
+
+Select the terms you want from the following list by
+selecting either (part of) the name or the number or a combination.
+End your selection with an empty line or a zero.
+-------------------------------------------------------------------
+  1  Bond             2  Angle            3  Proper-Dih.      4  Per.-Imp.-Dih.
+  5  LJ-14            6  Coulomb-14       7  LJ-(SR)          8  Disper.-corr. 
+  9  Coulomb-(SR)    10  Coul.-recip.    11  Position-Rest.  12  Potential     
+ 13  Kinetic-En.     14  Total-Energy    15  Conserved-En.   16  Temperature   
+ 17  Pres.-DC        18  Pressure        19  Constr.-rmsd    20  Vir-XX        
+ 21  Vir-XY          22  Vir-XZ          23  Vir-YX          24  Vir-YY        
+ 25  Vir-YZ          26  Vir-ZX          27  Vir-ZY          28  Vir-ZZ        
+ 29  Pres-XX         30  Pres-XY         31  Pres-XZ         32  Pres-YX       
+ 33  Pres-YY         34  Pres-YZ         35  Pres-ZX         36  Pres-ZY       
+ 37  Pres-ZZ         38  #Surf*SurfTen   39  T-Protein       40  T-non-Protein 
+ 41  Lamb-Protein                        42  Lamb-non-Protein                  
+
+
+Reading energy frame      0 time    0.000         
+Reading energy frame      1 time    1.000         
+Reading energy frame      2 time    2.000         
+Reading energy frame      3 time    3.000         
+Reading energy frame      4 time    4.000         
+Reading energy frame      5 time    5.000         
+Reading energy frame      6 time    6.000         
+Reading energy frame      7 time    7.000         
+Reading energy frame      8 time    8.000         
+Reading energy frame      9 time    9.000         
+Reading energy frame     10 time   10.000         
+Reading energy frame     11 time   11.000         
+Reading energy frame     12 time   12.000         
+Reading energy frame     13 time   13.000         
+Reading energy frame     14 time   14.000         
+Reading energy frame     15 time   15.000         
+Reading energy frame     16 time   16.000         
+Reading energy frame     17 time   17.000         
+Reading energy frame     18 time   18.000         
+Reading energy frame     19 time   19.000         
+Reading energy frame     20 time   20.000         
+Reading energy frame     30 time   30.000         
+Reading energy frame     40 time   40.000         
+Reading energy frame     50 time   50.000         
+Reading energy frame     60 time   60.000         
+Reading energy frame     70 time   70.000         
+Reading energy frame     80 time   80.000         
+Reading energy frame     90 time   90.000         
+Reading energy frame    100 time  100.000         
+Last energy frame read 100 time  100.000         
+
+GROMACS reminds you: "Creativity in science, as in art, cannot be organized. It arises spontaneously from individual talent. Well-run laboratories can foster it, but hierarchical organizations, inflexible bureaucratic rules, and mountains of futile paperwork can kill it." (Max Perutz)
+
+
+Statistics over 50001 steps [ 0.0000 through 100.0000 ps ], 1 data sets
+All statistics are over 501 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Temperature                 299.668       0.31    4.92655     1.4084  (K)
+                 :-) GROMACS - gmx energy, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx energy -f results/md/npt.edr -o results/md/npt_temperature_pressure.xvg
+
+Opened results/md/npt.edr as single precision energy file
+
+Select the terms you want from the following list by
+selecting either (part of) the name or the number or a combination.
+End your selection with an empty line or a zero.
+-------------------------------------------------------------------
+  1  Bond             2  Angle            3  Proper-Dih.      4  Per.-Imp.-Dih.
+  5  LJ-14            6  Coulomb-14       7  LJ-(SR)          8  Disper.-corr. 
+  9  Coulomb-(SR)    10  Coul.-recip.    11  Position-Rest.  12  Potential     
+ 13  Kinetic-En.     14  Total-Energy    15  Conserved-En.   16  Temperature   
+ 17  Pres.-DC        18  Pressure        19  Constr.-rmsd    20  Box-X         
+ 21  Box-Y           22  Box-Z           23  Volume          24  Density       
+ 25  pV              26  Enthalpy        27  Vir-XX          28  Vir-XY        
+ 29  Vir-XZ          30  Vir-YX          31  Vir-YY          32  Vir-YZ        
+ 33  Vir-ZX          34  Vir-ZY          35  Vir-ZZ          36  Pres-XX       
+ 37  Pres-XY         38  Pres-XZ         39  Pres-YX         40  Pres-YY       
+ 41  Pres-YZ         42  Pres-ZX         43  Pres-ZY         44  Pres-ZZ       
+ 45  #Surf*SurfTen   46  T-Protein       47  T-non-Protein   48  Lamb-Protein  
+ 49  Lamb-non-Protein                  
+
+
+Reading energy frame      0 time    0.000         
+Reading energy frame      1 time    1.000         
+Reading energy frame      2 time    2.000         
+Reading energy frame      3 time    3.000         
+Reading energy frame      4 time    4.000         
+Reading energy frame      5 time    5.000         
+Reading energy frame      6 time    6.000         
+Reading energy frame      7 time    7.000         
+Reading energy frame      8 time    8.000         
+Reading energy frame      9 time    9.000         
+Reading energy frame     10 time   10.000         
+Reading energy frame     11 time   11.000         
+Reading energy frame     12 time   12.000         
+Reading energy frame     13 time   13.000         
+Reading energy frame     14 time   14.000         
+Reading energy frame     15 time   15.000         
+Reading energy frame     16 time   16.000         
+Reading energy frame     17 time   17.000         
+Reading energy frame     18 time   18.000         
+Reading energy frame     19 time   19.000         
+Reading energy frame     20 time   20.000         
+Reading energy frame     30 time   30.000         
+Reading energy frame     40 time   40.000         
+Reading energy frame     50 time   50.000         
+Reading energy frame     60 time   60.000         
+Reading energy frame     70 time   70.000         
+Reading energy frame     80 time   80.000         
+Reading energy frame     90 time   90.000         
+Reading energy frame    100 time  100.000         
+Last energy frame read 100 time  100.000         
+
+GROMACS reminds you: "Creativity in science, as in art, cannot be organized. It arises spontaneously from individual talent. Well-run laboratories can foster it, but hierarchical organizations, inflexible bureaucratic rules, and mountains of futile paperwork can kill it." (Max Perutz)
+
+
+Statistics over 50001 steps [ 0.0000 through 100.0000 ps ], 2 data sets
+All statistics are over 501 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Temperature                 300.096       0.07    3.35231 -0.0676331  (K)
+Pressure                    10.9697         25    258.581    122.884  (bar)
+                 :-) GROMACS - gmx energy, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx energy -f results/md/md.edr -o results/md/md_temperature_pressure.xvg
+
+Opened results/md/md.edr as single precision energy file
+
+Select the terms you want from the following list by
+selecting either (part of) the name or the number or a combination.
+End your selection with an empty line or a zero.
+-------------------------------------------------------------------
+  1  Bond             2  Angle            3  Proper-Dih.      4  Per.-Imp.-Dih.
+  5  LJ-14            6  Coulomb-14       7  LJ-(SR)          8  Disper.-corr. 
+  9  Coulomb-(SR)    10  Coul.-recip.    11  Potential       12  Kinetic-En.   
+ 13  Total-Energy    14  Conserved-En.   15  Temperature     16  Pres.-DC      
+ 17  Pressure        18  Constr.-rmsd    19  Box-X           20  Box-Y         
+ 21  Box-Z           22  Volume          23  Density         24  pV            
+ 25  Enthalpy        26  Vir-XX          27  Vir-XY          28  Vir-XZ        
+ 29  Vir-YX          30  Vir-YY          31  Vir-YZ          32  Vir-ZX        
+ 33  Vir-ZY          34  Vir-ZZ          35  Pres-XX         36  Pres-XY       
+ 37  Pres-XZ         38  Pres-YX         39  Pres-YY         40  Pres-YZ       
+ 41  Pres-ZX         42  Pres-ZY         43  Pres-ZZ         44  #Surf*SurfTen 
+ 45  T-Protein                           46  T-non-Protein                     
+ 47  Lamb-Protein                        48  Lamb-non-Protein                  
+
+
+Reading energy frame      0 time    0.000         
+Reading energy frame      1 time    1.000         
+Reading energy frame      2 time    2.000         
+Reading energy frame      3 time    3.000         
+Reading energy frame      4 time    4.000         
+Reading energy frame      5 time    5.000         
+Reading energy frame      6 time    6.000         
+Reading energy frame      7 time    7.000         
+Reading energy frame      8 time    8.000         
+Reading energy frame      9 time    9.000         
+Reading energy frame     10 time   10.000         
+Reading energy frame     11 time   11.000         
+Reading energy frame     12 time   12.000         
+Reading energy frame     13 time   13.000         
+Reading energy frame     14 time   14.000         
+Reading energy frame     15 time   15.000         
+Reading energy frame     16 time   16.000         
+Reading energy frame     17 time   17.000         
+Reading energy frame     18 time   18.000         
+Reading energy frame     19 time   19.000         
+Reading energy frame     20 time   20.000         
+Reading energy frame     30 time   30.000         
+Reading energy frame     40 time   40.000         
+Reading energy frame     50 time   50.000         
+Reading energy frame     60 time   60.000         
+Reading energy frame     70 time   70.000         
+Reading energy frame     80 time   80.000         
+Reading energy frame     90 time   90.000         
+Reading energy frame    100 time  100.000         
+Reading energy frame    110 time  110.000         
+Reading energy frame    120 time  120.000         
+Reading energy frame    130 time  130.000         
+Reading energy frame    140 time  140.000         
+Reading energy frame    150 time  150.000         
+Reading energy frame    160 time  160.000         
+Reading energy frame    170 time  170.000         
+Reading energy frame    180 time  180.000         
+Reading energy frame    190 time  190.000         
+Reading energy frame    200 time  200.000         
+Reading energy frame    300 time  300.000         
+Reading energy frame    400 time  400.000         
+Reading energy frame    500 time  500.000         
+Reading energy frame    600 time  600.000         
+Reading energy frame    700 time  700.000         
+Reading energy frame    800 time  800.000         
+Reading energy frame    900 time  900.000         
+Reading energy frame   1000 time 1000.000         
+Last energy frame read 1000 time 1000.000         
+
+GROMACS reminds you: "Creativity in science, as in art, cannot be organized. It arises spontaneously from individual talent. Well-run laboratories can foster it, but hierarchical organizations, inflexible bureaucratic rules, and mountains of futile paperwork can kill it." (Max Perutz)
+
+
+Statistics over 500001 steps [ 0.0000 through 1000.0000 ps ], 2 data sets
+All statistics are over 5001 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Temperature                 300.008      0.059    3.52152  -0.250602  (K)
+Pressure                    10.7901        5.2    264.362   -4.52395  (bar)
+                 :-) GROMACS - gmx trjconv, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx trjconv -s results/md/md.tpr -f results/md/md.xtc -o results/md/md_centered.xtc -pbc mol -center
+
+Will write xtc: Compressed trajectory (portable xdr format): xtc
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Group     0 (         System) has  8339 elements
+Group     1 (        Protein) has   304 elements
+Group     2 (      Protein-H) has   154 elements
+Group     3 (        C-alpha) has    20 elements
+Group     4 (       Backbone) has    60 elements
+Group     5 (      MainChain) has    81 elements
+Group     6 (   MainChain+Cb) has    98 elements
+Group     7 (    MainChain+H) has    99 elements
+Group     8 (      SideChain) has   205 elements
+Group     9 (    SideChain-H) has    73 elements
+Group    10 (    Prot-Masses) has   304 elements
+Group    11 (    non-Protein) has  8035 elements
+Group    12 (          Water) has  8034 elements
+Group    13 (            SOL) has  8034 elements
+Group    14 (      non-Water) has   305 elements
+Group    15 (            Ion) has     1 elements
+Group    16 ( Water_and_ions) has  8035 elements
+Select a group: Group     0 (         System) has  8339 elements
+Group     1 (        Protein) has   304 elements
+Group     2 (      Protein-H) has   154 elements
+Group     3 (        C-alpha) has    20 elements
+Group     4 (       Backbone) has    60 elements
+Group     5 (      MainChain) has    81 elements
+Group     6 (   MainChain+Cb) has    98 elements
+Group     7 (    MainChain+H) has    99 elements
+Group     8 (      SideChain) has   205 elements
+Group     9 (    SideChain-H) has    73 elements
+Group    10 (    Prot-Masses) has   304 elements
+Group    11 (    non-Protein) has  8035 elements
+Group    12 (          Water) has  8034 elements
+Group    13 (            SOL) has  8034 elements
+Group    14 (      non-Water) has   305 elements
+Group    15 (            Ion) has     1 elements
+Group    16 ( Water_and_ions) has  8035 elements
+Select a group: 
+Reading frame       0 time    0.000   
+Precision of results/md/md.xtc is 0.001 (nm)
+Using output precision of 0.001 (nm)
+
+Reading frame       1 time   10.000    ->  frame      0 time    0.000      
+
+Reading frame       2 time   20.000    ->  frame      1 time   10.000      
+
+Reading frame       3 time   30.000    ->  frame      2 time   20.000      
+
+Reading frame       4 time   40.000    ->  frame      3 time   30.000      
+
+Reading frame       5 time   50.000    ->  frame      4 time   40.000      
+
+Reading frame       6 time   60.000    ->  frame      5 time   50.000      
+
+Reading frame       7 time   70.000    ->  frame      6 time   60.000      
+
+Reading frame       8 time   80.000    ->  frame      7 time   70.000      
+
+Reading frame       9 time   90.000    ->  frame      8 time   80.000      
+
+Reading frame      10 time  100.000    ->  frame      9 time   90.000      
+
+Reading frame      11 time  110.000    ->  frame     10 time  100.000      
+
+Reading frame      12 time  120.000    ->  frame     11 time  110.000      
+
+Reading frame      13 time  130.000    ->  frame     12 time  120.000      
+
+Reading frame      14 time  140.000    ->  frame     13 time  130.000      
+
+Reading frame      15 time  150.000    ->  frame     14 time  140.000      
+
+Reading frame      16 time  160.000    ->  frame     15 time  150.000      
+
+Reading frame      17 time  170.000    ->  frame     16 time  160.000      
+
+Reading frame      18 time  180.000    ->  frame     17 time  170.000      
+
+Reading frame      19 time  190.000    ->  frame     18 time  180.000      
+
+Reading frame      20 time  200.000    ->  frame     19 time  190.000      
+
+Reading frame      30 time  300.000    ->  frame     29 time  290.000      
+
+Reading frame      40 time  400.000    ->  frame     39 time  390.000      
+
+Reading frame      50 time  500.000    ->  frame     49 time  490.000      
+
+Reading frame      60 time  600.000    ->  frame     59 time  590.000      
+
+Reading frame      70 time  700.000    ->  frame     69 time  690.000      
+
+Reading frame      80 time  800.000    ->  frame     79 time  790.000      
+
+Reading frame      90 time  900.000    ->  frame     89 time  890.000      
+
+Reading frame     100 time 1000.000    ->  frame     99 time  990.000      
+
+Last frame        100 time 1000.000   
+ ->  frame    100 time 1000.000      
+Last written: frame    100 time 1000.000
+
+
+GROMACS reminds you: "If it's a good idea, go ahead and do it. It's much easier to apologize than it is to get permission." (Grace Hopper, developer of COBOL)
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Select group for centering
+Selected 1: 'Protein'
+Select group for output
+Selected 0: 'System'
+                 :-) GROMACS - gmx trjconv, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx trjconv -s results/md/md.tpr -f results/md/md_centered.xtc -o results/md/md_fit.xtc -fit rot+trans
+
+Will write xtc: Compressed trajectory (portable xdr format): xtc
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Group     0 (         System) has  8339 elements
+Group     1 (        Protein) has   304 elements
+Group     2 (      Protein-H) has   154 elements
+Group     3 (        C-alpha) has    20 elements
+Group     4 (       Backbone) has    60 elements
+Group     5 (      MainChain) has    81 elements
+Group     6 (   MainChain+Cb) has    98 elements
+Group     7 (    MainChain+H) has    99 elements
+Group     8 (      SideChain) has   205 elements
+Group     9 (    SideChain-H) has    73 elements
+Group    10 (    Prot-Masses) has   304 elements
+Group    11 (    non-Protein) has  8035 elements
+Group    12 (          Water) has  8034 elements
+Group    13 (            SOL) has  8034 elements
+Group    14 (      non-Water) has   305 elements
+Group    15 (            Ion) has     1 elements
+Group    16 ( Water_and_ions) has  8035 elements
+Select a group: Group     0 (         System) has  8339 elements
+Group     1 (        Protein) has   304 elements
+Group     2 (      Protein-H) has   154 elements
+Group     3 (        C-alpha) has    20 elements
+Group     4 (       Backbone) has    60 elements
+Group     5 (      MainChain) has    81 elements
+Group     6 (   MainChain+Cb) has    98 elements
+Group     7 (    MainChain+H) has    99 elements
+Group     8 (      SideChain) has   205 elements
+Group     9 (    SideChain-H) has    73 elements
+Group    10 (    Prot-Masses) has   304 elements
+Group    11 (    non-Protein) has  8035 elements
+Group    12 (          Water) has  8034 elements
+Group    13 (            SOL) has  8034 elements
+Group    14 (      non-Water) has   305 elements
+Group    15 (            Ion) has     1 elements
+Group    16 ( Water_and_ions) has  8035 elements
+Select a group: 
+Reading frame       0 time    0.000   
+Precision of results/md/md_centered.xtc is 0.001 (nm)
+Using output precision of 0.001 (nm)
+
+Reading frame       1 time   10.000    ->  frame      0 time    0.000      
+
+Reading frame       2 time   20.000    ->  frame      1 time   10.000      
+
+Reading frame       3 time   30.000    ->  frame      2 time   20.000      
+
+Reading frame       4 time   40.000    ->  frame      3 time   30.000      
+
+Reading frame       5 time   50.000    ->  frame      4 time   40.000      
+
+Reading frame       6 time   60.000    ->  frame      5 time   50.000      
+
+Reading frame       7 time   70.000    ->  frame      6 time   60.000      
+
+Reading frame       8 time   80.000    ->  frame      7 time   70.000      
+
+Reading frame       9 time   90.000    ->  frame      8 time   80.000      
+
+Reading frame      10 time  100.000    ->  frame      9 time   90.000      
+
+Reading frame      11 time  110.000    ->  frame     10 time  100.000      
+
+Reading frame      12 time  120.000    ->  frame     11 time  110.000      
+
+Reading frame      13 time  130.000    ->  frame     12 time  120.000      
+
+Reading frame      14 time  140.000    ->  frame     13 time  130.000      
+
+Reading frame      15 time  150.000    ->  frame     14 time  140.000      
+
+Reading frame      16 time  160.000    ->  frame     15 time  150.000      
+
+Reading frame      17 time  170.000    ->  frame     16 time  160.000      
+
+Reading frame      18 time  180.000    ->  frame     17 time  170.000      
+
+Reading frame      19 time  190.000    ->  frame     18 time  180.000      
+
+Reading frame      20 time  200.000    ->  frame     19 time  190.000      
+
+Reading frame      30 time  300.000    ->  frame     29 time  290.000      
+
+Reading frame      40 time  400.000    ->  frame     39 time  390.000      
+
+Reading frame      50 time  500.000    ->  frame     49 time  490.000      
+
+Reading frame      60 time  600.000    ->  frame     59 time  590.000      
+
+Reading frame      70 time  700.000    ->  frame     69 time  690.000      
+
+Reading frame      80 time  800.000    ->  frame     79 time  790.000      
+
+Reading frame      90 time  900.000    ->  frame     89 time  890.000      
+
+Reading frame     100 time 1000.000    ->  frame     99 time  990.000      
+
+Last frame        100 time 1000.000   
+ ->  frame    100 time 1000.000      
+Last written: frame    100 time 1000.000
+
+
+GROMACS reminds you: "If it's a good idea, go ahead and do it. It's much easier to apologize than it is to get permission." (Grace Hopper, developer of COBOL)
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Select group for least squares fit
+Selected 4: 'Backbone'
+Select group for output
+Selected 0: 'System'
+                   :-) GROMACS - gmx rms, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx rms -s results/md/md.tpr -f results/md/md_fit.xtc -o results/md/rmsd_backbone.xvg -tu ns
+
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Select group for least squares fit
+Group     0 (         System) has  8339 elements
+Group     1 (        Protein) has   304 elements
+Group     2 (      Protein-H) has   154 elements
+Group     3 (        C-alpha) has    20 elements
+Group     4 (       Backbone) has    60 elements
+Group     5 (      MainChain) has    81 elements
+Group     6 (   MainChain+Cb) has    98 elements
+Group     7 (    MainChain+H) has    99 elements
+Group     8 (      SideChain) has   205 elements
+Group     9 (    SideChain-H) has    73 elements
+Group    10 (    Prot-Masses) has   304 elements
+Group    11 (    non-Protein) has  8035 elements
+Group    12 (          Water) has  8034 elements
+Group    13 (            SOL) has  8034 elements
+Group    14 (      non-Water) has   305 elements
+Group    15 (            Ion) has     1 elements
+Group    16 ( Water_and_ions) has  8035 elements
+Select a group: Select group for RMSD calculation
+Group     0 (         System) has  8339 elements
+Group     1 (        Protein) has   304 elements
+Group     2 (      Protein-H) has   154 elements
+Group     3 (        C-alpha) has    20 elements
+Group     4 (       Backbone) has    60 elements
+Group     5 (      MainChain) has    81 elements
+Group     6 (   MainChain+Cb) has    98 elements
+Group     7 (    MainChain+H) has    99 elements
+Group     8 (      SideChain) has   205 elements
+Group     9 (    SideChain-H) has    73 elements
+Group    10 (    Prot-Masses) has   304 elements
+Group    11 (    non-Protein) has  8035 elements
+Group    12 (          Water) has  8034 elements
+Group    13 (            SOL) has  8034 elements
+Group    14 (      non-Water) has   305 elements
+Group    15 (            Ion) has     1 elements
+Group    16 ( Water_and_ions) has  8035 elements
+Select a group: 
+Reading frame       0 time    0.000   
+Reading frame       1 time    0.010   
+Reading frame       2 time    0.020   
+Reading frame       3 time    0.030   
+Reading frame       4 time    0.040   
+Reading frame       5 time    0.050   
+Reading frame       6 time    0.060   
+Reading frame       7 time    0.070   
+Reading frame       8 time    0.080   
+Reading frame       9 time    0.090   
+Reading frame      10 time    0.100   
+Reading frame      11 time    0.110   
+Reading frame      12 time    0.120   
+Reading frame      13 time    0.130   
+Reading frame      14 time    0.140   
+Reading frame      15 time    0.150   
+Reading frame      16 time    0.160   
+Reading frame      17 time    0.170   
+Reading frame      18 time    0.180   
+Reading frame      19 time    0.190   
+Reading frame      20 time    0.200   
+Reading frame      30 time    0.300   
+Reading frame      40 time    0.400   
+Reading frame      50 time    0.500   
+Reading frame      60 time    0.600   
+Reading frame      70 time    0.700   
+Reading frame      80 time    0.800   
+Reading frame      90 time    0.900   
+Reading frame     100 time    1.000   
+Last frame        100 time    1.000   
+
+GROMACS reminds you: "If it's a good idea, go ahead and do it. It's much easier to apologize than it is to get permission." (Grace Hopper, developer of COBOL)
+
+Selected 4: 'Backbone'
+Selected 4: 'Backbone'
+                  :-) GROMACS - gmx rmsf, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx rmsf -s results/md/md.tpr -f results/md/md_fit.xtc -o results/md/rmsf_ca.xvg -res
+
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Select group(s) for root mean square calculation
+Group     0 (         System) has  8339 elements
+Group     1 (        Protein) has   304 elements
+Group     2 (      Protein-H) has   154 elements
+Group     3 (        C-alpha) has    20 elements
+Group     4 (       Backbone) has    60 elements
+Group     5 (      MainChain) has    81 elements
+Group     6 (   MainChain+Cb) has    98 elements
+Group     7 (    MainChain+H) has    99 elements
+Group     8 (      SideChain) has   205 elements
+Group     9 (    SideChain-H) has    73 elements
+Group    10 (    Prot-Masses) has   304 elements
+Group    11 (    non-Protein) has  8035 elements
+Group    12 (          Water) has  8034 elements
+Group    13 (            SOL) has  8034 elements
+Group    14 (      non-Water) has   305 elements
+Group    15 (            Ion) has     1 elements
+Group    16 ( Water_and_ions) has  8035 elements
+Select a group: 
+Reading frame       0 time    0.000   
+Reading frame       1 time   10.000   
+Reading frame       2 time   20.000   
+Reading frame       3 time   30.000   
+Reading frame       4 time   40.000   
+Reading frame       5 time   50.000   
+Reading frame       6 time   60.000   
+Reading frame       7 time   70.000   
+Reading frame       8 time   80.000   
+Reading frame       9 time   90.000   
+Reading frame      10 time  100.000   
+Reading frame      11 time  110.000   
+Reading frame      12 time  120.000   
+Reading frame      13 time  130.000   
+Reading frame      14 time  140.000   
+Reading frame      15 time  150.000   
+Reading frame      16 time  160.000   
+Reading frame      17 time  170.000   
+Reading frame      18 time  180.000   
+Reading frame      19 time  190.000   
+Reading frame      20 time  200.000   
+Reading frame      30 time  300.000   
+Reading frame      40 time  400.000   
+Reading frame      50 time  500.000   
+Reading frame      60 time  600.000   
+Reading frame      70 time  700.000   
+Reading frame      80 time  800.000   
+Reading frame      90 time  900.000   
+Reading frame     100 time 1000.000   
+Last frame        100 time 1000.000   
+
+GROMACS reminds you: "If it's a good idea, go ahead and do it. It's much easier to apologize than it is to get permission." (Grace Hopper, developer of COBOL)
+
+Selected 3: 'C-alpha'
+                 :-) GROMACS - gmx gyrate, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx gyrate -s results/md/md.tpr -f results/md/md_fit.xtc -o results/md/gyrate.xvg
+
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+
+Reading frame       0 time    0.000   
+Reading frame       1 time   10.000   
+Reading frame       2 time   20.000   
+Reading frame       3 time   30.000   
+Reading frame       4 time   40.000   
+Reading frame       5 time   50.000   
+Reading frame       6 time   60.000   
+Reading frame       7 time   70.000   
+Reading frame       8 time   80.000   
+Reading frame       9 time   90.000   
+Reading frame      10 time  100.000   
+Reading frame      11 time  110.000   
+Reading frame      12 time  120.000   
+Reading frame      13 time  130.000   
+Reading frame      14 time  140.000   
+Reading frame      15 time  150.000   
+Reading frame      16 time  160.000   
+Reading frame      17 time  170.000   
+Reading frame      18 time  180.000   
+Reading frame      19 time  190.000   
+Reading frame      20 time  200.000   
+Reading frame      30 time  300.000   
+Reading frame      40 time  400.000   
+Reading frame      50 time  500.000   
+Reading frame      60 time  600.000   
+Reading frame      70 time  700.000   
+Reading frame      80 time  800.000   
+Reading frame      90 time  900.000   
+Reading frame     100 time 1000.000   
+Last frame        100 time 1000.000   
+Analyzed 101 frames, last time 1000.000
+
+GROMACS reminds you: "If it's a good idea, go ahead and do it. It's much easier to apologize than it is to get permission." (Grace Hopper, developer of COBOL)
+
+                  :-) GROMACS - gmx hbond, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx hbond -s results/md/md.tpr -f results/md/md_fit.xtc -num results/md/hbond.xvg
+
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+
+Reading frame       0 time    0.000   
+Reading frame       1 time   10.000   
+Reading frame       2 time   20.000   
+Reading frame       3 time   30.000   
+Reading frame       4 time   40.000   
+Reading frame       5 time   50.000   
+Reading frame       6 time   60.000   
+Reading frame       7 time   70.000   
+Reading frame       8 time   80.000   
+Reading frame       9 time   90.000   
+Reading frame      10 time  100.000   
+Reading frame      11 time  110.000   
+Reading frame      12 time  120.000   
+Reading frame      13 time  130.000   
+Reading frame      14 time  140.000   
+Reading frame      15 time  150.000   
+Reading frame      16 time  160.000   
+Reading frame      17 time  170.000   
+Reading frame      18 time  180.000   
+Reading frame      19 time  190.000   
+Reading frame      20 time  200.000   
+Reading frame      30 time  300.000   
+Reading frame      40 time  400.000   
+Reading frame      50 time  500.000   
+Reading frame      60 time  600.000   
+Reading frame      70 time  700.000   
+Reading frame      80 time  800.000   
+Reading frame      90 time  900.000   
+Reading frame     100 time 1000.000   
+Last frame        100 time 1000.000   
+Analyzed 101 frames, last time 1000.000
+
+Checking for overlap in atoms between Protein (304 atoms) and Protein (304 atoms)
+Selection 'Protein' has 56 acceptors and 27 donors.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+S. Gorelov, A. Titov, O. Tolicheva, A. Konevega, A. Shvetsov
+Determination of Hydrogen Bonds in GROMACS: A New Implementation to Overcome
+Memory Limitation
+Journal of Chemical Information and Modeling (2024)
+https://doi.org/10.1021/acs.jcim.3c02087
+-------- -------- --- Thank You --- -------- --------
+
+
+GROMACS reminds you: "If it's a good idea, go ahead and do it. It's much easier to apologize than it is to get permission." (Grace Hopper, developer of COBOL)
+
+                  :-) GROMACS - gmx check, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx check -f results/md/md.xtc
+
+
+Reading frame       0 time    0.000   
+# Atoms  8339
+Precision 0.001 (nm)
+
+Reading frame       1 time   10.000   
+Reading frame       2 time   20.000   
+Reading frame       3 time   30.000   
+Reading frame       4 time   40.000   
+Reading frame       5 time   50.000   
+Reading frame       6 time   60.000   
+Reading frame       7 time   70.000   
+Reading frame       8 time   80.000   
+Reading frame       9 time   90.000   
+Reading frame      10 time  100.000   
+Reading frame      11 time  110.000   
+Reading frame      12 time  120.000   
+Reading frame      13 time  130.000   
+Reading frame      14 time  140.000   
+Reading frame      15 time  150.000   
+Reading frame      16 time  160.000   
+Reading frame      17 time  170.000   
+Reading frame      18 time  180.000   
+Reading frame      19 time  190.000   
+Reading frame      20 time  200.000   
+Reading frame      30 time  300.000   
+Reading frame      40 time  400.000   
+Reading frame      50 time  500.000   
+Reading frame      60 time  600.000   
+Reading frame      70 time  700.000   
+Reading frame      80 time  800.000   
+Reading frame      90 time  900.000   
+Reading frame     100 time 1000.000   
+Last frame        100 time 1000.000   
+
+
+Item        #frames Timestep (ps)
+Step           101    10
+Time           101    10
+Lambda           0
+Coords         101    10
+Velocities       0
+Forces           0
+Box            101    10
+
+GROMACS reminds you: "If it's a good idea, go ahead and do it. It's much easier to apologize than it is to get permission." (Grace Hopper, developer of COBOL)
+
+Checking file results/md/md.xtc
+{
+  "rmsd_backbone_nm": {
+    "frames": 101,
+    "start": 0.0005185,
+    "end": 0.193337,
+    "mean": 0.13648674653465348,
+    "minimum": 0.0005185,
+    "maximum": 0.2484107
+  },
+  "radius_of_gyration_nm": {
+    "frames": 101,
+    "start": 0.7338,
+    "end": 0.723166,
+    "mean": 0.7363128613861387,
+    "minimum": 0.710592,
+    "maximum": 0.761636
+  },
+  "protein_internal_hbonds": {
+    "frames": 101,
+    "start": 10.0,
+    "end": 13.0,
+    "mean": 10.158415841584159,
+    "minimum": 5.0,
+    "maximum": 15.0
+  },
+  "rmsf_ca_nm": {
+    "residues": 20,
+    "mean": 0.09,
+    "maximum": 0.2079,
+    "maximum_residue": 20
+  },
+  "limitations": "1 ns single trajectory; not evidence of convergence, folding, thermodynamic stability, or binding mechanism."
+}

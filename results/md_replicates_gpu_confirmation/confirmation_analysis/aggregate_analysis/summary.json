@@ -1,0 +1,1209 @@
+{
+  "status": "three_completed_replicates_verified",
+  "n_trajectories": 3,
+  "total_ns_each": 11,
+  "runs": [
+    {
+      "seed": 20261113,
+      "input_directory": "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113",
+      "sha256": {
+        "trajectory": "40c31d8ac5905795c35ad1be2ba1ebd0870b05be8a4e48177c4f1c6d62bdf2fb",
+        "topology": "a057479c4449c3937fec55ace2e73bba2c7469031ade969e7db7e766ed7d9e94"
+      },
+      "exported_protein_gro_sha256": "38cbfa70253989426d64adfd0d5139ecd6fc8a4c09cca45945c6b37c4705cd62",
+      "exported_protein_gro_retained": true,
+      "frames_verified": 1101,
+      "first_ps": 0,
+      "last_ps": 11000
+    },
+    {
+      "seed": 20261114,
+      "input_directory": "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114",
+      "sha256": {
+        "trajectory": "775f8ea796dc839fcd65b004ba8f57c44b30997d481ad3e7c2ca228e4c7e4812",
+        "topology": "7660523315e1b6aa4217990c00d7c22252f69984362b12e76bccd0b493531a1f"
+      },
+      "exported_protein_gro_sha256": "627eccbaedd155f5297344126cfda6bb7689945c1cb61c13ca324911f43b99a3",
+      "exported_protein_gro_retained": true,
+      "frames_verified": 1101,
+      "first_ps": 0,
+      "last_ps": 11000
+    },
+    {
+      "seed": 20261115,
+      "input_directory": "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115",
+      "sha256": {
+        "trajectory": "3abe2a4996845807f643b8a4608880fb6c1c7f1981b74d53f0b8aae6261fa36f",
+        "topology": "83066ef6c2fa08617d2776c4687b6a0b8945d293a87f4436eeda5ec13b4cf9cf"
+      },
+      "exported_protein_gro_sha256": "2ab9de556d87ed1d7e706919469ea790627bfc254550013f11b5bc17e38537e3",
+      "exported_protein_gro_retained": true,
+      "frames_verified": 1101,
+      "first_ps": 0,
+      "last_ps": 11000
+    }
+  ],
+  "common_reference_sha256": "d0cf2a9c409b23f5f946529659e307e03a1e9670263bfca3130a10e268b6efc6",
+  "nmr_reference_sha256": "5d1bbb545a312dfff1ae1e64b6d8addecb2f561ddc4011aeb5bee9d1dfcd4438",
+  "analysis_gromacs_version": "                   :-) GROMACS - gmx, 2026.3-conda_forge (-:\n\nExecutable:   /home/lessray/codex-runs/method-validation-20261110-gpu/env/bin.AVX2_256/gmx\nData prefix:  /home/lessray/codex-runs/method-validation-20261110-gpu/env\nWorking dir:  /home/lessray/codex-runs/method-validation-20261110-gpu\nCommand line:\n  gmx --version\n\nGROMACS version:     2026.3-conda_forge\nPrecision:           mixed\nMemory model:        64 bit\nMPI library:         thread_mpi\nMPI version:         built in\nOpenMP support:      enabled (GMX_OPENMP_MAX_THREADS = 128)\nGPU support:         CUDA\nNBNxM GPU setup:     super-cluster 2x2x2 / cluster 8 (cluster-pair splitting on)\nSIMD instructions:   AVX2_256\nCPU FFT library:     fftw-3.3.11-sse2-avx\nGPU FFT library:     cuFFT\nMulti-GPU FFT:       none\nRDTSCP:              disabled\nTNG support:         enabled\nHwloc support:       disabled\nTracing support:     disabled\nColvars support:     enabled (version 2025-10-13)\nCP2K support:        disabled\nTorch support:       disabled\nPlumed support:      enabled\nC compiler:          /home/conda/feedstock_root/build_artifacts/gromacs_1785262689563/_build_env/bin/x86_64-conda-linux-gnu-cc GNU 14.3.0\nC compiler flags:    -fexcess-precision=fast -funroll-all-loops -mavx2 -mfma -Wno-missing-field-initializers -O3 -DNDEBUG\nC++ compiler:        /home/conda/feedstock_root/build_artifacts/gromacs_1785262689563/_build_env/bin/x86_64-conda-linux-gnu-c++ GNU 14.3.0\nC++ compiler flags:  -fexcess-precision=fast -funroll-all-loops -mavx2 -mfma -Wno-missing-field-initializers -Wno-stringop-truncation -Wno-cast-function-type-strict SHELL:-fopenmp -O3 -DNDEBUG\nBLAS library:        Internal\nLAPACK library:      Internal\nCUDA compiler:       /home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/nvcc (NVIDIA 12.9.86)\nCUDA compiler flags:  -O3 -DNDEBUG -use_fast_math -static-global-template-stub=false -Xptxas=-warn-double-usage -Xptxas=-Werror -diag-suppress=177 -use_fast_math -static-global-template-stub=false -Xptxas=-warn-double-usage -Xptxas=-Werror -diag-suppress=177 -O3 -DNDEBUG\nCUDA targets:        50;52-real;60-real;61-real;70-real;75-real;80-real;86-real;89-real;90-real;120\nCUDA driver:         13.0\nCUDA runtime:        12.90\nNVSHMEM:             disabled\n\n",
+  "q_definition": "CA pairs with residue separation >=3 and NMR-model1 distance <=7/8/9 \u00c5; contact present if trajectory distance <=1.2 times its reference distance. All atoms are in a whole protein, no minimum-image shortcut.",
+  "native_contacts": {
+    "7": [
+      {
+        "residue_i": 1,
+        "residue_j": 4,
+        "reference_distance_angstrom": 5.038890552492681
+      },
+      {
+        "residue_i": 1,
+        "residue_j": 5,
+        "reference_distance_angstrom": 6.316409185605378
+      },
+      {
+        "residue_i": 2,
+        "residue_j": 5,
+        "reference_distance_angstrom": 5.238782587586547
+      },
+      {
+        "residue_i": 2,
+        "residue_j": 6,
+        "reference_distance_angstrom": 6.425902193466689
+      },
+      {
+        "residue_i": 2,
+        "residue_j": 19,
+        "reference_distance_angstrom": 6.940471597809475
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 6,
+        "reference_distance_angstrom": 4.9083106054935035
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 7,
+        "reference_distance_angstrom": 6.10832423828336
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 19,
+        "reference_distance_angstrom": 6.3263896497133345
+      },
+      {
+        "residue_i": 4,
+        "residue_j": 7,
+        "reference_distance_angstrom": 5.075671876707556
+      },
+      {
+        "residue_i": 4,
+        "residue_j": 8,
+        "reference_distance_angstrom": 6.110710024211589
+      },
+      {
+        "residue_i": 5,
+        "residue_j": 8,
+        "reference_distance_angstrom": 5.35795259404187
+      },
+      {
+        "residue_i": 5,
+        "residue_j": 9,
+        "reference_distance_angstrom": 6.7279111914471645
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 9,
+        "reference_distance_angstrom": 5.588120703778686
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 11,
+        "reference_distance_angstrom": 5.516748680155731
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 18,
+        "reference_distance_angstrom": 6.703379297041157
+      },
+      {
+        "residue_i": 7,
+        "residue_j": 10,
+        "reference_distance_angstrom": 5.236496634201154
+      },
+      {
+        "residue_i": 7,
+        "residue_j": 11,
+        "reference_distance_angstrom": 4.334295098398354
+      },
+      {
+        "residue_i": 8,
+        "residue_j": 11,
+        "reference_distance_angstrom": 6.989244594374989
+      },
+      {
+        "residue_i": 9,
+        "residue_j": 14,
+        "reference_distance_angstrom": 6.030375610192121
+      },
+      {
+        "residue_i": 10,
+        "residue_j": 13,
+        "reference_distance_angstrom": 5.130025633464223
+      },
+      {
+        "residue_i": 10,
+        "residue_j": 14,
+        "reference_distance_angstrom": 5.219167941348506
+      },
+      {
+        "residue_i": 11,
+        "residue_j": 14,
+        "reference_distance_angstrom": 5.800510063778875
+      },
+      {
+        "residue_i": 12,
+        "residue_j": 15,
+        "reference_distance_angstrom": 6.502214161345349
+      },
+      {
+        "residue_i": 12,
+        "residue_j": 16,
+        "reference_distance_angstrom": 6.4886227352189305
+      },
+      {
+        "residue_i": 12,
+        "residue_j": 17,
+        "reference_distance_angstrom": 6.616325490784141
+      }
+    ],
+    "8": [
+      {
+        "residue_i": 1,
+        "residue_j": 4,
+        "reference_distance_angstrom": 5.038890552492681
+      },
+      {
+        "residue_i": 1,
+        "residue_j": 5,
+        "reference_distance_angstrom": 6.316409185605378
+      },
+      {
+        "residue_i": 2,
+        "residue_j": 5,
+        "reference_distance_angstrom": 5.238782587586547
+      },
+      {
+        "residue_i": 2,
+        "residue_j": 6,
+        "reference_distance_angstrom": 6.425902193466689
+      },
+      {
+        "residue_i": 2,
+        "residue_j": 19,
+        "reference_distance_angstrom": 6.940471597809475
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 6,
+        "reference_distance_angstrom": 4.9083106054935035
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 7,
+        "reference_distance_angstrom": 6.10832423828336
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 18,
+        "reference_distance_angstrom": 7.130736497725884
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 19,
+        "reference_distance_angstrom": 6.3263896497133345
+      },
+      {
+        "residue_i": 4,
+        "residue_j": 7,
+        "reference_distance_angstrom": 5.075671876707556
+      },
+      {
+        "residue_i": 4,
+        "residue_j": 8,
+        "reference_distance_angstrom": 6.110710024211589
+      },
+      {
+        "residue_i": 5,
+        "residue_j": 8,
+        "reference_distance_angstrom": 5.35795259404187
+      },
+      {
+        "residue_i": 5,
+        "residue_j": 9,
+        "reference_distance_angstrom": 6.7279111914471645
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 9,
+        "reference_distance_angstrom": 5.588120703778686
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 10,
+        "reference_distance_angstrom": 7.087858703444927
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 11,
+        "reference_distance_angstrom": 5.516748680155731
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 18,
+        "reference_distance_angstrom": 6.703379297041157
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 19,
+        "reference_distance_angstrom": 7.449139346260077
+      },
+      {
+        "residue_i": 7,
+        "residue_j": 10,
+        "reference_distance_angstrom": 5.236496634201154
+      },
+      {
+        "residue_i": 7,
+        "residue_j": 11,
+        "reference_distance_angstrom": 4.334295098398354
+      },
+      {
+        "residue_i": 8,
+        "residue_j": 11,
+        "reference_distance_angstrom": 6.989244594374989
+      },
+      {
+        "residue_i": 9,
+        "residue_j": 14,
+        "reference_distance_angstrom": 6.030375610192121
+      },
+      {
+        "residue_i": 10,
+        "residue_j": 13,
+        "reference_distance_angstrom": 5.130025633464223
+      },
+      {
+        "residue_i": 10,
+        "residue_j": 14,
+        "reference_distance_angstrom": 5.219167941348506
+      },
+      {
+        "residue_i": 11,
+        "residue_j": 14,
+        "reference_distance_angstrom": 5.800510063778875
+      },
+      {
+        "residue_i": 11,
+        "residue_j": 16,
+        "reference_distance_angstrom": 7.339747883953508
+      },
+      {
+        "residue_i": 11,
+        "residue_j": 17,
+        "reference_distance_angstrom": 7.719471808355802
+      },
+      {
+        "residue_i": 11,
+        "residue_j": 18,
+        "reference_distance_angstrom": 7.105230045536878
+      },
+      {
+        "residue_i": 12,
+        "residue_j": 15,
+        "reference_distance_angstrom": 6.502214161345349
+      },
+      {
+        "residue_i": 12,
+        "residue_j": 16,
+        "reference_distance_angstrom": 6.4886227352189305
+      },
+      {
+        "residue_i": 12,
+        "residue_j": 17,
+        "reference_distance_angstrom": 6.616325490784141
+      },
+      {
+        "residue_i": 12,
+        "residue_j": 18,
+        "reference_distance_angstrom": 7.540464972400574
+      },
+      {
+        "residue_i": 13,
+        "residue_j": 16,
+        "reference_distance_angstrom": 7.869010928954159
+      }
+    ],
+    "9": [
+      {
+        "residue_i": 1,
+        "residue_j": 4,
+        "reference_distance_angstrom": 5.038890552492681
+      },
+      {
+        "residue_i": 1,
+        "residue_j": 5,
+        "reference_distance_angstrom": 6.316409185605378
+      },
+      {
+        "residue_i": 1,
+        "residue_j": 6,
+        "reference_distance_angstrom": 8.766814986071054
+      },
+      {
+        "residue_i": 2,
+        "residue_j": 5,
+        "reference_distance_angstrom": 5.238782587586547
+      },
+      {
+        "residue_i": 2,
+        "residue_j": 6,
+        "reference_distance_angstrom": 6.425902193466689
+      },
+      {
+        "residue_i": 2,
+        "residue_j": 7,
+        "reference_distance_angstrom": 8.851220537304444
+      },
+      {
+        "residue_i": 2,
+        "residue_j": 19,
+        "reference_distance_angstrom": 6.940471597809475
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 6,
+        "reference_distance_angstrom": 4.9083106054935035
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 7,
+        "reference_distance_angstrom": 6.10832423828336
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 8,
+        "reference_distance_angstrom": 8.64580227624944
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 11,
+        "reference_distance_angstrom": 8.687545395564849
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 18,
+        "reference_distance_angstrom": 7.130736497725884
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 19,
+        "reference_distance_angstrom": 6.3263896497133345
+      },
+      {
+        "residue_i": 3,
+        "residue_j": 20,
+        "reference_distance_angstrom": 8.59370123986167
+      },
+      {
+        "residue_i": 4,
+        "residue_j": 7,
+        "reference_distance_angstrom": 5.075671876707556
+      },
+      {
+        "residue_i": 4,
+        "residue_j": 8,
+        "reference_distance_angstrom": 6.110710024211589
+      },
+      {
+        "residue_i": 4,
+        "residue_j": 9,
+        "reference_distance_angstrom": 8.792732339836123
+      },
+      {
+        "residue_i": 5,
+        "residue_j": 8,
+        "reference_distance_angstrom": 5.35795259404187
+      },
+      {
+        "residue_i": 5,
+        "residue_j": 9,
+        "reference_distance_angstrom": 6.7279111914471645
+      },
+      {
+        "residue_i": 5,
+        "residue_j": 11,
+        "reference_distance_angstrom": 8.868633491130412
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 9,
+        "reference_distance_angstrom": 5.588120703778686
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 10,
+        "reference_distance_angstrom": 7.087858703444927
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 11,
+        "reference_distance_angstrom": 5.516748680155731
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 12,
+        "reference_distance_angstrom": 8.737070790602536
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 14,
+        "reference_distance_angstrom": 8.510074323999762
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 16,
+        "reference_distance_angstrom": 8.106600458885339
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 17,
+        "reference_distance_angstrom": 8.475919360163829
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 18,
+        "reference_distance_angstrom": 6.703379297041157
+      },
+      {
+        "residue_i": 6,
+        "residue_j": 19,
+        "reference_distance_angstrom": 7.449139346260077
+      },
+      {
+        "residue_i": 7,
+        "residue_j": 10,
+        "reference_distance_angstrom": 5.236496634201154
+      },
+      {
+        "residue_i": 7,
+        "residue_j": 11,
+        "reference_distance_angstrom": 4.334295098398354
+      },
+      {
+        "residue_i": 7,
+        "residue_j": 12,
+        "reference_distance_angstrom": 8.19393226723287
+      },
+      {
+        "residue_i": 7,
+        "residue_j": 14,
+        "reference_distance_angstrom": 8.889773506676086
+      },
+      {
+        "residue_i": 7,
+        "residue_j": 18,
+        "reference_distance_angstrom": 8.534944756704638
+      },
+      {
+        "residue_i": 8,
+        "residue_j": 11,
+        "reference_distance_angstrom": 6.989244594374989
+      },
+      {
+        "residue_i": 9,
+        "residue_j": 12,
+        "reference_distance_angstrom": 8.897668177674419
+      },
+      {
+        "residue_i": 9,
+        "residue_j": 13,
+        "reference_distance_angstrom": 8.037744646354474
+      },
+      {
+        "residue_i": 9,
+        "residue_j": 14,
+        "reference_distance_angstrom": 6.030375610192121
+      },
+      {
+        "residue_i": 10,
+        "residue_j": 13,
+        "reference_distance_angstrom": 5.130025633464223
+      },
+      {
+        "residue_i": 10,
+        "residue_j": 14,
+        "reference_distance_angstrom": 5.219167941348506
+      },
+      {
+        "residue_i": 10,
+        "residue_j": 15,
+        "reference_distance_angstrom": 8.881624513567324
+      },
+      {
+        "residue_i": 11,
+        "residue_j": 14,
+        "reference_distance_angstrom": 5.800510063778875
+      },
+      {
+        "residue_i": 11,
+        "residue_j": 15,
+        "reference_distance_angstrom": 8.227908300412688
+      },
+      {
+        "residue_i": 11,
+        "residue_j": 16,
+        "reference_distance_angstrom": 7.339747883953508
+      },
+      {
+        "residue_i": 11,
+        "residue_j": 17,
+        "reference_distance_angstrom": 7.719471808355802
+      },
+      {
+        "residue_i": 11,
+        "residue_j": 18,
+        "reference_distance_angstrom": 7.105230045536878
+      },
+      {
+        "residue_i": 12,
+        "residue_j": 15,
+        "reference_distance_angstrom": 6.502214161345349
+      },
+      {
+        "residue_i": 12,
+        "residue_j": 16,
+        "reference_distance_angstrom": 6.4886227352189305
+      },
+      {
+        "residue_i": 12,
+        "residue_j": 17,
+        "reference_distance_angstrom": 6.616325490784141
+      },
+      {
+        "residue_i": 12,
+        "residue_j": 18,
+        "reference_distance_angstrom": 7.540464972400574
+      },
+      {
+        "residue_i": 13,
+        "residue_j": 16,
+        "reference_distance_angstrom": 7.869010928954159
+      },
+      {
+        "residue_i": 14,
+        "residue_j": 17,
+        "reference_distance_angstrom": 8.521411737499838
+      }
+    ]
+  },
+  "nmr1_local_reference_distance_angstrom": {
+    "6_12": 3.45484239872096,
+    "6_18": 3.534361752848737,
+    "3_19": 3.89527675525116
+  },
+  "nmr1_sidechain_reference_distance_angstrom": {
+    "6_12": 3.538994772530754,
+    "6_18": 3.7954080149570224,
+    "3_19": 3.9746065214056094
+  },
+  "local_contact_definition": "heavy_min: minimum over all residue heavy atoms including backbone. sidechain_min: excludes N, CA, C, O, OXT, OT1, OT2. Pairs W6-P12, W6-P18, Y3-P19; \u00c5. Hydrogens excluded by GRO atom names.",
+  "rmsf_definition": "CA fitted to NMR model1 by proper Kabsch rotation and translation; fluctuations about the mean of each indicated window, nm. Interior windows are half-open, final endpoint 11 ns included once.",
+  "replicate_unit": "One independently velocity-seeded trajectory; frames are correlated and NMR models are not independent replicates.",
+  "limitations": "Three velocity seeds from one minimized structure are not independent initial conformations. Report all three means and their SD/range, no frame-level significance test. Q is a geometric reference-contact fraction, not a thermodynamic folding probability.",
+  "summary": [
+    {
+      "window_ns": "0-11",
+      "metric": "ca_rmsd_nmr1_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 1.2250754989838606,
+      "between_trajectory_sd": 0.1310079938821996,
+      "minimum_trajectory_mean": 1.1311903544676531,
+      "maximum_trajectory_mean": 1.3747423584890246
+    },
+    {
+      "window_ns": "0-11",
+      "metric": "q_ca_7A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9112927641537995,
+      "between_trajectory_sd": 0.014427658785930003,
+      "minimum_trajectory_mean": 0.8947502270663034,
+      "maximum_trajectory_mean": 0.9212715712988193
+    },
+    {
+      "window_ns": "0-11",
+      "metric": "q_ca_8A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9242103138560904,
+      "between_trajectory_sd": 0.015802824704514017,
+      "minimum_trajectory_mean": 0.9059807888145763,
+      "maximum_trajectory_mean": 0.9340269176781439
+    },
+    {
+      "window_ns": "0-11",
+      "metric": "q_ca_9A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9444735555089779,
+      "between_trajectory_sd": 0.010495749569376555,
+      "minimum_trajectory_mean": 0.932386641514707,
+      "maximum_trajectory_mean": 0.9512855446097954
+    },
+    {
+      "window_ns": "0-11",
+      "metric": "heavy_min_6_12_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.569193195597318,
+      "between_trajectory_sd": 0.025309278511579266,
+      "minimum_trajectory_mean": 3.542344501230499,
+      "maximum_trajectory_mean": 3.592613556329865
+    },
+    {
+      "window_ns": "0-11",
+      "metric": "sidechain_min_6_12_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.8005765577094532,
+      "between_trajectory_sd": 0.017964529926747037,
+      "minimum_trajectory_mean": 3.7821217046489335,
+      "maximum_trajectory_mean": 3.8180069187374985
+    },
+    {
+      "window_ns": "0-11",
+      "metric": "heavy_min_6_18_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.5805135118965716,
+      "between_trajectory_sd": 0.009387299673191034,
+      "minimum_trajectory_mean": 3.57095488179705,
+      "maximum_trajectory_mean": 3.5897195456091437
+    },
+    {
+      "window_ns": "0-11",
+      "metric": "sidechain_min_6_18_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.743717925609676,
+      "between_trajectory_sd": 0.023515156055983182,
+      "minimum_trajectory_mean": 3.721395002146872,
+      "maximum_trajectory_mean": 3.7682669890827114
+    },
+    {
+      "window_ns": "0-11",
+      "metric": "heavy_min_3_19_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 4.434618848934016,
+      "between_trajectory_sd": 0.2763650033594607,
+      "minimum_trajectory_mean": 4.209606886614684,
+      "maximum_trajectory_mean": 4.743096327234918
+    },
+    {
+      "window_ns": "0-11",
+      "metric": "sidechain_min_3_19_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 5.126430515449829,
+      "between_trajectory_sd": 0.4727780661237455,
+      "minimum_trajectory_mean": 4.741548487799578,
+      "maximum_trajectory_mean": 5.65416016374022
+    },
+    {
+      "window_ns": "0-11",
+      "metric": "backbone_rmsd_common_reference_nm",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.1240261598849531,
+      "between_trajectory_sd": 0.00949457345803853,
+      "minimum_trajectory_mean": 0.1174690420526794,
+      "maximum_trajectory_mean": 0.1349139289736603
+    },
+    {
+      "window_ns": "0-11",
+      "metric": "gyrate_nm",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.7262069691189827,
+      "between_trajectory_sd": 0.007495506817443788,
+      "minimum_trajectory_mean": 0.7187129782016349,
+      "maximum_trajectory_mean": 0.7337039909173478
+    },
+    {
+      "window_ns": "0-11",
+      "metric": "protein_internal_hbonds",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 11.834695731153497,
+      "between_trajectory_sd": 0.8954265169528393,
+      "minimum_trajectory_mean": 10.991825613079019,
+      "maximum_trajectory_mean": 12.774750227066303
+    },
+    {
+      "window_ns": "8-9",
+      "metric": "ca_rmsd_nmr1_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.8009544155881013,
+      "between_trajectory_sd": 0.06928014218967501,
+      "minimum_trajectory_mean": 0.7238909596240443,
+      "maximum_trajectory_mean": 0.8580779675252578
+    },
+    {
+      "window_ns": "8-9",
+      "metric": "q_ca_7A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9669333333333334,
+      "between_trajectory_sd": 0.023475377171268907,
+      "minimum_trajectory_mean": 0.9480000000000001,
+      "maximum_trajectory_mean": 0.9932000000000001
+    },
+    {
+      "window_ns": "8-9",
+      "metric": "q_ca_8A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9733333333333333,
+      "between_trajectory_sd": 0.019457754856580096,
+      "minimum_trajectory_mean": 0.9569696969696969,
+      "maximum_trajectory_mean": 0.9948484848484846
+    },
+    {
+      "window_ns": "8-9",
+      "metric": "q_ca_9A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9825641025641025,
+      "between_trajectory_sd": 0.012886528751923866,
+      "minimum_trajectory_mean": 0.9715384615384616,
+      "maximum_trajectory_mean": 0.9967307692307692
+    },
+    {
+      "window_ns": "8-9",
+      "metric": "heavy_min_6_12_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.576081373284984,
+      "between_trajectory_sd": 0.03369371781280896,
+      "minimum_trajectory_mean": 3.552707601848001,
+      "maximum_trajectory_mean": 3.6147036767031877
+    },
+    {
+      "window_ns": "8-9",
+      "metric": "sidechain_min_6_12_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.8015265131008675,
+      "between_trajectory_sd": 0.006170113933170946,
+      "minimum_trajectory_mean": 3.7948752417700695,
+      "maximum_trajectory_mean": 3.807063652374988
+    },
+    {
+      "window_ns": "8-9",
+      "metric": "heavy_min_6_18_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.598176996980044,
+      "between_trajectory_sd": 0.023036819421265054,
+      "minimum_trajectory_mean": 3.57452575891636,
+      "maximum_trajectory_mean": 3.620545824849293
+    },
+    {
+      "window_ns": "8-9",
+      "metric": "sidechain_min_6_18_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.7299273756368216,
+      "between_trajectory_sd": 0.036236834244275755,
+      "minimum_trajectory_mean": 3.6908126620197628,
+      "maximum_trajectory_mean": 3.762354757310856
+    },
+    {
+      "window_ns": "8-9",
+      "metric": "heavy_min_3_19_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.8340778430930844,
+      "between_trajectory_sd": 0.05449998148245762,
+      "minimum_trajectory_mean": 3.792909502788768,
+      "maximum_trajectory_mean": 3.895882442634433
+    },
+    {
+      "window_ns": "8-9",
+      "metric": "sidechain_min_3_19_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 4.361366606259015,
+      "between_trajectory_sd": 0.12376537722136811,
+      "minimum_trajectory_mean": 4.272707331706948,
+      "maximum_trajectory_mean": 4.502765900872825
+    },
+    {
+      "window_ns": "8-9",
+      "metric": "backbone_rmsd_common_reference_nm",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.08672889933333333,
+      "between_trajectory_sd": 0.0012391887729157067,
+      "minimum_trajectory_mean": 0.085317648,
+      "maximum_trajectory_mean": 0.08763913699999999
+    },
+    {
+      "window_ns": "8-9",
+      "metric": "gyrate_nm",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.7250297733333332,
+      "between_trajectory_sd": 0.011732880416616917,
+      "minimum_trajectory_mean": 0.711832,
+      "maximum_trajectory_mean": 0.73427905
+    },
+    {
+      "window_ns": "8-9",
+      "metric": "protein_internal_hbonds",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 12.443333333333333,
+      "between_trajectory_sd": 1.1738966450813855,
+      "minimum_trajectory_mean": 11.58,
+      "maximum_trajectory_mean": 13.78
+    },
+    {
+      "window_ns": "9-10",
+      "metric": "ca_rmsd_nmr1_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9372570593655264,
+      "between_trajectory_sd": 0.21216968472972114,
+      "minimum_trajectory_mean": 0.8080740309995808,
+      "maximum_trajectory_mean": 1.1821255382582527
+    },
+    {
+      "window_ns": "9-10",
+      "metric": "q_ca_7A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9510666666666667,
+      "between_trajectory_sd": 0.0328812003025032,
+      "minimum_trajectory_mean": 0.9196,
+      "maximum_trajectory_mean": 0.9852000000000001
+    },
+    {
+      "window_ns": "9-10",
+      "metric": "q_ca_8A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9577777777777777,
+      "between_trajectory_sd": 0.030000510147687762,
+      "minimum_trajectory_mean": 0.9278787878787879,
+      "maximum_trajectory_mean": 0.9878787878787878
+    },
+    {
+      "window_ns": "9-10",
+      "metric": "q_ca_9A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9704487179487179,
+      "between_trajectory_sd": 0.022219931259291788,
+      "minimum_trajectory_mean": 0.9478846153846153,
+      "maximum_trajectory_mean": 0.9923076923076922
+    },
+    {
+      "window_ns": "9-10",
+      "metric": "heavy_min_6_12_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.5806884066365257,
+      "between_trajectory_sd": 0.029399920622242275,
+      "minimum_trajectory_mean": 3.5473431533617417,
+      "maximum_trajectory_mean": 3.6028770006074438
+    },
+    {
+      "window_ns": "9-10",
+      "metric": "sidechain_min_6_12_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.8337251416873275,
+      "between_trajectory_sd": 0.04154995974702291,
+      "minimum_trajectory_mean": 3.8060630737240557,
+      "maximum_trajectory_mean": 3.881504764033956
+    },
+    {
+      "window_ns": "9-10",
+      "metric": "heavy_min_6_18_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.5696408605692898,
+      "between_trajectory_sd": 0.024574710071279707,
+      "minimum_trajectory_mean": 3.5419472933764116,
+      "maximum_trajectory_mean": 3.58884638722615
+    },
+    {
+      "window_ns": "9-10",
+      "metric": "sidechain_min_6_18_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.740760860780517,
+      "between_trajectory_sd": 0.06357509978886441,
+      "minimum_trajectory_mean": 3.7033878448304796,
+      "maximum_trajectory_mean": 3.8141669865563093
+    },
+    {
+      "window_ns": "9-10",
+      "metric": "heavy_min_3_19_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.992716246433664,
+      "between_trajectory_sd": 0.31350877292069446,
+      "minimum_trajectory_mean": 3.717604533348595,
+      "maximum_trajectory_mean": 4.334043812717243
+    },
+    {
+      "window_ns": "9-10",
+      "metric": "sidechain_min_3_19_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 4.5306160046091435,
+      "between_trajectory_sd": 0.5050789150534093,
+      "minimum_trajectory_mean": 4.069779863795286,
+      "maximum_trajectory_mean": 5.070593841331677
+    },
+    {
+      "window_ns": "9-10",
+      "metric": "backbone_rmsd_common_reference_nm",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.09966702466666667,
+      "between_trajectory_sd": 0.015386175706269411,
+      "minimum_trajectory_mean": 0.08494032199999997,
+      "maximum_trajectory_mean": 0.11563720900000002
+    },
+    {
+      "window_ns": "9-10",
+      "metric": "gyrate_nm",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.7228607666666665,
+      "between_trajectory_sd": 0.01719332474369726,
+      "minimum_trajectory_mean": 0.70335675,
+      "maximum_trajectory_mean": 0.7358229799999999
+    },
+    {
+      "window_ns": "9-10",
+      "metric": "protein_internal_hbonds",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 12.17,
+      "between_trajectory_sd": 1.0041414243023739,
+      "minimum_trajectory_mean": 11.38,
+      "maximum_trajectory_mean": 13.3
+    },
+    {
+      "window_ns": "10-11",
+      "metric": "ca_rmsd_nmr1_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.85649189656659,
+      "between_trajectory_sd": 0.12474051231410373,
+      "minimum_trajectory_mean": 0.7228581295514971,
+      "maximum_trajectory_mean": 0.9698566870883295
+    },
+    {
+      "window_ns": "10-11",
+      "metric": "q_ca_7A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9687128712871288,
+      "between_trajectory_sd": 0.020302583157190128,
+      "minimum_trajectory_mean": 0.9473267326732675,
+      "maximum_trajectory_mean": 0.9877227722772278
+    },
+    {
+      "window_ns": "10-11",
+      "metric": "q_ca_8A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9722972297229721,
+      "between_trajectory_sd": 0.02010275653045675,
+      "minimum_trajectory_mean": 0.9504950495049502,
+      "maximum_trajectory_mean": 0.9900990099009901
+    },
+    {
+      "window_ns": "10-11",
+      "metric": "q_ca_9A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9807692307692308,
+      "between_trajectory_sd": 0.015288121223264275,
+      "minimum_trajectory_mean": 0.9638233054074637,
+      "maximum_trajectory_mean": 0.9935262757044937
+    },
+    {
+      "window_ns": "10-11",
+      "metric": "heavy_min_6_12_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.5522118139588525,
+      "between_trajectory_sd": 0.022297924016532814,
+      "minimum_trajectory_mean": 3.536841598753326,
+      "maximum_trajectory_mean": 3.57778587845823
+    },
+    {
+      "window_ns": "10-11",
+      "metric": "sidechain_min_6_12_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.8239104945231985,
+      "between_trajectory_sd": 0.017699664420152122,
+      "minimum_trajectory_mean": 3.813315386708771,
+      "maximum_trajectory_mean": 3.844343631946963
+    },
+    {
+      "window_ns": "10-11",
+      "metric": "heavy_min_6_18_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.5729300549365974,
+      "between_trajectory_sd": 0.030828633136097627,
+      "minimum_trajectory_mean": 3.5460266163224246,
+      "maximum_trajectory_mean": 3.6065698490426876
+    },
+    {
+      "window_ns": "10-11",
+      "metric": "sidechain_min_6_18_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.711704183649767,
+      "between_trajectory_sd": 0.0332717224159789,
+      "minimum_trajectory_mean": 3.680198786226293,
+      "maximum_trajectory_mean": 3.746498021046406
+    },
+    {
+      "window_ns": "10-11",
+      "metric": "heavy_min_3_19_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.980425981168107,
+      "between_trajectory_sd": 0.27167088376798526,
+      "minimum_trajectory_mean": 3.730267670143685,
+      "maximum_trajectory_mean": 4.269427934534474
+    },
+    {
+      "window_ns": "10-11",
+      "metric": "sidechain_min_3_19_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 4.494678990051076,
+      "between_trajectory_sd": 0.5166044503525611,
+      "minimum_trajectory_mean": 3.96562023878234,
+      "maximum_trajectory_mean": 4.997856194930853
+    },
+    {
+      "window_ns": "10-11",
+      "metric": "backbone_rmsd_common_reference_nm",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.09761862013201321,
+      "between_trajectory_sd": 0.014027971821868464,
+      "minimum_trajectory_mean": 0.08304724356435644,
+      "maximum_trajectory_mean": 0.11103131683168314
+    },
+    {
+      "window_ns": "10-11",
+      "metric": "gyrate_nm",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.7159053993399341,
+      "between_trajectory_sd": 0.018856299800613235,
+      "minimum_trajectory_mean": 0.7020273762376239,
+      "maximum_trajectory_mean": 0.7373740495049507
+    },
+    {
+      "window_ns": "10-11",
+      "metric": "protein_internal_hbonds",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 12.726072607260726,
+      "between_trajectory_sd": 1.9286440849479207,
+      "minimum_trajectory_mean": 10.861386138613861,
+      "maximum_trajectory_mean": 14.712871287128714
+    },
+    {
+      "window_ns": "8-11",
+      "metric": "ca_rmsd_nmr1_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.8648731862079346,
+      "between_trajectory_sd": 0.10914027916623997,
+      "minimum_trajectory_mean": 0.8005768396049885,
+      "maximum_trajectory_mean": 0.9908887414725804
+    },
+    {
+      "window_ns": "8-11",
+      "metric": "q_ca_7A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9622591362126247,
+      "between_trajectory_sd": 0.0252774801939551,
+      "minimum_trajectory_mean": 0.9383388704318939,
+      "maximum_trajectory_mean": 0.9887043189368772
+    },
+    {
+      "window_ns": "8-11",
+      "metric": "q_ca_8A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9678177120037587,
+      "between_trajectory_sd": 0.022906569040132406,
+      "minimum_trajectory_mean": 0.945132386992852,
+      "maximum_trajectory_mean": 0.9909392932648746
+    },
+    {
+      "window_ns": "8-11",
+      "metric": "q_ca_9A",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.9779367918902803,
+      "between_trajectory_sd": 0.016555462268785685,
+      "minimum_trajectory_mean": 0.9610912343470484,
+      "maximum_trajectory_mean": 0.9941860465116279
+    },
+    {
+      "window_ns": "8-11",
+      "metric": "heavy_min_6_12_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.5696025621328746,
+      "between_trajectory_sd": 0.013029853904147546,
+      "minimum_trajectory_mean": 3.562039778042631,
+      "maximum_trajectory_mean": 3.584648070449
+    },
+    {
+      "window_ns": "8-11",
+      "metric": "sidechain_min_6_12_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.819734635965656,
+      "between_trajectory_sd": 0.010644594896729148,
+      "minimum_trajectory_mean": 3.8088289922507985,
+      "maximum_trajectory_mean": 3.8300974070986795
+    },
+    {
+      "window_ns": "8-11",
+      "metric": "heavy_min_6_18_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.5802249877193675,
+      "between_trajectory_sd": 0.015767533508079357,
+      "minimum_trajectory_mean": 3.5694285716649015,
+      "maximum_trajectory_mean": 3.5983193827022406
+    },
+    {
+      "window_ns": "8-11",
+      "metric": "sidechain_min_6_18_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.727411781363323,
+      "between_trajectory_sd": 0.02211045518081604,
+      "minimum_trajectory_mean": 3.713675584088741,
+      "maximum_trajectory_mean": 3.7529174735048247
+    },
+    {
+      "window_ns": "8-11",
+      "metric": "heavy_min_3_19_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 3.935888481895859,
+      "between_trajectory_sd": 0.21307163869346366,
+      "minimum_trajectory_mean": 3.7468718880340486,
+      "maximum_trajectory_mean": 4.16679351137259
+    },
+    {
+      "window_ns": "8-11",
+      "metric": "sidechain_min_3_19_angstrom",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 4.462328369043104,
+      "between_trajectory_sd": 0.3463324064690242,
+      "minimum_trajectory_mean": 4.102247055372889,
+      "maximum_trajectory_mean": 4.793041589504687
+    },
+    {
+      "window_ns": "8-11",
+      "metric": "backbone_rmsd_common_reference_nm",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.09468130575858251,
+      "between_trajectory_sd": 0.008920165698478361,
+      "minimum_trajectory_mean": 0.08443046046511628,
+      "maximum_trajectory_mean": 0.1006782122923588
+    },
+    {
+      "window_ns": "8-11",
+      "metric": "gyrate_nm",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 0.7212475060908083,
+      "between_trajectory_sd": 0.015073973199294259,
+      "minimum_trajectory_mean": 0.7057263787375414,
+      "maximum_trajectory_mean": 0.7358305049833888
+    },
+    {
+      "window_ns": "8-11",
+      "metric": "protein_internal_hbonds",
+      "n_trajectories": 3,
+      "mean_of_trajectory_means": 12.447397563676633,
+      "between_trajectory_sd": 1.3220810466779187,
+      "minimum_trajectory_mean": 11.401993355481727,
+      "maximum_trajectory_mean": 13.933554817275747
+    }
+  ]
+}

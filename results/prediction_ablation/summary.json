@@ -1,0 +1,269 @@
+{
+  "all_nine_runs_verified": true,
+  "plan_sha256": "43cef94314b04e3afdd3586d9d841c252b58e5871e1547a859bee88b8937abc0",
+  "reference_nmr_sha256": "5d1bbb545a312dfff1ae1e64b6d8addecb2f561ddc4011aeb5bee9d1dfcd4438",
+  "reference_models": 38,
+  "rows": [
+    {
+      "condition": "query_only",
+      "seed": 42,
+      "mean_plddt": 88.2055,
+      "mean_pae_angstrom": 3.0953500000000003,
+      "maximum_pae_angstrom": 12.2,
+      "ptm_json_rounded": 0.11,
+      "model1_ca_rmsd_angstrom": 0.6104915663531401,
+      "minimum_ca_rmsd_angstrom": 0.5081268902193374,
+      "median_ca_rmsd_angstrom": 0.9066604991529559,
+      "maximum_ca_rmsd_angstrom": 1.320588136092027,
+      "median_interior_global_fit_rmsd_angstrom": 0.6466631351919813,
+      "median_terminal_global_fit_rmsd_angstrom": 1.5478083488382322,
+      "interior_mean_plddt": 88.729375,
+      "terminal_mean_plddt": 86.11,
+      "residue_plddt_error_pearson_descriptive": -0.4684122848898385,
+      "effective_max_seq": 1,
+      "effective_max_extra_seq": 1,
+      "colabfold_version": "1.6.3",
+      "msa_mode_config": "mmseqs2_uniref_env",
+      "query_only_is_no_external_homolog": true
+    },
+    {
+      "condition": "query_only",
+      "seed": 2026,
+      "mean_plddt": 88.24100000000001,
+      "mean_pae_angstrom": 3.0942250000000002,
+      "maximum_pae_angstrom": 12.33,
+      "ptm_json_rounded": 0.11,
+      "model1_ca_rmsd_angstrom": 0.608063629837344,
+      "minimum_ca_rmsd_angstrom": 0.5173118215781313,
+      "median_ca_rmsd_angstrom": 0.902509824220032,
+      "maximum_ca_rmsd_angstrom": 1.3069533550283419,
+      "median_interior_global_fit_rmsd_angstrom": 0.6444661489911099,
+      "median_terminal_global_fit_rmsd_angstrom": 1.5315512676452911,
+      "interior_mean_plddt": 88.7975,
+      "terminal_mean_plddt": 86.015,
+      "residue_plddt_error_pearson_descriptive": -0.48388574811342333,
+      "effective_max_seq": 1,
+      "effective_max_extra_seq": 1,
+      "colabfold_version": "1.6.3",
+      "msa_mode_config": "mmseqs2_uniref_env",
+      "query_only_is_no_external_homolog": true
+    },
+    {
+      "condition": "query_only",
+      "seed": 20261110,
+      "mean_plddt": 87.3445,
+      "mean_pae_angstrom": 3.2367749999999997,
+      "maximum_pae_angstrom": 11.83,
+      "ptm_json_rounded": 0.11,
+      "model1_ca_rmsd_angstrom": 0.6597713359660039,
+      "minimum_ca_rmsd_angstrom": 0.5248417512604165,
+      "median_ca_rmsd_angstrom": 0.9347010551642342,
+      "maximum_ca_rmsd_angstrom": 1.3340370067994085,
+      "median_interior_global_fit_rmsd_angstrom": 0.6918750403623957,
+      "median_terminal_global_fit_rmsd_angstrom": 1.533545837123258,
+      "interior_mean_plddt": 87.89125,
+      "terminal_mean_plddt": 85.1575,
+      "residue_plddt_error_pearson_descriptive": -0.4541774911603032,
+      "effective_max_seq": 1,
+      "effective_max_extra_seq": 1,
+      "colabfold_version": "1.6.3",
+      "msa_mode_config": "mmseqs2_uniref_env",
+      "query_only_is_no_external_homolog": true
+    },
+    {
+      "condition": "deduplicated_saved_msa",
+      "seed": 42,
+      "mean_plddt": 88.8475,
+      "mean_pae_angstrom": 3.0566750000000003,
+      "maximum_pae_angstrom": 14.62,
+      "ptm_json_rounded": 0.12,
+      "model1_ca_rmsd_angstrom": 0.7847701192260951,
+      "minimum_ca_rmsd_angstrom": 0.5097289408509503,
+      "median_ca_rmsd_angstrom": 0.9066065964764427,
+      "maximum_ca_rmsd_angstrom": 1.3074864720140753,
+      "median_interior_global_fit_rmsd_angstrom": 0.7752676471382892,
+      "median_terminal_global_fit_rmsd_angstrom": 1.3457959619488635,
+      "interior_mean_plddt": 89.750625,
+      "terminal_mean_plddt": 85.235,
+      "residue_plddt_error_pearson_descriptive": -0.5092046520979824,
+      "effective_max_seq": 2,
+      "effective_max_extra_seq": 1,
+      "colabfold_version": "1.6.3",
+      "msa_mode_config": "mmseqs2_uniref_env",
+      "query_only_is_no_external_homolog": false
+    },
+    {
+      "condition": "deduplicated_saved_msa",
+      "seed": 2026,
+      "mean_plddt": 90.857,
+      "mean_pae_angstrom": 2.8101249999999998,
+      "maximum_pae_angstrom": 15.21,
+      "ptm_json_rounded": 0.12,
+      "model1_ca_rmsd_angstrom": 0.7218271783083368,
+      "minimum_ca_rmsd_angstrom": 0.46093214145327616,
+      "median_ca_rmsd_angstrom": 0.8559933243828328,
+      "maximum_ca_rmsd_angstrom": 1.2587547136417763,
+      "median_interior_global_fit_rmsd_angstrom": 0.7046138870684577,
+      "median_terminal_global_fit_rmsd_angstrom": 1.3162001229085623,
+      "interior_mean_plddt": 91.829375,
+      "terminal_mean_plddt": 86.9675,
+      "residue_plddt_error_pearson_descriptive": -0.49128168531440486,
+      "effective_max_seq": 2,
+      "effective_max_extra_seq": 1,
+      "colabfold_version": "1.6.3",
+      "msa_mode_config": "mmseqs2_uniref_env",
+      "query_only_is_no_external_homolog": false
+    },
+    {
+      "condition": "deduplicated_saved_msa",
+      "seed": 20261110,
+      "mean_plddt": 73.1745,
+      "mean_pae_angstrom": 6.1270500000000006,
+      "maximum_pae_angstrom": 16.97,
+      "ptm_json_rounded": 0.09,
+      "model1_ca_rmsd_angstrom": 2.8176911960112383,
+      "minimum_ca_rmsd_angstrom": 2.566926585767348,
+      "median_ca_rmsd_angstrom": 2.8261278769497027,
+      "maximum_ca_rmsd_angstrom": 3.04386382622811,
+      "median_interior_global_fit_rmsd_angstrom": 2.966966214916922,
+      "median_terminal_global_fit_rmsd_angstrom": 2.2360779161720004,
+      "interior_mean_plddt": 73.659375,
+      "terminal_mean_plddt": 71.235,
+      "residue_plddt_error_pearson_descriptive": -0.7677667595073917,
+      "effective_max_seq": 2,
+      "effective_max_extra_seq": 1,
+      "colabfold_version": "1.6.3",
+      "msa_mode_config": "mmseqs2_uniref_env",
+      "query_only_is_no_external_homolog": false
+    },
+    {
+      "condition": "raw_saved_msa",
+      "seed": 42,
+      "mean_plddt": 90.1665,
+      "mean_pae_angstrom": 2.932775,
+      "maximum_pae_angstrom": 15.42,
+      "ptm_json_rounded": 0.12,
+      "model1_ca_rmsd_angstrom": 0.7057981937874785,
+      "minimum_ca_rmsd_angstrom": 0.46205470243146096,
+      "median_ca_rmsd_angstrom": 0.8584228100310114,
+      "maximum_ca_rmsd_angstrom": 1.2576484065632654,
+      "median_interior_global_fit_rmsd_angstrom": 0.6980779842095921,
+      "median_terminal_global_fit_rmsd_angstrom": 1.3238726017259652,
+      "interior_mean_plddt": 91.013125,
+      "terminal_mean_plddt": 86.78,
+      "residue_plddt_error_pearson_descriptive": -0.417330432757963,
+      "effective_max_seq": 3,
+      "effective_max_extra_seq": 1,
+      "colabfold_version": "1.6.3",
+      "msa_mode_config": "mmseqs2_uniref_env",
+      "query_only_is_no_external_homolog": false
+    },
+    {
+      "condition": "raw_saved_msa",
+      "seed": 2026,
+      "mean_plddt": 88.7435,
+      "mean_pae_angstrom": 3.178125,
+      "maximum_pae_angstrom": 15.59,
+      "ptm_json_rounded": 0.12,
+      "model1_ca_rmsd_angstrom": 0.752966141512525,
+      "minimum_ca_rmsd_angstrom": 0.490876100647908,
+      "median_ca_rmsd_angstrom": 0.8901877824002816,
+      "maximum_ca_rmsd_angstrom": 1.300792458083772,
+      "median_interior_global_fit_rmsd_angstrom": 0.754948633901074,
+      "median_terminal_global_fit_rmsd_angstrom": 1.3418010050175853,
+      "interior_mean_plddt": 89.491875,
+      "terminal_mean_plddt": 85.75,
+      "residue_plddt_error_pearson_descriptive": -0.3883465243033562,
+      "effective_max_seq": 3,
+      "effective_max_extra_seq": 1,
+      "colabfold_version": "1.6.3",
+      "msa_mode_config": "mmseqs2_uniref_env",
+      "query_only_is_no_external_homolog": false
+    },
+    {
+      "condition": "raw_saved_msa",
+      "seed": 20261110,
+      "mean_plddt": 88.7915,
+      "mean_pae_angstrom": 3.1757,
+      "maximum_pae_angstrom": 15.45,
+      "ptm_json_rounded": 0.11,
+      "model1_ca_rmsd_angstrom": 0.7635074059366218,
+      "minimum_ca_rmsd_angstrom": 0.495575762814852,
+      "median_ca_rmsd_angstrom": 0.9020647147881782,
+      "maximum_ca_rmsd_angstrom": 1.305316440516615,
+      "median_interior_global_fit_rmsd_angstrom": 0.7523643854257938,
+      "median_terminal_global_fit_rmsd_angstrom": 1.3705804044299974,
+      "interior_mean_plddt": 89.500625,
+      "terminal_mean_plddt": 85.955,
+      "residue_plddt_error_pearson_descriptive": -0.4047210940541592,
+      "effective_max_seq": 3,
+      "effective_max_extra_seq": 1,
+      "colabfold_version": "1.6.3",
+      "msa_mode_config": "mmseqs2_uniref_env",
+      "query_only_is_no_external_homolog": false
+    }
+  ],
+  "condition_descriptive_summary": {
+    "query_only": {
+      "mean_of_seed_median_rmsd_angstrom": 0.9146237928457407,
+      "range_of_seed_median_rmsd_angstrom": [
+        0.902509824220032,
+        0.9347010551642342
+      ],
+      "mean_plddt_over_seeds": 87.93033333333334
+    },
+    "deduplicated_saved_msa": {
+      "mean_of_seed_median_rmsd_angstrom": 1.5295759326029927,
+      "range_of_seed_median_rmsd_angstrom": [
+        0.8559933243828328,
+        2.8261278769497027
+      ],
+      "mean_plddt_over_seeds": 84.29299999999999
+    },
+    "raw_saved_msa": {
+      "mean_of_seed_median_rmsd_angstrom": 0.8835584357398237,
+      "range_of_seed_median_rmsd_angstrom": [
+        0.8584228100310114,
+        0.9020647147881782
+      ],
+      "mean_plddt_over_seeds": 89.23383333333334
+    }
+  },
+  "paired_contrasts": {
+    "deduplicated_saved_msa_minus_query_only": [
+      {
+        "seed": 42,
+        "delta_median_ca_rmsd_angstrom": -5.3902676513173375e-05,
+        "delta_mean_plddt": 0.6419999999999959
+      },
+      {
+        "seed": 2026,
+        "delta_median_ca_rmsd_angstrom": -0.04651649983719919,
+        "delta_mean_plddt": 2.6159999999999854
+      },
+      {
+        "seed": 20261110,
+        "delta_median_ca_rmsd_angstrom": 1.8914268217854686,
+        "delta_mean_plddt": -14.170000000000002
+      }
+    ],
+    "raw_saved_msa_minus_deduplicated_saved_msa": [
+      {
+        "seed": 42,
+        "delta_median_ca_rmsd_angstrom": -0.04818378644543131,
+        "delta_mean_plddt": 1.3190000000000026
+      },
+      {
+        "seed": 2026,
+        "delta_median_ca_rmsd_angstrom": 0.0341944580174488,
+        "delta_mean_plddt": -2.113500000000002
+      },
+      {
+        "seed": 20261110,
+        "delta_median_ca_rmsd_angstrom": -1.9240631621615245,
+        "delta_mean_plddt": 15.617000000000004
+      }
+    ]
+  },
+  "interpretation_limits": "These are three paired random seeds on one known peptide, not independent targets or proof of generalization. NMR models are not statistical replicates. The interior subset is a positional definition, not a claimed hydrophobic core. No selecting the best seed or NMR model. max_seq/max_extra_seq are effective capacity settings, not Neff; input unique aligned counts are reported separately. pLDDT-error correlations and condition shifts here are descriptive; no causal or population claim follows. Query-only still uses the same MSA-capable AlphaFold2 model and is not ESMFold. Raw and deduplicated inputs share the same two unique aligned sequences; their different row layout and effective capacity can alter stochastic feature processing, so differences cannot be attributed solely to additional evolutionary information. This historical peptide has not been established as held out from model training."
+}

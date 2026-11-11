@@ -1,0 +1,159 @@
+{
+  "status": "passed",
+  "started_unix": 1794401546.1732,
+  "pid": 46185,
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.11.18 (main, Oct 26 2026, 11:32:31) [Clang 21.1.8 ]",
+  "numpy": "1.26.4",
+  "biopython": "1.88",
+  "workers": 6,
+  "script_sha256": "d01e6d1d1643a23f588c34365040221f9914381d6d0914aeb21fc16d4f2f3391",
+  "input_sha256": {
+    "1L2Y.pdb": "5d1bbb545a312dfff1ae1e64b6d8addecb2f561ddc4011aeb5bee9d1dfcd4438",
+    "old_references.csv": "bc40661323a077b182c475891b777e2eea90a52979e755d87afd76cf381f0ca5",
+    "new_references.csv": "b124a0a72ac0a02d7265328f4d7e85260a8af666210597a891c0532fd3b4c7b2",
+    "20261110/timeseries.csv": "08fd2d41a5befa9c4cc8f9cefed06a18aa3fcfa5aec0170dd50faad9676df639",
+    "20261110/protein_whole.gro": "a0b60398712a31480448c9b30f2888ac377ec73b487aa8ec5b515f463d39c79d",
+    "20261111/timeseries.csv": "1b95a20fd0230af7b456519ebe1f94311f96f18eb5d3f77fc5601d8fe6ab1333",
+    "20261111/protein_whole.gro": "75f74072ba2bd62aef2cbb7093019a61447dfb49b47a089f9c9b072e5790af13",
+    "20261114/timeseries.csv": "254db4d995603f93c0fe9ce185177de3ec25d46b8764bac66603f0d710b51217",
+    "20261114/protein_whole.gro": "627eccbaedd155f5297344126cfda6bb7689945c1cb61c13ca324911f43b99a3",
+    "20261113/timeseries.csv": "af4b27e76e18a699b5af323d88f20aa56136d1fdf7c186de3a265e61471aef4a",
+    "20261113/protein_whole.gro": "38cbfa70253989426d64adfd0d5139ecd6fc8a4c09cca45945c6b37c4705cd62",
+    "20261112/timeseries.csv": "a724ca661945f3e6203c62825da337477b57b6990d6b3b2dd775312aadbb9715",
+    "20261112/protein_whole.gro": "06ce062b2e49e153eaf1ce6831ebc6ba1bb8cf61c75e7c5566706d597a55aaf6",
+    "20261115/timeseries.csv": "a03014bd68439e95ad467dcc69130098491b9b73dfb7c54becab8b00beef2f97",
+    "20261115/protein_whole.gro": "2ab9de556d87ed1d7e706919469ea790627bfc254550013f11b5bc17e38537e3"
+  },
+  "scope": "Independent parser and Bio.SVDSuperimposer numerical audit of cached whole-protein GRO; not dynamics or PBC re-export verification",
+  "results": [
+    {
+      "seed": 20261110,
+      "frames": 1101,
+      "protein_atoms": 304,
+      "reference_scalar_checks": 342,
+      "max_reference_error_A": 4.440892098500626e-16,
+      "timeseries_max_errors": {
+        "q_ca_7A": 0.0,
+        "q_ca_8A": 0.0,
+        "q_ca_9A": 0.0,
+        "heavy_min_6_12_angstrom": 0.0,
+        "sidechain_min_6_12_angstrom": 0.0,
+        "heavy_min_6_18_angstrom": 0.0,
+        "sidechain_min_6_18_angstrom": 0.0,
+        "heavy_min_3_19_angstrom": 0.0,
+        "sidechain_min_3_19_angstrom": 0.0,
+        "ca_rmsd_nmr1_angstrom": 2.6645352591003757e-15
+      },
+      "elapsed_seconds": 2.811891794204712,
+      "status": "passed"
+    },
+    {
+      "seed": 20261111,
+      "frames": 1101,
+      "protein_atoms": 304,
+      "reference_scalar_checks": 342,
+      "max_reference_error_A": 2.220446049250313e-16,
+      "timeseries_max_errors": {
+        "q_ca_7A": 0.0,
+        "q_ca_8A": 0.0,
+        "q_ca_9A": 0.0,
+        "heavy_min_6_12_angstrom": 0.0,
+        "sidechain_min_6_12_angstrom": 0.0,
+        "heavy_min_6_18_angstrom": 0.0,
+        "sidechain_min_6_18_angstrom": 0.0,
+        "heavy_min_3_19_angstrom": 0.0,
+        "sidechain_min_3_19_angstrom": 0.0,
+        "ca_rmsd_nmr1_angstrom": 1.9984014443252818e-15
+      },
+      "elapsed_seconds": 2.807555913925171,
+      "status": "passed"
+    },
+    {
+      "seed": 20261112,
+      "frames": 1101,
+      "protein_atoms": 304,
+      "reference_scalar_checks": 342,
+      "max_reference_error_A": 2.220446049250313e-16,
+      "timeseries_max_errors": {
+        "q_ca_7A": 0.0,
+        "q_ca_8A": 0.0,
+        "q_ca_9A": 0.0,
+        "heavy_min_6_12_angstrom": 0.0,
+        "sidechain_min_6_12_angstrom": 0.0,
+        "heavy_min_6_18_angstrom": 0.0,
+        "sidechain_min_6_18_angstrom": 0.0,
+        "heavy_min_3_19_angstrom": 0.0,
+        "sidechain_min_3_19_angstrom": 0.0,
+        "ca_rmsd_nmr1_angstrom": 1.4432899320127035e-15
+      },
+      "elapsed_seconds": 2.8595519065856934,
+      "status": "passed"
+    },
+    {
+      "seed": 20261113,
+      "frames": 1101,
+      "protein_atoms": 304,
+      "reference_scalar_checks": 342,
+      "max_reference_error_A": 4.440892098500626e-16,
+      "timeseries_max_errors": {
+        "q_ca_7A": 0.0,
+        "q_ca_8A": 0.0,
+        "q_ca_9A": 0.0,
+        "heavy_min_6_12_angstrom": 0.0,
+        "sidechain_min_6_12_angstrom": 0.0,
+        "heavy_min_6_18_angstrom": 0.0,
+        "sidechain_min_6_18_angstrom": 0.0,
+        "heavy_min_3_19_angstrom": 0.0,
+        "sidechain_min_3_19_angstrom": 0.0,
+        "ca_rmsd_nmr1_angstrom": 2.7755575615628914e-15
+      },
+      "elapsed_seconds": 2.8255701065063477,
+      "status": "passed"
+    },
+    {
+      "seed": 20261114,
+      "frames": 1101,
+      "protein_atoms": 304,
+      "reference_scalar_checks": 342,
+      "max_reference_error_A": 8.881784197001252e-16,
+      "timeseries_max_errors": {
+        "q_ca_7A": 0.0,
+        "q_ca_8A": 0.0,
+        "q_ca_9A": 0.0,
+        "heavy_min_6_12_angstrom": 0.0,
+        "sidechain_min_6_12_angstrom": 0.0,
+        "heavy_min_6_18_angstrom": 0.0,
+        "sidechain_min_6_18_angstrom": 0.0,
+        "heavy_min_3_19_angstrom": 0.0,
+        "sidechain_min_3_19_angstrom": 0.0,
+        "ca_rmsd_nmr1_angstrom": 3.1086244689504383e-15
+      },
+      "elapsed_seconds": 2.8018059730529785,
+      "status": "passed"
+    },
+    {
+      "seed": 20261115,
+      "frames": 1101,
+      "protein_atoms": 304,
+      "reference_scalar_checks": 342,
+      "max_reference_error_A": 4.440892098500626e-16,
+      "timeseries_max_errors": {
+        "q_ca_7A": 0.0,
+        "q_ca_8A": 0.0,
+        "q_ca_9A": 0.0,
+        "heavy_min_6_12_angstrom": 0.0,
+        "sidechain_min_6_12_angstrom": 0.0,
+        "heavy_min_6_18_angstrom": 0.0,
+        "sidechain_min_6_18_angstrom": 0.0,
+        "heavy_min_3_19_angstrom": 0.0,
+        "sidechain_min_3_19_angstrom": 0.0,
+        "ca_rmsd_nmr1_angstrom": 4.440892098500626e-15
+      },
+      "elapsed_seconds": 2.8361480236053467,
+      "status": "passed"
+    }
+  ],
+  "completed_unix": 1794401549.536167
+}

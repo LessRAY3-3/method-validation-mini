@@ -1,0 +1,92 @@
+[
+  {
+    "seed": 42,
+    "first": "raw_saved_msa",
+    "second": "duplicate_homolog",
+    "variant": "baseline",
+    "all_saved_features_equal": true,
+    "query_bert_mask_equal": true,
+    "query_msa_feat_equal": true,
+    "all_bert_masks_equal": true
+  },
+  {
+    "seed": 42,
+    "first": "raw_saved_msa",
+    "second": "duplicate_query",
+    "variant": "baseline",
+    "all_saved_features_equal": false,
+    "query_bert_mask_equal": true,
+    "query_msa_feat_equal": true,
+    "all_bert_masks_equal": true
+  },
+  {
+    "seed": 42,
+    "first": "raw_saved_msa",
+    "second": "deduplicated_saved_msa",
+    "variant": "fixed_capacity_3",
+    "all_saved_features_equal": false,
+    "query_bert_mask_equal": false,
+    "query_msa_feat_equal": false,
+    "all_bert_masks_equal": false
+  },
+  {
+    "seed": 2026,
+    "first": "raw_saved_msa",
+    "second": "duplicate_homolog",
+    "variant": "baseline",
+    "all_saved_features_equal": true,
+    "query_bert_mask_equal": true,
+    "query_msa_feat_equal": true,
+    "all_bert_masks_equal": true
+  },
+  {
+    "seed": 2026,
+    "first": "raw_saved_msa",
+    "second": "duplicate_query",
+    "variant": "baseline",
+    "all_saved_features_equal": false,
+    "query_bert_mask_equal": true,
+    "query_msa_feat_equal": false,
+    "all_bert_masks_equal": true
+  },
+  {
+    "seed": 2026,
+    "first": "raw_saved_msa",
+    "second": "deduplicated_saved_msa",
+    "variant": "fixed_capacity_3",
+    "all_saved_features_equal": false,
+    "query_bert_mask_equal": false,
+    "query_msa_feat_equal": false,
+    "all_bert_masks_equal": false
+  },
+  {
+    "seed": 20261110,
+    "first": "raw_saved_msa",
+    "second": "duplicate_homolog",
+    "variant": "baseline",
+    "all_saved_features_equal": true,
+    "query_bert_mask_equal": true,
+    "query_msa_feat_equal": true,
+    "all_bert_masks_equal": true
+  },
+  {
+    "seed": 20261110,
+    "first": "raw_saved_msa",
+    "second": "duplicate_query",
+    "variant": "baseline",
+    "all_saved_features_equal": false,
+    "query_bert_mask_equal": true,
+    "query_msa_feat_equal": true,
+    "all_bert_masks_equal": true
+  },
+  {
+    "seed": 20261110,
+    "first": "raw_saved_msa",
+    "second": "deduplicated_saved_msa",
+    "variant": "fixed_capacity_3",
+    "all_saved_features_equal": false,
+    "query_bert_mask_equal": false,
+    "query_msa_feat_equal": false,
+    "all_bert_masks_equal": false
+  }
+]

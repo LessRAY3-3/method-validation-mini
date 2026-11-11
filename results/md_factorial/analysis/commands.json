@@ -1,0 +1,890 @@
+[
+  {
+    "cell": "A",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "trjconv",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113/md.xtc",
+      "-o",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/A/seed_20261113/protein_whole.gro",
+      "-pbc",
+      "whole",
+      "-b",
+      "0",
+      "-e",
+      "11000"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "A",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "rms",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/A/seed_20261113/protein_whole.gro",
+      "-o",
+      "rmsd.xvg",
+      "-tu",
+      "ns"
+    ],
+    "selection": "Backbone\nBackbone\n",
+    "returncode": 0
+  },
+  {
+    "cell": "A",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "gyrate",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/A/seed_20261113/protein_whole.gro",
+      "-o",
+      "gyrate.xvg"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "A",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "hbond",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/A/seed_20261113/protein_whole.gro",
+      "-num",
+      "hbond.xvg",
+      "-o",
+      "hbond.ndx"
+    ],
+    "selection": "Protein\nProtein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "A",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "trjconv",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114/md.xtc",
+      "-o",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/A/seed_20261114/protein_whole.gro",
+      "-pbc",
+      "whole",
+      "-b",
+      "0",
+      "-e",
+      "11000"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "A",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "rms",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/A/seed_20261114/protein_whole.gro",
+      "-o",
+      "rmsd.xvg",
+      "-tu",
+      "ns"
+    ],
+    "selection": "Backbone\nBackbone\n",
+    "returncode": 0
+  },
+  {
+    "cell": "A",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "gyrate",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/A/seed_20261114/protein_whole.gro",
+      "-o",
+      "gyrate.xvg"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "A",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "hbond",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/A/seed_20261114/protein_whole.gro",
+      "-num",
+      "hbond.xvg",
+      "-o",
+      "hbond.ndx"
+    ],
+    "selection": "Protein\nProtein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "A",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "trjconv",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115/md.xtc",
+      "-o",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/A/seed_20261115/protein_whole.gro",
+      "-pbc",
+      "whole",
+      "-b",
+      "0",
+      "-e",
+      "11000"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "A",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "rms",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/A/seed_20261115/protein_whole.gro",
+      "-o",
+      "rmsd.xvg",
+      "-tu",
+      "ns"
+    ],
+    "selection": "Backbone\nBackbone\n",
+    "returncode": 0
+  },
+  {
+    "cell": "A",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "gyrate",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/A/seed_20261115/protein_whole.gro",
+      "-o",
+      "gyrate.xvg"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "A",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "hbond",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/A/seed_20261115/protein_whole.gro",
+      "-num",
+      "hbond.xvg",
+      "-o",
+      "hbond.ndx"
+    ],
+    "selection": "Protein\nProtein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "B",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "trjconv",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261113/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261113/md.xtc",
+      "-o",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/B/seed_20261113/protein_whole.gro",
+      "-pbc",
+      "whole",
+      "-b",
+      "0",
+      "-e",
+      "11000"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "B",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "rms",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/B/seed_20261113/protein_whole.gro",
+      "-o",
+      "rmsd.xvg",
+      "-tu",
+      "ns"
+    ],
+    "selection": "Backbone\nBackbone\n",
+    "returncode": 0
+  },
+  {
+    "cell": "B",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "gyrate",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261113/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/B/seed_20261113/protein_whole.gro",
+      "-o",
+      "gyrate.xvg"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "B",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "hbond",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261113/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/B/seed_20261113/protein_whole.gro",
+      "-num",
+      "hbond.xvg",
+      "-o",
+      "hbond.ndx"
+    ],
+    "selection": "Protein\nProtein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "B",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "trjconv",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261114/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261114/md.xtc",
+      "-o",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/B/seed_20261114/protein_whole.gro",
+      "-pbc",
+      "whole",
+      "-b",
+      "0",
+      "-e",
+      "11000"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "B",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "rms",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/B/seed_20261114/protein_whole.gro",
+      "-o",
+      "rmsd.xvg",
+      "-tu",
+      "ns"
+    ],
+    "selection": "Backbone\nBackbone\n",
+    "returncode": 0
+  },
+  {
+    "cell": "B",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "gyrate",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261114/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/B/seed_20261114/protein_whole.gro",
+      "-o",
+      "gyrate.xvg"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "B",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "hbond",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261114/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/B/seed_20261114/protein_whole.gro",
+      "-num",
+      "hbond.xvg",
+      "-o",
+      "hbond.ndx"
+    ],
+    "selection": "Protein\nProtein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "B",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "trjconv",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261115/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261115/md.xtc",
+      "-o",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/B/seed_20261115/protein_whole.gro",
+      "-pbc",
+      "whole",
+      "-b",
+      "0",
+      "-e",
+      "11000"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "B",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "rms",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/B/seed_20261115/protein_whole.gro",
+      "-o",
+      "rmsd.xvg",
+      "-tu",
+      "ns"
+    ],
+    "selection": "Backbone\nBackbone\n",
+    "returncode": 0
+  },
+  {
+    "cell": "B",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "gyrate",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261115/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/B/seed_20261115/protein_whole.gro",
+      "-o",
+      "gyrate.xvg"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "B",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "hbond",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261115/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/B/seed_20261115/protein_whole.gro",
+      "-num",
+      "hbond.xvg",
+      "-o",
+      "hbond.ndx"
+    ],
+    "selection": "Protein\nProtein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "C",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "trjconv",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261113/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261113/md.xtc",
+      "-o",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/C/seed_20261113/protein_whole.gro",
+      "-pbc",
+      "whole",
+      "-b",
+      "0",
+      "-e",
+      "11000"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "C",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "rms",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/C/seed_20261113/protein_whole.gro",
+      "-o",
+      "rmsd.xvg",
+      "-tu",
+      "ns"
+    ],
+    "selection": "Backbone\nBackbone\n",
+    "returncode": 0
+  },
+  {
+    "cell": "C",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "gyrate",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261113/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/C/seed_20261113/protein_whole.gro",
+      "-o",
+      "gyrate.xvg"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "C",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "hbond",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261113/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/C/seed_20261113/protein_whole.gro",
+      "-num",
+      "hbond.xvg",
+      "-o",
+      "hbond.ndx"
+    ],
+    "selection": "Protein\nProtein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "C",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "trjconv",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261114/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261114/md.xtc",
+      "-o",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/C/seed_20261114/protein_whole.gro",
+      "-pbc",
+      "whole",
+      "-b",
+      "0",
+      "-e",
+      "11000"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "C",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "rms",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/C/seed_20261114/protein_whole.gro",
+      "-o",
+      "rmsd.xvg",
+      "-tu",
+      "ns"
+    ],
+    "selection": "Backbone\nBackbone\n",
+    "returncode": 0
+  },
+  {
+    "cell": "C",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "gyrate",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261114/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/C/seed_20261114/protein_whole.gro",
+      "-o",
+      "gyrate.xvg"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "C",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "hbond",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261114/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/C/seed_20261114/protein_whole.gro",
+      "-num",
+      "hbond.xvg",
+      "-o",
+      "hbond.ndx"
+    ],
+    "selection": "Protein\nProtein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "C",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "trjconv",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261115/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261115/md.xtc",
+      "-o",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/C/seed_20261115/protein_whole.gro",
+      "-pbc",
+      "whole",
+      "-b",
+      "0",
+      "-e",
+      "11000"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "C",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "rms",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/C/seed_20261115/protein_whole.gro",
+      "-o",
+      "rmsd.xvg",
+      "-tu",
+      "ns"
+    ],
+    "selection": "Backbone\nBackbone\n",
+    "returncode": 0
+  },
+  {
+    "cell": "C",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "gyrate",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261115/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/C/seed_20261115/protein_whole.gro",
+      "-o",
+      "gyrate.xvg"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "C",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "hbond",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261115/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/C/seed_20261115/protein_whole.gro",
+      "-num",
+      "hbond.xvg",
+      "-o",
+      "hbond.ndx"
+    ],
+    "selection": "Protein\nProtein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "D",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "trjconv",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261113/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261113/md.xtc",
+      "-o",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/D/seed_20261113/protein_whole.gro",
+      "-pbc",
+      "whole",
+      "-b",
+      "0",
+      "-e",
+      "11000"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "D",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "rms",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/D/seed_20261113/protein_whole.gro",
+      "-o",
+      "rmsd.xvg",
+      "-tu",
+      "ns"
+    ],
+    "selection": "Backbone\nBackbone\n",
+    "returncode": 0
+  },
+  {
+    "cell": "D",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "gyrate",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261113/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/D/seed_20261113/protein_whole.gro",
+      "-o",
+      "gyrate.xvg"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "D",
+    "seed": 20261113,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "hbond",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261113/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/D/seed_20261113/protein_whole.gro",
+      "-num",
+      "hbond.xvg",
+      "-o",
+      "hbond.ndx"
+    ],
+    "selection": "Protein\nProtein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "D",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "trjconv",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261114/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261114/md.xtc",
+      "-o",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/D/seed_20261114/protein_whole.gro",
+      "-pbc",
+      "whole",
+      "-b",
+      "0",
+      "-e",
+      "11000"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "D",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "rms",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/D/seed_20261114/protein_whole.gro",
+      "-o",
+      "rmsd.xvg",
+      "-tu",
+      "ns"
+    ],
+    "selection": "Backbone\nBackbone\n",
+    "returncode": 0
+  },
+  {
+    "cell": "D",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "gyrate",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261114/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/D/seed_20261114/protein_whole.gro",
+      "-o",
+      "gyrate.xvg"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "D",
+    "seed": 20261114,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "hbond",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261114/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/D/seed_20261114/protein_whole.gro",
+      "-num",
+      "hbond.xvg",
+      "-o",
+      "hbond.ndx"
+    ],
+    "selection": "Protein\nProtein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "D",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "trjconv",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261115/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261115/md.xtc",
+      "-o",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/D/seed_20261115/protein_whole.gro",
+      "-pbc",
+      "whole",
+      "-b",
+      "0",
+      "-e",
+      "11000"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "D",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "rms",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/D/seed_20261115/protein_whole.gro",
+      "-o",
+      "rmsd.xvg",
+      "-tu",
+      "ns"
+    ],
+    "selection": "Backbone\nBackbone\n",
+    "returncode": 0
+  },
+  {
+    "cell": "D",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "gyrate",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261115/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/D/seed_20261115/protein_whole.gro",
+      "-o",
+      "gyrate.xvg"
+    ],
+    "selection": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "cell": "D",
+    "seed": 20261115,
+    "argv": [
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+      "hbond",
+      "-s",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261115/md.tpr",
+      "-f",
+      "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/analysis/D/seed_20261115/protein_whole.gro",
+      "-num",
+      "hbond.xvg",
+      "-o",
+      "hbond.ndx"
+    ],
+    "selection": "Protein\nProtein\n",
+    "returncode": 0
+  }
+]

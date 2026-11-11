@@ -1,0 +1,42 @@
+{
+  "first_directory": "results/prediction/reproducibility_check",
+  "second_directory": "results/prediction/reproducibility_check_repeat",
+  "current_output_hashes_match_provenance": true,
+  "actual_recycles_and_version_match_logs": true,
+  "compared_input_fields": [
+    "input_msa_sha256",
+    "weights_model_1_ptm_sha256",
+    "random_seed",
+    "model_type",
+    "effective_max_seq",
+    "effective_max_extra_seq",
+    "version",
+    "recycles_observed"
+  ],
+  "fixed_inputs_equal": true,
+  "repeat_equal": {
+    "plddt": true,
+    "pae": true,
+    "ptm": true,
+    "pdb_sha256": true
+  },
+  "passed": true,
+  "historical_online": {
+    "mean_plddt": 85.2995,
+    "mean_pae_angstrom": 3.8453500000000003,
+    "maximum_pae_angstrom": 14.7,
+    "ptm_rounded_in_json": 0.11
+  },
+  "fixed_msa_offline": {
+    "mean_plddt": 88.7915,
+    "mean_pae_angstrom": 3.1757,
+    "maximum_pae_angstrom": 15.45,
+    "ptm_rounded_in_json": 0.11
+  },
+  "observed_max_seq": [
+    3,
+    3
+  ],
+  "historical_and_offline_scores_identical": false,
+  "interpretation": "The two supplied saved-MSA runs agree on the compared inputs, scores and current PDB bytes. Their scores differ from the historical archived run; do not describe this as numerical reproduction of that route. This check validates the retained output/log/config evidence, not independent retrieval of unavailable original input files. pTM in scores JSON is rounded to two decimals; logs retain more precision."
+}

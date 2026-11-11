@@ -1,0 +1,17 @@
+{
+  "observed_unix": 1794313699.7904353,
+  "seed": 20261110,
+  "stage": "production",
+  "step": 422000,
+  "time_ps": 844.0,
+  "elapsed_production_s": 51.351818561553955,
+  "estimated_ns_day": 1420.0392905772355,
+  "gpu_offload_lines": [
+    "PP tasks will do non-perturbed short-ranged interactions on the GPU",
+    "PP task will update and constrain coordinates on the GPU",
+    "PME tasks will do all aspects on the GPU",
+    "Updating coordinates and applying constraints on the GPU."
+  ],
+  "lincs_warning_count": 0,
+  "cuda_version": "GROMACS 2026.3 conda-forge CUDA12.9"
+}

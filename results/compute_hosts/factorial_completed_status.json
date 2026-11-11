@@ -1,0 +1,317 @@
+{
+  "checked_utc": "2026-11-11T14:46:48.997873+00:00",
+  "hosts": {
+    "win4070": {
+      "root": "/home/lessray/codex-runs/method-validation-20261110-gpu",
+      "exists": true,
+      "environment_ready": true,
+      "installation_log_tail": [
+        "",
+        "Or to execute a single command in this environment, use:",
+        "",
+        "    mamba run -p /home/lessray/codex-runs/method-validation-20261110-gpu/env mycommand",
+        ""
+      ],
+      "queue": {
+        "status": "complete",
+        "queue_pid": 18029,
+        "seeds": [
+          20261110,
+          20261111,
+          20261112
+        ],
+        "production_ns_each": 11,
+        "completed_seeds": [
+          20261110,
+          20261111,
+          20261112
+        ],
+        "start_unix": 1794313631.7801287,
+        "active_seed": 20261112,
+        "updated_unix": 1794315615.6138427
+      },
+      "queue_process_alive": false,
+      "seeds": {
+        "20261110": {
+          "completed_stages": [
+            "nvt",
+            "npt",
+            "md"
+          ],
+          "workflow_tail": [
+            "GROMACS reminds you: \"Louis Pasteur's theory of germs is ridiculous fiction.\" (Pierre Pachet, Professor of Physiology at Toulouse, 1872)",
+            "",
+            "Checking file md.xtc"
+          ]
+        },
+        "20261111": {
+          "completed_stages": [
+            "nvt",
+            "npt",
+            "md"
+          ],
+          "workflow_tail": [
+            "GROMACS reminds you: \"Developer accused of unreadable code refuses to comment\" (Molly Struve)",
+            "",
+            "Checking file md.xtc"
+          ]
+        },
+        "20261112": {
+          "completed_stages": [
+            "nvt",
+            "npt",
+            "md"
+          ],
+          "workflow_tail": [
+            "GROMACS reminds you: \"Occams Razor is the scientific principle that, all things being equal, the simplest explanation is always the dog ate my homework.\" (Greg Tamblyn)",
+            "",
+            "Checking file md.xtc"
+          ]
+        }
+      },
+      "aggregate_status": {
+        "status": "three_completed_replicates_verified",
+        "n_trajectories": 3
+      },
+      "confirmation": {
+        "exists": true,
+        "queue": {
+          "status": "complete",
+          "study": "confirmation",
+          "queue_pid": 4536,
+          "seeds": [
+            20261113,
+            20261114,
+            20261115
+          ],
+          "production_ns_each": 11,
+          "completed_seeds": [
+            20261113,
+            20261114,
+            20261115
+          ],
+          "start_unix": 1794324096.475495,
+          "protocol_sha256": "f315904d13cdad5a98a6d053041e54439879a9acb32cfd6bdf973638c4bcc821",
+          "active_seed": 20261115,
+          "phase": "batch_analysis",
+          "updated_unix": 1794326089.4479444
+        },
+        "seeds": {
+          "20261113": {
+            "completed_stages": [
+              "nvt",
+              "npt",
+              "md"
+            ],
+            "last_logged_step": 5500000,
+            "production_ns": 11.0,
+            "lincs_warnings": 0,
+            "fatal_errors": 0
+          },
+          "20261114": {
+            "completed_stages": [
+              "nvt",
+              "npt",
+              "md"
+            ],
+            "last_logged_step": 5500000,
+            "production_ns": 11.0,
+            "lincs_warnings": 0,
+            "fatal_errors": 0
+          },
+          "20261115": {
+            "completed_stages": [
+              "nvt",
+              "npt",
+              "md"
+            ],
+            "last_logged_step": 5500000,
+            "production_ns": 11.0,
+            "lincs_warnings": 0,
+            "fatal_errors": 0
+          }
+        },
+        "queue_process_alive": false,
+        "aggregate_status": {
+          "status": "three_completed_confirmation_replicates_verified",
+          "n_trajectories": 3
+        },
+        "comparison_status": "complete_descriptive_comparison",
+        "postlude": {
+          "status": "complete",
+          "pid": 5341,
+          "started_unix": 1794324355.8977785,
+          "comparison_sha256": "2c13e36f17593ea5e5328c70f7f1a9c83c1ca9153184e0d30adfa2524ea5fef8",
+          "updated_unix": 1794326096.604755,
+          "queue_status": "complete",
+          "argv": [
+            "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/python",
+            "/home/lessray/codex-runs/method-validation-20261110-gpu/scripts/compare_md_confirmation_batches.py",
+            "--new-root",
+            "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation",
+            "--old-analysis",
+            "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_confirmation_preparation/original_batch_same_analysis",
+            "--old-series-root",
+            "/home/lessray/codex-runs/method-validation-20261110-gpu/setup/confirmation/old_audited_timeseries",
+            "--output-dir",
+            "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_confirmation_comparison"
+          ],
+          "exit_code": 0,
+          "completed_unix": 1794326096.604752
+        }
+      },
+      "factorial": {
+        "queue": {
+          "status": "complete",
+          "pid": 19110,
+          "started_unix": 1794401559.3898752,
+          "protocol_sha256": "ad42ba21cc13d23aa3c599c7f746de60ecf1da4c8ce154b8b73fe829a58b4824",
+          "completed": [
+            "B/20261113",
+            "B/20261114",
+            "B/20261115",
+            "C/20261113",
+            "C/20261114",
+            "C/20261115",
+            "D/20261113",
+            "D/20261114",
+            "D/20261115"
+          ],
+          "updated_unix": 1794407535.3992016,
+          "cell": "D",
+          "seed": 20261115,
+          "phase": "factorial_analysis",
+          "completed_unix": 1794407535.3991988
+        },
+        "cells": {
+          "B": {
+            "exists": true,
+            "queue": null,
+            "seeds": {
+              "20261113": {
+                "completed_stages": [
+                  "nvt",
+                  "npt",
+                  "md"
+                ],
+                "last_logged_step": 5500000,
+                "production_ns": 11.0,
+                "lincs_warnings": 0,
+                "fatal_errors": 0
+              },
+              "20261114": {
+                "completed_stages": [
+                  "nvt",
+                  "npt",
+                  "md"
+                ],
+                "last_logged_step": 5500000,
+                "production_ns": 11.0,
+                "lincs_warnings": 0,
+                "fatal_errors": 0
+              },
+              "20261115": {
+                "completed_stages": [
+                  "nvt",
+                  "npt",
+                  "md"
+                ],
+                "last_logged_step": 5500000,
+                "production_ns": 11.0,
+                "lincs_warnings": 0,
+                "fatal_errors": 0
+              }
+            },
+            "aggregate_status": null
+          },
+          "C": {
+            "exists": true,
+            "queue": null,
+            "seeds": {
+              "20261113": {
+                "completed_stages": [
+                  "nvt",
+                  "npt",
+                  "md"
+                ],
+                "last_logged_step": 5500000,
+                "production_ns": 11.0,
+                "lincs_warnings": 0,
+                "fatal_errors": 0
+              },
+              "20261114": {
+                "completed_stages": [
+                  "nvt",
+                  "npt",
+                  "md"
+                ],
+                "last_logged_step": 5500000,
+                "production_ns": 11.0,
+                "lincs_warnings": 0,
+                "fatal_errors": 0
+              },
+              "20261115": {
+                "completed_stages": [
+                  "nvt",
+                  "npt",
+                  "md"
+                ],
+                "last_logged_step": 5500000,
+                "production_ns": 11.0,
+                "lincs_warnings": 0,
+                "fatal_errors": 0
+              }
+            },
+            "aggregate_status": null
+          },
+          "D": {
+            "exists": true,
+            "queue": null,
+            "seeds": {
+              "20261113": {
+                "completed_stages": [
+                  "nvt",
+                  "npt",
+                  "md"
+                ],
+                "last_logged_step": 5500000,
+                "production_ns": 11.0,
+                "lincs_warnings": 0,
+                "fatal_errors": 0
+              },
+              "20261114": {
+                "completed_stages": [
+                  "nvt",
+                  "npt",
+                  "md"
+                ],
+                "last_logged_step": 5500000,
+                "production_ns": 11.0,
+                "lincs_warnings": 0,
+                "fatal_errors": 0
+              },
+              "20261115": {
+                "completed_stages": [
+                  "nvt",
+                  "npt",
+                  "md"
+                ],
+                "last_logged_step": 5500000,
+                "production_ns": 11.0,
+                "lincs_warnings": 0,
+                "fatal_errors": 0
+              }
+            },
+            "aggregate_status": null
+          }
+        },
+        "analysis": {
+          "status": "complete",
+          "n_cells": 4,
+          "n_seed_branches_per_cell": 3,
+          "frames_per_run": 1101
+        }
+      }
+    }
+  }
+}

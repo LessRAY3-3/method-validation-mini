@@ -1,0 +1,15 @@
+{
+  "status": "top_level_files_copied_and_hash_verified",
+  "original_source": "/private/tmp/md-confirmation-analysis-smoke-20261110",
+  "sha256": {
+    "summary.json": "c5d85f2bd93ffe714321bf075f608ea8ce8f8214082fec2a43197a352ff01557",
+    "threshold_episodes.csv": "b271a5d1bdc15f451162a09226165cf097745fede8c7f9e7f8d03afd6865dece",
+    "selected_contact_occupancies.csv": "a63d74a6915dfb54eed60924be0307e99c854816cb9be57d798e8f2aa20ef84b",
+    "all_q_windows.csv": "ca59475ece04b4dd9f5c2fe88394144df4ac1f2189410b85dd769ba05de538ed",
+    "analysis_manifest.json": "75f6df38855bf15e05f4762f81e5c0bc9cc7fbff1f1be71fd08b709ae0614d89",
+    "per_trajectory_windows.csv": "0375b7ca1c5122db90493c8ee4f830cbd4ae2e4722b4e9bfe50b1a09b92d39b2",
+    "threshold_sensitivity.csv": "2cc08f169e8fb1505e4ddddb13d1c04a0867e43c368767f9bbfb4dd2d2f41953",
+    "all_reference_window_results.csv": "bc40661323a077b182c475891b777e2eea90a52979e755d87afd76cf381f0ca5"
+  },
+  "note": "Original summary retains hashes of aggregate files not copied into this lightweight preparation directory."
+}

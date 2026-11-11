@@ -1,0 +1,20 @@
+{
+  "report": "output/pdf/method-validation-report.pdf",
+  "sha256": "ebdfa94f592a6783612420208f57008f1639672327298ea673f044f98ad09019",
+  "input_sha256": {
+    "results/docking_benchmark_m3/summary.json": "0b2f586c0177619a4e485aef1f5a72bbcc618130f8f7d15660883897762cd5fe",
+    "results/md_factorial/analysis/summary.json": "4e039963edda505e1ee4b47ee83a1dd61c656629d06bf5d4effe03233a40eaef",
+    "results/md_factorial/analysis/descriptive_summary.csv": "a050e5e3a1a9b64e2ebfc9cc9db00bf99a3d0d112bb31636c07c07d64cdee3e7",
+    "results/md_factorial/analysis/per_trajectory_windows.csv": "cd7bf50decefe07e90be271e8721b555d082b31fa61dd9e4bdf224b58697edec",
+    "config/experiments/md_factorial_protocol.json": "ad42ba21cc13d23aa3c599c7f746de60ecf1da4c8ce154b8b73fe829a58b4824",
+    "results/validation/md_factorial_m3_independent.json": "4125eb14df0ca0647622e447298e1196f4dca7502eb72a9ceb9bc8c884244482",
+    "results/md_factorial/local_transfer_verification.json": "08e8b2a50dc737322fe9360dec13d4a9895e6107731fcd168ee0cf8fa093623b",
+    "results/docking_benchmark_m3/paired_seed_outcomes.png": "e53eed75e30365ac816ba222aa415e59964caaca5eade72091dcb8f473df6e26",
+    "results/prediction_msa_diagnosis/recycle_trace/structural_recycle_trace.png": "b33eb5b266e80bca42981b0efea27c3c8b4d9c90dfe69f3e5b71fca60875715a",
+    "results/prediction_msa_diagnosis/followup/summary.json": "fd34ec4c291e58238c2521c5e53a4be7237efb2563edac4a48eeebd91d86fb7d",
+    "results/prediction_msa_diagnosis/recycle_trace/summary.json": "9e6b67c44c699b932751a3aced4af923196d8533a15543c2bdaf108b99a74ea5"
+  },
+  "builder_sha256": "eb9bf124cfde606c1b2198e072128a162bc87a950ecc609413c623746c28fafb",
+  "md_analysis": "Ubuntu CUDA GROMACS2026.3 four-cell analysis; independent M3 cached-coordinate audit; 12 branches with shared short/long histories",
+  "figure_sha256": "ea6063d04a66b84e70565c3b1126b8d6dfe20d39e754826ffa96b705e310e874"
+}

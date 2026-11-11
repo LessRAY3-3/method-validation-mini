@@ -1,0 +1,72 @@
+[
+  {
+    "seed": "single_diagnostic",
+    "argv": [
+      "/opt/homebrew/bin/gmx",
+      "trjconv",
+      "-s",
+      "/Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr",
+      "-f",
+      "/Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md_all_fit_11ns.xtc",
+      "-o",
+      "/Users/lessray/Desktop/kimi code/method-validation-mini/results/md_single_geometry_validation_v2/seed_single_diagnostic/protein_whole.gro",
+      "-pbc",
+      "whole",
+      "-b",
+      "0",
+      "-e",
+      "11000"
+    ],
+    "stdin": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "seed": "single_diagnostic",
+    "argv": [
+      "/opt/homebrew/bin/gmx",
+      "rms",
+      "-s",
+      "/Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr",
+      "-f",
+      "/Users/lessray/Desktop/kimi code/method-validation-mini/results/md_single_geometry_validation_v2/seed_single_diagnostic/protein_whole.gro",
+      "-o",
+      "rmsd_common_reference.xvg",
+      "-tu",
+      "ns"
+    ],
+    "stdin": "Backbone\nBackbone\n",
+    "returncode": 0
+  },
+  {
+    "seed": "single_diagnostic",
+    "argv": [
+      "/opt/homebrew/bin/gmx",
+      "gyrate",
+      "-s",
+      "/Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr",
+      "-f",
+      "/Users/lessray/Desktop/kimi code/method-validation-mini/results/md_single_geometry_validation_v2/seed_single_diagnostic/protein_whole.gro",
+      "-o",
+      "gyrate.xvg"
+    ],
+    "stdin": "Protein\n",
+    "returncode": 0
+  },
+  {
+    "seed": "single_diagnostic",
+    "argv": [
+      "/opt/homebrew/bin/gmx",
+      "hbond",
+      "-s",
+      "/Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr",
+      "-f",
+      "/Users/lessray/Desktop/kimi code/method-validation-mini/results/md_single_geometry_validation_v2/seed_single_diagnostic/protein_whole.gro",
+      "-num",
+      "hbond.xvg",
+      "-o",
+      "hbond.ndx"
+    ],
+    "stdin": "Protein\nProtein\n",
+    "returncode": 0
+  }
+]

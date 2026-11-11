@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "analysis_output_hashes": 96,
+  "runs": [
+    {
+      "run": "B/seed_20261113",
+      "output_hashes": 26
+    },
+    {
+      "run": "B/seed_20261114",
+      "output_hashes": 26
+    },
+    {
+      "run": "B/seed_20261115",
+      "output_hashes": 26
+    },
+    {
+      "run": "C/seed_20261113",
+      "output_hashes": 25
+    },
+    {
+      "run": "C/seed_20261114",
+      "output_hashes": 25
+    },
+    {
+      "run": "C/seed_20261115",
+      "output_hashes": 25
+    },
+    {
+      "run": "D/seed_20261113",
+      "output_hashes": 26
+    },
+    {
+      "run": "D/seed_20261114",
+      "output_hashes": 26
+    },
+    {
+      "run": "D/seed_20261115",
+      "output_hashes": 26
+    }
+  ],
+  "summary_sha256": "4e039963edda505e1ee4b47ee83a1dd61c656629d06bf5d4effe03233a40eaef",
+  "analysis_input_hashes": 64
+}

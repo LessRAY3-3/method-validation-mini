@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "markdown_local_links": "all report/ and README links resolve locally",
+  "pdf_provenance": "input, builder and PDF hashes match",
+  "tests_passed": 30,
+  "scope": "Final local delivery checks; no GitHub push or publication; no new dynamics/inference"
+}

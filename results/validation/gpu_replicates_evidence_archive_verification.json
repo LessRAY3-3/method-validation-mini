@@ -1,0 +1,9 @@
+{
+  "status": "archive_members_and_hashes_verified",
+  "study": "gpu-replicates",
+  "archive": "artifacts/md-gpu-replicates-evidence.tar.gz",
+  "archive_bytes": 128033627,
+  "archive_sha256": "36024d89a767389573cdf1885cbddf7ae89644317f55a0013fc10507a6a6d28f",
+  "verified_members_including_manifest": 153,
+  "uploaded": false
+}

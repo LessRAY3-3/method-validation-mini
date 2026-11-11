@@ -1,0 +1,80 @@
+{
+  "created_before_inference_utc": "2026-11-10T07:28:59.725306+00:00",
+  "sequence": "NLYIQWLKDGGPSSGRPPPS",
+  "conditions_in_execution_order": [
+    "query_only",
+    "deduplicated_saved_msa",
+    "raw_saved_msa"
+  ],
+  "seeds_in_execution_order": [
+    42,
+    2026,
+    20261110
+  ],
+  "model_type": "alphafold2_ptm",
+  "model_order": [
+    1
+  ],
+  "num_models": 1,
+  "num_recycles": 3,
+  "num_seeds_per_run": 1,
+  "device": "CPU",
+  "templates": false,
+  "relax": false,
+  "msa_search": "none; every condition uses a local A3M via the same CLI input route",
+  "source_msa_sha256": "e4094cb8a2c60ffeb1001ea55ae0d352cf7537d0dd798d2008fa78cd64570bdc",
+  "weights_model_1_ptm_sha256": "5e564f79af5bcd54ccef6e2a6bb0ff01015d01650ebc41d4575e35f0de9ecc84",
+  "inputs": {
+    "query_only": {
+      "path": "inputs/query_only.a3m",
+      "sha256": "97fad2bc48015ade619bc53981ac0e373e57b224ad2b8770ade6ed96ad0b37ad",
+      "rows_including_query": 1,
+      "unique_aligned_sequences": 1
+    },
+    "deduplicated_saved_msa": {
+      "path": "inputs/deduplicated_saved_msa.a3m",
+      "sha256": "2f2f0a20f5cd7f3645bd5568531363f549e188e3578bdb01c874228a14b37f40",
+      "rows_including_query": 2,
+      "unique_aligned_sequences": 2
+    },
+    "raw_saved_msa": {
+      "path": "inputs/raw_saved_msa.a3m",
+      "sha256": "e4094cb8a2c60ffeb1001ea55ae0d352cf7537d0dd798d2008fa78cd64570bdc",
+      "rows_including_query": 4,
+      "unique_aligned_sequences": 2
+    }
+  },
+  "primary_metric": "Median fitted CA RMSD over all 38 NMR models; paired condition differences within the same seed",
+  "secondary_metrics": [
+    "all-NMR min/max and model1 RMSD",
+    "global-fit internal residues 3-18 and terminal residues 1,2,19,20 RMSD",
+    "per-residue CA displacement versus pLDDT",
+    "PAE and pTM"
+  ],
+  "interior_residues": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "terminal_residues": [
+    1,
+    2,
+    19,
+    20
+  ],
+  "alignment": "One global Kabsch fit over all 20 CA atoms for each NMR model, then subsets measured without refitting",
+  "analysis_limits": "These are three paired random seeds on one known peptide, not independent targets or proof of generalization. NMR models are not statistical replicates. The interior subset is a positional definition, not a claimed hydrophobic core. No selecting the best seed or NMR model."
+}

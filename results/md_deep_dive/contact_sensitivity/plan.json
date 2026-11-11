@@ -1,0 +1,60 @@
+{
+  "declared_utc": "2026-11-10T15:05:59.601455+00:00",
+  "classification": "Exploratory sensitivity extension after examining first-seed early deviation and cutoff-only results; not independent confirmation",
+  "seed_order": [
+    20261110,
+    20261111,
+    20261112
+  ],
+  "windows_ns": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "reference_cutoffs_A": [
+    7,
+    8,
+    9
+  ],
+  "retention_factors": [
+    1.1,
+    1.2,
+    1.3
+  ],
+  "selected_CA_pairs": [
+    [
+      3,
+      19
+    ],
+    [
+      12,
+      18
+    ]
+  ],
+  "excluded_pair_rule": "Mark excluded and occupancy=null if reference distance exceeds cutoff; never encode excluded as0",
+  "formula": "Reference CA pairs separation>=3 and distance<=cutoff; contact retained when trajectory distance<=factor*reference distance",
+  "input_sha256": {
+    "data/raw/1L2Y.pdb": "5d1bbb545a312dfff1ae1e64b6d8addecb2f561ddc4011aeb5bee9d1dfcd4438",
+    "results/md_replicates_gpu/aggregate_analysis_audited/seed_20261110/protein_whole.gro": "a0b60398712a31480448c9b30f2888ac377ec73b487aa8ec5b515f463d39c79d",
+    "results/md_replicates_gpu/aggregate_analysis_audited/seed_20261111/protein_whole.gro": "75f74072ba2bd62aef2cbb7093019a61447dfb49b47a089f9c9b072e5790af13",
+    "results/md_replicates_gpu/aggregate_analysis_audited/seed_20261112/protein_whole.gro": "06ce062b2e49e153eaf1ce6831ebc6ba1bb8cf61c75e7c5566706d597a55aaf6"
+  },
+  "script_sha256": "6afefe3687e27ca6cafe1d80567c628a118db5469f5392e3047105d24f5ece25"
+}

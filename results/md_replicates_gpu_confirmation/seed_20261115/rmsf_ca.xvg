@@ -1,0 +1,37 @@
+# This file was created Tue Nov 10 23:54:40 2026
+# Created by:
+#                 :-) GROMACS - gmx rmsf, 2026.3-conda_forge (-:
+# 
+# Executable:   /home/lessray/codex-runs/method-validation-20261110-gpu/env/bin.AVX2_256/gmx
+# Data prefix:  /home/lessray/codex-runs/method-validation-20261110-gpu/env
+# Working dir:  /home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115
+# Command line:
+#   gmx rmsf -s /home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr -f md_fit.xtc -o rmsf_ca.xvg -res -fit
+# gmx rmsf is part of G R O M A C S:
+#
+# Giant Rising Ordinary Mutants for A Clerical Setup
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.1944
+    2   0.1054
+    3   0.0895
+    4   0.0660
+    5   0.0565
+    6   0.0442
+    7   0.0533
+    8   0.0694
+    9   0.0874
+   10   0.1010
+   11   0.1253
+   12   0.0878
+   13   0.0725
+   14   0.1172
+   15   0.1623
+   16   0.1048
+   17   0.0866
+   18   0.0872
+   19   0.1135
+   20   0.2038

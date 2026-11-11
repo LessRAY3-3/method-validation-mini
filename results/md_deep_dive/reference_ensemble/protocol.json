@@ -1,0 +1,45 @@
+{
+  "declared_utc": "2026-11-10T15:01:18.478696+00:00",
+  "design": "Post hoc exploratory reference sensitivity after observing seed20261110 early deviation; not preregistered confirmation",
+  "seeds": [
+    20261110,
+    20261111,
+    20261112
+  ],
+  "windows_ns": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "references": "all 38 NMR models, no best-model selection",
+  "fit_selections": {
+    "all_ca": "positions1-20",
+    "interior_ca": "positions3-18, independently fitted"
+  },
+  "distance_mae": "All CA pairs separated by >=3 residues; rigid-fit-free",
+  "statistical_unit": "trajectory; NMR models are reference choices, not sample size",
+  "input_sha256": {
+    "data/raw/1L2Y.pdb": "5d1bbb545a312dfff1ae1e64b6d8addecb2f561ddc4011aeb5bee9d1dfcd4438",
+    "results/md_replicates_gpu/aggregate_analysis_audited/seed_20261110/protein_whole.gro": "a0b60398712a31480448c9b30f2888ac377ec73b487aa8ec5b515f463d39c79d",
+    "results/md_replicates_gpu/aggregate_analysis_audited/seed_20261111/protein_whole.gro": "75f74072ba2bd62aef2cbb7093019a61447dfb49b47a089f9c9b072e5790af13",
+    "results/md_replicates_gpu/aggregate_analysis_audited/seed_20261112/protein_whole.gro": "06ce062b2e49e153eaf1ce6831ebc6ba1bb8cf61c75e7c5566706d597a55aaf6"
+  },
+  "script_sha256": "35137a44dc4e05360e9c636961721300cd58e8b888fc1ed4683735c78f82dafc"
+}

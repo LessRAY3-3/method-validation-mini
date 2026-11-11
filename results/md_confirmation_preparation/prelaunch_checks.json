@@ -1,0 +1,10 @@
+{
+  "checked_utc": "2026-11-10T15:21:20.953550+00:00",
+  "status": "ready_for_remote_launch",
+  "protocol_sha256": "f315904d13cdad5a98a6d053041e54439879a9acb32cfd6bdf973638c4bcc821",
+  "input_files_verified": 9,
+  "source_files_verified": 5,
+  "tests_passed": 43,
+  "old_trajectory_analysis_smoke": "passed; reference/Q/contact outputs match old deep-dive results exactly",
+  "new_seed_results_available": false
+}

@@ -1,0 +1,10 @@
+{
+  "source_hashes_verified": 4,
+  "nmr_models_with_matching_sequence": 38,
+  "receptor_heavy_atoms_verified_against_raw_pdb": 2229,
+  "ligand_heavy_atoms_verified_against_raw_pdb": 37,
+  "docking_poses_independently_verified": 18,
+  "maximum_rmsd_difference_angstrom": 3.552713678800501e-15,
+  "status": "passed",
+  "scope": "Offline artifact checks; not a new docking, MD, or prediction run."
+}

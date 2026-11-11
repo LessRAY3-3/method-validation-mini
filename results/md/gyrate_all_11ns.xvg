@@ -1,15 +1,15 @@
-# This file was created Tue Nov 10 14:34:22 2026
+# This file was created Tue Nov 10 15:12:36 2026
 # Created by:
 #                 :-) GROMACS - gmx gyrate, 2026.4-Homebrew (-:
 # 
 # Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
 # Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
-# Working dir:  <project>
+# Working dir:  /Users/lessray/Desktop/kimi code/method-validation-mini
 # Command line:
 #   gmx gyrate -s results/md/md.tpr -f results/md/md_all_fit_11ns.xtc -o results/md/gyrate_all_11ns.xvg
 # gmx gyrate is part of G R O M A C S:
 #
-# GROningen Mixture of Alchemy and Childrens' Stories
+# GROwing Monsters And Cloning Shrimps
 #
 @    title "Radius of gyration (total and around axes)"
 @    xaxis  label "Time (ps)"

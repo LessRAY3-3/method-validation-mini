@@ -1,37 +1,37 @@
-# This file was created Tue Nov 10 12:49:54 2026
+# This file was created Tue Nov 10 15:12:23 2026
 # Created by:
 #                  :-) GROMACS - gmx rmsf, 2026.4-Homebrew (-:
 # 
 # Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
 # Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
-# Working dir:  <project>
+# Working dir:  /Users/lessray/Desktop/kimi code/method-validation-mini
 # Command line:
-#   gmx rmsf -s results/md/md.tpr -f results/md/md_all_fit.xtc -o results/md/rmsf_ca_1000_2000.xvg -res -b 1000 -e 2000
+#   gmx rmsf -s results/md/md.tpr -f results/md/md_all_fit.xtc -o results/md/rmsf_ca_1000_2000.xvg -res -fit -b 1000 -e 1990
 # gmx rmsf is part of G R O M A C S:
 #
-# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+# GROningen Mixture of Alchemy and Childrens' Stories
 #
 @    title "RMS fluctuation"
 @    xaxis  label "Residue"
 @    yaxis  label "(nm)"
 @TYPE xy
-    1   0.0831
-    2   0.0544
+    1   0.0835
+    2   0.0546
     3   0.0482
-    4   0.0469
+    4   0.0471
     5   0.0450
-    6   0.0353
-    7   0.0509
-    8   0.0619
-    9   0.0657
-   10   0.0710
-   11   0.0962
-   12   0.0777
-   13   0.0694
-   14   0.0709
-   15   0.0859
-   16   0.0620
-   17   0.0573
-   18   0.0467
-   19   0.0758
-   20   0.1296
+    6   0.0352
+    7   0.0511
+    8   0.0622
+    9   0.0659
+   10   0.0713
+   11   0.0966
+   12   0.0775
+   13   0.0695
+   14   0.0708
+   15   0.0862
+   16   0.0622
+   17   0.0574
+   18   0.0469
+   19   0.0757
+   20   0.1300

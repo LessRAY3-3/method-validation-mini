@@ -1,0 +1,1094 @@
+{
+  "status": "completed_posthoc_sensitivity",
+  "seed_order": [
+    20261110,
+    20261111,
+    20261112
+  ],
+  "comparisons": [
+    {
+      "native_cutoff_A": 7,
+      "retention_factor": 1.1,
+      "early_q_seed_order": [
+        0.7958,
+        0.8051999999999999,
+        0.8236000000000001
+      ],
+      "late_q_seed_order": [
+        0.8442524916943521,
+        0.8612624584717609,
+        0.8693687707641197
+      ],
+      "first_seed_strictly_lowest_early": true,
+      "late_minus_early_seed_order": [
+        0.04845249169435217,
+        0.056062458471760945,
+        0.04576877076411956
+      ]
+    },
+    {
+      "native_cutoff_A": 7,
+      "retention_factor": 1.2,
+      "early_q_seed_order": [
+        0.8930000000000001,
+        0.9080000000000001,
+        0.9316
+      ],
+      "late_q_seed_order": [
+        0.9367441860465116,
+        0.9549501661129568,
+        0.9645182724252491
+      ],
+      "first_seed_strictly_lowest_early": true,
+      "late_minus_early_seed_order": [
+        0.043744186046511424,
+        0.04695016611295666,
+        0.03291827242524914
+      ]
+    },
+    {
+      "native_cutoff_A": 7,
+      "retention_factor": 1.3,
+      "early_q_seed_order": [
+        0.9690000000000001,
+        0.9496000000000001,
+        0.9842
+      ],
+      "late_q_seed_order": [
+        0.98578073089701,
+        0.9940199335548172,
+        0.9933554817275747
+      ],
+      "first_seed_strictly_lowest_early": false,
+      "late_minus_early_seed_order": [
+        0.016780730897009932,
+        0.044419933554817104,
+        0.009155481727574744
+      ]
+    },
+    {
+      "native_cutoff_A": 8,
+      "retention_factor": 1.1,
+      "early_q_seed_order": [
+        0.7646969696969697,
+        0.83,
+        0.8263636363636363
+      ],
+      "late_q_seed_order": [
+        0.8356991845363939,
+        0.8488875465619651,
+        0.859961743682674
+      ],
+      "first_seed_strictly_lowest_early": true,
+      "late_minus_early_seed_order": [
+        0.07100221483942426,
+        0.01888754656196512,
+        0.03359810731903767
+      ]
+    },
+    {
+      "native_cutoff_A": 8,
+      "retention_factor": 1.2,
+      "early_q_seed_order": [
+        0.889848484848485,
+        0.9290909090909091,
+        0.946060606060606
+      ],
+      "late_q_seed_order": [
+        0.9502667874760897,
+        0.9639585220980569,
+        0.972314507198228
+      ],
+      "first_seed_strictly_lowest_early": true,
+      "late_minus_early_seed_order": [
+        0.060418302627604725,
+        0.0348676130071478,
+        0.026253901137621938
+      ]
+    },
+    {
+      "native_cutoff_A": 8,
+      "retention_factor": 1.3,
+      "early_q_seed_order": [
+        0.9653030303030303,
+        0.9618181818181819,
+        0.9880303030303029
+      ],
+      "late_q_seed_order": [
+        0.9891271519178495,
+        0.9954696466324373,
+        0.9949662740360415
+      ],
+      "first_seed_strictly_lowest_early": false,
+      "late_minus_early_seed_order": [
+        0.02382412161481917,
+        0.033651464814255405,
+        0.006935971005738617
+      ]
+    },
+    {
+      "native_cutoff_A": 9,
+      "retention_factor": 1.1,
+      "early_q_seed_order": [
+        0.8049038461538461,
+        0.8531730769230771,
+        0.8599038461538462
+      ],
+      "late_q_seed_order": [
+        0.8866598517761307,
+        0.8984155379504218,
+        0.9058906210069
+      ],
+      "first_seed_strictly_lowest_early": true,
+      "late_minus_early_seed_order": [
+        0.08175600562228458,
+        0.04524246102734475,
+        0.0459867748530538
+      ]
+    },
+    {
+      "native_cutoff_A": 9,
+      "retention_factor": 1.2,
+      "early_q_seed_order": [
+        0.9175961538461539,
+        0.9504807692307691,
+        0.9627884615384616
+      ],
+      "late_q_seed_order": [
+        0.9681190902121136,
+        0.9768719652440583,
+        0.9819831331459239
+      ],
+      "first_seed_strictly_lowest_early": true,
+      "late_minus_early_seed_order": [
+        0.050522936365959725,
+        0.02639119601328921,
+        0.019194671607462244
+      ]
+    },
+    {
+      "native_cutoff_A": 9,
+      "retention_factor": 1.3,
+      "early_q_seed_order": [
+        0.9765384615384616,
+        0.9755769230769231,
+        0.9920192307692307
+      ],
+      "late_q_seed_order": [
+        0.9930999233324814,
+        0.9971249680552006,
+        0.996805520061334
+      ],
+      "first_seed_strictly_lowest_early": false,
+      "late_minus_early_seed_order": [
+        0.01656146179401985,
+        0.021548044978277447,
+        0.004786289292103341
+      ]
+    }
+  ],
+  "first_seed_lowest_early_combinations": 6,
+  "first_seed_q_early_to_late_positive_combinations": 9,
+  "selected_pair_deltas": [
+    {
+      "seed": 20261110,
+      "cutoff_A": 7,
+      "factor": 1.1,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.13,
+      "late": 0.9767441860465116,
+      "late_minus_early": 0.8467441860465116
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 7,
+      "factor": 1.1,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "excluded",
+      "early": null,
+      "late": null,
+      "late_minus_early": null
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 7,
+      "factor": 1.2,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.21,
+      "late": 1.0,
+      "late_minus_early": 0.79
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 7,
+      "factor": 1.2,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "excluded",
+      "early": null,
+      "late": null,
+      "late_minus_early": null
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 7,
+      "factor": 1.3,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.685,
+      "late": 1.0,
+      "late_minus_early": 0.31499999999999995
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 7,
+      "factor": 1.3,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "excluded",
+      "early": null,
+      "late": null,
+      "late_minus_early": null
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 8,
+      "factor": 1.1,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.13,
+      "late": 0.9767441860465116,
+      "late_minus_early": 0.8467441860465116
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 8,
+      "factor": 1.1,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.115,
+      "late": 0.6810631229235881,
+      "late_minus_early": 0.5660631229235881
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 8,
+      "factor": 1.2,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.21,
+      "late": 1.0,
+      "late_minus_early": 0.79
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 8,
+      "factor": 1.2,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.255,
+      "late": 0.9800664451827242,
+      "late_minus_early": 0.7250664451827242
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 8,
+      "factor": 1.3,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.685,
+      "late": 1.0,
+      "late_minus_early": 0.31499999999999995
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 8,
+      "factor": 1.3,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.635,
+      "late": 1.0,
+      "late_minus_early": 0.365
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 9,
+      "factor": 1.1,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.13,
+      "late": 0.9767441860465116,
+      "late_minus_early": 0.8467441860465116
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 9,
+      "factor": 1.1,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.115,
+      "late": 0.6810631229235881,
+      "late_minus_early": 0.5660631229235881
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 9,
+      "factor": 1.2,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.21,
+      "late": 1.0,
+      "late_minus_early": 0.79
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 9,
+      "factor": 1.2,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.255,
+      "late": 0.9800664451827242,
+      "late_minus_early": 0.7250664451827242
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 9,
+      "factor": 1.3,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.685,
+      "late": 1.0,
+      "late_minus_early": 0.31499999999999995
+    },
+    {
+      "seed": 20261110,
+      "cutoff_A": 9,
+      "factor": 1.3,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.635,
+      "late": 1.0,
+      "late_minus_early": 0.365
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 7,
+      "factor": 1.1,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.98,
+      "late": 0.9767441860465116,
+      "late_minus_early": -0.0032558139534883956
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 7,
+      "factor": 1.1,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "excluded",
+      "early": null,
+      "late": null,
+      "late_minus_early": null
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 7,
+      "factor": 1.2,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 7,
+      "factor": 1.2,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "excluded",
+      "early": null,
+      "late": null,
+      "late_minus_early": null
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 7,
+      "factor": 1.3,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 7,
+      "factor": 1.3,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "excluded",
+      "early": null,
+      "late": null,
+      "late_minus_early": null
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 8,
+      "factor": 1.1,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.98,
+      "late": 0.9767441860465116,
+      "late_minus_early": -0.0032558139534883956
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 8,
+      "factor": 1.1,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.885,
+      "late": 0.8073089700996677,
+      "late_minus_early": -0.07769102990033228
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 8,
+      "factor": 1.2,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 8,
+      "factor": 1.2,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.985,
+      "late": 0.9933554817275747,
+      "late_minus_early": 0.00835548172757472
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 8,
+      "factor": 1.3,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 8,
+      "factor": 1.3,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 9,
+      "factor": 1.1,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.98,
+      "late": 0.9767441860465116,
+      "late_minus_early": -0.0032558139534883956
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 9,
+      "factor": 1.1,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.885,
+      "late": 0.8073089700996677,
+      "late_minus_early": -0.07769102990033228
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 9,
+      "factor": 1.2,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 9,
+      "factor": 1.2,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.985,
+      "late": 0.9933554817275747,
+      "late_minus_early": 0.00835548172757472
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 9,
+      "factor": 1.3,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261111,
+      "cutoff_A": 9,
+      "factor": 1.3,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 7,
+      "factor": 1.1,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.95,
+      "late": 0.9933554817275747,
+      "late_minus_early": 0.04335548172757475
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 7,
+      "factor": 1.1,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "excluded",
+      "early": null,
+      "late": null,
+      "late_minus_early": null
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 7,
+      "factor": 1.2,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 7,
+      "factor": 1.2,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "excluded",
+      "early": null,
+      "late": null,
+      "late_minus_early": null
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 7,
+      "factor": 1.3,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 7,
+      "factor": 1.3,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "excluded",
+      "early": null,
+      "late": null,
+      "late_minus_early": null
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 8,
+      "factor": 1.1,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.95,
+      "late": 0.9933554817275747,
+      "late_minus_early": 0.04335548172757475
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 8,
+      "factor": 1.1,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.575,
+      "late": 0.813953488372093,
+      "late_minus_early": 0.23895348837209307
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 8,
+      "factor": 1.2,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 8,
+      "factor": 1.2,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.955,
+      "late": 0.9933554817275747,
+      "late_minus_early": 0.03835548172757475
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 8,
+      "factor": 1.3,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 8,
+      "factor": 1.3,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 9,
+      "factor": 1.1,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 0.95,
+      "late": 0.9933554817275747,
+      "late_minus_early": 0.04335548172757475
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 9,
+      "factor": 1.1,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.575,
+      "late": 0.813953488372093,
+      "late_minus_early": 0.23895348837209307
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 9,
+      "factor": 1.2,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 9,
+      "factor": 1.2,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 0.955,
+      "late": 0.9933554817275747,
+      "late_minus_early": 0.03835548172757475
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 9,
+      "factor": 1.3,
+      "pair": [
+        3,
+        19
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    },
+    {
+      "seed": 20261112,
+      "cutoff_A": 9,
+      "factor": 1.3,
+      "pair": [
+        12,
+        18
+      ],
+      "selection_status": "included",
+      "early": 1.0,
+      "late": 1.0,
+      "late_minus_early": 0.0
+    }
+  ],
+  "independent_scalar_checks": [
+    {
+      "seed": 20261110,
+      "frame": 150,
+      "cutoff_A": 7,
+      "factor": 1.1,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261110,
+      "frame": 150,
+      "cutoff_A": 7,
+      "factor": 1.2,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261110,
+      "frame": 150,
+      "cutoff_A": 7,
+      "factor": 1.3,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261110,
+      "frame": 150,
+      "cutoff_A": 8,
+      "factor": 1.1,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261110,
+      "frame": 150,
+      "cutoff_A": 8,
+      "factor": 1.2,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261110,
+      "frame": 150,
+      "cutoff_A": 8,
+      "factor": 1.3,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261110,
+      "frame": 150,
+      "cutoff_A": 9,
+      "factor": 1.1,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261110,
+      "frame": 150,
+      "cutoff_A": 9,
+      "factor": 1.2,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261110,
+      "frame": 150,
+      "cutoff_A": 9,
+      "factor": 1.3,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261111,
+      "frame": 150,
+      "cutoff_A": 7,
+      "factor": 1.1,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261111,
+      "frame": 150,
+      "cutoff_A": 7,
+      "factor": 1.2,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261111,
+      "frame": 150,
+      "cutoff_A": 7,
+      "factor": 1.3,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261111,
+      "frame": 150,
+      "cutoff_A": 8,
+      "factor": 1.1,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261111,
+      "frame": 150,
+      "cutoff_A": 8,
+      "factor": 1.2,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261111,
+      "frame": 150,
+      "cutoff_A": 8,
+      "factor": 1.3,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261111,
+      "frame": 150,
+      "cutoff_A": 9,
+      "factor": 1.1,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261111,
+      "frame": 150,
+      "cutoff_A": 9,
+      "factor": 1.2,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261111,
+      "frame": 150,
+      "cutoff_A": 9,
+      "factor": 1.3,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261112,
+      "frame": 150,
+      "cutoff_A": 7,
+      "factor": 1.1,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261112,
+      "frame": 150,
+      "cutoff_A": 7,
+      "factor": 1.2,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261112,
+      "frame": 150,
+      "cutoff_A": 7,
+      "factor": 1.3,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261112,
+      "frame": 150,
+      "cutoff_A": 8,
+      "factor": 1.1,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261112,
+      "frame": 150,
+      "cutoff_A": 8,
+      "factor": 1.2,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261112,
+      "frame": 150,
+      "cutoff_A": 8,
+      "factor": 1.3,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261112,
+      "frame": 150,
+      "cutoff_A": 9,
+      "factor": 1.1,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261112,
+      "frame": 150,
+      "cutoff_A": 9,
+      "factor": 1.2,
+      "absolute_q_error": 0.0
+    },
+    {
+      "seed": 20261112,
+      "frame": 150,
+      "cutoff_A": 9,
+      "factor": 1.3,
+      "absolute_q_error": 0.0
+    }
+  ],
+  "limitations": [
+    "Definitions applied to same three correlated trajectories; not9 independent experiments",
+    "Absolute occupancy depends on thresholds; rank/direction stability is descriptive",
+    "Excludes P12-P18 at7A because reference distance7.540A exceeds cutoff",
+    "Selected pairs/windows were chosen after inspecting the event; no causal or equilibrium inference"
+  ],
+  "plan_sha256": "e44da810af99a54eb910c80eacb1346b94241bf0d032176c5c8e2cd507537132"
+}

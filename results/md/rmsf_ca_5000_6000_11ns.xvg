@@ -1,37 +1,37 @@
-# This file was created Tue Nov 10 14:34:23 2026
+# This file was created Tue Nov 10 15:12:37 2026
 # Created by:
 #                  :-) GROMACS - gmx rmsf, 2026.4-Homebrew (-:
 # 
 # Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
 # Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
-# Working dir:  <project>
+# Working dir:  /Users/lessray/Desktop/kimi code/method-validation-mini
 # Command line:
-#   gmx rmsf -s results/md/md.tpr -f results/md/md_all_fit_11ns.xtc -o results/md/rmsf_ca_5000_6000_11ns.xvg -res -b 5000 -e 6000
+#   gmx rmsf -s results/md/md.tpr -f results/md/md_all_fit_11ns.xtc -o results/md/rmsf_ca_5000_6000_11ns.xvg -res -fit -b 5000 -e 5990
 # gmx rmsf is part of G R O M A C S:
 #
-# GROningen MAchine for Chemical Simulation
+# Gravel Rubs Often Many Awfully Cauterized Sores
 #
 @    title "RMS fluctuation"
 @    xaxis  label "Residue"
 @    yaxis  label "(nm)"
 @TYPE xy
-    1   0.1177
-    2   0.0907
-    3   0.0673
-    4   0.0459
-    5   0.0491
+    1   0.1182
+    2   0.0910
+    3   0.0675
+    4   0.0458
+    5   0.0490
     6   0.0405
-    7   0.0448
-    8   0.0667
-    9   0.0758
-   10   0.0785
+    7   0.0449
+    8   0.0670
+    9   0.0759
+   10   0.0786
    11   0.0487
    12   0.0683
-   13   0.0568
-   14   0.0651
-   15   0.1087
-   16   0.0914
-   17   0.0749
-   18   0.0746
-   19   0.1072
-   20   0.1643
+   13   0.0562
+   14   0.0650
+   15   0.1076
+   16   0.0916
+   17   0.0752
+   18   0.0749
+   19   0.1074
+   20   0.1645

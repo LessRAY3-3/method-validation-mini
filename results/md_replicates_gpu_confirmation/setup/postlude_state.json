@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "pid": 5341,
+  "started_unix": 1794324355.8977785,
+  "comparison_sha256": "2c13e36f17593ea5e5328c70f7f1a9c83c1ca9153184e0d30adfa2524ea5fef8",
+  "updated_unix": 1794326096.604755,
+  "queue_status": "complete",
+  "argv": [
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/python",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/scripts/compare_md_confirmation_batches.py",
+    "--new-root",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation",
+    "--old-analysis",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_confirmation_preparation/original_batch_same_analysis",
+    "--old-series-root",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/setup/confirmation/old_audited_timeseries",
+    "--output-dir",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_confirmation_comparison"
+  ],
+  "exit_code": 0,
+  "completed_unix": 1794326096.604752
+}

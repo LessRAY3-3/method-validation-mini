@@ -1,0 +1,2 @@
+{"time_unix": 1794295634.631156, "cwd": "/Users/lessray/Desktop/kimi code/method-validation-mini/results/md_replicates/seed_20261111", "argv": ["gmx", "grompp", "-f", "nvt.mdp", "-c", "minim.gro", "-p", "topol.top", "-o", "nvt.tpr", "-po", "nvt_processed.mdp", "-r", "minim.gro"], "stdin": null}
+{"time_unix": 1794295634.685038, "cwd": "/Users/lessray/Desktop/kimi code/method-validation-mini/results/md_replicates/seed_20261111", "argv": ["gmx", "mdrun", "-s", "nvt.tpr", "-deffnm", "nvt", "-nt", "2"], "stdin": null}

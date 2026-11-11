@@ -1,0 +1,61 @@
+{
+  "analysis_started_utc": "2026-11-10T15:54:42.037426+00:00",
+  "classification": "New velocity-seed batch; analysis rules frozen before new dynamics by external experiment protocol",
+  "seeds": [
+    20261113,
+    20261114,
+    20261115
+  ],
+  "windows_ns": [
+    [
+      0,
+      11
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      8,
+      11
+    ]
+  ],
+  "cutoffs_A": [
+    7,
+    8,
+    9
+  ],
+  "retention_factors": [
+    1.1,
+    1.2,
+    1.3
+  ],
+  "distance_thresholds_A": [
+    5,
+    6,
+    7
+  ],
+  "input_sha256": {
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/data/raw/1L2Y.pdb": "5d1bbb545a312dfff1ae1e64b6d8addecb2f561ddc4011aeb5bee9d1dfcd4438",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/data/prepared/1L2Y.fasta": "514439e36edefabaac21a386e031d58a57aa45a7e8408ad100126f9f1901769c",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr": "d0cf2a9c409b23f5f946529659e307e03a1e9670263bfca3130a10e268b6efc6",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113/md.xtc": "40c31d8ac5905795c35ad1be2ba1ebd0870b05be8a4e48177c4f1c6d62bdf2fb",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113/md.tpr": "a057479c4449c3937fec55ace2e73bba2c7469031ade969e7db7e766ed7d9e94",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113/provenance.json": "30f70bcb270c9a9f115a4533886ca7d41805c1a08013ce14e5c385d5c1307dde",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113/md.done.json": "7d5a647b575decdd2ab26b7022817b78c6eb16ecfa722a6b93e830fded8ac1c2",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114/md.xtc": "775f8ea796dc839fcd65b004ba8f57c44b30997d481ad3e7c2ca228e4c7e4812",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114/md.tpr": "7660523315e1b6aa4217990c00d7c22252f69984362b12e76bccd0b493531a1f",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114/provenance.json": "1e3c73c3ae2d66e46162ef2b46f27f2815616e98f295055461ed363b0427a94b",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114/md.done.json": "d1d9e3d13a0c225eae15ba5f281aea79349a363581b5c12b446a45621ba9b8dc",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115/md.xtc": "3abe2a4996845807f643b8a4608880fb6c1c7f1981b74d53f0b8aae6261fa36f",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115/md.tpr": "83066ef6c2fa08617d2776c4687b6a0b8945d293a87f4436eeda5ec13b4cf9cf",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115/provenance.json": "adddaced7fd4fc3804b5ecbf6d44e8d2ece0633771d32e3a88a909dbe0ba6c30",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115/md.done.json": "314f2585005a45c1217e92b5bbfa23b20a9115dab1fe438dcb237a7c2f3539f4"
+  },
+  "source_sha256": {
+    "analyze_md_confirmation_batch.py": "3ef1474262b22b3df249db38973b7c88acf879b3f655fa94befab9e0d8e82796",
+    "analyze_md_replicates.py": "7d07c76b2708a2ea8d34ee62607e216489aa475f27ab9ea2a6dab61b33fe55b5",
+    "prediction_utils.py": "87c0c4e3e7d7866f155d3377082e146bcb0d89e04041fc92c01dec5bce832b20"
+  },
+  "note": "This analysis-time declaration is not the run-start preregistration; see external batch protocol. n=3 trajectories; references and frames are not independent replicates."
+}

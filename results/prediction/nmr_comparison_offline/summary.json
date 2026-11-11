@@ -1,0 +1,32 @@
+{
+  "method": "One-to-one sequence-validated CA mapping; Kabsch rotation and translation; no reflection; angstrom",
+  "reference_sha256": "5d1bbb545a312dfff1ae1e64b6d8addecb2f561ddc4011aeb5bee9d1dfcd4438",
+  "reference_model_count": 38,
+  "predictions": [
+    {
+      "prediction": "ESMFold",
+      "prediction_source": "results/prediction/esmfold_1L2Y.pdb",
+      "reference_models": 38,
+      "residues": 20,
+      "model1_rmsd_angstrom": 0.5114713140101098,
+      "minimum_rmsd_angstrom": 0.5016698726691181,
+      "closest_nmr_model": 16,
+      "median_rmsd_angstrom": 0.8073665601713993,
+      "maximum_rmsd_angstrom": 1.2148171187861183,
+      "prediction_sha256": "b71041dfe959c7f2d3adba23d5c3b559a35a78da635b883c4ba2ad2ad9f290a7"
+    },
+    {
+      "prediction": "1L2Y_model1_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110",
+      "prediction_source": "results/prediction/reproducibility_check/1L2Y_model1_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.pdb",
+      "reference_models": 38,
+      "residues": 20,
+      "model1_rmsd_angstrom": 0.7635074059366219,
+      "minimum_rmsd_angstrom": 0.49557576281485194,
+      "closest_nmr_model": 36,
+      "median_rmsd_angstrom": 0.9020647147881782,
+      "maximum_rmsd_angstrom": 1.305316440516615,
+      "prediction_sha256": "18a75dbe94d43b0571d85c505bbff3a02063c4ef2d3c7307cff168626716d8cc"
+    }
+  ],
+  "limitations": "NMR models are an experimental ensemble, not independent replicates. Report the full distribution, not only the nearest model. This known historical structure is not a held-out generalization benchmark, nor evidence of binding mechanism. Fitted protein RMSD deliberately removes rotation/translation, unlike redocking RMSD."
+}

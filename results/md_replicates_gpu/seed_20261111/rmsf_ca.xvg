@@ -1,0 +1,37 @@
+# This file was created Tue Nov 10 20:49:10 2026
+# Created by:
+#                 :-) GROMACS - gmx rmsf, 2026.3-conda_forge (-:
+# 
+# Executable:   /home/lessray/codex-runs/method-validation-20261110-gpu/env/bin.AVX2_256/gmx
+# Data prefix:  /home/lessray/codex-runs/method-validation-20261110-gpu/env
+# Working dir:  /home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu/seed_20261111
+# Command line:
+#   gmx rmsf -s /home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr -f md_fit.xtc -o rmsf_ca.xvg -res -fit
+# gmx rmsf is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.1277
+    2   0.0697
+    3   0.0490
+    4   0.0433
+    5   0.0464
+    6   0.0398
+    7   0.0376
+    8   0.0503
+    9   0.0672
+   10   0.0714
+   11   0.0989
+   12   0.0731
+   13   0.0623
+   14   0.0922
+   15   0.1026
+   16   0.0610
+   17   0.0593
+   18   0.0572
+   19   0.0575
+   20   0.1330

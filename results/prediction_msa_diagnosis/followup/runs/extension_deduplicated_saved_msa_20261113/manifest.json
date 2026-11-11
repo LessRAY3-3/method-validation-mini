@@ -1,0 +1,53 @@
+{
+  "spec": {
+    "id": "extension_deduplicated_saved_msa_20261113",
+    "condition": "deduplicated_saved_msa",
+    "seed": 20261113,
+    "recycles": 3,
+    "extra_args": []
+  },
+  "started_utc": "2026-11-10T07:54:59.230798+00:00",
+  "finished_utc": "2026-11-10T07:55:03.263072+00:00",
+  "command": [
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/.colabfold/bin/python",
+    "-m",
+    "colabfold.batch",
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/results/prediction_msa_diagnosis/followup/inputs/deduplicated_saved_msa.a3m",
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/results/prediction_msa_diagnosis/followup/runs/extension_deduplicated_saved_msa_20261113",
+    "--data",
+    "/Users/lessray/Library/Caches/colabfold",
+    "--model-type",
+    "alphafold2_ptm",
+    "--model-order",
+    "1",
+    "--num-models",
+    "1",
+    "--num-seeds",
+    "1",
+    "--random-seed",
+    "20261113",
+    "--num-recycle",
+    "3",
+    "--rank",
+    "plddt",
+    "--compile-mode",
+    "fast"
+  ],
+  "plan_sha256": "7898cbd03f301bd0cec663e44eb63b7d598a912e07b46b8976200523eac2e7b0",
+  "input_sha256": "2f2f0a20f5cd7f3645bd5568531363f549e188e3578bdb01c874228a14b37f40",
+  "weights_sha256": "5e564f79af5bcd54ccef6e2a6bb0ff01015d01650ebc41d4575e35f0de9ecc84",
+  "outputs_sha256": {
+    "run.log": "af9ad62972871b3248bb694ea227078387a2493efee6c30b29cc53db046de441",
+    "config.json": "09ac63cedd9335640a813dd5f9ff1515e5683ff926a74191fc828716523cebf2",
+    "deduplicated_saved_msa_predicted_aligned_error_v1.json": "d6a54e14505152f98a730f536106f94f50206656b4214cd314175a1d904f38bb",
+    "deduplicated_saved_msa.a3m": "e225ea270615d1ac135453b5e8015747a2adefa65eaef2868e66dee18f22ebba",
+    "deduplicated_saved_msa_plddt.png": "04702a698b51b9a27018137fb28b51cf958d0e8fa7ace6b9076c83b8a77600c1",
+    "log.txt": "af9ad62972871b3248bb694ea227078387a2493efee6c30b29cc53db046de441",
+    "cite.bibtex": "e7a700949b57d86b804f63abda492679b5711262fc5d7e9f81835bd95fa8cf94",
+    "deduplicated_saved_msa_scores_rank_001_alphafold2_ptm_model_1_seed_20261113.json": "566016cb8d4a5a6db813504494cf73a9908aa68c4d0605c17c6f8d32d2d834cf",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261113.pdb": "e0f953bc05ebc63c2bf77e8b3faa58b5efffca9dd1fa655b7a4adb4dd770dfe3",
+    "deduplicated_saved_msa.done.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "deduplicated_saved_msa_coverage.png": "f1687e0e57c31eb9b8168d35ed5202a4c531d4863d12d4bd75a5defb224e96c1",
+    "deduplicated_saved_msa_pae.png": "294dc61980173a0580a9012bca33ea5f15a140d58d3cec6b9ac7f080256ffbcc"
+  }
+}

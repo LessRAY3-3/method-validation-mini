@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "stages": [
+    {
+      "seed": 20261113,
+      "stage": "nvt",
+      "gpu_verified": true,
+      "lincs_warnings": 0,
+      "fatal_errors": 0,
+      "ns_day": 1406.944
+    },
+    {
+      "seed": 20261113,
+      "stage": "npt",
+      "gpu_verified": true,
+      "lincs_warnings": 0,
+      "fatal_errors": 0,
+      "ns_day": 1315.127
+    },
+    {
+      "seed": 20261113,
+      "stage": "md",
+      "gpu_verified": true,
+      "lincs_warnings": 0,
+      "fatal_errors": 0,
+      "ns_day": 1505.59
+    },
+    {
+      "seed": 20261114,
+      "stage": "nvt",
+      "gpu_verified": true,
+      "lincs_warnings": 0,
+      "fatal_errors": 0,
+      "ns_day": 1404.487
+    },
+    {
+      "seed": 20261114,
+      "stage": "npt",
+      "gpu_verified": true,
+      "lincs_warnings": 0,
+      "fatal_errors": 0,
+      "ns_day": 1310.918
+    },
+    {
+      "seed": 20261114,
+      "stage": "md",
+      "gpu_verified": true,
+      "lincs_warnings": 0,
+      "fatal_errors": 0,
+      "ns_day": 1476.139
+    },
+    {
+      "seed": 20261115,
+      "stage": "nvt",
+      "gpu_verified": true,
+      "lincs_warnings": 0,
+      "fatal_errors": 0,
+      "ns_day": 1392.909
+    },
+    {
+      "seed": 20261115,
+      "stage": "npt",
+      "gpu_verified": true,
+      "lincs_warnings": 0,
+      "fatal_errors": 0,
+      "ns_day": 1291.011
+    },
+    {
+      "seed": 20261115,
+      "stage": "md",
+      "gpu_verified": true,
+      "lincs_warnings": 0,
+      "fatal_errors": 0,
+      "ns_day": 1474.64
+    }
+  ]
+}

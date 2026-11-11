@@ -1,0 +1,259 @@
+{
+  "source_sha256": {
+    "data/raw/1L2Y.pdb": "5d1bbb545a312dfff1ae1e64b6d8addecb2f561ddc4011aeb5bee9d1dfcd4438",
+    "results/prediction_ablation/runs/query_only/seed_42/query_only_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_042.pdb": "7069d230928f092f2753db159bd7b706e9fa2cc26b58b2bdbbdc44e4350dbd95",
+    "results/prediction_ablation/runs/query_only/seed_2026/query_only_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_2026.pdb": "a07866e38db5b7b4c083a2c28ec8478685537b8590c2cb48840c4e29956a3145",
+    "results/prediction_ablation/runs/query_only/seed_20261110/query_only_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.pdb": "07fa9e00193b4d63b1d4ee5808406a195fad1b5fa9fc23fbaa9e525c46d00fba",
+    "results/prediction_ablation/runs/deduplicated_saved_msa/seed_42/deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_042.pdb": "6348240ad0184257771ca6fb7004c27a1a4b3fc9cde41a09e4d6f73d257623b4",
+    "results/prediction_ablation/runs/deduplicated_saved_msa/seed_2026/deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_2026.pdb": "24d7b8dd27ef1b1858f08903201c5103d36a1e27d62d58ce3641f40940a2e490",
+    "results/prediction_ablation/runs/deduplicated_saved_msa/seed_20261110/deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.pdb": "5e1056c90ba940a3c66955ec45dd45769213cc70815795d15b71087f7e1f98db",
+    "results/prediction_ablation/runs/raw_saved_msa/seed_42/raw_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_042.pdb": "8070b6838781180d63ad9f44b294c6465c3d0d5fd7bcd7c02aa6ec20ff6badd9",
+    "results/prediction_ablation/runs/raw_saved_msa/seed_2026/raw_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_2026.pdb": "debbc0b361cab1b1d60601a2ac4251cdacba1e00d32909380c8a0aecc24c0b31",
+    "results/prediction_ablation/runs/raw_saved_msa/seed_20261110/raw_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.pdb": "18a75dbe94d43b0571d85c505bbff3a02063c4ef2d3c7307cff168626716d8cc"
+  },
+  "model_count": 9,
+  "reference_model_count": 38,
+  "independent_validation": {
+    "biopdb_vs_numpy_kabsch_max_difference_angstrom": 9.191006533626478e-08,
+    "dihedral_vs_biopdb_max_circular_difference_degrees": 5.201172825763933e-12,
+    "all_sequences_equal": "NLYIQWLKDGGPSSGRPPPS"
+  },
+  "fit_definitions": {
+    "global": "All 20 CA atoms",
+    "interior": "CA at positions 3-18 inclusive; positional subset, not a hydrophobic-core definition"
+  },
+  "distance_map_definition": "Absolute CA-CA distance error vs each NMR model; upper triangle excluding diagonal, then median of per-model MAE over 38 models",
+  "torsion_definitions": {
+    "phi": "C(i-1), N(i), CA(i), C(i)",
+    "psi": "N(i), CA(i), C(i), N(i+1)"
+  },
+  "geometry_screen_caveat": "Broad peptide connectivity and severe nonadjacent heavy-atom overlap screens, not MolProbity or energetic validation. These are unrelaxed predictions.",
+  "rows": [
+    {
+      "condition": "query_only",
+      "seed": 42,
+      "model1_biopdb_ca_rmsd_angstrom": 0.6104915783632077,
+      "median_nmr_full_fit_full_rmsd_angstrom": 0.9066605223161093,
+      "median_nmr_full_fit_interior_3_18_rmsd_angstrom": 0.6466631437892097,
+      "median_nmr_interior_fit_interior_3_18_rmsd_angstrom": 0.5608904103090016,
+      "median_nmr_interior_fit_terminal_rmsd_angstrom": 1.9473412412190652,
+      "median_nmr_ca_distance_mae_angstrom": 0.4707192255297321,
+      "median_nmr_interior_ca_distance_mae_angstrom": 0.3510294308823001
+    },
+    {
+      "condition": "query_only",
+      "seed": 2026,
+      "model1_biopdb_ca_rmsd_angstrom": 0.6080636205716999,
+      "median_nmr_full_fit_full_rmsd_angstrom": 0.902509814510968,
+      "median_nmr_full_fit_interior_3_18_rmsd_angstrom": 0.644466113132314,
+      "median_nmr_interior_fit_interior_3_18_rmsd_angstrom": 0.5562021704766458,
+      "median_nmr_interior_fit_terminal_rmsd_angstrom": 1.9235216831932747,
+      "median_nmr_ca_distance_mae_angstrom": 0.47304724423028316,
+      "median_nmr_interior_ca_distance_mae_angstrom": 0.35355322289604924
+    },
+    {
+      "condition": "query_only",
+      "seed": 20261110,
+      "model1_biopdb_ca_rmsd_angstrom": 0.6597713308451348,
+      "median_nmr_full_fit_full_rmsd_angstrom": 0.9347010417717173,
+      "median_nmr_full_fit_interior_3_18_rmsd_angstrom": 0.6918750162720784,
+      "median_nmr_interior_fit_interior_3_18_rmsd_angstrom": 0.6098378149522226,
+      "median_nmr_interior_fit_terminal_rmsd_angstrom": 1.9547838404243407,
+      "median_nmr_ca_distance_mae_angstrom": 0.4760111246844861,
+      "median_nmr_interior_ca_distance_mae_angstrom": 0.3648004472108858
+    },
+    {
+      "condition": "deduplicated_saved_msa",
+      "seed": 42,
+      "model1_biopdb_ca_rmsd_angstrom": 0.7847701826250119,
+      "median_nmr_full_fit_full_rmsd_angstrom": 0.9066066265091155,
+      "median_nmr_full_fit_interior_3_18_rmsd_angstrom": 0.7752676601693733,
+      "median_nmr_interior_fit_interior_3_18_rmsd_angstrom": 0.6793188197834162,
+      "median_nmr_interior_fit_terminal_rmsd_angstrom": 1.8762432179581552,
+      "median_nmr_ca_distance_mae_angstrom": 0.4319316848925669,
+      "median_nmr_interior_ca_distance_mae_angstrom": 0.3347890129016844
+    },
+    {
+      "condition": "deduplicated_saved_msa",
+      "seed": 2026,
+      "model1_biopdb_ca_rmsd_angstrom": 0.7218271883919313,
+      "median_nmr_full_fit_full_rmsd_angstrom": 0.855993306279734,
+      "median_nmr_full_fit_interior_3_18_rmsd_angstrom": 0.7046138711058993,
+      "median_nmr_interior_fit_interior_3_18_rmsd_angstrom": 0.6123221774237363,
+      "median_nmr_interior_fit_terminal_rmsd_angstrom": 1.7912479815881914,
+      "median_nmr_ca_distance_mae_angstrom": 0.4261503877300107,
+      "median_nmr_interior_ca_distance_mae_angstrom": 0.3246950795276439
+    },
+    {
+      "condition": "deduplicated_saved_msa",
+      "seed": 20261110,
+      "model1_biopdb_ca_rmsd_angstrom": 2.8176912215723635,
+      "median_nmr_full_fit_full_rmsd_angstrom": 2.8261279008427307,
+      "median_nmr_full_fit_interior_3_18_rmsd_angstrom": 2.966966246188097,
+      "median_nmr_interior_fit_interior_3_18_rmsd_angstrom": 2.8556289072852086,
+      "median_nmr_interior_fit_terminal_rmsd_angstrom": 3.7626369376206927,
+      "median_nmr_ca_distance_mae_angstrom": 0.9852501048490165,
+      "median_nmr_interior_ca_distance_mae_angstrom": 0.920841333835933
+    },
+    {
+      "condition": "raw_saved_msa",
+      "seed": 42,
+      "model1_biopdb_ca_rmsd_angstrom": 0.70579815525753,
+      "median_nmr_full_fit_full_rmsd_angstrom": 0.8584228604684547,
+      "median_nmr_full_fit_interior_3_18_rmsd_angstrom": 0.6980779725621624,
+      "median_nmr_interior_fit_interior_3_18_rmsd_angstrom": 0.6029097702802226,
+      "median_nmr_interior_fit_terminal_rmsd_angstrom": 1.788526832531779,
+      "median_nmr_ca_distance_mae_angstrom": 0.4190901935317628,
+      "median_nmr_interior_ca_distance_mae_angstrom": 0.31465617671106594
+    },
+    {
+      "condition": "raw_saved_msa",
+      "seed": 2026,
+      "model1_biopdb_ca_rmsd_angstrom": 0.7529662233063434,
+      "median_nmr_full_fit_full_rmsd_angstrom": 0.8901877841650485,
+      "median_nmr_full_fit_interior_3_18_rmsd_angstrom": 0.7549486790234443,
+      "median_nmr_interior_fit_interior_3_18_rmsd_angstrom": 0.6708187752675469,
+      "median_nmr_interior_fit_terminal_rmsd_angstrom": 1.848237102715641,
+      "median_nmr_ca_distance_mae_angstrom": 0.425985365885609,
+      "median_nmr_interior_ca_distance_mae_angstrom": 0.33201820305122964
+    },
+    {
+      "condition": "raw_saved_msa",
+      "seed": 20261110,
+      "model1_biopdb_ca_rmsd_angstrom": 0.7635074388689482,
+      "median_nmr_full_fit_full_rmsd_angstrom": 0.9020647193584819,
+      "median_nmr_full_fit_interior_3_18_rmsd_angstrom": 0.7523644041276463,
+      "median_nmr_interior_fit_interior_3_18_rmsd_angstrom": 0.6536023802513629,
+      "median_nmr_interior_fit_terminal_rmsd_angstrom": 1.8697270055914235,
+      "median_nmr_ca_distance_mae_angstrom": 0.4355880323599113,
+      "median_nmr_interior_ca_distance_mae_angstrom": 0.33020640767789766
+    }
+  ],
+  "geometry": [
+    {
+      "condition": "query_only",
+      "seed": 42,
+      "peptide_cn_min_angstrom": 1.126391053199768,
+      "peptide_cn_max_angstrom": 1.5481882095336914,
+      "peptide_cn_outside_1_15_to_1_55": [
+        12
+      ],
+      "adjacent_ca_min_angstrom": 3.6498549497090216,
+      "adjacent_ca_max_angstrom": 4.120219705336398,
+      "adjacent_ca_outside_3_5_to_4_1": [
+        19
+      ],
+      "gross_nonadjacent_heavy_clashes_below_1_5": []
+    },
+    {
+      "condition": "query_only",
+      "seed": 2026,
+      "peptide_cn_min_angstrom": 1.1419832706451416,
+      "peptide_cn_max_angstrom": 1.5433522462844849,
+      "peptide_cn_outside_1_15_to_1_55": [
+        12
+      ],
+      "adjacent_ca_min_angstrom": 3.6344910833987023,
+      "adjacent_ca_max_angstrom": 4.119453259814445,
+      "adjacent_ca_outside_3_5_to_4_1": [
+        19
+      ],
+      "gross_nonadjacent_heavy_clashes_below_1_5": []
+    },
+    {
+      "condition": "query_only",
+      "seed": 20261110,
+      "peptide_cn_min_angstrom": 1.1476881504058838,
+      "peptide_cn_max_angstrom": 1.5603793859481812,
+      "peptide_cn_outside_1_15_to_1_55": [
+        12,
+        19
+      ],
+      "adjacent_ca_min_angstrom": 3.6472385983960676,
+      "adjacent_ca_max_angstrom": 4.1209508227995535,
+      "adjacent_ca_outside_3_5_to_4_1": [
+        19
+      ],
+      "gross_nonadjacent_heavy_clashes_below_1_5": []
+    },
+    {
+      "condition": "deduplicated_saved_msa",
+      "seed": 42,
+      "peptide_cn_min_angstrom": 1.1004728078842163,
+      "peptide_cn_max_angstrom": 1.3957966566085815,
+      "peptide_cn_outside_1_15_to_1_55": [
+        4,
+        12
+      ],
+      "adjacent_ca_min_angstrom": 3.5938320184546755,
+      "adjacent_ca_max_angstrom": 4.03516355890106,
+      "adjacent_ca_outside_3_5_to_4_1": [],
+      "gross_nonadjacent_heavy_clashes_below_1_5": []
+    },
+    {
+      "condition": "deduplicated_saved_msa",
+      "seed": 2026,
+      "peptide_cn_min_angstrom": 1.0993198156356812,
+      "peptide_cn_max_angstrom": 1.4075769186019897,
+      "peptide_cn_outside_1_15_to_1_55": [
+        11,
+        12
+      ],
+      "adjacent_ca_min_angstrom": 3.5865466485609474,
+      "adjacent_ca_max_angstrom": 4.051119359266827,
+      "adjacent_ca_outside_3_5_to_4_1": [],
+      "gross_nonadjacent_heavy_clashes_below_1_5": []
+    },
+    {
+      "condition": "deduplicated_saved_msa",
+      "seed": 20261110,
+      "peptide_cn_min_angstrom": 1.1924887895584106,
+      "peptide_cn_max_angstrom": 1.512684941291809,
+      "peptide_cn_outside_1_15_to_1_55": [],
+      "adjacent_ca_min_angstrom": 3.714098127156522,
+      "adjacent_ca_max_angstrom": 4.011384615330776,
+      "adjacent_ca_outside_3_5_to_4_1": [],
+      "gross_nonadjacent_heavy_clashes_below_1_5": []
+    },
+    {
+      "condition": "raw_saved_msa",
+      "seed": 42,
+      "peptide_cn_min_angstrom": 1.101214051246643,
+      "peptide_cn_max_angstrom": 1.390468955039978,
+      "peptide_cn_outside_1_15_to_1_55": [
+        12
+      ],
+      "adjacent_ca_min_angstrom": 3.593080866328471,
+      "adjacent_ca_max_angstrom": 4.039405039709327,
+      "adjacent_ca_outside_3_5_to_4_1": [],
+      "gross_nonadjacent_heavy_clashes_below_1_5": []
+    },
+    {
+      "condition": "raw_saved_msa",
+      "seed": 2026,
+      "peptide_cn_min_angstrom": 1.1138783693313599,
+      "peptide_cn_max_angstrom": 1.4097527265548706,
+      "peptide_cn_outside_1_15_to_1_55": [
+        12
+      ],
+      "adjacent_ca_min_angstrom": 3.603640991037844,
+      "adjacent_ca_max_angstrom": 4.040777086733234,
+      "adjacent_ca_outside_3_5_to_4_1": [],
+      "gross_nonadjacent_heavy_clashes_below_1_5": []
+    },
+    {
+      "condition": "raw_saved_msa",
+      "seed": 20261110,
+      "peptide_cn_min_angstrom": 1.106644630432129,
+      "peptide_cn_max_angstrom": 1.4132020473480225,
+      "peptide_cn_outside_1_15_to_1_55": [
+        12
+      ],
+      "adjacent_ca_min_angstrom": 3.5985481133860713,
+      "adjacent_ca_max_angstrom": 4.044681928242215,
+      "adjacent_ca_outside_3_5_to_4_1": [],
+      "gross_nonadjacent_heavy_clashes_below_1_5": []
+    }
+  ],
+  "limitations": "Post hoc descriptive diagnosis of one outlying archived prediction; NMR models are not independent replicates. Geometry cannot establish the internal stochastic/MSA mechanism or thermodynamic state. Side-chain contacts are minimum distances, not binding interactions."
+}

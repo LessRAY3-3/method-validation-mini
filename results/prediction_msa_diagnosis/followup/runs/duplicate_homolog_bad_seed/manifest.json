@@ -1,0 +1,53 @@
+{
+  "spec": {
+    "id": "duplicate_homolog_bad_seed",
+    "condition": "duplicate_homolog",
+    "seed": 20261110,
+    "recycles": 3,
+    "extra_args": []
+  },
+  "started_utc": "2026-11-10T07:54:13.227512+00:00",
+  "finished_utc": "2026-11-10T07:54:17.558317+00:00",
+  "command": [
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/.colabfold/bin/python",
+    "-m",
+    "colabfold.batch",
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/results/prediction_msa_diagnosis/followup/inputs/duplicate_homolog.a3m",
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/results/prediction_msa_diagnosis/followup/runs/duplicate_homolog_bad_seed",
+    "--data",
+    "/Users/lessray/Library/Caches/colabfold",
+    "--model-type",
+    "alphafold2_ptm",
+    "--model-order",
+    "1",
+    "--num-models",
+    "1",
+    "--num-seeds",
+    "1",
+    "--random-seed",
+    "20261110",
+    "--num-recycle",
+    "3",
+    "--rank",
+    "plddt",
+    "--compile-mode",
+    "fast"
+  ],
+  "plan_sha256": "7898cbd03f301bd0cec663e44eb63b7d598a912e07b46b8976200523eac2e7b0",
+  "input_sha256": "161b50ed88aa6015e2731db5395479f5cff13d930f7276628d184b6e2dd69122",
+  "weights_sha256": "5e564f79af5bcd54ccef6e2a6bb0ff01015d01650ebc41d4575e35f0de9ecc84",
+  "outputs_sha256": {
+    "duplicate_homolog_coverage.png": "44af112e24b3c012922743e135bc8b6e0dc3b2efbf16b9157ae12f258c00b19d",
+    "duplicate_homolog_pae.png": "df9f76ba8f8d50751e70bffd66366c9e0e8bbaaebf70551d11bb2ca9ae199a2e",
+    "run.log": "d2003f7c8b35aac5a1ffa8003ff6eeaf5db0510e0c572f85fa3d470cd7ae4b1e",
+    "duplicate_homolog_plddt.png": "51ef46c64fde9f672135120becdb934bd0ef3edf2726dd458b39a54ed441de80",
+    "config.json": "67128c109a680c61aa7c59ad526e20c368640ba6697afd301268eebedc8808d9",
+    "duplicate_homolog.done.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "log.txt": "d2003f7c8b35aac5a1ffa8003ff6eeaf5db0510e0c572f85fa3d470cd7ae4b1e",
+    "duplicate_homolog_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.pdb": "18a75dbe94d43b0571d85c505bbff3a02063c4ef2d3c7307cff168626716d8cc",
+    "duplicate_homolog_predicted_aligned_error_v1.json": "b6de7b65c2f611776581b06a40fc8767cb00f8f2e572e604d0830c3400e886fb",
+    "duplicate_homolog.a3m": "eae985fca2f770bc6b432fa748980a116009e2c26e77339fe22545f87365ff1c",
+    "cite.bibtex": "e7a700949b57d86b804f63abda492679b5711262fc5d7e9f81835bd95fa8cf94",
+    "duplicate_homolog_scores_rank_001_alphafold2_ptm_model_1_seed_20261110.json": "b9a0fa7c5fba17361020f5a15c3734fea3e4888f7264f6da5c487b7b512c7129"
+  }
+}

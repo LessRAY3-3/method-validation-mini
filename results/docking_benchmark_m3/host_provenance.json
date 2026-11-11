@@ -1,0 +1,21 @@
+{
+  "host_alias": "m3",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "machine": "arm64",
+  "cpu_count": 16,
+  "cpu_model": "Apple M3 Max",
+  "workers": 2,
+  "cpu_per_vina_run": 1,
+  "other_workload_caveat": "Wall clock timings observed under shared machine load; not a hardware performance benchmark",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "rdkit": "2026.3.1",
+    "meeko": "0.8.0",
+    "spyrmsd": "0.9.0",
+    "matplotlib": "3.11.2"
+  },
+  "scripts_sha256": {
+    "scripts/analyze_docking_benchmark.py": "e5f5ff705058cd31712f40d3b2333c17b479d667496fa74b2b333a584ad5c696",
+    "scripts/run_docking_benchmark.py": "8584e51d0ec09e7b520bee101c612fe09c86f30958790e1f685446a399a00657"
+  }
+}

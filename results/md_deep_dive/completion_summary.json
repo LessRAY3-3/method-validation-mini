@@ -1,0 +1,20 @@
+{
+  "status": "exploratory_analysis_complete",
+  "new_simulations": 0,
+  "trajectories": 3,
+  "reference_choices": 38,
+  "independent_check_counts": {
+    "reference_svd": 342,
+    "local_svd": 18,
+    "contact_scalar": 27,
+    "torsion_biopython": 630
+  },
+  "limitation": "All checks reuse existing trajectories; not new independent dynamical evidence",
+  "files": {
+    "temporal": "results/md_deep_dive/temporal/summary.json",
+    "local_geometry": "results/md_deep_dive/local_geometry/summary.json",
+    "torsions": "results/md_deep_dive/torsions/summary.json",
+    "reference_ensemble": "results/md_deep_dive/reference_ensemble/summary.json",
+    "contact_sensitivity": "results/md_deep_dive/contact_sensitivity/summary.json"
+  }
+}

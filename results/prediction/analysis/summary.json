@@ -1,0 +1,20 @@
+{
+  "sequence": "NLYIQWLKDGGPSSGRPPPS",
+  "ESMFold": {
+    "input_file": "results/prediction/esmfold_1L2Y.pdb",
+    "input_scale": "0-1",
+    "mean_plddt": 91.15,
+    "minimum_plddt": 82.0,
+    "pae": "not provided by the archived PDB endpoint"
+  },
+  "ColabFold": [
+    {
+      "scores_file": "1L2Y_model1_scores_rank_001_alphafold2_ptm_model_1_seed_20261110.json",
+      "mean_plddt": 85.2995,
+      "mean_pae_angstrom": 3.8453500000000003,
+      "maximum_pae_angstrom": 14.7,
+      "ptm": 0.11
+    }
+  ],
+  "interpretation": "Confidence is not measured accuracy. For 20 residues, the pTM length scale is ~0.320 \u00c5; do not interpret its value using general protein thresholds. Compare coordinates with the NMR ensemble separately."
+}

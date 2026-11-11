@@ -1,0 +1,148 @@
+{
+  "created_before_followup_utc": "2026-11-10T07:54:03.447528+00:00",
+  "reason": "Investigate a post-hoc outlier, not a confirmatory population study",
+  "baseline_plan_sha256": "43cef94314b04e3afdd3586d9d841c252b58e5871e1547a859bee88b8937abc0",
+  "sequence": "NLYIQWLKDGGPSSGRPPPS",
+  "weights_sha256": "5e564f79af5bcd54ccef6e2a6bb0ff01015d01650ebc41d4575e35f0de9ecc84",
+  "inputs": {
+    "query_only": {
+      "path": "inputs/query_only.a3m",
+      "sha256": "97fad2bc48015ade619bc53981ac0e373e57b224ad2b8770ade6ed96ad0b37ad"
+    },
+    "deduplicated_saved_msa": {
+      "path": "inputs/deduplicated_saved_msa.a3m",
+      "sha256": "2f2f0a20f5cd7f3645bd5568531363f549e188e3578bdb01c874228a14b37f40"
+    },
+    "raw_saved_msa": {
+      "path": "inputs/raw_saved_msa.a3m",
+      "sha256": "e4094cb8a2c60ffeb1001ea55ae0d352cf7537d0dd798d2008fa78cd64570bdc"
+    },
+    "duplicate_query": {
+      "path": "inputs/duplicate_query.a3m",
+      "sha256": "ca595c766deb761058db0f56cab8d945eb2b3e80b509149a5d1623f874de1ffa"
+    },
+    "duplicate_homolog": {
+      "path": "inputs/duplicate_homolog.a3m",
+      "sha256": "161b50ed88aa6015e2731db5395479f5cff13d930f7276628d184b6e2dd69122"
+    }
+  },
+  "runs": [
+    {
+      "id": "repeat_bad_seed",
+      "condition": "deduplicated_saved_msa",
+      "seed": 20261110,
+      "recycles": 3,
+      "extra_args": []
+    },
+    {
+      "id": "duplicate_query_bad_seed",
+      "condition": "duplicate_query",
+      "seed": 20261110,
+      "recycles": 3,
+      "extra_args": []
+    },
+    {
+      "id": "duplicate_homolog_bad_seed",
+      "condition": "duplicate_homolog",
+      "seed": 20261110,
+      "recycles": 3,
+      "extra_args": []
+    },
+    {
+      "id": "raw_capacity_2_bad_seed",
+      "condition": "raw_saved_msa",
+      "seed": 20261110,
+      "recycles": 3,
+      "extra_args": [
+        "--max-msa",
+        "2:1"
+      ]
+    },
+    {
+      "id": "dedup_12_recycles_bad_seed",
+      "condition": "deduplicated_saved_msa",
+      "seed": 20261110,
+      "recycles": 12,
+      "extra_args": [
+        "--recycle-early-stop-tolerance",
+        "0"
+      ]
+    },
+    {
+      "id": "extension_query_only_20261111",
+      "condition": "query_only",
+      "seed": 20261111,
+      "recycles": 3,
+      "extra_args": []
+    },
+    {
+      "id": "extension_deduplicated_saved_msa_20261111",
+      "condition": "deduplicated_saved_msa",
+      "seed": 20261111,
+      "recycles": 3,
+      "extra_args": []
+    },
+    {
+      "id": "extension_raw_saved_msa_20261111",
+      "condition": "raw_saved_msa",
+      "seed": 20261111,
+      "recycles": 3,
+      "extra_args": []
+    },
+    {
+      "id": "extension_query_only_20261112",
+      "condition": "query_only",
+      "seed": 20261112,
+      "recycles": 3,
+      "extra_args": []
+    },
+    {
+      "id": "extension_deduplicated_saved_msa_20261112",
+      "condition": "deduplicated_saved_msa",
+      "seed": 20261112,
+      "recycles": 3,
+      "extra_args": []
+    },
+    {
+      "id": "extension_raw_saved_msa_20261112",
+      "condition": "raw_saved_msa",
+      "seed": 20261112,
+      "recycles": 3,
+      "extra_args": []
+    },
+    {
+      "id": "extension_query_only_20261113",
+      "condition": "query_only",
+      "seed": 20261113,
+      "recycles": 3,
+      "extra_args": []
+    },
+    {
+      "id": "extension_deduplicated_saved_msa_20261113",
+      "condition": "deduplicated_saved_msa",
+      "seed": 20261113,
+      "recycles": 3,
+      "extra_args": []
+    },
+    {
+      "id": "extension_raw_saved_msa_20261113",
+      "condition": "raw_saved_msa",
+      "seed": 20261113,
+      "recycles": 3,
+      "extra_args": []
+    }
+  ],
+  "questions": [
+    "Is the original outlier exactly reproducible?",
+    "Do duplicate query versus duplicate homolog rows change the processed input/result?",
+    "Does lowering raw MSA cluster capacity reproduce the anomaly?",
+    "Does 12-recycle refinement change this same outlier?",
+    "Does paired extension to six seeds show the outlier in other seeds?"
+  ],
+  "limits": "Only three new paired seeds; 38 NMR models are not independent replicates. The 12-recycle perturbation is outlier-specific, not evidence for universally optimal settings. No omitted seeds or replacement of historical results.",
+  "device": "CPU",
+  "model": "alphafold2_ptm_model_1",
+  "templates": false,
+  "relax": false,
+  "analysis": "Median global CA RMSD over all 38 NMR models plus local structure; preserve all runs, including poor results."
+}

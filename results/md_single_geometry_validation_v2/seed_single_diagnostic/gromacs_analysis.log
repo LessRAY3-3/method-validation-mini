@@ -1,0 +1,386 @@
+                 :-) GROMACS - gmx trjconv, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  /Users/lessray/Desktop/kimi code/method-validation-mini/results/md_single_geometry_validation_v2/seed_single_diagnostic
+Command line:
+  gmx trjconv -s '/Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr' -f '/Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md_all_fit_11ns.xtc' -o '/Users/lessray/Desktop/kimi code/method-validation-mini/results/md_single_geometry_validation_v2/seed_single_diagnostic/protein_whole.gro' -pbc whole -b 0 -e 11000
+
+Will write gro: Coordinate file in Gromos-87 format
+Reading file /Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Reading file /Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Group     0 (         System) has  8339 elements
+Group     1 (        Protein) has   304 elements
+Group     2 (      Protein-H) has   154 elements
+Group     3 (        C-alpha) has    20 elements
+Group     4 (       Backbone) has    60 elements
+Group     5 (      MainChain) has    81 elements
+Group     6 (   MainChain+Cb) has    98 elements
+Group     7 (    MainChain+H) has    99 elements
+Group     8 (      SideChain) has   205 elements
+Group     9 (    SideChain-H) has    73 elements
+Group    10 (    Prot-Masses) has   304 elements
+Group    11 (    non-Protein) has  8035 elements
+Group    12 (          Water) has  8034 elements
+Group    13 (            SOL) has  8034 elements
+Group    14 (      non-Water) has   305 elements
+Group    15 (            Ion) has     1 elements
+Group    16 ( Water_and_ions) has  8035 elements
+Select a group: 
+Reading frame       0 time    0.000   
+Precision of /Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md_all_fit_11ns.xtc is 0.001 (nm)
+
+Reading frame       1 time   10.000    ->  frame      0 time    0.000      
+
+Reading frame       2 time   20.000    ->  frame      1 time   10.000      
+
+Reading frame       3 time   30.000    ->  frame      2 time   20.000      
+
+Reading frame       4 time   40.000    ->  frame      3 time   30.000      
+
+Reading frame       5 time   50.000    ->  frame      4 time   40.000      
+
+Reading frame       6 time   60.000    ->  frame      5 time   50.000      
+
+Reading frame       7 time   70.000    ->  frame      6 time   60.000      
+
+Reading frame       8 time   80.000    ->  frame      7 time   70.000      
+
+Reading frame       9 time   90.000    ->  frame      8 time   80.000      
+
+Reading frame      10 time  100.000    ->  frame      9 time   90.000      
+
+Reading frame      11 time  110.000    ->  frame     10 time  100.000      
+
+Reading frame      12 time  120.000    ->  frame     11 time  110.000      
+
+Reading frame      13 time  130.000    ->  frame     12 time  120.000      
+
+Reading frame      14 time  140.000    ->  frame     13 time  130.000      
+
+Reading frame      15 time  150.000    ->  frame     14 time  140.000      
+
+Reading frame      16 time  160.000    ->  frame     15 time  150.000      
+
+Reading frame      17 time  170.000    ->  frame     16 time  160.000      
+
+Reading frame      18 time  180.000    ->  frame     17 time  170.000      
+
+Reading frame      19 time  190.000    ->  frame     18 time  180.000      
+
+Reading frame      20 time  200.000    ->  frame     19 time  190.000      
+
+Reading frame      30 time  300.000    ->  frame     29 time  290.000      
+
+Reading frame      40 time  400.000    ->  frame     39 time  390.000      
+
+Reading frame      50 time  500.000    ->  frame     49 time  490.000      
+
+Reading frame      60 time  600.000    ->  frame     59 time  590.000      
+
+Reading frame      70 time  700.000    ->  frame     69 time  690.000      
+
+Reading frame      80 time  800.000    ->  frame     79 time  790.000      
+
+Reading frame      90 time  900.000    ->  frame     89 time  890.000      
+
+Reading frame     100 time 1000.000    ->  frame     99 time  990.000      
+
+Reading frame     110 time 1100.000    ->  frame    109 time 1090.000      
+
+Reading frame     120 time 1200.000    ->  frame    119 time 1190.000      
+
+Reading frame     130 time 1300.000    ->  frame    129 time 1290.000      
+
+Reading frame     140 time 1400.000    ->  frame    139 time 1390.000      
+
+Reading frame     150 time 1500.000    ->  frame    149 time 1490.000      
+
+Reading frame     160 time 1600.000    ->  frame    159 time 1590.000      
+
+Reading frame     170 time 1700.000    ->  frame    169 time 1690.000      
+
+Reading frame     180 time 1800.000    ->  frame    179 time 1790.000      
+
+Reading frame     190 time 1900.000    ->  frame    189 time 1890.000      
+
+Reading frame     200 time 2000.000    ->  frame    199 time 1990.000      
+
+Reading frame     300 time 3000.000    ->  frame    299 time 2990.000      
+
+Reading frame     400 time 4000.000    ->  frame    399 time 3990.000      
+
+Reading frame     500 time 5000.000    ->  frame    499 time 4990.000      
+
+Reading frame     600 time 6000.000    ->  frame    599 time 5990.000      
+
+Reading frame     700 time 7000.000    ->  frame    699 time 6990.000      
+
+Reading frame     800 time 8000.000    ->  frame    799 time 7990.000      
+
+Reading frame     900 time 9000.000    ->  frame    899 time 8990.000      
+
+Reading frame    1000 time 10000.000    ->  frame    999 time 9990.000      
+
+Reading frame    1100 time 11000.000    ->  frame   1099 time 10990.000      
+
+Last frame       1100 time 11000.000   
+ ->  frame   1100 time 11000.000      
+Last written: frame   1100 time 11000.000
+
+
+GROMACS reminds you: "Don’t bring an anecdote to a data fight." (Molly Hodgdon)
+
+Note that major changes are planned in future for trjconv, to improve usability and utility.
+Select group for output
+Selected 1: 'Protein'
+
+                   :-) GROMACS - gmx rms, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  /Users/lessray/Desktop/kimi code/method-validation-mini/results/md_single_geometry_validation_v2/seed_single_diagnostic
+Command line:
+  gmx rms -s '/Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr' -f '/Users/lessray/Desktop/kimi code/method-validation-mini/results/md_single_geometry_validation_v2/seed_single_diagnostic/protein_whole.gro' -o rmsd_common_reference.xvg -tu ns
+
+Reading file /Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Reading file /Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Select group for least squares fit
+Group     0 (         System) has  8339 elements
+Group     1 (        Protein) has   304 elements
+Group     2 (      Protein-H) has   154 elements
+Group     3 (        C-alpha) has    20 elements
+Group     4 (       Backbone) has    60 elements
+Group     5 (      MainChain) has    81 elements
+Group     6 (   MainChain+Cb) has    98 elements
+Group     7 (    MainChain+H) has    99 elements
+Group     8 (      SideChain) has   205 elements
+Group     9 (    SideChain-H) has    73 elements
+Group    10 (    Prot-Masses) has   304 elements
+Group    11 (    non-Protein) has  8035 elements
+Group    12 (          Water) has  8034 elements
+Group    13 (            SOL) has  8034 elements
+Group    14 (      non-Water) has   305 elements
+Group    15 (            Ion) has     1 elements
+Group    16 ( Water_and_ions) has  8035 elements
+Select a group: Select group for RMSD calculation
+Group     0 (         System) has  8339 elements
+Group     1 (        Protein) has   304 elements
+Group     2 (      Protein-H) has   154 elements
+Group     3 (        C-alpha) has    20 elements
+Group     4 (       Backbone) has    60 elements
+Group     5 (      MainChain) has    81 elements
+Group     6 (   MainChain+Cb) has    98 elements
+Group     7 (    MainChain+H) has    99 elements
+Group     8 (      SideChain) has   205 elements
+Group     9 (    SideChain-H) has    73 elements
+Group    10 (    Prot-Masses) has   304 elements
+Group    11 (    non-Protein) has  8035 elements
+Group    12 (          Water) has  8034 elements
+Group    13 (            SOL) has  8034 elements
+Group    14 (      non-Water) has   305 elements
+Group    15 (            Ion) has     1 elements
+Group    16 ( Water_and_ions) has  8035 elements
+Select a group: Reading frames from gro file 'Protein in water t=   0.00000 step= 0', 304 atoms.
+
+Reading frame       0 time    0.000   
+WARNING: topology has 8339 atoms, whereas trajectory has 304
+
+Reading frame       1 time    0.010   
+Reading frame       2 time    0.020   
+Reading frame       3 time    0.030   
+Reading frame       4 time    0.040   
+Reading frame       5 time    0.050   
+Reading frame       6 time    0.060   
+Reading frame       7 time    0.070   
+Reading frame       8 time    0.080   
+Reading frame       9 time    0.090   
+Reading frame      10 time    0.100   
+Reading frame      11 time    0.110   
+Reading frame      12 time    0.120   
+Reading frame      13 time    0.130   
+Reading frame      14 time    0.140   
+Reading frame      15 time    0.150   
+Reading frame      16 time    0.160   
+Reading frame      17 time    0.170   
+Reading frame      18 time    0.180   
+Reading frame      19 time    0.190   
+Reading frame      20 time    0.200   
+Reading frame      30 time    0.300   
+Reading frame      40 time    0.400   
+Reading frame      50 time    0.500   
+Reading frame      60 time    0.600   
+Reading frame      70 time    0.700   
+Reading frame      80 time    0.800   
+Reading frame      90 time    0.900   
+Reading frame     100 time    1.000   
+Reading frame     110 time    1.100   
+Reading frame     120 time    1.200   
+Reading frame     130 time    1.300   
+Reading frame     140 time    1.400   
+Reading frame     150 time    1.500   
+Reading frame     160 time    1.600   
+Reading frame     170 time    1.700   
+Reading frame     180 time    1.800   
+Reading frame     190 time    1.900   
+Reading frame     200 time    2.000   
+Reading frame     300 time    3.000   
+Reading frame     400 time    4.000   
+Reading frame     500 time    5.000   
+Reading frame     600 time    6.000   
+Reading frame     700 time    7.000   
+Reading frame     800 time    8.000   
+Reading frame     900 time    9.000   
+Reading frame    1000 time   10.000   
+Reading frame    1100 time   11.000   
+Last frame       1100 time   11.000   
+
+GROMACS reminds you: "Never measure the height of a mountain until you have reached the top. Then you will see how low it was." (Dag Hammarskjold)
+
+Selected 4: 'Backbone'
+Selected 4: 'Backbone'
+
+                 :-) GROMACS - gmx gyrate, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  /Users/lessray/Desktop/kimi code/method-validation-mini/results/md_single_geometry_validation_v2/seed_single_diagnostic
+Command line:
+  gmx gyrate -s '/Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr' -f '/Users/lessray/Desktop/kimi code/method-validation-mini/results/md_single_geometry_validation_v2/seed_single_diagnostic/protein_whole.gro' -o gyrate.xvg
+
+Reading file /Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Reading file /Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Reading frames from gro file 'Protein in water t=   0.00000 step= 0', 304 atoms.
+
+Reading frame       0 time    0.000   
+Reading frame       1 time   10.000   
+Reading frame       2 time   20.000   
+Reading frame       3 time   30.000   
+Reading frame       4 time   40.000   
+Reading frame       5 time   50.000   
+Reading frame       6 time   60.000   
+Reading frame       7 time   70.000   
+Reading frame       8 time   80.000   
+Reading frame       9 time   90.000   
+Reading frame      10 time  100.000   
+Reading frame      11 time  110.000   
+Reading frame      12 time  120.000   
+Reading frame      13 time  130.000   
+Reading frame      14 time  140.000   
+Reading frame      15 time  150.000   
+Reading frame      16 time  160.000   
+Reading frame      17 time  170.000   
+Reading frame      18 time  180.000   
+Reading frame      19 time  190.000   
+Reading frame      20 time  200.000   
+Reading frame      30 time  300.000   
+Reading frame      40 time  400.000   
+Reading frame      50 time  500.000   
+Reading frame      60 time  600.000   
+Reading frame      70 time  700.000   
+Reading frame      80 time  800.000   
+Reading frame      90 time  900.000   
+Reading frame     100 time 1000.000   
+Reading frame     110 time 1100.000   
+Reading frame     120 time 1200.000   
+Reading frame     130 time 1300.000   
+Reading frame     140 time 1400.000   
+Reading frame     150 time 1500.000   
+Reading frame     160 time 1600.000   
+Reading frame     170 time 1700.000   
+Reading frame     180 time 1800.000   
+Reading frame     190 time 1900.000   
+Reading frame     200 time 2000.000   
+Reading frame     300 time 3000.000   
+Reading frame     400 time 4000.000   
+Reading frame     500 time 5000.000   
+Reading frame     600 time 6000.000   
+Reading frame     700 time 7000.000   
+Reading frame     800 time 8000.000   
+Reading frame     900 time 9000.000   
+Reading frame    1000 time 10000.000   
+Reading frame    1100 time 11000.000   
+Last frame       1100 time 11000.000   
+Analyzed 1101 frames, last time 11000.000
+
+GROMACS reminds you: "Never measure the height of a mountain until you have reached the top. Then you will see how low it was." (Dag Hammarskjold)
+
+
+                  :-) GROMACS - gmx hbond, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  /Users/lessray/Desktop/kimi code/method-validation-mini/results/md_single_geometry_validation_v2/seed_single_diagnostic
+Command line:
+  gmx hbond -s '/Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr' -f '/Users/lessray/Desktop/kimi code/method-validation-mini/results/md_single_geometry_validation_v2/seed_single_diagnostic/protein_whole.gro' -num hbond.xvg -o hbond.ndx
+
+Reading file /Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Reading file /Users/lessray/Desktop/kimi code/method-validation-mini/results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+Reading frames from gro file 'Protein in water t=   0.00000 step= 0', 304 atoms.
+
+Reading frame       0 time    0.000   
+Reading frame       1 time   10.000   
+Reading frame       2 time   20.000   
+Reading frame       3 time   30.000   
+Reading frame       4 time   40.000   
+Reading frame       5 time   50.000   
+Reading frame       6 time   60.000   
+Reading frame       7 time   70.000   
+Reading frame       8 time   80.000   
+Reading frame       9 time   90.000   
+Reading frame      10 time  100.000   
+Reading frame      11 time  110.000   
+Reading frame      12 time  120.000   
+Reading frame      13 time  130.000   
+Reading frame      14 time  140.000   
+Reading frame      15 time  150.000   
+Reading frame      16 time  160.000   
+Reading frame      17 time  170.000   
+Reading frame      18 time  180.000   
+Reading frame      19 time  190.000   
+Reading frame      20 time  200.000   
+Reading frame      30 time  300.000   
+Reading frame      40 time  400.000   
+Reading frame      50 time  500.000   
+Reading frame      60 time  600.000   
+Reading frame      70 time  700.000   
+Reading frame      80 time  800.000   
+Reading frame      90 time  900.000   
+Reading frame     100 time 1000.000   
+Reading frame     110 time 1100.000   
+Reading frame     120 time 1200.000   
+Reading frame     130 time 1300.000   
+Reading frame     140 time 1400.000   
+Reading frame     150 time 1500.000   
+Reading frame     160 time 1600.000   
+Reading frame     170 time 1700.000   
+Reading frame     180 time 1800.000   
+Reading frame     190 time 1900.000   
+Reading frame     200 time 2000.000   
+Reading frame     300 time 3000.000   
+Reading frame     400 time 4000.000   
+Reading frame     500 time 5000.000   
+Reading frame     600 time 6000.000   
+Reading frame     700 time 7000.000   
+Reading frame     800 time 8000.000   
+Reading frame     900 time 9000.000   
+Reading frame    1000 time 10000.000   
+Reading frame    1100 time 11000.000   
+Last frame       1100 time 11000.000   
+Analyzed 1101 frames, last time 11000.000
+
+Checking for overlap in atoms between Protein (304 atoms) and Protein (304 atoms)
+Selection 'Protein' has 56 acceptors and 27 donors.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+S. Gorelov, A. Titov, O. Tolicheva, A. Konevega, A. Shvetsov
+Determination of Hydrogen Bonds in GROMACS: A New Implementation to Overcome
+Memory Limitation
+Journal of Chemical Information and Modeling (2024)
+https://doi.org/10.1021/acs.jcim.3c02087
+-------- -------- --- Thank You --- -------- --------
+
+
+GROMACS reminds you: "Never measure the height of a mountain until you have reached the top. Then you will see how low it was." (Dag Hammarskjold)
+
+

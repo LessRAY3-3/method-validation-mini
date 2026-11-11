@@ -1,0 +1,19 @@
+{
+  "status": "completed exploratory analysis; no new simulations",
+  "protocol_sha256": "29d58285839c4d05cce0aead07e15ce4715e48ed6a08fee26600cb8af8ef0668",
+  "script_sha256": "0fddda1bd2d43719dc5b1e83d3ac63135c3bb7abdd206a73befd90e8b600b303",
+  "n_trajectories": 3,
+  "rows": {
+    "windows": 147,
+    "blocks": 3822,
+    "thresholds": 63,
+    "episodes": 806
+  },
+  "limitations": [
+    "Windows and thresholds selected after seeing early deviation; descriptive exploration, not independent confirmation.",
+    "Blocks and frames are correlated, no frame-level tests or confidence intervals.",
+    "Tail autocorrelation uses only3ns; no stationary distribution, ESS or convergence inferred.",
+    "Thresholds are geometric cutoffs, not states or folding probabilities; sampled episodes miss events shorter than10ps.",
+    "Extending all three can test persistence but cannot undo common starting conformation or prove rare-event sampling."
+  ]
+}

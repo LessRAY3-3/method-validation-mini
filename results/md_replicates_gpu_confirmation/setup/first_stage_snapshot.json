@@ -1,0 +1,59 @@
+{
+  "queue": {
+    "status": "running",
+    "study": "confirmation",
+    "queue_pid": 4536,
+    "seeds": [
+      20261113,
+      20261114,
+      20261115
+    ],
+    "production_ns_each": 11,
+    "completed_seeds": [],
+    "start_unix": 1794324096.475495,
+    "protocol_sha256": "f315904d13cdad5a98a6d053041e54439879a9acb32cfd6bdf973638c4bcc821",
+    "active_seed": 20261113,
+    "phase": "dynamics_and_per_run_analysis",
+    "updated_unix": 1794324096.4767425
+  },
+  "seeds": {
+    "20261113": {
+      "nvt": {
+        "done": true,
+        "last_step_time_ps": [
+          "50000",
+          "100.00000"
+        ],
+        "gpu_short_range": true,
+        "gpu_pme": true,
+        "lincs": 0,
+        "fatal": 0
+      },
+      "npt": {
+        "done": true,
+        "last_step_time_ps": [
+          "50000",
+          "100.00000"
+        ],
+        "gpu_short_range": true,
+        "gpu_pme": true,
+        "lincs": 0,
+        "fatal": 0
+      },
+      "md": {
+        "done": false,
+        "last_step_time_ps": [
+          "189000",
+          "378.00000"
+        ],
+        "gpu_short_range": true,
+        "gpu_pme": true,
+        "lincs": 0,
+        "fatal": 0
+      }
+    },
+    "20261114": {},
+    "20261115": {}
+  },
+  "gpu": "84 %, 257 MiB, 86.58 W\n"
+}

@@ -1,0 +1,11 @@
+${PROJECT_ROOT}/.conda/lib/python3.11/site-packages/prody/utilities/misctools.py:424: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+@> 4412 atoms and 1 coordinate set(s) were parsed in 0.01s.
+Template padding will be used.
+[32m gasteiger charges will be read from template file 
+ [0m
+
+Files written:
+  data/prepared/1iep_receptor.pdbqt <-- static (i.e., rigid) receptor input file
+data/prepared/1iep_receptor.box.txt <-- Vina-style box dimension file
+data/prepared/1iep_receptor.box.pdb <-- PDB file to visualize the grid box

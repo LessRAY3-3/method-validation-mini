@@ -1,0 +1,19 @@
+{
+  "status": "read_only_review_no_scientific_launch_blocker_identified",
+  "review_scope": [
+    "NPT100ps-to1000ps checkpoint extension with append",
+    "production newTPR gen_vel=no continuation=yes clock0",
+    "actualTPR timestep/nsteps/POSRES validation",
+    "D branches from C at same seed",
+    "fixed nine-run queue and source hash validation"
+  ],
+  "source_sha256": {
+    "scripts/run_md_factorial.py": "a8cfa288703b418be8943604c4b8b8d3ca51ba5192cb073d4ef88171447a55be",
+    "scripts/run_md_factorial_queue.py": "91deb134b9bbef844dfa9a757642f546454db3cabfe9028c566cdce3c48a00c9"
+  },
+  "limitations": [
+    "Real remote smoke result still needs parent verification",
+    "Queue analysis step is not resumable into existing output directory; retain partial evidence and rerun analysis to new directory if needed",
+    "This is code review, not evidence that any new simulation has completed"
+  ]
+}

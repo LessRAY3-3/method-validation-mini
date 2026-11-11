@@ -1,0 +1,38 @@
+{
+  "identity": {
+    "cell": "D",
+    "seed": 20261113,
+    "protocol_sha256": "ad42ba21cc13d23aa3c599c7f746de60ecf1da4c8ce154b8b73fe829a58b4824",
+    "source_directory": "results/md_factorial/C/seed_20261113",
+    "source_sha256": {
+      "minim.gro": "1f8619fffc5e216af7613a3f37418fe1b978c9ba509669b29003a27979711fbb",
+      "npt.cpt": "988a87106075a7adb5559dfb9777df21a8c583c4f159b1961bf59528fb95d359",
+      "npt.edr": "6f42133a32ed5a049f58be101e2096f7f723a42f157c87a34073024b4a28792e",
+      "npt.gro": "24bebbdfd42d424261c8d9ed67fb42bd708ac1e752573819499b53589774d48d",
+      "npt.log": "e2e8742c4461e127998087744d8738d6205d3356c9a83dea8b9f2cae5047315b",
+      "npt.mdp": "1e1cca8037713a8a61bc7bdb4db2635e04173eeddff3d7b9939111dd506247ea",
+      "npt.tpr": "5d5b11e02d2f7e798435f590a412422dd762ce04acc7fe0123675895fd21a551",
+      "npt.xtc": "6b29f39072f4f4c239962b4a3c4cb25a0c7c96403447d6a7edc684e11e737396",
+      "nvt.cpt": "a77fad603510a4f5f803d1bef071681867ef8888886ab5bde9fcc9583732d3e5",
+      "nvt.edr": "4bf57ed70aee11a6346439f4b874c63011b7a9b523df8b3dc77f1576d256b978",
+      "nvt.gro": "272706d022c71e2723a49ae00de38c48edfeb976b04f1841bb829169ea167d27",
+      "nvt.log": "9f9a3f54f7cf28f492d25d98846b8c1f0bcda5a86265ce894bdcc05295da1529",
+      "nvt.mdp": "6e0c6233f7ddfa5dd283439f4bf3fd17c18955faa549468402e025244c383183",
+      "nvt.tpr": "0c37f1c24f053035ccbbe19d441438856beef6b562302bc43406d81389307b3d",
+      "nvt.xtc": "0e145077020fa739afdb36fb23455fe49f53a02c4f8e0e59fdf56040d7894012",
+      "nvt_processed.mdp": "53a1dc7600f24caf0075e7176baaac843401de0b47f538384dc187df5b258640",
+      "nvt_tpr_dump.txt": "8d3c8ddf4155dc19e2f5699a784579279c1cf2eb7f11e83a8b25c138865ed615",
+      "posre.itp": "fbec4a871c1db716b064b6c6538b5ea4c8e88ab9c9bd33d478e2c80ed925fdc6",
+      "topol.top": "0b09f374213dd84c50b069b694a53922e79e89781977ca9dd33b3b8cbb2614ab"
+    },
+    "gromacs_binary_sha256": "4e25269377630858ffc4314fafeabe9f4c88b8f332c9db97fde325340f9dca32"
+  },
+  "gromacs": "                   :-) GROMACS - gmx, 2026.3-conda_forge (-:\n\nExecutable:   /home/lessray/codex-runs/method-validation-20261110-gpu/env/bin.AVX2_256/gmx\nData prefix:  /home/lessray/codex-runs/method-validation-20261110-gpu/env\nWorking dir:  /home/lessray/codex-runs/method-validation-20261110-gpu\nCommand line:\n  gmx --version\n\nGROMACS version:     2026.3-conda_forge\nPrecision:           mixed\nMemory model:        64 bit\nMPI library:         thread_mpi\nMPI version:         built in\nOpenMP support:      enabled (GMX_OPENMP_MAX_THREADS = 128)\nGPU support:         CUDA\nNBNxM GPU setup:     super-cluster 2x2x2 / cluster 8 (cluster-pair splitting on)\nSIMD instructions:   AVX2_256\nCPU FFT library:     fftw-3.3.11-sse2-avx\nGPU FFT library:     cuFFT\nMulti-GPU FFT:       none\nRDTSCP:              disabled\nTNG support:         enabled\nHwloc support:       disabled\nTracing support:     disabled\nColvars support:     enabled (version 2025-10-13)\nCP2K support:        disabled\nTorch support:       disabled\nPlumed support:      enabled\nC compiler:          /home/conda/feedstock_root/build_artifacts/gromacs_1785262689563/_build_env/bin/x86_64-conda-linux-gnu-cc GNU 14.3.0\nC compiler flags:    -fexcess-precision=fast -funroll-all-loops -mavx2 -mfma -Wno-missing-field-initializers -O3 -DNDEBUG\nC++ compiler:        /home/conda/feedstock_root/build_artifacts/gromacs_1785262689563/_build_env/bin/x86_64-conda-linux-gnu-c++ GNU 14.3.0\nC++ compiler flags:  -fexcess-precision=fast -funroll-all-loops -mavx2 -mfma -Wno-missing-field-initializers -Wno-stringop-truncation -Wno-cast-function-type-strict SHELL:-fopenmp -O3 -DNDEBUG\nBLAS library:        Internal\nLAPACK library:      Internal\nCUDA compiler:       /home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/nvcc (NVIDIA 12.9.86)\nCUDA compiler flags:  -O3 -DNDEBUG -use_fast_math -static-global-template-stub=false -Xptxas=-warn-double-usage -Xptxas=-Werror -diag-suppress=177 -use_fast_math -static-global-template-stub=false -Xptxas=-warn-double-usage -Xptxas=-Werror -diag-suppress=177 -O3 -DNDEBUG\nCUDA targets:        50;52-real;60-real;61-real;70-real;75-real;80-real;86-real;89-real;90-real;120\nCUDA driver:         13.0\nCUDA runtime:        12.90\nNVSHMEM:             disabled\n\n",
+  "created_unix": 1794405516.7307658,
+  "seed": 20261113,
+  "target_production_ns": 11,
+  "production_ns_each": 11,
+  "nvt_ps": 100,
+  "npt_ps": 1000,
+  "analysis_reference": "own md.tpr; cross-condition reference analysis is separate"
+}

@@ -1,0 +1,108 @@
+{
+  "started_utc": "2026-11-11T14:31:53.985585+00:00",
+  "input_sha256": {
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/md.tpr": "d0cf2a9c409b23f5f946529659e307e03a1e9670263bfca3130a10e268b6efc6",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md/minim.gro": "cd0cb8faf264e750e564863d102f8314e0d82afd91fe21a6eba2c28f1892a368",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/data/raw/1L2Y.pdb": "5d1bbb545a312dfff1ae1e64b6d8addecb2f561ddc4011aeb5bee9d1dfcd4438",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/data/prepared/1L2Y.fasta": "514439e36edefabaac21a386e031d58a57aa45a7e8408ad100126f9f1901769c",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113/md.tpr": "a057479c4449c3937fec55ace2e73bba2c7469031ade969e7db7e766ed7d9e94",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113/md.xtc": "40c31d8ac5905795c35ad1be2ba1ebd0870b05be8a4e48177c4f1c6d62bdf2fb",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113/md.log": "23c6c3f8c93f6b7caad61abdcb92cf90e2dc9a11d28c0cf146fc77d42bd90ef0",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113/md.done.json": "7d5a647b575decdd2ab26b7022817b78c6eb16ecfa722a6b93e830fded8ac1c2",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261113/provenance.json": "30f70bcb270c9a9f115a4533886ca7d41805c1a08013ce14e5c385d5c1307dde",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114/md.tpr": "7660523315e1b6aa4217990c00d7c22252f69984362b12e76bccd0b493531a1f",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114/md.xtc": "775f8ea796dc839fcd65b004ba8f57c44b30997d481ad3e7c2ca228e4c7e4812",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114/md.log": "cd8356d7d4ad8264375537b632b5cf13eff75762b35ace755936652ce81c3365",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114/md.done.json": "d1d9e3d13a0c225eae15ba5f281aea79349a363581b5c12b446a45621ba9b8dc",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261114/provenance.json": "1e3c73c3ae2d66e46162ef2b46f27f2815616e98f295055461ed363b0427a94b",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115/md.tpr": "83066ef6c2fa08617d2776c4687b6a0b8945d293a87f4436eeda5ec13b4cf9cf",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115/md.xtc": "3abe2a4996845807f643b8a4608880fb6c1c7f1981b74d53f0b8aae6261fa36f",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115/md.log": "5173d85382ee9548009fad9f5a31be3df7f875d4bcbc69673d5e752dcc399574",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115/md.done.json": "314f2585005a45c1217e92b5bbfa23b20a9115dab1fe438dcb237a7c2f3539f4",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/seed_20261115/provenance.json": "adddaced7fd4fc3804b5ecbf6d44e8d2ece0633771d32e3a88a909dbe0ba6c30",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261113/md.tpr": "d4edd2d80b211f9d0a5a495247eabefd8ba85806a37350d0e0187f2bacac5f5e",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261113/md.xtc": "7b1b208af2b50361e8467158b6514070dd68d04df330b1fec997284e81cfc7a8",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261113/md.log": "a60ebeb8499d2c0ff29c1558656843d1da4cdad9e6b608e46f30b9b96a50c12e",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261113/md.done.json": "7f1ec2bccedaf2a304821d62e934b6c7ac0e25baf5d5cc158a52cb595b97d8b9",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261113/provenance.json": "3ce69d74e83d69ffe320977210cdeff972c01d660f0affbfdd33e81e028460b5",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261114/md.tpr": "d247c5c84c8d63a61d7c0bc4ac054f8bc3e5ebecd66d0818ea2fc50061a09c64",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261114/md.xtc": "8cc67000c048a6e84371864da601645315e900d60a2f9ed77caaf9cea06cebc7",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261114/md.log": "675ee43b6d7c579c7049771abd29523e07377ce66ab67e6bbaf94b92a5b7dd2f",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261114/md.done.json": "351bc6297d6912b179de04cf015bdaa15dcc418fb641e516d95b38f46617523a",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261114/provenance.json": "681d5a61206f44e83f67959494074617054ef19dd4af89e5f2cf1330ec3114e5",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261115/md.tpr": "a91121afa5891e246cf640526b4736bbc0026a76c16c5db494994d8bbe2c1bf9",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261115/md.xtc": "87c137541e65a9db9b6b2f11257e810605a6f68ea1c71164e2561bec6f43068b",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261115/md.log": "0fa70e7f75e16281fb2644da817bf18c1a9442d48ef408ff88d029a64cfc0468",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261115/md.done.json": "0ed0c789853def4c84863735bc3b31406f0881546f71f2f46ff8f05b0a1550d3",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/B/seed_20261115/provenance.json": "b8a780f005ae38e5c374f367e51ce0e63603779d60b5443c413d7cd1071d7b63",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261113/md.tpr": "4cbf0fc82f2f955d0115cac1371037b7a8f5f0891b29004c16a156ddba3aa017",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261113/md.xtc": "613a1b4a80fc6f9214783b3909d23f7e4c0348a1315fc44b60c137ba2f70f0f3",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261113/md.log": "7d532d5d79fdc1d4ebc32537f4eb5491be302cb3b04ef1d8c7c49247894f5022",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261113/md.done.json": "b0338721f6da65fa32cb22624d632150c242306870151b546c87ee66bd2fd348",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261113/provenance.json": "958ffcad22aead69b775124685ea15d98c5c6d756d6459f9621a6ba50bfd57fc",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261114/md.tpr": "fcebc8575678d25071ea8876ca2f971b906df6a943e1ec89266cdafb9dc2b6ba",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261114/md.xtc": "7574ac7cb19b594c2822be23a86f74649164eea7b2b419174dc694c86486bf1c",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261114/md.log": "bc3126712a21f1ac2e784dc5d251f2d6afd6a4aa692cadc7fe6478f6e8df1952",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261114/md.done.json": "8fe05b91f97053a94306e81cef0fbbe4e3640963ce9c88ea8a8dafbb9cebc56e",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261114/provenance.json": "4f12d7b6f8f258a94cdd6b31ec5fb207c8c31e15c6961b3fa902366dd3401099",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261115/md.tpr": "f05ed8d655b80630a18bebe40bba423047485ef6c065ec0521ab7b48951dc4ad",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261115/md.xtc": "cf6cda0622941417f0ffa26671af08a674bfb40abbfa4bb170c81313148e1c0d",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261115/md.log": "bffc864da8039571ba90cf2ebdff2c99387cf861c9080f1f1beacede9a1cb91a",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261115/md.done.json": "d7ce93609330c8c65fd421f7f6da6f0316354b17938edaa50f5c7b7dee303d68",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261115/provenance.json": "74ef1f6d4b3fb109fc8b3c0e9c8fc70fefebc92950791bb6fa01f36e466b4faf",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261113/md.tpr": "17a95b761b97ba3c4131ecefb99c09e9f8f0cfb2cf700b76ba0c6d95942b3bfd",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261113/md.xtc": "acb6968e4d70ea2c9e87f7df0c8f8750fe9546b817d7519efc79c568756f8650",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261113/md.log": "6227208ddb87927a4f36604fa20f5e96819ecff02cac423f1cac146934b8bfc0",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261113/md.done.json": "b93450464442568aeda625409e5c07fb96c07b3f7c57c98f85fe7529ec0e50db",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261113/provenance.json": "e8c86b81849059f065be1adf17eaabc337b54a8a1770f39480f97b1d37d911a0",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261114/md.tpr": "63141cd634de1ae371c20eefc0bde5ce7cc505c990a9413ab1c8fa3eeb4883c0",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261114/md.xtc": "69c79d91b7ba66df6e29167e6d0bf60b034b251962f780410ecbf6a0e8c7fce4",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261114/md.log": "89c614b47cc90525c55d6b31f82da0c04f5ab08c7f30e941b41a17b3adb8f22a",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261114/md.done.json": "de2bfeca4061ce38a7ae2b698f9e09231936c4bc961ceebd86f1ebad22724134",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261114/provenance.json": "4181a71ed197e3b5f46957e0226ecbdd8e977cd5a31e80933ebba27a93c9aefc",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261115/md.tpr": "e070042b2648c0104aaef9f2b22037e5c667b1ba71ae26490afca988bce24b23",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261115/md.xtc": "03360cf3f1abae3b97771483a74b719063f0f9a9fe277945154ecd068d9c7556",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261115/md.log": "f47fc3d1efba974820a2fd1a735c4d9537d47ad7b71c393f262ab0035f8fb035",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261115/md.done.json": "753a0f0f35596e67914a0b51fc74f0e9c1500c359a5c2348d591043859f7e147",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261115/provenance.json": "3763ada35a720d3bc8171bc9248372325db429c9df0967c915eb9e80f534e66a"
+  },
+  "sources": {
+    "analyze_md_factorial.py": "4b3d4ee2059b76547363b4753af93b3a186876ea22c082e2ab2ed16f300f398e",
+    "analyze_md_replicates.py": "7d07c76b2708a2ea8d34ee62607e216489aa475f27ab9ea2a6dab61b33fe55b5",
+    "analyze_md_confirmation_batch.py": "3ef1474262b22b3df249db38973b7c88acf879b3f655fa94befab9e0d8e82796",
+    "prediction_utils.py": "87c0c4e3e7d7866f155d3377082e146bcb0d89e04041fc92c01dec5bce832b20"
+  },
+  "windows_ns": [
+    [
+      0,
+      11
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      8,
+      11
+    ]
+  ],
+  "seeds": [
+    20261113,
+    20261114,
+    20261115
+  ],
+  "cells": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "analysis_gromacs": "                   :-) GROMACS - gmx, 2026.3-conda_forge (-:\n\nExecutable:   /home/lessray/codex-runs/method-validation-20261110-gpu/env/bin.AVX2_256/gmx\nData prefix:  /home/lessray/codex-runs/method-validation-20261110-gpu/env\nWorking dir:  /home/lessray/codex-runs/method-validation-20261110-gpu\nCommand line:\n  gmx --version\n\nGROMACS version:     2026.3-conda_forge\nPrecision:           mixed\nMemory model:        64 bit\nMPI library:         thread_mpi\nMPI version:         built in\nOpenMP support:      enabled (GMX_OPENMP_MAX_THREADS = 128)\nGPU support:         CUDA\nNBNxM GPU setup:     super-cluster 2x2x2 / cluster 8 (cluster-pair splitting on)\nSIMD instructions:   AVX2_256\nCPU FFT library:     fftw-3.3.11-sse2-avx\nGPU FFT library:     cuFFT\nMulti-GPU FFT:       none\nRDTSCP:              disabled\nTNG support:         enabled\nHwloc support:       disabled\nTracing support:     disabled\nColvars support:     enabled (version 2025-10-13)\nCP2K support:        disabled\nTorch support:       disabled\nPlumed support:      enabled\nC compiler:          /home/conda/feedstock_root/build_artifacts/gromacs_1785262689563/_build_env/bin/x86_64-conda-linux-gnu-cc GNU 14.3.0\nC compiler flags:    -fexcess-precision=fast -funroll-all-loops -mavx2 -mfma -Wno-missing-field-initializers -O3 -DNDEBUG\nC++ compiler:        /home/conda/feedstock_root/build_artifacts/gromacs_1785262689563/_build_env/bin/x86_64-conda-linux-gnu-c++ GNU 14.3.0\nC++ compiler flags:  -fexcess-precision=fast -funroll-all-loops -mavx2 -mfma -Wno-missing-field-initializers -Wno-stringop-truncation -Wno-cast-function-type-strict SHELL:-fopenmp -O3 -DNDEBUG\nBLAS library:        Internal\nLAPACK library:      Internal\nCUDA compiler:       /home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/nvcc (NVIDIA 12.9.86)\nCUDA compiler flags:  -O3 -DNDEBUG -use_fast_math -static-global-template-stub=false -Xptxas=-warn-double-usage -Xptxas=-Werror -diag-suppress=177 -use_fast_math -static-global-template-stub=false -Xptxas=-warn-double-usage -Xptxas=-Werror -diag-suppress=177 -O3 -DNDEBUG\nCUDA targets:        50;52-real;60-real;61-real;70-real;75-real;80-real;86-real;89-real;90-real;120\nCUDA driver:         13.0\nCUDA runtime:        12.90\nNVSHMEM:             disabled\n\n",
+  "classification": "Prespecified conditional sensitivity experiment; analysis-time manifest is not launch-time protocol",
+  "limitations": [
+    "n=3 seed branches per cell, correlated frames are not replicates",
+    "Short/long NPT branches share history; identical seed labels across starting systems do not imply identical random streams",
+    "Two NMR starting structures do not establish arbitrary-start robustness or equilibrium",
+    "No p-values, folding rates, lifetimes, convergence or thermodynamic probabilities"
+  ]
+}

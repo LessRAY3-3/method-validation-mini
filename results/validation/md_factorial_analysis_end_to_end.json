@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "test_only": true,
+  "design": "all four cells alias three baseline trajectories; no new simulations",
+  "analysis_output": "/private/tmp/factorial-analysis-smoke-xkefo9zg/analysis",
+  "n_contrasts": 720,
+  "maximum_absolute_contrast": 0.0,
+  "independent_svd_checks": 1368,
+  "maximum_svd_error_A": 3.9968028886505635e-15,
+  "gromacs": "local /opt/homebrew/bin/gmx; own-topology trjconv/rms/gyrate/hbond paths exercised",
+  "limitations": "Same protein and solvent topology in all aliased cells; alternate solvent size not exercised"
+}

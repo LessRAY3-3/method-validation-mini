@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "recycle": 0,
+      "mean_plddt_from_rounded_pdb": 76.79749999999999,
+      "median_ca_rmsd_angstrom": 3.002036402117635,
+      "model1_ca_rmsd_angstrom": 3.0025071489806945
+    },
+    {
+      "recycle": 1,
+      "mean_plddt_from_rounded_pdb": 72.61749999999999,
+      "median_ca_rmsd_angstrom": 2.9311617258795346,
+      "model1_ca_rmsd_angstrom": 2.916340415566244
+    },
+    {
+      "recycle": 2,
+      "mean_plddt_from_rounded_pdb": 73.9535,
+      "median_ca_rmsd_angstrom": 2.8436612666012495,
+      "model1_ca_rmsd_angstrom": 2.8332371688566758
+    },
+    {
+      "recycle": 3,
+      "mean_plddt_from_rounded_pdb": 73.1745,
+      "median_ca_rmsd_angstrom": 2.8261278769497027,
+      "model1_ca_rmsd_angstrom": 2.8176911960112383
+    },
+    {
+      "recycle": 4,
+      "mean_plddt_from_rounded_pdb": 74.29749999999999,
+      "median_ca_rmsd_angstrom": 2.829901351649032,
+      "model1_ca_rmsd_angstrom": 2.8279554770464475
+    },
+    {
+      "recycle": 5,
+      "mean_plddt_from_rounded_pdb": 74.57149999999999,
+      "median_ca_rmsd_angstrom": 2.719422385862888,
+      "model1_ca_rmsd_angstrom": 2.741840426077581
+    },
+    {
+      "recycle": 6,
+      "mean_plddt_from_rounded_pdb": 80.7135,
+      "median_ca_rmsd_angstrom": 1.3752080647394755,
+      "model1_ca_rmsd_angstrom": 1.3821475745483873
+    },
+    {
+      "recycle": 7,
+      "mean_plddt_from_rounded_pdb": 87.474,
+      "median_ca_rmsd_angstrom": 1.0013121164923775,
+      "model1_ca_rmsd_angstrom": 0.9254157503643579
+    },
+    {
+      "recycle": 8,
+      "mean_plddt_from_rounded_pdb": 88.81250000000003,
+      "median_ca_rmsd_angstrom": 0.9126395308443782,
+      "model1_ca_rmsd_angstrom": 0.8050067019896346
+    },
+    {
+      "recycle": 9,
+      "mean_plddt_from_rounded_pdb": 89.569,
+      "median_ca_rmsd_angstrom": 0.8785008247452271,
+      "model1_ca_rmsd_angstrom": 0.7528998731460311
+    },
+    {
+      "recycle": 10,
+      "mean_plddt_from_rounded_pdb": 90.31899999999999,
+      "median_ca_rmsd_angstrom": 0.8634947916623865,
+      "model1_ca_rmsd_angstrom": 0.7141026778606282
+    },
+    {
+      "recycle": 11,
+      "mean_plddt_from_rounded_pdb": 90.644,
+      "median_ca_rmsd_angstrom": 0.877871468167791,
+      "model1_ca_rmsd_angstrom": 0.7180513680207293
+    },
+    {
+      "recycle": 12,
+      "mean_plddt_from_rounded_pdb": 91.1905,
+      "median_ca_rmsd_angstrom": 0.851452812006318,
+      "model1_ca_rmsd_angstrom": 0.7122523564816325
+    }
+  ],
+  "recycle3_matches_original_outlier": true,
+  "recycle12_matches_prior_followup": true,
+  "interpretation": "Recycling steps are model refinement iterations, not physical time, MD frames, a folding pathway, or a general recommendation to select the best iteration."
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "pages": 3,
+  "visual_review": "All3 rendered pages inspected: no clipping, overlap or missing glyphs. MD table and individual branch points legible. Docking/prediction content preserved.",
+  "report_sha256": "ebdfa94f592a6783612420208f57008f1639672327298ea673f044f98ad09019",
+  "source_hashes_verified": 11,
+  "prior_version": "output/pdf/legacy/md_three_replicates_before_factorial_20261111/"
+}

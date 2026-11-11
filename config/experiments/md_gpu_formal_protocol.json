@@ -1,0 +1,39 @@
+{
+  "declared_utc": "2026-11-10T12:17:42.388034+00:00",
+  "design": "Three fresh independent-velocity replicates on one Ubuntu CUDA software environment; historical Mac trajectory remains exploratory",
+  "seeds": [
+    20261110,
+    20261111,
+    20261112
+  ],
+  "production_ns_each": 11,
+  "nvt_ps": 100,
+  "npt_ps": 100,
+  "frame_spacing_ps": 10,
+  "expected_production_frames_per_run": 1101,
+  "starting_configuration": "Shared minim.gro; new gen_vel in each NVT; not independent starting conformations",
+  "reference": "Shared original NPT endpoint; use original md.tpr when compatible or a validated equivalent generated from npt.gro",
+  "analysis_windows": "Full 0-11 ns and prespecified 8-11 ns; half-open 1ns windows except final endpoint",
+  "metrics": [
+    "Backbone RMSD to shared reference",
+    "CA RMSF over matching windows",
+    "Protein Rg",
+    "Internal hydrogen bonds",
+    "Native CA contact Q with sequence separation>=3, native cutoff8A, threshold1.2x native distance; sensitivity7/9A",
+    "W6-P12/W6-P18/Y3-P19 minimum sidechain heavy-atom distances"
+  ],
+  "statistical_unit": "Trajectory (n=3), never individual frames or NMR models",
+  "stop_rule": "Complete all three 11ns runs and retain all outcomes; optional extension to20ns only applied to all three under recorded separate decision",
+  "technical_stop_rule": "Stop queue on failed stage; validate actual GPU use and complete checkpoints; no silent CPU fallback or arbitrary maxwarn",
+  "input_sha256": {
+    "results/md/minim.gro": "cd0cb8faf264e750e564863d102f8314e0d82afd91fe21a6eba2c28f1892a368",
+    "results/md/topol.top": "7efa54ab3d3accce5278183a853aaac6624a5abe3971fce91997ab9b051627d2",
+    "results/md/posre.itp": "fbec4a871c1db716b064b6c6538b5ea4c8e88ab9c9bd33d478e2c80ed925fdc6",
+    "results/md/md.tpr": "d0cf2a9c409b23f5f946529659e307e03a1e9670263bfca3130a10e268b6efc6",
+    "results/md/npt.gro": "a0f2f04ab9e98a40a95895affb40cb7ae87c5ee9417986f9b5c395a302abc86f",
+    "config/nvt.mdp": "d49ec95077bcc32b570a3d6ba985e523f98abb5bbfdf4585aa88ddb2d658eac8",
+    "config/npt.mdp": "3e157df22955742616c9b9fd51fbe5eabc0662dc0b30159f7d9fd94c4a11aaf4",
+    "config/md.mdp": "969f481a99f1ead18cc77bd9da151dd25d69f85f6047921afa204d4d1125afd7",
+    "data/prepared/1L2Y_model1.pdb": "e1dbfe36d843938ab14d7f2b049c98eda47e273a1feb1f1bb9c23630e164f1e6"
+  }
+}

@@ -1,0 +1,37 @@
+# This file was created Wed Nov 11 22:20:44 2026
+# Created by:
+#                 :-) GROMACS - gmx rmsf, 2026.3-conda_forge (-:
+# 
+# Executable:   /home/lessray/codex-runs/method-validation-20261110-gpu/env/bin.AVX2_256/gmx
+# Data prefix:  /home/lessray/codex-runs/method-validation-20261110-gpu/env
+# Working dir:  /home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261114
+# Command line:
+#   gmx rmsf -s md.tpr -f md_fit.xtc -o rmsf_ca.xvg -res -fit
+# gmx rmsf is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.1533
+    2   0.0695
+    3   0.0487
+    4   0.0514
+    5   0.0513
+    6   0.0431
+    7   0.0382
+    8   0.0445
+    9   0.0685
+   10   0.0896
+   11   0.0896
+   12   0.0732
+   13   0.0680
+   14   0.0975
+   15   0.1076
+   16   0.0699
+   17   0.0631
+   18   0.0679
+   19   0.0705
+   20   0.1437

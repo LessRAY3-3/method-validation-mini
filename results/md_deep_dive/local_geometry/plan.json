@@ -1,0 +1,43 @@
+{
+  "declared_utc": "2026-11-10T15:01:55.599473+00:00",
+  "classification": "Exploratory post-hoc diagnosis after observing seed20261110 1\u20133ns deviation; not independent confirmatory evidence",
+  "seeds": [
+    20261110,
+    20261111,
+    20261112
+  ],
+  "windows_ns": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      0,
+      11
+    ]
+  ],
+  "window_rule": "Left inclusive, right exclusive except 11ns included",
+  "reference": "NMR model1; all-CA and independently fitted CA3\u201318; nonlocal pair-distance errors are fitting-independent",
+  "pair_selection": "All CA pairs with residue separation>=3; internal subset both residues3\u201318",
+  "contact_definition": "Reference cutoff7/8/9A, trajectory<=1.2*reference distance",
+  "reporting": "All pair/seed/window values retained; top ranks descriptive only, no frame-level hypothesis tests",
+  "input_sha256": {
+    "data/raw/1L2Y.pdb": "5d1bbb545a312dfff1ae1e64b6d8addecb2f561ddc4011aeb5bee9d1dfcd4438",
+    "results/md_replicates_gpu/aggregate_analysis_audited/seed_20261110/protein_whole.gro": "a0b60398712a31480448c9b30f2888ac377ec73b487aa8ec5b515f463d39c79d",
+    "results/md_replicates_gpu/aggregate_analysis_audited/seed_20261111/protein_whole.gro": "75f74072ba2bd62aef2cbb7093019a61447dfb49b47a089f9c9b072e5790af13",
+    "results/md_replicates_gpu/aggregate_analysis_audited/seed_20261112/protein_whole.gro": "06ce062b2e49e153eaf1ce6831ebc6ba1bb8cf61c75e7c5566706d597a55aaf6"
+  },
+  "script_sha256": "e2809ea3a5c2e1a2b5fcf888a0110490e742ef1cc112c0b32725615efcbf5cb3"
+}

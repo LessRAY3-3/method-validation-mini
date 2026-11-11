@@ -1,0 +1,53 @@
+{
+  "spec": {
+    "id": "extension_query_only_20261111",
+    "condition": "query_only",
+    "seed": 20261111,
+    "recycles": 3,
+    "extra_args": []
+  },
+  "started_utc": "2026-11-10T07:54:28.096775+00:00",
+  "finished_utc": "2026-11-10T07:54:32.717025+00:00",
+  "command": [
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/.colabfold/bin/python",
+    "-m",
+    "colabfold.batch",
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/results/prediction_msa_diagnosis/followup/inputs/query_only.a3m",
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/results/prediction_msa_diagnosis/followup/runs/extension_query_only_20261111",
+    "--data",
+    "/Users/lessray/Library/Caches/colabfold",
+    "--model-type",
+    "alphafold2_ptm",
+    "--model-order",
+    "1",
+    "--num-models",
+    "1",
+    "--num-seeds",
+    "1",
+    "--random-seed",
+    "20261111",
+    "--num-recycle",
+    "3",
+    "--rank",
+    "plddt",
+    "--compile-mode",
+    "fast"
+  ],
+  "plan_sha256": "7898cbd03f301bd0cec663e44eb63b7d598a912e07b46b8976200523eac2e7b0",
+  "input_sha256": "97fad2bc48015ade619bc53981ac0e373e57b224ad2b8770ade6ed96ad0b37ad",
+  "weights_sha256": "5e564f79af5bcd54ccef6e2a6bb0ff01015d01650ebc41d4575e35f0de9ecc84",
+  "outputs_sha256": {
+    "query_only_scores_rank_001_alphafold2_ptm_model_1_seed_20261111.json": "26d9b6d88144e227ddcc398d5925acab0cd91e29e150168940521aed9a06b7a6",
+    "query_only_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261111.pdb": "a46f451d21d72a42a2ab72b58bf70ac17988c68733e582c70f410eb8523e0922",
+    "query_only_predicted_aligned_error_v1.json": "cac64db32a8b7f1ab8f5b69569f6f3120d62587bd57f687493d53b1e57b2ef38",
+    "query_only.a3m": "e75d3a9ef1211e490e3b9e49c665e7067cdf67299bade0965a45c299c43c714e",
+    "run.log": "310e32501335152139ca41dfe3051160a04a4f1e3b1d726d7567bf53051240b9",
+    "config.json": "43a7c8e2d0a52c23bf48c3f1ba31da98b3aa5ec578fff1b962e61cff559b7d89",
+    "query_only.done.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "query_only_pae.png": "40d33723023a8f7d1d842c6f3b3c8a63c0cf33affb26193b1eeb367dff6b0f04",
+    "log.txt": "310e32501335152139ca41dfe3051160a04a4f1e3b1d726d7567bf53051240b9",
+    "query_only_plddt.png": "cf5ff6d6bd6094f3db08cf8e312063843fc633715c9ffb966c600a97cd351307",
+    "query_only_coverage.png": "302a04d317b4317ae3124c8aae46ba4ff66d0edfd47d3146a17205deae7f38a7",
+    "cite.bibtex": "e7a700949b57d86b804f63abda492679b5711262fc5d7e9f81835bd95fa8cf94"
+  }
+}

@@ -1,0 +1,991 @@
+batch,seed,window_ns,family,metric,definition,value
+original,20261110,0-11,observable,ca_rmsd_nmr1_angstrom,,1.030409115191706
+original,20261110,0-11,observable,q_ca_7A,,0.9398365122615804
+original,20261110,0-11,observable,q_ca_8A,,0.9466325379131919
+original,20261110,0-11,observable,q_ca_9A,,0.9633375253266262
+original,20261110,0-11,observable,heavy_min_6_12_angstrom,,3.584943277562174
+original,20261110,0-11,observable,sidechain_min_6_12_angstrom,,3.84268672514689
+original,20261110,0-11,observable,heavy_min_6_18_angstrom,,3.5581043797206733
+original,20261110,0-11,observable,sidechain_min_6_18_angstrom,,3.7148576002264244
+original,20261110,0-11,observable,heavy_min_3_19_angstrom,,4.300378898033303
+original,20261110,0-11,observable,sidechain_min_3_19_angstrom,,5.073304947917487
+original,20261110,0-11,observable,backbone_rmsd_common_reference_nm,,0.10638459182561309
+original,20261110,0-11,observable,gyrate_nm,,0.7169149455040872
+original,20261110,0-11,observable,protein_internal_hbonds,,12.200726612170754
+original,20261110,1-3,observable,ca_rmsd_nmr1_angstrom,,1.844714758309124
+original,20261110,1-3,observable,q_ca_7A,,0.8930000000000001
+original,20261110,1-3,observable,q_ca_8A,,0.889848484848485
+original,20261110,1-3,observable,q_ca_9A,,0.9175961538461539
+original,20261110,1-3,observable,heavy_min_6_12_angstrom,,3.563320202074556
+original,20261110,1-3,observable,sidechain_min_6_12_angstrom,,3.7773678254338336
+original,20261110,1-3,observable,heavy_min_6_18_angstrom,,3.5369642361543403
+original,20261110,1-3,observable,sidechain_min_6_18_angstrom,,3.7925010765881506
+original,20261110,1-3,observable,heavy_min_3_19_angstrom,,5.497508940670901
+original,20261110,1-3,observable,sidechain_min_3_19_angstrom,,6.950353395291363
+original,20261110,1-3,observable,backbone_rmsd_common_reference_nm,,0.17108043550000002
+original,20261110,1-3,observable,gyrate_nm,,0.728471275
+original,20261110,1-3,observable,protein_internal_hbonds,,11.89
+original,20261110,8-11,observable,ca_rmsd_nmr1_angstrom,,0.8595787410102667
+original,20261110,8-11,observable,q_ca_7A,,0.9367441860465116
+original,20261110,8-11,observable,q_ca_8A,,0.9502667874760897
+original,20261110,8-11,observable,q_ca_9A,,0.9681190902121136
+original,20261110,8-11,observable,heavy_min_6_12_angstrom,,3.6076120542714496
+original,20261110,8-11,observable,sidechain_min_6_12_angstrom,,3.866957446300435
+original,20261110,8-11,observable,heavy_min_6_18_angstrom,,3.5710046227552605
+original,20261110,8-11,observable,sidechain_min_6_18_angstrom,,3.70550226655635
+original,20261110,8-11,observable,heavy_min_3_19_angstrom,,3.9437289623042178
+original,20261110,8-11,observable,sidechain_min_3_19_angstrom,,4.598545775001193
+original,20261110,8-11,observable,backbone_rmsd_common_reference_nm,,0.092854953820598
+original,20261110,8-11,observable,gyrate_nm,,0.7100326046511628
+original,20261110,8-11,observable,protein_internal_hbonds,,12.588039867109634
+original,20261111,0-11,observable,ca_rmsd_nmr1_angstrom,,0.8568584313127752
+original,20261111,0-11,observable,q_ca_7A,,0.9522615803814715
+original,20261111,0-11,observable,q_ca_8A,,0.961990476976853
+original,20261111,0-11,observable,q_ca_9A,,0.9739223083909732
+original,20261111,0-11,observable,heavy_min_6_12_angstrom,,3.582820881072283
+original,20261111,0-11,observable,sidechain_min_6_12_angstrom,,3.8092800987938134
+original,20261111,0-11,observable,heavy_min_6_18_angstrom,,3.5798071012016885
+original,20261111,0-11,observable,sidechain_min_6_18_angstrom,,3.7356067362983856
+original,20261111,0-11,observable,heavy_min_3_19_angstrom,,3.923028481113096
+original,20261111,0-11,observable,sidechain_min_3_19_angstrom,,4.371771820360197
+original,20261111,0-11,observable,backbone_rmsd_common_reference_nm,,0.09342611471389645
+original,20261111,0-11,observable,gyrate_nm,,0.713962055404178
+original,20261111,0-11,observable,protein_internal_hbonds,,12.479564032697548
+original,20261111,1-3,observable,ca_rmsd_nmr1_angstrom,,1.097741204806357
+original,20261111,1-3,observable,q_ca_7A,,0.9080000000000001
+original,20261111,1-3,observable,q_ca_8A,,0.9290909090909091
+original,20261111,1-3,observable,q_ca_9A,,0.9504807692307691
+original,20261111,1-3,observable,heavy_min_6_12_angstrom,,3.556040235463956
+original,20261111,1-3,observable,sidechain_min_6_12_angstrom,,3.722462362256851
+original,20261111,1-3,observable,heavy_min_6_18_angstrom,,3.591150611246704
+original,20261111,1-3,observable,sidechain_min_6_18_angstrom,,3.7442145101563824
+original,20261111,1-3,observable,heavy_min_3_19_angstrom,,3.858162744640704
+original,20261111,1-3,observable,sidechain_min_3_19_angstrom,,4.163909709587281
+original,20261111,1-3,observable,backbone_rmsd_common_reference_nm,,0.113207803
+original,20261111,1-3,observable,gyrate_nm,,0.724897355
+original,20261111,1-3,observable,protein_internal_hbonds,,11.24
+original,20261111,8-11,observable,ca_rmsd_nmr1_angstrom,,0.7624761608246473
+original,20261111,8-11,observable,q_ca_7A,,0.9549501661129568
+original,20261111,8-11,observable,q_ca_8A,,0.9639585220980569
+original,20261111,8-11,observable,q_ca_9A,,0.9768719652440583
+original,20261111,8-11,observable,heavy_min_6_12_angstrom,,3.5398258087565337
+original,20261111,8-11,observable,sidechain_min_6_12_angstrom,,3.806559118811323
+original,20261111,8-11,observable,heavy_min_6_18_angstrom,,3.584693981407663
+original,20261111,8-11,observable,sidechain_min_6_18_angstrom,,3.7184898610908745
+original,20261111,8-11,observable,heavy_min_3_19_angstrom,,3.8923765006472135
+original,20261111,8-11,observable,sidechain_min_3_19_angstrom,,4.429713579759519
+original,20261111,8-11,observable,backbone_rmsd_common_reference_nm,,0.08837645481727575
+original,20261111,8-11,observable,gyrate_nm,,0.706905754152824
+original,20261111,8-11,observable,protein_internal_hbonds,,12.754152823920267
+original,20261112,0-11,observable,ca_rmsd_nmr1_angstrom,,0.8460857738093911
+original,20261112,0-11,observable,q_ca_7A,,0.9598183469573113
+original,20261112,0-11,observable,q_ca_8A,,0.9684033798475216
+original,20261112,0-11,observable,q_ca_9A,,0.9791448333682665
+original,20261112,0-11,observable,heavy_min_6_12_angstrom,,3.582683006795157
+original,20261112,0-11,observable,sidechain_min_6_12_angstrom,,3.815669309355552
+original,20261112,0-11,observable,heavy_min_6_18_angstrom,,3.5987375818247447
+original,20261112,0-11,observable,sidechain_min_6_18_angstrom,,3.725009992003105
+original,20261112,0-11,observable,heavy_min_3_19_angstrom,,3.829582611840865
+original,20261112,0-11,observable,sidechain_min_3_19_angstrom,,4.292475677218414
+original,20261112,0-11,observable,backbone_rmsd_common_reference_nm,,0.09332867847411444
+original,20261112,0-11,observable,gyrate_nm,,0.7134582906448682
+original,20261112,0-11,observable,protein_internal_hbonds,,12.954586739327883
+original,20261112,1-3,observable,ca_rmsd_nmr1_angstrom,,0.9557951237616598
+original,20261112,1-3,observable,q_ca_7A,,0.9316
+original,20261112,1-3,observable,q_ca_8A,,0.946060606060606
+original,20261112,1-3,observable,q_ca_9A,,0.9627884615384616
+original,20261112,1-3,observable,heavy_min_6_12_angstrom,,3.6079051205927417
+original,20261112,1-3,observable,sidechain_min_6_12_angstrom,,3.786218713113092
+original,20261112,1-3,observable,heavy_min_6_18_angstrom,,3.578701970316763
+original,20261112,1-3,observable,sidechain_min_6_18_angstrom,,3.7313971767365683
+original,20261112,1-3,observable,heavy_min_3_19_angstrom,,3.944708020581958
+original,20261112,1-3,observable,sidechain_min_3_19_angstrom,,4.37618536624474
+original,20261112,1-3,observable,backbone_rmsd_common_reference_nm,,0.09137612299999999
+original,20261112,1-3,observable,gyrate_nm,,0.7308236550000001
+original,20261112,1-3,observable,protein_internal_hbonds,,12.13
+original,20261112,8-11,observable,ca_rmsd_nmr1_angstrom,,0.7671860992676213
+original,20261112,8-11,observable,q_ca_7A,,0.9645182724252491
+original,20261112,8-11,observable,q_ca_8A,,0.972314507198228
+original,20261112,8-11,observable,q_ca_9A,,0.9819831331459239
+original,20261112,8-11,observable,heavy_min_6_12_angstrom,,3.5686685712675463
+original,20261112,8-11,observable,sidechain_min_6_12_angstrom,,3.809415417521314
+original,20261112,8-11,observable,heavy_min_6_18_angstrom,,3.579734534805652
+original,20261112,8-11,observable,sidechain_min_6_18_angstrom,,3.695119893686691
+original,20261112,8-11,observable,heavy_min_3_19_angstrom,,3.854137804928354
+original,20261112,8-11,observable,sidechain_min_3_19_angstrom,,4.413701588873347
+original,20261112,8-11,observable,backbone_rmsd_common_reference_nm,,0.08536026345514951
+original,20261112,8-11,observable,gyrate_nm,,0.7106056777408638
+original,20261112,8-11,observable,protein_internal_hbonds,,12.710963455149502
+original,20261110,0-11,Y3_P19_threshold,sample_fraction_above,distance>5A,0.3169845594913715
+original,20261110,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,1940.0
+original,20261110,0-11,Y3_P19_threshold,n_sampled_episodes,distance>5A,96.0
+original,20261110,0-11,Y3_P19_threshold,sample_fraction_above,distance>6A,0.20072661217075385
+original,20261110,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,1560.0
+original,20261110,0-11,Y3_P19_threshold,n_sampled_episodes,distance>6A,20.0
+original,20261110,0-11,Y3_P19_threshold,sample_fraction_above,distance>7A,0.13987284287011809
+original,20261110,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,230.0
+original,20261110,0-11,Y3_P19_threshold,n_sampled_episodes,distance>7A,28.0
+original,20261110,1-3,Y3_P19_threshold,sample_fraction_above,distance>5A,0.865
+original,20261110,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,1720.0
+original,20261110,1-3,Y3_P19_threshold,n_sampled_episodes,distance>5A,1.0
+original,20261110,1-3,Y3_P19_threshold,sample_fraction_above,distance>6A,0.845
+original,20261110,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,1560.0
+original,20261110,1-3,Y3_P19_threshold,n_sampled_episodes,distance>6A,4.0
+original,20261110,1-3,Y3_P19_threshold,sample_fraction_above,distance>7A,0.715
+original,20261110,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,230.0
+original,20261110,1-3,Y3_P19_threshold,n_sampled_episodes,distance>7A,22.0
+original,20261110,8-11,Y3_P19_threshold,sample_fraction_above,distance>5A,0.18272425249169436
+original,20261110,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,50.0
+original,20261110,8-11,Y3_P19_threshold,n_sampled_episodes,distance>5A,40.0
+original,20261110,8-11,Y3_P19_threshold,sample_fraction_above,distance>6A,0.016611295681063124
+original,20261110,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,10.0
+original,20261110,8-11,Y3_P19_threshold,n_sampled_episodes,distance>6A,4.0
+original,20261110,8-11,Y3_P19_threshold,sample_fraction_above,distance>7A,0.0
+original,20261110,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,0.0
+original,20261110,8-11,Y3_P19_threshold,n_sampled_episodes,distance>7A,0.0
+original,20261111,0-11,Y3_P19_threshold,sample_fraction_above,distance>5A,0.0971843778383288
+original,20261111,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,40.0
+original,20261111,0-11,Y3_P19_threshold,n_sampled_episodes,distance>5A,78.0
+original,20261111,0-11,Y3_P19_threshold,sample_fraction_above,distance>6A,0.009990917347865577
+original,20261111,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,20.0
+original,20261111,0-11,Y3_P19_threshold,n_sampled_episodes,distance>6A,9.0
+original,20261111,0-11,Y3_P19_threshold,sample_fraction_above,distance>7A,0.0009082652134423251
+original,20261111,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,0.0
+original,20261111,0-11,Y3_P19_threshold,n_sampled_episodes,distance>7A,1.0
+original,20261111,1-3,Y3_P19_threshold,sample_fraction_above,distance>5A,0.045
+original,20261111,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,10.0
+original,20261111,1-3,Y3_P19_threshold,n_sampled_episodes,distance>5A,8.0
+original,20261111,1-3,Y3_P19_threshold,sample_fraction_above,distance>6A,0.0
+original,20261111,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,0.0
+original,20261111,1-3,Y3_P19_threshold,n_sampled_episodes,distance>6A,0.0
+original,20261111,1-3,Y3_P19_threshold,sample_fraction_above,distance>7A,0.0
+original,20261111,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,0.0
+original,20261111,1-3,Y3_P19_threshold,n_sampled_episodes,distance>7A,0.0
+original,20261111,8-11,Y3_P19_threshold,sample_fraction_above,distance>5A,0.10963455149501661
+original,20261111,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,10.0
+original,20261111,8-11,Y3_P19_threshold,n_sampled_episodes,distance>5A,28.0
+original,20261111,8-11,Y3_P19_threshold,sample_fraction_above,distance>6A,0.006644518272425249
+original,20261111,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,0.0
+original,20261111,8-11,Y3_P19_threshold,n_sampled_episodes,distance>6A,2.0
+original,20261111,8-11,Y3_P19_threshold,sample_fraction_above,distance>7A,0.0
+original,20261111,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,0.0
+original,20261111,8-11,Y3_P19_threshold,n_sampled_episodes,distance>7A,0.0
+original,20261112,0-11,Y3_P19_threshold,sample_fraction_above,distance>5A,0.07811080835603997
+original,20261112,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,30.0
+original,20261112,0-11,Y3_P19_threshold,n_sampled_episodes,distance>5A,71.0
+original,20261112,0-11,Y3_P19_threshold,sample_fraction_above,distance>6A,0.004541326067211626
+original,20261112,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,0.0
+original,20261112,0-11,Y3_P19_threshold,n_sampled_episodes,distance>6A,5.0
+original,20261112,0-11,Y3_P19_threshold,sample_fraction_above,distance>7A,0.0
+original,20261112,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,0.0
+original,20261112,0-11,Y3_P19_threshold,n_sampled_episodes,distance>7A,0.0
+original,20261112,1-3,Y3_P19_threshold,sample_fraction_above,distance>5A,0.095
+original,20261112,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,0.0
+original,20261112,1-3,Y3_P19_threshold,n_sampled_episodes,distance>5A,19.0
+original,20261112,1-3,Y3_P19_threshold,sample_fraction_above,distance>6A,0.01
+original,20261112,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,0.0
+original,20261112,1-3,Y3_P19_threshold,n_sampled_episodes,distance>6A,2.0
+original,20261112,1-3,Y3_P19_threshold,sample_fraction_above,distance>7A,0.0
+original,20261112,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,0.0
+original,20261112,1-3,Y3_P19_threshold,n_sampled_episodes,distance>7A,0.0
+original,20261112,8-11,Y3_P19_threshold,sample_fraction_above,distance>5A,0.11960132890365449
+original,20261112,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,30.0
+original,20261112,8-11,Y3_P19_threshold,n_sampled_episodes,distance>5A,27.0
+original,20261112,8-11,Y3_P19_threshold,sample_fraction_above,distance>6A,0.0033222591362126247
+original,20261112,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,0.0
+original,20261112,8-11,Y3_P19_threshold,n_sampled_episodes,distance>6A,1.0
+original,20261112,8-11,Y3_P19_threshold,sample_fraction_above,distance>7A,0.0
+original,20261112,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,0.0
+original,20261112,8-11,Y3_P19_threshold,n_sampled_episodes,distance>7A,0.0
+original,20261110,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,0.9422586391338683
+original,20261110,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,1.154161873481567
+original,20261110,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.504939947145527
+original,20261110,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.651527052158251
+original,20261110,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.7141558651974698
+original,20261110,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,0.8761243698464564
+original,20261110,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.47915086777115484
+original,20261110,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.5675219653246908
+original,20261110,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.6650850201058719
+original,20261110,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,1.5258165645597694
+original,20261110,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,1.8326135000642054
+original,20261110,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,2.1183829761160053
+original,20261110,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.9282559544879686
+original,20261110,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,1.1173861755173229
+original,20261110,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,1.4373573081221707
+original,20261110,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.614161474298165
+original,20261110,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.7305031070207604
+original,20261110,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.840184089651024
+original,20261110,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,0.7842360266429996
+original,20261110,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,0.9153346376852383
+original,20261110,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.290255573065191
+original,20261110,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.5005515960692856
+original,20261110,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.6019469582348433
+original,20261110,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,0.7911477852113907
+original,20261110,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.40365608822691446
+original,20261110,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.5103248893202359
+original,20261110,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.6081984602869466
+original,20261111,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,0.847811793944882
+original,20261111,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,1.055586308407956
+original,20261111,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.4122955997008408
+original,20261111,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.6219782617093016
+original,20261111,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.6948800043671697
+original,20261111,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,0.8240984210455095
+original,20261111,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.45043726910610227
+original,20261111,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.5653813794748364
+original,20261111,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.6831143446072484
+original,20261111,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,1.016767880490577
+original,20261111,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,1.0902932486435046
+original,20261111,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.401082669990309
+original,20261111,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.7918404778790924
+original,20261111,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.8561193557651268
+original,20261111,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,0.9201620327292358
+original,20261111,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.5531881564594251
+original,20261111,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.594425170803722
+original,20261111,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.7172667708406544
+original,20261111,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,0.7186447488048446
+original,20261111,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,0.9561333429430605
+original,20261111,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.3135381252988179
+original,20261111,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.4906504034170612
+original,20261111,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.5942742470544692
+original,20261111,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,0.8012752637204986
+original,20261111,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.36892470231762275
+original,20261111,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.5223317481769153
+original,20261111,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.6489691001843637
+original,20261112,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,0.8203086583372804
+original,20261112,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,1.0214498442915767
+original,20261112,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.37792399506439
+original,20261112,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.6041859325900025
+original,20261112,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.6838612847417118
+original,20261112,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,0.8048404243745927
+original,20261112,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.4268623344570067
+original,20261112,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.5598841911111898
+original,20261112,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.6876780704662844
+original,20261112,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,0.7711476376360953
+original,20261112,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,1.100139250124738
+original,20261112,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.4366061314852283
+original,20261112,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.6471920659832264
+original,20261112,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.7901613424881411
+original,20261112,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,1.1023185750576272
+original,20261112,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.42808968817612725
+original,20261112,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.5611156534391674
+original,20261112,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.6828326401495707
+original,20261112,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,0.7594065227305266
+original,20261112,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,0.9786743346981421
+original,20261112,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.3459028446476324
+original,20261112,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.5084557061064702
+original,20261112,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.6073140071237414
+original,20261112,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,0.7888068929780853
+original,20261112,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.38181510387440876
+original,20261112,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.5160945763501659
+original,20261112,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.6487384788397508
+original,20261110,0-11,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.8424704813805631
+original,20261110,1-3,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.7958
+original,20261110,8-11,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.8442524916943521
+original,20261110,0-11,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.9398365122615804
+original,20261110,1-3,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.8930000000000001
+original,20261110,8-11,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.9367441860465116
+original,20261110,0-11,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9866666666666668
+original,20261110,1-3,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9690000000000001
+original,20261110,8-11,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.98578073089701
+original,20261110,0-11,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.8282828282828283
+original,20261110,1-3,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.7646969696969697
+original,20261110,8-11,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.8356991845363939
+original,20261110,0-11,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.9466325379131919
+original,20261110,1-3,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.889848484848485
+original,20261110,8-11,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.9502667874760897
+original,20261110,0-11,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.987587042082955
+original,20261110,1-3,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9653030303030303
+original,20261110,8-11,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9891271519178495
+original,20261110,0-11,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.8731048696988751
+original,20261110,1-3,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.8049038461538461
+original,20261110,8-11,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.8866598517761307
+original,20261110,0-11,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9633375253266262
+original,20261110,1-3,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9175961538461539
+original,20261110,8-11,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9681190902121136
+original,20261110,0-11,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9918081464402989
+original,20261110,1-3,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9765384615384616
+original,20261110,8-11,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9930999233324814
+original,20261111,0-11,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.8526793823796548
+original,20261111,1-3,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.8051999999999999
+original,20261111,8-11,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.8612624584717609
+original,20261111,0-11,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.9522615803814715
+original,20261111,1-3,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.9080000000000001
+original,20261111,8-11,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.9549501661129568
+original,20261111,0-11,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9860490463215258
+original,20261111,1-3,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9496000000000001
+original,20261111,8-11,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9940199335548172
+original,20261111,0-11,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.8516224919494675
+original,20261111,1-3,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.83
+original,20261111,8-11,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.8488875465619651
+original,20261111,0-11,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.961990476976853
+original,20261111,1-3,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.9290909090909091
+original,20261111,8-11,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.9639585220980569
+original,20261111,0-11,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9893760493215533
+original,20261111,1-3,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9618181818181819
+original,20261111,8-11,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9954696466324373
+original,20261111,0-11,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.8883008453853141
+original,20261111,1-3,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.8531730769230771
+original,20261111,8-11,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.8984155379504218
+original,20261111,0-11,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9739223083909732
+original,20261111,1-3,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9504807692307691
+original,20261111,8-11,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9768719652440583
+original,20261111,0-11,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9932229441766226
+original,20261111,1-3,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9755769230769231
+original,20261111,8-11,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9971249680552006
+original,20261112,0-11,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.8658673932788373
+original,20261112,1-3,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.8236000000000001
+original,20261112,8-11,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.8693687707641197
+original,20261112,0-11,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.9598183469573113
+original,20261112,1-3,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.9316
+original,20261112,8-11,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.9645182724252491
+original,20261112,0-11,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9904450499545867
+original,20261112,1-3,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9842
+original,20261112,8-11,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9933554817275747
+original,20261112,0-11,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.861393223791044
+original,20261112,1-3,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.8263636363636363
+original,20261112,8-11,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.859961743682674
+original,20261112,0-11,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.9684033798475216
+original,20261112,1-3,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.946060606060606
+original,20261112,8-11,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.972314507198228
+original,20261112,0-11,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9927338782924614
+original,20261112,1-3,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9880303030303029
+original,20261112,8-11,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9949662740360415
+original,20261112,0-11,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.9007196255152659
+original,20261112,1-3,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.8599038461538462
+original,20261112,8-11,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.9058906210069
+original,20261112,0-11,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9791448333682665
+original,20261112,1-3,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9627884615384616
+original,20261112,8-11,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9819831331459239
+original,20261112,0-11,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.995318940823028
+original,20261112,1-3,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9920192307692307
+original,20261112,8-11,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.996805520061334
+original,20261110,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.7774750227066304
+original,20261110,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.13
+original,20261110,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.9767441860465116
+original,20261110,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,0.8356039963669392
+original,20261110,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,0.21
+original,20261110,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,1.0
+original,20261110,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,0.9382379654859219
+original,20261110,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,0.685
+original,20261110,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,1.0
+original,20261110,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.7774750227066304
+original,20261110,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.5867393278837421
+original,20261110,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.13
+original,20261110,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.115
+original,20261110,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.9767441860465116
+original,20261110,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.6810631229235881
+original,20261110,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,0.8356039963669392
+original,20261110,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.8274296094459582
+original,20261110,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,0.21
+original,20261110,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.255
+original,20261110,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,1.0
+original,20261110,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.9800664451827242
+original,20261110,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,0.9382379654859219
+original,20261110,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,0.9264305177111717
+original,20261110,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,0.685
+original,20261110,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,0.635
+original,20261110,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,1.0
+original,20261110,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,1.0
+original,20261110,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.7774750227066304
+original,20261110,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.5867393278837421
+original,20261110,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.13
+original,20261110,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.115
+original,20261110,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.9767441860465116
+original,20261110,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.6810631229235881
+original,20261110,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,0.8356039963669392
+original,20261110,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.8274296094459582
+original,20261110,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,0.21
+original,20261110,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.255
+original,20261110,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,1.0
+original,20261110,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.9800664451827242
+original,20261110,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,0.9382379654859219
+original,20261110,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,0.9264305177111717
+original,20261110,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,0.685
+original,20261110,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,0.635
+original,20261110,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,1.0
+original,20261110,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,1.0
+original,20261111,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.9482288828337875
+original,20261111,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.98
+original,20261111,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.9767441860465116
+original,20261111,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,0.9945504087193461
+original,20261111,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,1.0
+original,20261111,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,1.0
+original,20261111,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,1.0
+original,20261111,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,1.0
+original,20261111,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,1.0
+original,20261111,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.9482288828337875
+original,20261111,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.8047229791099001
+original,20261111,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.98
+original,20261111,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.885
+original,20261111,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.9767441860465116
+original,20261111,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.8073089700996677
+original,20261111,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,0.9945504087193461
+original,20261111,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.9818346957311535
+original,20261111,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,1.0
+original,20261111,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.985
+original,20261111,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,1.0
+original,20261111,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.9933554817275747
+original,20261111,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,1.0
+original,20261111,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,0.9990917347865577
+original,20261111,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,1.0
+original,20261111,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,1.0
+original,20261111,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,1.0
+original,20261111,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,1.0
+original,20261111,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.9482288828337875
+original,20261111,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.8047229791099001
+original,20261111,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.98
+original,20261111,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.885
+original,20261111,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.9767441860465116
+original,20261111,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.8073089700996677
+original,20261111,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,0.9945504087193461
+original,20261111,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.9818346957311535
+original,20261111,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,1.0
+original,20261111,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.985
+original,20261111,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,1.0
+original,20261111,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.9933554817275747
+original,20261111,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,1.0
+original,20261111,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,0.9990917347865577
+original,20261111,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,1.0
+original,20261111,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,1.0
+original,20261111,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,1.0
+original,20261111,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,1.0
+original,20261112,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.9827429609445958
+original,20261112,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.95
+original,20261112,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.9933554817275747
+original,20261112,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,0.9990917347865577
+original,20261112,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,1.0
+original,20261112,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,1.0
+original,20261112,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,1.0
+original,20261112,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,1.0
+original,20261112,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,1.0
+original,20261112,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.9827429609445958
+original,20261112,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.7838328792007266
+original,20261112,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.95
+original,20261112,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.575
+original,20261112,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.9933554817275747
+original,20261112,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.813953488372093
+original,20261112,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,0.9990917347865577
+original,20261112,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.9872842870118075
+original,20261112,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,1.0
+original,20261112,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.955
+original,20261112,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,1.0
+original,20261112,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.9933554817275747
+original,20261112,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,1.0
+original,20261112,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,1.0
+original,20261112,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,1.0
+original,20261112,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,1.0
+original,20261112,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,1.0
+original,20261112,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,1.0
+original,20261112,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.9827429609445958
+original,20261112,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.7838328792007266
+original,20261112,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.95
+original,20261112,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.575
+original,20261112,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.9933554817275747
+original,20261112,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.813953488372093
+original,20261112,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,0.9990917347865577
+original,20261112,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.9872842870118075
+original,20261112,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,1.0
+original,20261112,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.955
+original,20261112,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,1.0
+original,20261112,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.9933554817275747
+original,20261112,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,1.0
+original,20261112,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,1.0
+original,20261112,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,1.0
+original,20261112,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,1.0
+original,20261112,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,1.0
+original,20261112,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,1.0
+confirmation,20261113,0-11,observable,ca_rmsd_nmr1_angstrom,,1.1311903544676531
+confirmation,20261113,0-11,observable,q_ca_7A,,0.9212715712988193
+confirmation,20261113,0-11,observable,q_ca_8A,,0.9326232350755511
+confirmation,20261113,0-11,observable,q_ca_9A,,0.9497484804024315
+confirmation,20261113,0-11,observable,heavy_min_6_12_angstrom,,3.542344501230499
+confirmation,20261113,0-11,observable,sidechain_min_6_12_angstrom,,3.7821217046489335
+confirmation,20261113,0-11,observable,heavy_min_6_18_angstrom,,3.580866108283521
+confirmation,20261113,0-11,observable,sidechain_min_6_18_angstrom,,3.7414917855994454
+confirmation,20261113,0-11,observable,heavy_min_3_19_angstrom,,4.209606886614684
+confirmation,20261113,0-11,observable,sidechain_min_3_19_angstrom,,4.741548487799578
+confirmation,20261113,0-11,observable,backbone_rmsd_common_reference_nm,,0.1174690420526794
+confirmation,20261113,0-11,observable,gyrate_nm,,0.7187129782016349
+confirmation,20261113,0-11,observable,protein_internal_hbonds,,12.774750227066303
+confirmation,20261113,1-3,observable,ca_rmsd_nmr1_angstrom,,1.8042790391304226
+confirmation,20261113,1-3,observable,q_ca_7A,,0.9002000000000001
+confirmation,20261113,1-3,observable,q_ca_8A,,0.897121212121212
+confirmation,20261113,1-3,observable,q_ca_9A,,0.9208653846153847
+confirmation,20261113,1-3,observable,heavy_min_6_12_angstrom,,3.5946808565290302
+confirmation,20261113,1-3,observable,sidechain_min_6_12_angstrom,,3.7986480743285993
+confirmation,20261113,1-3,observable,heavy_min_6_18_angstrom,,3.5776415010336677
+confirmation,20261113,1-3,observable,sidechain_min_6_18_angstrom,,3.8140337449940085
+confirmation,20261113,1-3,observable,heavy_min_3_19_angstrom,,5.380238728325615
+confirmation,20261113,1-3,observable,sidechain_min_3_19_angstrom,,6.624729091276623
+confirmation,20261113,1-3,observable,backbone_rmsd_common_reference_nm,,0.1695587145
+confirmation,20261113,1-3,observable,gyrate_nm,,0.73043418
+confirmation,20261113,1-3,observable,protein_internal_hbonds,,11.48
+confirmation,20261113,8-11,observable,ca_rmsd_nmr1_angstrom,,0.8031539775462351
+confirmation,20261113,8-11,observable,q_ca_7A,,0.9887043189368772
+confirmation,20261113,8-11,observable,q_ca_8A,,0.9909392932648746
+confirmation,20261113,8-11,observable,q_ca_9A,,0.9941860465116279
+confirmation,20261113,8-11,observable,heavy_min_6_12_angstrom,,3.5621198379069914
+confirmation,20261113,8-11,observable,sidechain_min_6_12_angstrom,,3.8300974070986795
+confirmation,20261113,8-11,observable,heavy_min_6_18_angstrom,,3.5983193827022406
+confirmation,20261113,8-11,observable,sidechain_min_6_18_angstrom,,3.713675584088741
+confirmation,20261113,8-11,observable,heavy_min_3_19_angstrom,,3.7468718880340486
+confirmation,20261113,8-11,observable,sidechain_min_3_19_angstrom,,4.102247055372889
+confirmation,20261113,8-11,observable,backbone_rmsd_common_reference_nm,,0.09893524451827243
+confirmation,20261113,8-11,observable,gyrate_nm,,0.7057263787375414
+confirmation,20261113,8-11,observable,protein_internal_hbonds,,13.933554817275747
+confirmation,20261114,0-11,observable,ca_rmsd_nmr1_angstrom,,1.3747423584890246
+confirmation,20261114,0-11,observable,q_ca_7A,,0.8947502270663034
+confirmation,20261114,0-11,observable,q_ca_8A,,0.9059807888145763
+confirmation,20261114,0-11,observable,q_ca_9A,,0.932386641514707
+confirmation,20261114,0-11,observable,heavy_min_6_12_angstrom,,3.592613556329865
+confirmation,20261114,0-11,observable,sidechain_min_6_12_angstrom,,3.8180069187374985
+confirmation,20261114,0-11,observable,heavy_min_6_18_angstrom,,3.5897195456091437
+confirmation,20261114,0-11,observable,sidechain_min_6_18_angstrom,,3.7682669890827114
+confirmation,20261114,0-11,observable,heavy_min_3_19_angstrom,,4.743096327234918
+confirmation,20261114,0-11,observable,sidechain_min_3_19_angstrom,,5.65416016374022
+confirmation,20261114,0-11,observable,backbone_rmsd_common_reference_nm,,0.1349139289736603
+confirmation,20261114,0-11,observable,gyrate_nm,,0.7337039909173478
+confirmation,20261114,0-11,observable,protein_internal_hbonds,,10.991825613079019
+confirmation,20261114,1-3,observable,ca_rmsd_nmr1_angstrom,,2.5277757844011726
+confirmation,20261114,1-3,observable,q_ca_7A,,0.8068000000000001
+confirmation,20261114,1-3,observable,q_ca_8A,,0.8156060606060607
+confirmation,20261114,1-3,observable,q_ca_9A,,0.8614423076923076
+confirmation,20261114,1-3,observable,heavy_min_6_12_angstrom,,3.606223326221716
+confirmation,20261114,1-3,observable,sidechain_min_6_12_angstrom,,3.802597522471883
+confirmation,20261114,1-3,observable,heavy_min_6_18_angstrom,,3.6280978498956062
+confirmation,20261114,1-3,observable,sidechain_min_6_18_angstrom,,3.8827827942607813
+confirmation,20261114,1-3,observable,heavy_min_3_19_angstrom,,6.545359583386988
+confirmation,20261114,1-3,observable,sidechain_min_3_19_angstrom,,8.242725003129545
+confirmation,20261114,1-3,observable,backbone_rmsd_common_reference_nm,,0.2386871275
+confirmation,20261114,1-3,observable,gyrate_nm,,0.7379215050000001
+confirmation,20261114,1-3,observable,protein_internal_hbonds,,10.665
+confirmation,20261114,8-11,observable,ca_rmsd_nmr1_angstrom,,0.9908887414725804
+confirmation,20261114,8-11,observable,q_ca_7A,,0.9383388704318939
+confirmation,20261114,8-11,observable,q_ca_8A,,0.945132386992852
+confirmation,20261114,8-11,observable,q_ca_9A,,0.9610912343470484
+confirmation,20261114,8-11,observable,heavy_min_6_12_angstrom,,3.584648070449
+confirmation,20261114,8-11,observable,sidechain_min_6_12_angstrom,,3.8088289922507985
+confirmation,20261114,8-11,observable,heavy_min_6_18_angstrom,,3.5729270087909617
+confirmation,20261114,8-11,observable,sidechain_min_6_18_angstrom,,3.7529174735048247
+confirmation,20261114,8-11,observable,heavy_min_3_19_angstrom,,4.16679351137259
+confirmation,20261114,8-11,observable,sidechain_min_3_19_angstrom,,4.793041589504687
+confirmation,20261114,8-11,observable,backbone_rmsd_common_reference_nm,,0.1006782122923588
+confirmation,20261114,8-11,observable,gyrate_nm,,0.7358305049833888
+confirmation,20261114,8-11,observable,protein_internal_hbonds,,11.401993355481727
+confirmation,20261115,0-11,observable,ca_rmsd_nmr1_angstrom,,1.1692937839949036
+confirmation,20261115,0-11,observable,q_ca_7A,,0.917856494096276
+confirmation,20261115,0-11,observable,q_ca_8A,,0.9340269176781439
+confirmation,20261115,0-11,observable,q_ca_9A,,0.9512855446097954
+confirmation,20261115,0-11,observable,heavy_min_6_12_angstrom,,3.5726215292315904
+confirmation,20261115,0-11,observable,sidechain_min_6_12_angstrom,,3.801601049741928
+confirmation,20261115,0-11,observable,heavy_min_6_18_angstrom,,3.57095488179705
+confirmation,20261115,0-11,observable,sidechain_min_6_18_angstrom,,3.721395002146872
+confirmation,20261115,0-11,observable,heavy_min_3_19_angstrom,,4.351153332952447
+confirmation,20261115,0-11,observable,sidechain_min_3_19_angstrom,,4.983582894809688
+confirmation,20261115,0-11,observable,backbone_rmsd_common_reference_nm,,0.11969550862851955
+confirmation,20261115,0-11,observable,gyrate_nm,,0.7262039382379655
+confirmation,20261115,0-11,observable,protein_internal_hbonds,,11.737511353315169
+confirmation,20261115,1-3,observable,ca_rmsd_nmr1_angstrom,,1.9227475093105197
+confirmation,20261115,1-3,observable,q_ca_7A,,0.8366
+confirmation,20261115,1-3,observable,q_ca_8A,,0.8674242424242425
+confirmation,20261115,1-3,observable,q_ca_9A,,0.8973076923076923
+confirmation,20261115,1-3,observable,heavy_min_6_12_angstrom,,3.5989923373524153
+confirmation,20261115,1-3,observable,sidechain_min_6_12_angstrom,,3.7871983934203604
+confirmation,20261115,1-3,observable,heavy_min_6_18_angstrom,,3.54855005461347
+confirmation,20261115,1-3,observable,sidechain_min_6_18_angstrom,,3.7098479873537866
+confirmation,20261115,1-3,observable,heavy_min_3_19_angstrom,,5.331991275401101
+confirmation,20261115,1-3,observable,sidechain_min_3_19_angstrom,,6.299313304769555
+confirmation,20261115,1-3,observable,backbone_rmsd_common_reference_nm,,0.1863579265
+confirmation,20261115,1-3,observable,gyrate_nm,,0.72889359
+confirmation,20261115,1-3,observable,protein_internal_hbonds,,11.9
+confirmation,20261115,8-11,observable,ca_rmsd_nmr1_angstrom,,0.8005768396049885
+confirmation,20261115,8-11,observable,q_ca_7A,,0.959734219269103
+confirmation,20261115,8-11,observable,q_ca_8A,,0.967381455753549
+confirmation,20261115,8-11,observable,q_ca_9A,,0.9785330948121647
+confirmation,20261115,8-11,observable,heavy_min_6_12_angstrom,,3.562039778042631
+confirmation,20261115,8-11,observable,sidechain_min_6_12_angstrom,,3.820277508547491
+confirmation,20261115,8-11,observable,heavy_min_6_18_angstrom,,3.5694285716649015
+confirmation,20261115,8-11,observable,sidechain_min_6_18_angstrom,,3.715642286496403
+confirmation,20261115,8-11,observable,heavy_min_3_19_angstrom,,3.8940000462809388
+confirmation,20261115,8-11,observable,sidechain_min_3_19_angstrom,,4.4916964622517375
+confirmation,20261115,8-11,observable,backbone_rmsd_common_reference_nm,,0.08443046046511628
+confirmation,20261115,8-11,observable,gyrate_nm,,0.7221856345514951
+confirmation,20261115,8-11,observable,protein_internal_hbonds,,12.006644518272426
+confirmation,20261113,0-11,Y3_P19_threshold,sample_fraction_above,distance>5A,0.22979109900090827
+confirmation,20261113,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,1640.0
+confirmation,20261113,0-11,Y3_P19_threshold,n_sampled_episodes,distance>5A,48.0
+confirmation,20261113,0-11,Y3_P19_threshold,sample_fraction_above,distance>6A,0.16439600363306087
+confirmation,20261113,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,740.0
+confirmation,20261113,0-11,Y3_P19_threshold,n_sampled_episodes,distance>6A,15.0
+confirmation,20261113,0-11,Y3_P19_threshold,sample_fraction_above,distance>7A,0.11807447774750227
+confirmation,20261113,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,200.0
+confirmation,20261113,0-11,Y3_P19_threshold,n_sampled_episodes,distance>7A,27.0
+confirmation,20261113,1-3,Y3_P19_threshold,sample_fraction_above,distance>5A,0.785
+confirmation,20261113,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,1360.0
+confirmation,20261113,1-3,Y3_P19_threshold,n_sampled_episodes,distance>5A,8.0
+confirmation,20261113,1-3,Y3_P19_threshold,sample_fraction_above,distance>6A,0.71
+confirmation,20261113,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,610.0
+confirmation,20261113,1-3,Y3_P19_threshold,n_sampled_episodes,distance>6A,7.0
+confirmation,20261113,1-3,Y3_P19_threshold,sample_fraction_above,distance>7A,0.55
+confirmation,20261113,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,200.0
+confirmation,20261113,1-3,Y3_P19_threshold,n_sampled_episodes,distance>7A,19.0
+confirmation,20261113,8-11,Y3_P19_threshold,sample_fraction_above,distance>5A,0.026578073089700997
+confirmation,20261113,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,20.0
+confirmation,20261113,8-11,Y3_P19_threshold,n_sampled_episodes,distance>5A,6.0
+confirmation,20261113,8-11,Y3_P19_threshold,sample_fraction_above,distance>6A,0.0
+confirmation,20261113,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,0.0
+confirmation,20261113,8-11,Y3_P19_threshold,n_sampled_episodes,distance>6A,0.0
+confirmation,20261113,8-11,Y3_P19_threshold,sample_fraction_above,distance>7A,0.0
+confirmation,20261113,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,0.0
+confirmation,20261113,8-11,Y3_P19_threshold,n_sampled_episodes,distance>7A,0.0
+confirmation,20261114,0-11,Y3_P19_threshold,sample_fraction_above,distance>5A,0.4396003633060854
+confirmation,20261114,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,2880.0
+confirmation,20261114,0-11,Y3_P19_threshold,n_sampled_episodes,distance>5A,74.0
+confirmation,20261114,0-11,Y3_P19_threshold,sample_fraction_above,distance>6A,0.34877384196185285
+confirmation,20261114,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,2860.0
+confirmation,20261114,0-11,Y3_P19_threshold,n_sampled_episodes,distance>6A,25.0
+confirmation,20261114,0-11,Y3_P19_threshold,sample_fraction_above,distance>7A,0.2888283378746594
+confirmation,20261114,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,1310.0
+confirmation,20261114,0-11,Y3_P19_threshold,n_sampled_episodes,distance>7A,27.0
+confirmation,20261114,1-3,Y3_P19_threshold,sample_fraction_above,distance>5A,1.0
+confirmation,20261114,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,1990.0
+confirmation,20261114,1-3,Y3_P19_threshold,n_sampled_episodes,distance>5A,1.0
+confirmation,20261114,1-3,Y3_P19_threshold,sample_fraction_above,distance>6A,1.0
+confirmation,20261114,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,1990.0
+confirmation,20261114,1-3,Y3_P19_threshold,n_sampled_episodes,distance>6A,1.0
+confirmation,20261114,1-3,Y3_P19_threshold,sample_fraction_above,distance>7A,0.96
+confirmation,20261114,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,1170.0
+confirmation,20261114,1-3,Y3_P19_threshold,n_sampled_episodes,distance>7A,4.0
+confirmation,20261114,8-11,Y3_P19_threshold,sample_fraction_above,distance>5A,0.2292358803986711
+confirmation,20261114,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,250.0
+confirmation,20261114,8-11,Y3_P19_threshold,n_sampled_episodes,distance>5A,25.0
+confirmation,20261114,8-11,Y3_P19_threshold,sample_fraction_above,distance>6A,0.132890365448505
+confirmation,20261114,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,250.0
+confirmation,20261114,8-11,Y3_P19_threshold,n_sampled_episodes,distance>6A,8.0
+confirmation,20261114,8-11,Y3_P19_threshold,sample_fraction_above,distance>7A,0.07973421926910298
+confirmation,20261114,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,100.0
+confirmation,20261114,8-11,Y3_P19_threshold,n_sampled_episodes,distance>7A,5.0
+confirmation,20261115,0-11,Y3_P19_threshold,sample_fraction_above,distance>5A,0.22706630336058128
+confirmation,20261115,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,1550.0
+confirmation,20261115,0-11,Y3_P19_threshold,n_sampled_episodes,distance>5A,71.0
+confirmation,20261115,0-11,Y3_P19_threshold,sample_fraction_above,distance>6A,0.15349682107175294
+confirmation,20261115,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,1380.0
+confirmation,20261115,0-11,Y3_P19_threshold,n_sampled_episodes,distance>6A,16.0
+confirmation,20261115,0-11,Y3_P19_threshold,sample_fraction_above,distance>7A,0.1362397820163488
+confirmation,20261115,0-11,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,1330.0
+confirmation,20261115,0-11,Y3_P19_threshold,n_sampled_episodes,distance>7A,8.0
+confirmation,20261115,1-3,Y3_P19_threshold,sample_fraction_above,distance>5A,0.505
+confirmation,20261115,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,890.0
+confirmation,20261115,1-3,Y3_P19_threshold,n_sampled_episodes,distance>5A,10.0
+confirmation,20261115,1-3,Y3_P19_threshold,sample_fraction_above,distance>6A,0.425
+confirmation,20261115,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,730.0
+confirmation,20261115,1-3,Y3_P19_threshold,n_sampled_episodes,distance>6A,3.0
+confirmation,20261115,1-3,Y3_P19_threshold,sample_fraction_above,distance>7A,0.42
+confirmation,20261115,1-3,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,730.0
+confirmation,20261115,1-3,Y3_P19_threshold,n_sampled_episodes,distance>7A,3.0
+confirmation,20261115,8-11,Y3_P19_threshold,sample_fraction_above,distance>5A,0.1362126245847176
+confirmation,20261115,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>5A,20.0
+confirmation,20261115,8-11,Y3_P19_threshold,n_sampled_episodes,distance>5A,34.0
+confirmation,20261115,8-11,Y3_P19_threshold,sample_fraction_above,distance>6A,0.013289036544850499
+confirmation,20261115,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>6A,0.0
+confirmation,20261115,8-11,Y3_P19_threshold,n_sampled_episodes,distance>6A,4.0
+confirmation,20261115,8-11,Y3_P19_threshold,sample_fraction_above,distance>7A,0.0
+confirmation,20261115,8-11,Y3_P19_threshold,longest_sampled_span_ps,distance>7A,0.0
+confirmation,20261115,8-11,Y3_P19_threshold,n_sampled_episodes,distance>7A,0.0
+confirmation,20261113,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,1.0689861226675421
+confirmation,20261113,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,1.2015768362589614
+confirmation,20261113,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.5107177225307062
+confirmation,20261113,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.7050974469943384
+confirmation,20261113,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.7725981484942144
+confirmation,20261113,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,0.8735994934022467
+confirmation,20261113,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.5567014450507626
+confirmation,20261113,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.6184442811362059
+confirmation,20261113,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.7090833697840331
+confirmation,20261113,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,1.5137302115853657
+confirmation,20261113,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,1.7876346850209033
+confirmation,20261113,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,2.072797523370004
+confirmation,20261113,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.9310995353043688
+confirmation,20261113,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,1.1049628790065564
+confirmation,20261113,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,1.396417141784379
+confirmation,20261113,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.6198921808765087
+confirmation,20261113,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.7258307286152059
+confirmation,20261113,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.8344517543226203
+confirmation,20261113,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,0.6649825840845826
+confirmation,20261113,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,1.099177907890804
+confirmation,20261113,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.4659250691513885
+confirmation,20261113,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.49449983313012275
+confirmation,20261113,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.6843779652930103
+confirmation,20261113,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,0.8703785341885558
+confirmation,20261113,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.36450616727310914
+confirmation,20261113,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.6049325742761495
+confirmation,20261113,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.773591068732414
+confirmation,20261114,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,1.190963365427053
+confirmation,20261114,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,1.4015553758340653
+confirmation,20261114,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.6619151971729154
+confirmation,20261114,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.8049837333926229
+confirmation,20261114,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.905483665973944
+confirmation,20261114,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,1.1263119351873958
+confirmation,20261114,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.5616648442083118
+confirmation,20261114,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.6259730923382261
+confirmation,20261114,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.7064738489068262
+confirmation,20261114,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,1.953142752628537
+confirmation,20261114,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,2.3286804428311747
+confirmation,20261114,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,2.654128216753688
+confirmation,20261114,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,1.1975492982217155
+confirmation,20261114,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,1.4143923471492865
+confirmation,20261114,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,1.7336884700617312
+confirmation,20261114,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.7645354759088153
+confirmation,20261114,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.8423688108183915
+confirmation,20261114,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.9670063257847954
+confirmation,20261114,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,0.8926580463372651
+confirmation,20261114,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,1.197298546429216
+confirmation,20261114,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.5484662638453977
+confirmation,20261114,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.7048200913411479
+confirmation,20261114,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.7990944664265416
+confirmation,20261114,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,1.0353816004402316
+confirmation,20261114,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.4619944888237
+confirmation,20261114,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.590814737815289
+confirmation,20261114,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.6927554576018309
+confirmation,20261115,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,1.0882216709961914
+confirmation,20261115,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,1.2083534414919423
+confirmation,20261115,0-11,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.50152396711697
+confirmation,20261115,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.7833346592956247
+confirmation,20261115,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.8355367204195674
+confirmation,20261115,0-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,0.94768125772927
+confirmation,20261115,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.5546201248066654
+confirmation,20261115,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.6010205717331801
+confirmation,20261115,0-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.686343923138961
+confirmation,20261115,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,1.5143492159400302
+confirmation,20261115,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,1.700861519121264
+confirmation,20261115,1-3,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.9227475093105197
+confirmation,20261115,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,1.1409780614479228
+confirmation,20261115,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,1.2250366952805183
+confirmation,20261115,1-3,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,1.355637822007995
+confirmation,20261115,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.7054018583679258
+confirmation,20261115,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.7534627977025803
+confirmation,20261115,1-3,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.8298022646670359
+confirmation,20261115,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_min,38 references; range is not CI,0.7572929109094291
+confirmation,20261115,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_median,38 references; range is not CI,0.9756379789669545
+confirmation,20261115,8-11,NMR_reference_choice,mean_ca_rmsd_angstrom_max,38 references; range is not CI,1.333113372566436
+confirmation,20261115,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_min,38 references; range is not CI,0.5648570494015275
+confirmation,20261115,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_median,38 references; range is not CI,0.6318354023354044
+confirmation,20261115,8-11,NMR_reference_choice,mean_interior_ca_rmsd_angstrom_max,38 references; range is not CI,0.8005798882343784
+confirmation,20261115,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_min,38 references; range is not CI,0.4120780176674959
+confirmation,20261115,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_median,38 references; range is not CI,0.5212981138568553
+confirmation,20261115,8-11,NMR_reference_choice,mean_nonlocal_distance_mae_angstrom_max,38 references; range is not CI,0.6396602666272885
+confirmation,20261113,0-11,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.8081380563124432
+confirmation,20261113,1-3,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.7929999999999999
+confirmation,20261113,8-11,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.9085714285714286
+confirmation,20261113,0-11,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.9212715712988193
+confirmation,20261113,1-3,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.9002000000000001
+confirmation,20261113,8-11,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.9887043189368772
+confirmation,20261113,0-11,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9689009990917348
+confirmation,20261113,1-3,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9610000000000001
+confirmation,20261113,8-11,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9990697674418606
+confirmation,20261113,0-11,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.8050257341810476
+confirmation,20261113,1-3,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.7586363636363636
+confirmation,20261113,8-11,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.9044598812040671
+confirmation,20261113,0-11,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.9326232350755511
+confirmation,20261113,1-3,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.897121212121212
+confirmation,20261113,8-11,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.9909392932648746
+confirmation,20261113,0-11,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9744584812704705
+confirmation,20261113,1-3,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9612121212121211
+confirmation,20261113,8-11,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9992952783650457
+confirmation,20261113,0-11,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.8516733039893802
+confirmation,20261113,1-3,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.8028846153846152
+confirmation,20261113,8-11,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.936046511627907
+confirmation,20261113,0-11,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9497484804024315
+confirmation,20261113,1-3,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9208653846153847
+confirmation,20261113,8-11,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9941860465116279
+confirmation,20261113,0-11,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9831272269964368
+confirmation,20261113,1-3,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9728846153846153
+confirmation,20261113,8-11,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9995527728085867
+confirmation,20261114,0-11,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.7910263396911897
+confirmation,20261114,1-3,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.7088
+confirmation,20261114,8-11,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.8441196013289037
+confirmation,20261114,0-11,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.8947502270663034
+confirmation,20261114,1-3,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.8068000000000001
+confirmation,20261114,8-11,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.9383388704318939
+confirmation,20261114,0-11,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9483378746594004
+confirmation,20261114,1-3,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.8728
+confirmation,20261114,8-11,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9836544850498339
+confirmation,20261114,0-11,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.7824567197864201
+confirmation,20261114,1-3,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.6806060606060607
+confirmation,20261114,8-11,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.8359005335749524
+confirmation,20261114,0-11,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.9059807888145763
+confirmation,20261114,1-3,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.8156060606060607
+confirmation,20261114,8-11,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.945132386992852
+confirmation,20261114,0-11,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9556601436710429
+confirmation,20261114,1-3,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.89
+confirmation,20261114,8-11,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.984697473069566
+confirmation,20261114,0-11,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.8255606791029135
+confirmation,20261114,1-3,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.7273076923076922
+confirmation,20261114,8-11,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.8726041400460006
+confirmation,20261114,0-11,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.932386641514707
+confirmation,20261114,1-3,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.8614423076923076
+confirmation,20261114,8-11,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9610912343470484
+confirmation,20261114,0-11,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9696255152658423
+confirmation,20261114,1-3,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9220192307692306
+confirmation,20261114,8-11,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9893304370048555
+confirmation,20261115,0-11,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.8180926430517711
+confirmation,20261115,1-3,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.7463999999999998
+confirmation,20261115,8-11,Q_definition,mean_q,native<=7A;retention<=1.1*reference,0.8576744186046512
+confirmation,20261115,0-11,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.917856494096276
+confirmation,20261115,1-3,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.8366
+confirmation,20261115,8-11,Q_definition,mean_q,native<=7A;retention<=1.2*reference,0.959734219269103
+confirmation,20261115,0-11,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.9517529518619438
+confirmation,20261115,1-3,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.8696
+confirmation,20261115,8-11,Q_definition,mean_q,native<=7A;retention<=1.3*reference,0.995747508305648
+confirmation,20261115,0-11,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.8269892384333801
+confirmation,20261115,1-3,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.7771212121212122
+confirmation,20261115,8-11,Q_definition,mean_q,native<=8A;retention<=1.1*reference,0.851807107621061
+confirmation,20261115,0-11,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.9340269176781439
+confirmation,20261115,1-3,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.8674242424242425
+confirmation,20261115,8-11,Q_definition,mean_q,native<=8A;retention<=1.2*reference,0.967381455753549
+confirmation,20261115,0-11,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9631464508848706
+confirmation,20261115,1-3,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9003030303030303
+confirmation,20261115,8-11,Q_definition,mean_q,native<=8A;retention<=1.3*reference,0.9967784153830664
+confirmation,20261115,0-11,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.8592188919164396
+confirmation,20261115,1-3,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.7854807692307694
+confirmation,20261115,8-11,Q_definition,mean_q,native<=9A;retention<=1.1*reference,0.8986710963455149
+confirmation,20261115,0-11,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9512855446097954
+confirmation,20261115,1-3,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.8973076923076923
+confirmation,20261115,8-11,Q_definition,mean_q,native<=9A;retention<=1.2*reference,0.9785330948121647
+confirmation,20261115,0-11,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9747956403269755
+confirmation,20261115,1-3,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9319230769230767
+confirmation,20261115,8-11,Q_definition,mean_q,native<=9A;retention<=1.3*reference,0.9979555328392536
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.8056312443233424
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.275
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,1.0
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,0.8501362397820164
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,0.32
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,1.0
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,0.9173478655767484
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,0.61
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,1.0
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.8056312443233424
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.6948228882833788
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.275
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.23
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,1.0
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.920265780730897
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,0.8501362397820164
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.8537693006357856
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,0.32
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.4
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,1.0
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.9966777408637874
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,0.9173478655767484
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,0.9391462306993642
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,0.61
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,0.72
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,1.0
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,1.0
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.8056312443233424
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.6948228882833788
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.275
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.23
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,1.0
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.920265780730897
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,0.8501362397820164
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.8537693006357856
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,0.32
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.4
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,1.0
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.9966777408637874
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,0.9173478655767484
+confirmation,20261113,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,0.9391462306993642
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,0.61
+confirmation,20261113,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,0.72
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,1.0
+confirmation,20261113,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,1.0
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.6494096276112625
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.005
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.8637873754152824
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,0.6893732970027248
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,0.01
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,0.9003322259136213
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,0.7865576748410535
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,0.22
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,0.9601328903654485
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.6494096276112625
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.48319709355131696
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.005
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.08
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.8637873754152824
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.5946843853820598
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,0.6893732970027248
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.7175295186194369
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,0.01
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.22
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,0.9003322259136213
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.867109634551495
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,0.7865576748410535
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,0.8746594005449592
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,0.22
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,0.605
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,0.9601328903654485
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,0.946843853820598
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.6494096276112625
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.48319709355131696
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.005
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.08
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.8637873754152824
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.5946843853820598
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,0.6893732970027248
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.7175295186194369
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,0.01
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.22
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,0.9003322259136213
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.867109634551495
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,0.7865576748410535
+confirmation,20261114,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,0.8746594005449592
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,0.22
+confirmation,20261114,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,0.605
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,0.9601328903654485
+confirmation,20261114,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,0.946843853820598
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.8310626702997275
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.545
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.1*reference,0.9767441860465116
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,0.8537693006357856
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,0.565
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.2*reference,0.9966777408637874
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,0.8701180744777475
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,0.6
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=3-19;native<=7A;retention<=1.3*reference,1.0
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.8310626702997275
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.7138964577656676
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.545
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.585
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.1*reference,0.9767441860465116
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.1*reference,0.7475083056478405
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,0.8537693006357856
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.9409627611262489
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,0.565
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.84
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.2*reference,0.9966777408637874
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.2*reference,0.9833887043189369
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,0.8701180744777475
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,0.9963669391462306
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,0.6
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,0.995
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=3-19;native<=8A;retention<=1.3*reference,1.0
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=12-18;native<=8A;retention<=1.3*reference,1.0
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.8310626702997275
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.7138964577656676
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.545
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.585
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.1*reference,0.9767441860465116
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.1*reference,0.7475083056478405
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,0.8537693006357856
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.9409627611262489
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,0.565
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.84
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.2*reference,0.9966777408637874
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.2*reference,0.9833887043189369
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,0.8701180744777475
+confirmation,20261115,0-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,0.9963669391462306
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,0.6
+confirmation,20261115,1-3,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,0.995
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=3-19;native<=9A;retention<=1.3*reference,1.0
+confirmation,20261115,8-11,selected_CA_contact,occupancy,pair=12-18;native<=9A;retention<=1.3*reference,1.0

@@ -19,3 +19,31 @@ results/md/#*
 /hbond.ndx
 /#*
 results/prediction/colabfold/log.txt
+artifacts/
+tmp/
+results/md_replicates*/**/*.xtc
+results/md_replicates*/**/*.trr
+results/md_replicates*/**/*.edr
+results/md_replicates*/**/*.cpt
+results/md_replicates*/**/*.tpr
+results/md_replicates*/**/*.gro
+results/md_replicates*/**/*.log
+results/md_replicates*/**/#*
+results/md_replicates*/**/.runner.lock
+
+# Factorial raw evidence remains local; compact analysis and manifests are tracked.
+results/md_factorial/**/*.xtc
+results/md_factorial/**/*.trr
+results/md_factorial/**/*.edr
+results/md_factorial/**/*.cpt
+results/md_factorial/**/*.tpr
+results/md_factorial/**/*.gro
+results/md_factorial/**/*.log
+results/md_factorial/**/#*
+results/md_factorial/**/.*lock
+setup/md_factorial/model24/
+setup/md_factorial/smoke/
+setup/m3_geometry_validation/
+setup/m3_factorial_validation/
+# Verbose TPR inspection dumps are preserved in the Release evidence archive.
+results/md_factorial/**/*_tpr_dump.txt

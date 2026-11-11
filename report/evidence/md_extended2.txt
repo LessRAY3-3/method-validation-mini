@@ -1,0 +1,227 @@
+               :-) GROMACS - gmx convert-tpr, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx convert-tpr -s results/md/md_extended.tpr -extend 5000 -o results/md/md_extended2.tpr
+
+Reading file results/md/md_extended.tpr, VERSION 2026.4-Homebrew (single precision)
+
+GROMACS reminds you: "Enthusiasm is the mother of effort, and without it nothing great was ever achieved." (Ralph Waldo Emerson)
+
+Input file:
+  Run start step                                     0     
+  Run start time                                     0 ps  
+  Step to be made during run                   3000000     
+  Runtime for the run                             6000 ps  
+  Run end step                                 3000000     
+  Run end time                                    6000 ps  
+
+Extending remaining runtime by 5000 ps
+
+Output file:
+  Run start step                                     0     
+  Run start time                                     0 ps  
+  Step to be made during run                   5500000     
+  Runtime for the run                            11000 ps  
+  Run end step                                 5500000     
+  Run end time                                   11000 ps  
+
+                  :-) GROMACS - gmx mdrun, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx mdrun -s results/md/md_extended2.tpr -cpi results/md/md_extended.cpt -deffnm results/md/md_extended2 -nt 6 -noappend
+
+Reading file results/md/md_extended2.tpr, VERSION 2026.4-Homebrew (single precision)
+Changing nstlist from 10 to 50, rlist from 1 to 1.11
+
+Using 1 MPI thread
+Using 6 OpenMP threads 
+
+starting mdrun 'Protein in water'
+5500000 steps,  11000.0 ps (continuing from step 3000000,   6000.0 ps).
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:    37869.565     6311.596      600.0
+                         1h45:11
+                 (ns/day)    (hour/ns)    (ms/step)  (Matom*steps/s) 
+Performance:       68.445        0.351        2.525            3.303 
+
+GROMACS reminds you: "The only place success comes before work is in the dictionary" (Vince Lombardi)
+
+                 :-) GROMACS - gmx energy, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx energy -f results/md/md_extended2.edr -o results/md/md_extended2_temperature_pressure.xvg
+
+Opened results/md/md_extended2.edr as single precision energy file
+
+Select the terms you want from the following list by
+selecting either (part of) the name or the number or a combination.
+End your selection with an empty line or a zero.
+-------------------------------------------------------------------
+  1  Bond             2  Angle            3  Proper-Dih.      4  Per.-Imp.-Dih.
+  5  LJ-14            6  Coulomb-14       7  LJ-(SR)          8  Disper.-corr. 
+  9  Coulomb-(SR)    10  Coul.-recip.    11  Potential       12  Kinetic-En.   
+ 13  Total-Energy    14  Conserved-En.   15  Temperature     16  Pres.-DC      
+ 17  Pressure        18  Constr.-rmsd    19  Box-X           20  Box-Y         
+ 21  Box-Z           22  Volume          23  Density         24  pV            
+ 25  Enthalpy        26  Vir-XX          27  Vir-XY          28  Vir-XZ        
+ 29  Vir-YX          30  Vir-YY          31  Vir-YZ          32  Vir-ZX        
+ 33  Vir-ZY          34  Vir-ZZ          35  Pres-XX         36  Pres-XY       
+ 37  Pres-XZ         38  Pres-YX         39  Pres-YY         40  Pres-YZ       
+ 41  Pres-ZX         42  Pres-ZY         43  Pres-ZZ         44  #Surf*SurfTen 
+ 45  T-Protein                           46  T-non-Protein                     
+ 47  Lamb-Protein                        48  Lamb-non-Protein                  
+
+
+Reading energy frame      0 time 6000.000         
+Reading energy frame      1 time 6001.000         
+Reading energy frame      2 time 6002.000         
+Reading energy frame      3 time 6003.000         
+Reading energy frame      4 time 6004.000         
+Reading energy frame      5 time 6005.000         
+Reading energy frame      6 time 6006.000         
+Reading energy frame      7 time 6007.000         
+Reading energy frame      8 time 6008.000         
+Reading energy frame      9 time 6009.000         
+Reading energy frame     10 time 6010.000         
+Reading energy frame     11 time 6011.000         
+Reading energy frame     12 time 6012.000         
+Reading energy frame     13 time 6013.000         
+Reading energy frame     14 time 6014.000         
+Reading energy frame     15 time 6015.000         
+Reading energy frame     16 time 6016.000         
+Reading energy frame     17 time 6017.000         
+Reading energy frame     18 time 6018.000         
+Reading energy frame     19 time 6019.000         
+Reading energy frame     20 time 6020.000         
+Reading energy frame     30 time 6030.000         
+Reading energy frame     40 time 6040.000         
+Reading energy frame     50 time 6050.000         
+Reading energy frame     60 time 6060.000         
+Reading energy frame     70 time 6070.000         
+Reading energy frame     80 time 6080.000         
+Reading energy frame     90 time 6090.000         
+Reading energy frame    100 time 6100.000         
+Reading energy frame    110 time 6110.000         
+Reading energy frame    120 time 6120.000         
+Reading energy frame    130 time 6130.000         
+Reading energy frame    140 time 6140.000         
+Reading energy frame    150 time 6150.000         
+Reading energy frame    160 time 6160.000         
+Reading energy frame    170 time 6170.000         
+Reading energy frame    180 time 6180.000         
+Reading energy frame    190 time 6190.000         
+Reading energy frame    200 time 6200.000         
+Reading energy frame    300 time 6300.000         
+Reading energy frame    400 time 6400.000         
+Reading energy frame    500 time 6500.000         
+Reading energy frame    600 time 6600.000         
+Reading energy frame    700 time 6700.000         
+Reading energy frame    800 time 6800.000         
+Reading energy frame    900 time 6900.000         
+Reading energy frame   1000 time 7000.000         
+Reading energy frame   1100 time 7100.000         
+Reading energy frame   1200 time 7200.000         
+Reading energy frame   1300 time 7300.000         
+Reading energy frame   1400 time 7400.000         
+Reading energy frame   1500 time 7500.000         
+Reading energy frame   1600 time 7600.000         
+Reading energy frame   1700 time 7700.000         
+Reading energy frame   1800 time 7800.000         
+Reading energy frame   1900 time 7900.000         
+Reading energy frame   2000 time 8000.000         
+Reading energy frame   3000 time 9000.000         
+Reading energy frame   4000 time 10000.000         
+Reading energy frame   5000 time 11000.000         
+Last energy frame read 5000 time 11000.000         
+
+GROMACS reminds you: "It is not critical to add the next quote to a patch release" (Paul Bauer)
+
+
+Statistics over 2500001 steps [ 6000.0000 through 11000.0000 ps ], 2 data sets
+All statistics are over 25001 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Temperature                 299.986      0.043     3.5207   0.151761  (K)
+Pressure                   0.481727        3.2    261.568    9.02888  (bar)
+                  :-) GROMACS - gmx check, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx check -f results/md/md_extended2.xtc
+
+
+Reading frame       0 time 6000.000   
+# Atoms  8339
+Precision 0.001 (nm)
+
+Reading frame       1 time 6010.000   
+Reading frame       2 time 6020.000   
+Reading frame       3 time 6030.000   
+Reading frame       4 time 6040.000   
+Reading frame       5 time 6050.000   
+Reading frame       6 time 6060.000   
+Reading frame       7 time 6070.000   
+Reading frame       8 time 6080.000   
+Reading frame       9 time 6090.000   
+Reading frame      10 time 6100.000   
+Reading frame      11 time 6110.000   
+Reading frame      12 time 6120.000   
+Reading frame      13 time 6130.000   
+Reading frame      14 time 6140.000   
+Reading frame      15 time 6150.000   
+Reading frame      16 time 6160.000   
+Reading frame      17 time 6170.000   
+Reading frame      18 time 6180.000   
+Reading frame      19 time 6190.000   
+Reading frame      20 time 6200.000   
+Reading frame      30 time 6300.000   
+Reading frame      40 time 6400.000   
+Reading frame      50 time 6500.000   
+Reading frame      60 time 6600.000   
+Reading frame      70 time 6700.000   
+Reading frame      80 time 6800.000   
+Reading frame      90 time 6900.000   
+Reading frame     100 time 7000.000   
+Reading frame     110 time 7100.000   
+Reading frame     120 time 7200.000   
+Reading frame     130 time 7300.000   
+Reading frame     140 time 7400.000   
+Reading frame     150 time 7500.000   
+Reading frame     160 time 7600.000   
+Reading frame     170 time 7700.000   
+Reading frame     180 time 7800.000   
+Reading frame     190 time 7900.000   
+Reading frame     200 time 8000.000   
+Reading frame     300 time 9000.000   
+Reading frame     400 time 10000.000   
+Reading frame     500 time 11000.000   
+Last frame        500 time 11000.000   
+
+
+Item        #frames Timestep (ps)
+Step           501    10
+Time           501    10
+Lambda           0
+Coords         501    10
+Velocities       0
+Forces           0
+Box            501    10
+
+GROMACS reminds you: "It is not critical to add the next quote to a patch release" (Paul Bauer)
+
+Checking file results/md/md_extended2.xtc

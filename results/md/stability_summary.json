@@ -1,6 +1,13 @@
 {
   "trajectory": "continuous 6 ns trajectory analyzed in 6 one-ns windows",
   "frames_expected": 601,
+  "frames_observed": {
+    "rmsd": 601,
+    "gyrate": 601,
+    "hbond": 601
+  },
+  "window_policy": "Integer ps; [start, end), final window includes endpoint; 100 frames per window, 101 in final window",
+  "rmsf_fit": "C-alpha least-squares refit by gmx rmsf -fit after backbone preprocessing",
   "criteria": {
     "rmsd_last_3_window_mean_range_nm_max_0.03": false,
     "rmsd_last_3_window_absolute_slopes_nm_per_ns_max_0.03": false,

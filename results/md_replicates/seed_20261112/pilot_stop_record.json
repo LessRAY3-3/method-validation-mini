@@ -1,0 +1,15 @@
+{
+  "status": "paused_by_user_before_NVT_completion",
+  "role": "performance pilot only; exclude from formal replicate results",
+  "stage": "nvt",
+  "completed_step": 35000,
+  "completed_time_ps": 70.0,
+  "requested_nvt_time_ps": 100,
+  "npt_started": false,
+  "production_started": false,
+  "checkpoint_sha256": "32d0e8339b2d2a69c992034be752909ab87d05d21013fa2719fc545a6913de87",
+  "checkpoint_readable_by_gmx_dump": true,
+  "drivers_and_mdrun_confirmed_stopped": true,
+  "resume_local_command": ".conda/bin/python -B scripts/run_md_replicate.py --seed 20261112 --total-ns 2 --threads 2 --execution cpu",
+  "formal_run_recommendation": "Use a new --run-label on target machine, starting from the shared minim.gro; do not mix pilot into formal replicate comparisons"
+}

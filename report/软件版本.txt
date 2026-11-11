@@ -16,3 +16,8 @@ ColabFold：1.6.3；alphafold-colabfold 2.3.20；JAX/JAXlib 0.11.2；MMseqs2 18.
 ColabFold Python：3.13.18（独立 .colabfold 环境）
 
 完整 Conda 环境：config/environment.yml
+
+正式深化环境（2026-11-10）
+M3 Max/macOS：Vina1.2.7，cpu=1/run，workers=2；实际依赖、执行哈希与环境锁见 results/docking_benchmark_m3/host_provenance.json 和 environment_explicit.txt。
+Ubuntu/RTX4070 Laptop 8GB：GROMACS2026.3-conda_forge，CUDA12.9，driver580.178.04；完整版本与环境锁见 results/md_replicates_gpu/setup/。
+MD审核后处理：本地GROMACS2026.4；与远端2026.3分析交叉检查。两者明确分开记录，未声称同版本逐位复现。

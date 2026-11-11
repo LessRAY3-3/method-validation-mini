@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "test_input": "original completed three trajectories; no new-seed results claimed",
+  "smoke_output": "/private/tmp/md-confirmation-analysis-smoke-20261110",
+  "custom_cli_seeds_used": [
+    20261110,
+    20261111,
+    20261112
+  ],
+  "comparisons_to_original_deep_dive": {
+    "reference": {
+      "rows": 342,
+      "max_absolute_difference": 0
+    },
+    "q": {
+      "rows": 81,
+      "max_absolute_difference": 0
+    },
+    "contacts": {
+      "rows": 162,
+      "max_absolute_difference": 0
+    }
+  },
+  "new_unit_tests": 3,
+  "analysis_summary": {
+    "status": "original_seed_method_verification_passed",
+    "seeds": [
+      20261110,
+      20261111,
+      20261112
+    ],
+    "n_trajectories": 3,
+    "frames_per_trajectory": 1101,
+    "total_ns_each": 11,
+    "independent_svd_checks": 342,
+    "maximum_svd_difference_A": 1.7763568394002505e-15,
+    "limitations": [
+      "Different initial velocities from one shared minimized configuration.",
+      "First batch and new batch must be reported separately before descriptive combination.",
+      "References, windows and correlated frames do not increase n.",
+      "Threshold crossing sample spans are not exact state lifetimes.",
+      "No frame-level p-values, folding rates or convergence claims."
+    ],
+    "output_sha256": {
+      "threshold_episodes.csv": "b271a5d1bdc15f451162a09226165cf097745fede8c7f9e7f8d03afd6865dece",
+      "selected_contact_occupancies.csv": "a63d74a6915dfb54eed60924be0307e99c854816cb9be57d798e8f2aa20ef84b",
+      "all_q_windows.csv": "ca59475ece04b4dd9f5c2fe88394144df4ac1f2189410b85dd769ba05de538ed",
+      "analysis_manifest.json": "75f6df38855bf15e05f4762f81e5c0bc9cc7fbff1f1be71fd08b709ae0614d89",
+      "per_trajectory_windows.csv": "0375b7ca1c5122db90493c8ee4f830cbd4ae2e4722b4e9bfe50b1a09b92d39b2",
+      "aggregate_console.log": "c12030c134775fb44592a55126f35709844983bbe95213b969b299646def9376",
+      "threshold_sensitivity.csv": "2cc08f169e8fb1505e4ddddb13d1c04a0867e43c368767f9bbfb4dd2d2f41953",
+      "all_reference_window_results.csv": "bc40661323a077b182c475891b777e2eea90a52979e755d87afd76cf381f0ca5",
+      "aggregate_analysis/residue_trajectory_level_summary.csv": "99849a3da6f9fd24d92e0ecb554c8ea4adf06c3149b4983c6484f80314afc831",
+      "aggregate_analysis/summary.json": "b9bf03dd515b94c73cea277902ccc716dab52661747e9391d59449b8b8f69291",
+      "aggregate_analysis/commands.json": "c711f8dd46dc66474836b468953a486c43297beb48c8a424d986c3bba117e2a1",
+      "aggregate_analysis/per_trajectory_windows.csv": "bca4085095cb42a926f9df2a0f9ac0e913af399b52610047dc036526442387d9",
+      "aggregate_analysis/trajectory_level_summary.csv": "6a715c293e21e5107eb987cb30ce0b1f2847aedd3635f8da4fd85ff28d8c3ee5",
+      "aggregate_analysis/trajectory_comparison.png": "04bfcc98b3e6e9c6457c90add61349abb2c8f7b3c3a8fb464c8c2b3fec3da242",
+      "aggregate_analysis/per_residue_rmsf.csv": "e70693ea08ca11b62e387ce95f5536075f0a85febf79891dcbca21776e30357e",
+      "aggregate_analysis/seed_20261110/hbond.ndx": "a41c3350d11f663c55c10120d79b84096ca85ef6f7f4b9ced03a29c6f42dff53",
+      "aggregate_analysis/seed_20261110/timeseries.csv": "08fd2d41a5befa9c4cc8f9cefed06a18aa3fcfa5aec0170dd50faad9676df639",
+      "aggregate_analysis/seed_20261110/rmsd_common_reference.xvg": "b6f6e0beeee7e1fd2e4ab619df0df1b510e6f0c1fce72e89715f335a81c86e8d",
+      "aggregate_analysis/seed_20261110/gromacs_analysis.log": "381bd92d85a5535e6eab3ac63f56464b5876930602cace5e195a6ff5441031da",
+      "aggregate_analysis/seed_20261110/hbond.xvg": "8904f2b4bb1bd8bf7198d0725fce40f1a47825eddbc0785684bc72a80a1f4a81",
+      "aggregate_analysis/seed_20261110/protein_whole.gro": "a0b60398712a31480448c9b30f2888ac377ec73b487aa8ec5b515f463d39c79d",
+      "aggregate_analysis/seed_20261110/gyrate.xvg": "e46f8b736cae96b995374dbbda47bfb7e3a409509f11f846f64dc400d19d0c09",
+      "aggregate_analysis/seed_20261111/hbond.ndx": "0f88f38cf19d68d18a0cf8e7e506f4e77ec25a3147e6f7fa23a536dd3c48a62f",
+      "aggregate_analysis/seed_20261111/timeseries.csv": "1b95a20fd0230af7b456519ebe1f94311f96f18eb5d3f77fc5601d8fe6ab1333",
+      "aggregate_analysis/seed_20261111/rmsd_common_reference.xvg": "b3544d50a5dbb11dd34fa1d59ca742f1e6538ab3ecfc5797518ed5e3b5c36a15",
+      "aggregate_analysis/seed_20261111/gromacs_analysis.log": "16097aef8cb1e0785d145cd2fe84a8542cde30e8992f9812aec7c59874c4f8b3",
+      "aggregate_analysis/seed_20261111/hbond.xvg": "cd67258692f9873c54ed901b1f348017c476ff35565383d2766dbf97f7084de0",
+      "aggregate_analysis/seed_20261111/protein_whole.gro": "75f74072ba2bd62aef2cbb7093019a61447dfb49b47a089f9c9b072e5790af13",
+      "aggregate_analysis/seed_20261111/gyrate.xvg": "44079148d117e9d24004e482a05e0f3f273ac32524149c4c39b1c83b81d6a31e",
+      "aggregate_analysis/seed_20261112/hbond.ndx": "75ec93d9924535aae88cf886ee4d668ffa9a0e6f46c49040a2ef8a98443d53cb",
+      "aggregate_analysis/seed_20261112/timeseries.csv": "a724ca661945f3e6203c62825da337477b57b6990d6b3b2dd775312aadbb9715",
+      "aggregate_analysis/seed_20261112/rmsd_common_reference.xvg": "5518ee693d6e2dd79b7b6c36add48c28a30439232fc2deab30e5e930739c347b",
+      "aggregate_analysis/seed_20261112/gromacs_analysis.log": "399f6e3fe71467591253fb63a8729f6ea873a377239a21f61c58dfe1b1c4a97f",
+      "aggregate_analysis/seed_20261112/hbond.xvg": "24eb994ab46c581b2926e6f9ece5f8332f31ef91d449a3e0d17a82792ce35ae4",
+      "aggregate_analysis/seed_20261112/protein_whole.gro": "06ce062b2e49e153eaf1ce6831ebc6ba1bb8cf61c75e7c5566706d597a55aaf6",
+      "aggregate_analysis/seed_20261112/gyrate.xvg": "1be7b54fbdda1276e76d4e7216805a1fd41a54ceac66fac967a8d7cc04d26354"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "input_mode": "saved A3M, no online MSA search",
+  "input_msa_sha256": "e4094cb8a2c60ffeb1001ea55ae0d352cf7537d0dd798d2008fa78cd64570bdc",
+  "weights_model_1_ptm_sha256": "5e564f79af5bcd54ccef6e2a6bb0ff01015d01650ebc41d4575e35f0de9ecc84",
+  "effective_max_seq": 3,
+  "effective_max_extra_seq": 1,
+  "recycles_observed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "random_seed": 20261110,
+  "model_type": "alphafold2_ptm",
+  "version": "1.6.3",
+  "outputs_sha256": {
+    "1L2Y_model1_scores_rank_001_alphafold2_ptm_model_1_seed_20261110.json": "b9a0fa7c5fba17361020f5a15c3734fea3e4888f7264f6da5c487b7b512c7129",
+    "1L2Y_model1_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.pdb": "18a75dbe94d43b0571d85c505bbff3a02063c4ef2d3c7307cff168626716d8cc"
+  },
+  "limitation": "The historical online-MSA route reported max_seq=4; loading its saved A3M reports max_seq=3. These routes are not assumed numerically equivalent."
+}

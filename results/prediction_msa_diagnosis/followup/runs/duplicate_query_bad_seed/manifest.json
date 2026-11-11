@@ -1,0 +1,53 @@
+{
+  "spec": {
+    "id": "duplicate_query_bad_seed",
+    "condition": "duplicate_query",
+    "seed": 20261110,
+    "recycles": 3,
+    "extra_args": []
+  },
+  "started_utc": "2026-11-10T07:54:08.861723+00:00",
+  "finished_utc": "2026-11-10T07:54:13.074368+00:00",
+  "command": [
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/.colabfold/bin/python",
+    "-m",
+    "colabfold.batch",
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/results/prediction_msa_diagnosis/followup/inputs/duplicate_query.a3m",
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/results/prediction_msa_diagnosis/followup/runs/duplicate_query_bad_seed",
+    "--data",
+    "/Users/lessray/Library/Caches/colabfold",
+    "--model-type",
+    "alphafold2_ptm",
+    "--model-order",
+    "1",
+    "--num-models",
+    "1",
+    "--num-seeds",
+    "1",
+    "--random-seed",
+    "20261110",
+    "--num-recycle",
+    "3",
+    "--rank",
+    "plddt",
+    "--compile-mode",
+    "fast"
+  ],
+  "plan_sha256": "7898cbd03f301bd0cec663e44eb63b7d598a912e07b46b8976200523eac2e7b0",
+  "input_sha256": "ca595c766deb761058db0f56cab8d945eb2b3e80b509149a5d1623f874de1ffa",
+  "weights_sha256": "5e564f79af5bcd54ccef6e2a6bb0ff01015d01650ebc41d4575e35f0de9ecc84",
+  "outputs_sha256": {
+    "duplicate_query_pae.png": "42046d95a7a6ef2be21d960e409099ac860ebb7114b8c632bbe1b731266d937c",
+    "duplicate_query.done.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "run.log": "ccf5382a7542ad2161fe8aa8a56509a1ba82b7d6db7616f2a8ac5040a67c989d",
+    "config.json": "67128c109a680c61aa7c59ad526e20c368640ba6697afd301268eebedc8808d9",
+    "duplicate_query_plddt.png": "5915953499be26cf84cf86a0b421dadb9f1d58b29bb7c79064c35ba9f10ce2cd",
+    "duplicate_query_coverage.png": "3181671648e5f8658f91d3351c45137387cfbf1af49da245468cf0aed4e50124",
+    "log.txt": "ccf5382a7542ad2161fe8aa8a56509a1ba82b7d6db7616f2a8ac5040a67c989d",
+    "cite.bibtex": "e7a700949b57d86b804f63abda492679b5711262fc5d7e9f81835bd95fa8cf94",
+    "duplicate_query_scores_rank_001_alphafold2_ptm_model_1_seed_20261110.json": "9af1c029345aa5fed70b57580dcb7672ad45754ffa24f4ee704cc804219f9bb6",
+    "duplicate_query.a3m": "4e63422e5c2e035361ae380c8463976722e838594e1f09ba74a8d227277b0e77",
+    "duplicate_query_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.pdb": "c39035742a05d51f61427ba8b910971fe32799751d1f4d267605d62b6b50c5e3",
+    "duplicate_query_predicted_aligned_error_v1.json": "7c3e29c7db9271747c9a0069102018d951cbad3c1066d451c30361c2fc13ca18"
+  }
+}

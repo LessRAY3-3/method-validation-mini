@@ -1,0 +1,37 @@
+# This file was created Wed Nov 11 21:58:34 2026
+# Created by:
+#                 :-) GROMACS - gmx rmsf, 2026.3-conda_forge (-:
+# 
+# Executable:   /home/lessray/codex-runs/method-validation-20261110-gpu/env/bin.AVX2_256/gmx
+# Data prefix:  /home/lessray/codex-runs/method-validation-20261110-gpu/env
+# Working dir:  /home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/C/seed_20261115
+# Command line:
+#   gmx rmsf -s md.tpr -f md_fit.xtc -o rmsf_ca.xvg -res -fit
+# gmx rmsf is part of G R O M A C S:
+#
+# GROup of MAchos and Cynical Suckers
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.1497
+    2   0.0624
+    3   0.0454
+    4   0.0482
+    5   0.0509
+    6   0.0407
+    7   0.0359
+    8   0.0420
+    9   0.0626
+   10   0.0739
+   11   0.0904
+   12   0.0685
+   13   0.0629
+   14   0.0940
+   15   0.1077
+   16   0.0614
+   17   0.0594
+   18   0.0588
+   19   0.0643
+   20   0.1323

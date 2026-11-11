@@ -1,0 +1,13 @@
+{
+  "report": "output/pdf/method-validation-report.pdf",
+  "sha256": "031af36842fbf90ebeb1fbe8140a1da5758bd25d3874cc2ec4f4359e6cd1fde5",
+  "input_sha256": {
+    "results/docking_benchmark_m3/summary.json": "0b2f586c0177619a4e485aef1f5a72bbcc618130f8f7d15660883897762cd5fe",
+    "results/md_replicates_gpu/aggregate_analysis_audited/summary.json": "95f40034229033e635fedad86d8fa9905d132db7c1d440263aef4823653c065e",
+    "results/md_replicates_gpu/aggregate_analysis_audited/trajectory_level_summary.csv": "6a715c293e21e5107eb987cb30ce0b1f2847aedd3635f8da4fd85ff28d8c3ee5",
+    "results/prediction_msa_diagnosis/followup/summary.json": "fd34ec4c291e58238c2521c5e53a4be7237efb2563edac4a48eeebd91d86fb7d",
+    "results/prediction_msa_diagnosis/recycle_trace/summary.json": "9e6b67c44c699b932751a3aced4af923196d8533a15543c2bdaf108b99a74ea5"
+  },
+  "builder_sha256": "0412abad2d7375dc758b512cd64e86374628dfdf2ee1ffc7209e2aa8aea7a4d7",
+  "md_analysis": "Mac GROMACS 2026.4 independent reanalysis of unchanged Ubuntu CUDA 2026.3 trajectories"
+}

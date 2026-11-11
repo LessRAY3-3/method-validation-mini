@@ -1,0 +1,37 @@
+{
+  "declared_before_runs_utc": "2026-11-10T07:28:23.020425+00:00",
+  "protocol": {
+    "study": "1IEP paired-seed search effort experiment; distinct from historical four runs",
+    "exhaustiveness": [
+      1,
+      8,
+      32
+    ],
+    "paired_seeds": [
+      42,
+      2026,
+      20261110,
+      20261111,
+      20261112
+    ],
+    "cpu_per_run": 1,
+    "num_modes": 9,
+    "energy_range_kcal_mol": 3,
+    "success_definition": "symmetry-corrected heavy atom crystal RMSD <= 2.0 angstrom; no alignment or centering",
+    "primary_endpoint": "top-scored saved pose success fraction, n=5 per exhaustiveness",
+    "secondary_endpoint": "at least one saved pose success fraction; not all searched conformations",
+    "contact_definition": "residue contact if any receptor/ligand heavy atom distance <= 4.0 angstrom; compare residue sets to crystal",
+    "analysis": "Report all 15 runs, all saved poses, paired outcomes, Wilson 95% intervals (descriptive, n=5); no seed or threshold selection after results",
+    "timing_limit": "Wall-clock timing includes contention from concurrent local work; not a hardware performance benchmark",
+    "generalization_limit": "One prepared co-crystal system; seed success fractions do not establish cross-target accuracy",
+    "inputs_sha256": {
+      "data/prepared/1iep_receptor.pdbqt": "5892df4a3cf85378eed6158cc25566d46182860ffa4a1cf1029ecff2b7012ef9",
+      "data/prepared/1iep_ligand.pdbqt": "b03fa67129f0db92306ebc18a5ef474d8f813d96238cc49c1db774f6f916709c",
+      "config/1iep_box.txt": "26885f256eebf9419677bf8e621bb850fab1f44d63cadcf7d2938fede9bfc847",
+      "data/raw/1iep_ligand.sdf": "051b8742c32adc05c07fb486a4e7c9327f84e131cee33ac4e6a568d07553eb38",
+      "data/raw/1iep_receptorH.pdb": "5f6aee6029f9a2a2c2be32d4eb948ae70808690573e1b69a0850cdffd7048ca7"
+    },
+    "vina_version": "AutoDock Vina v1.2.7",
+    "vina_binary_sha256": "dbeeececfb8bd6e4da871335d1af5fe95f8c5d34955a7ba328272d4e39131a7b"
+  }
+}

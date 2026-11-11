@@ -1,0 +1,26 @@
+{
+  "seed": 20261112,
+  "target_production_ns": 2,
+  "threads": 2,
+  "input_sha256": {
+    "results/md/minim.gro": "cd0cb8faf264e750e564863d102f8314e0d82afd91fe21a6eba2c28f1892a368",
+    "results/md/topol.top": "7efa54ab3d3accce5278183a853aaac6624a5abe3971fce91997ab9b051627d2",
+    "results/md/posre.itp": "fbec4a871c1db716b064b6c6538b5ea4c8e88ab9c9bd33d478e2c80ed925fdc6",
+    "results/md/md.tpr": "d0cf2a9c409b23f5f946529659e307e03a1e9670263bfca3130a10e268b6efc6",
+    "config/nvt.mdp": "d49ec95077bcc32b570a3d6ba985e523f98abb5bbfdf4585aa88ddb2d658eac8",
+    "config/npt.mdp": "3e157df22955742616c9b9fd51fbe5eabc0662dc0b30159f7d9fd94c4a11aaf4",
+    "config/md.mdp": "969f481a99f1ead18cc77bd9da151dd25d69f85f6047921afa204d4d1125afd7"
+  },
+  "gromacs": "                     :-) GROMACS - gmx, 2026.4-Homebrew (-:\n\nExecutable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx\nData prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4\nWorking dir:  /Users/lessray/Desktop/kimi code/method-validation-mini\nCommand line:\n  gmx --version\n\nGROMACS version:     2026.4-Homebrew\nPrecision:           mixed\nMemory model:        64 bit\nMPI library:         thread_mpi\nMPI version:         built in\nOpenMP support:      enabled (GMX_OPENMP_MAX_THREADS = 128)\nGPU support:         disabled\nSIMD instructions:   ARM_NEON_ASIMD\nCPU FFT library:     fftw-3.3.11\nGPU FFT library:     none\nMulti-GPU FFT:       none\nTNG support:         enabled\nHwloc support:       disabled\nTracing support:     disabled\nColvars support:     enabled (version 2025-10-13)\nCP2K support:        disabled\nTorch support:       disabled\nPlumed support:      enabled\nC compiler:          /usr/bin/clang\nC compiler flags:    -Wno-missing-field-initializers -fno-stack-check -O3 -DNDEBUG\nC++ compiler:        /usr/bin/clang++\nC++ compiler flags:  -Wno-reserved-identifier -Wno-missing-field-initializers -fno-stack-check -Weverything -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-return-std-move-in-c++11 -Wno-source-uses-openmp -Wno-c++17-extensions -Wno-documentation-unknown-command -Wno-covered-switch-default -Wno-switch-enum -Wno-switch-default -Wno-extra-semi-stmt -Wno-weak-vtables -Wno-shadow -Wno-padded -Wno-reserved-id-macro -Wno-double-promotion -Wno-exit-time-destructors -Wno-global-constructors -Wno-documentation -Wno-format-nonliteral -Wno-used-but-marked-unused -Wno-float-equal -Wno-conditional-uninitialized -Wno-conversion -Wno-disabled-macro-expansion -Wno-unused-macros -Wno-unsafe-buffer-usage -Wno-stringop-truncation -Wno-cast-function-type-strict SHELL:-Xclang -fopenmp -O3 -DNDEBUG\nBLAS library:        External - detected on the system\nLAPACK library:      External - detected on the system\n\n",
+  "design": "Independent initial velocities from the same minimized conformation; 100 ps restrained NVT + 100 ps restrained NPT; not independent initial conformations",
+  "analysis_reference": "Original results/md/md.tpr: shared original production-start structure, not each replicate NPT endpoint",
+  "platform_history": [
+    {
+      "system": "Darwin",
+      "machine": "arm64",
+      "gromacs": "                     :-) GROMACS - gmx, 2026.4-Homebrew (-:\n\nExecutable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx\nData prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4\nWorking dir:  /Users/lessray/Desktop/kimi code/method-validation-mini\nCommand line:\n  gmx --version\n\nGROMACS version:     2026.4-Homebrew\nPrecision:           mixed\nMemory model:        64 bit\nMPI library:         thread_mpi\nMPI version:         built in\nOpenMP support:      enabled (GMX_OPENMP_MAX_THREADS = 128)\nGPU support:         disabled\nSIMD instructions:   ARM_NEON_ASIMD\nCPU FFT library:     fftw-3.3.11\nGPU FFT library:     none\nMulti-GPU FFT:       none\nTNG support:         enabled\nHwloc support:       disabled\nTracing support:     disabled\nColvars support:     enabled (version 2025-10-13)\nCP2K support:        disabled\nTorch support:       disabled\nPlumed support:      enabled\nC compiler:          /usr/bin/clang\nC compiler flags:    -Wno-missing-field-initializers -fno-stack-check -O3 -DNDEBUG\nC++ compiler:        /usr/bin/clang++\nC++ compiler flags:  -Wno-reserved-identifier -Wno-missing-field-initializers -fno-stack-check -Weverything -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-return-std-move-in-c++11 -Wno-source-uses-openmp -Wno-c++17-extensions -Wno-documentation-unknown-command -Wno-covered-switch-default -Wno-switch-enum -Wno-switch-default -Wno-extra-semi-stmt -Wno-weak-vtables -Wno-shadow -Wno-padded -Wno-reserved-id-macro -Wno-double-promotion -Wno-exit-time-destructors -Wno-global-constructors -Wno-documentation -Wno-format-nonliteral -Wno-used-but-marked-unused -Wno-float-equal -Wno-conditional-uninitialized -Wno-conversion -Wno-disabled-macro-expansion -Wno-unused-macros -Wno-unsafe-buffer-usage -Wno-stringop-truncation -Wno-cast-function-type-strict SHELL:-Xclang -fopenmp -O3 -DNDEBUG\nBLAS library:        External - detected on the system\nLAPACK library:      External - detected on the system\n\n"
+    }
+  ],
+  "run_label": "local_pilot",
+  "execution": "cpu"
+}

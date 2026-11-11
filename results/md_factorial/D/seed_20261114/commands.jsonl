@@ -1,0 +1,18 @@
+{"time_unix": 1794406181.4982114, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "dump", "-cp", "nvt.cpt"], "stdin": null}
+{"time_unix": 1794406181.5953548, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "convert-tpr", "-s", "npt.tpr", "-until", "1000", "-o", "npt_long.tpr"], "stdin": null}
+{"time_unix": 1794406181.6822202, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "dump", "-s", "npt.tpr"], "stdin": null}
+{"time_unix": 1794406181.7807074, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "mdrun", "-s", "npt.tpr", "-deffnm", "npt", "-ntmpi", "1", "-ntomp", "4", "-nb", "gpu", "-pme", "gpu", "-gpu_id", "0", "-cpi", "npt.cpt", "-append"], "stdin": null}
+{"time_unix": 1794406233.3812923, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "dump", "-cp", "npt.cpt"], "stdin": null}
+{"time_unix": 1794406233.4906654, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "grompp", "-f", "md.mdp", "-c", "npt.gro", "-p", "topol.top", "-o", "md.tpr", "-po", "md_processed.mdp", "-t", "npt.cpt"], "stdin": null}
+{"time_unix": 1794406233.6319368, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "dump", "-s", "md.tpr"], "stdin": null}
+{"time_unix": 1794406233.7319918, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "mdrun", "-s", "md.tpr", "-deffnm", "md", "-ntmpi", "1", "-ntomp", "4", "-nb", "gpu", "-pme", "gpu", "-gpu_id", "0"], "stdin": null}
+{"time_unix": 1794406842.3104181, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "dump", "-cp", "md.cpt"], "stdin": null}
+{"time_unix": 1794406842.5475392, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "trjconv", "-s", "md.tpr", "-f", "md.xtc", "-o", "md_centered.xtc", "-pbc", "mol", "-center"], "stdin": "1\n0\n"}
+{"time_unix": 1794406843.3275356, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "trjconv", "-s", "md.tpr", "-f", "md_centered.xtc", "-o", "md_fit.xtc", "-fit", "rot+trans"], "stdin": "4\n0\n"}
+{"time_unix": 1794406844.0347033, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "rms", "-s", "md.tpr", "-f", "md_fit.xtc", "-o", "rmsd_own_reference.xvg", "-tu", "ns"], "stdin": "4\n4\n"}
+{"time_unix": 1794406844.4770074, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "rmsf", "-s", "md.tpr", "-f", "md_fit.xtc", "-o", "rmsf_ca.xvg", "-res", "-fit"], "stdin": "3\n"}
+{"time_unix": 1794406844.9123769, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "gyrate", "-s", "md.tpr", "-f", "md_fit.xtc", "-o", "gyrate.xvg"], "stdin": "1\n"}
+{"time_unix": 1794406845.3381371, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "hbond", "-s", "md.tpr", "-f", "md_fit.xtc", "-num", "hbond.xvg", "-o", "hbond.ndx"], "stdin": "1\n1\n"}
+{"time_unix": 1794406845.778267, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "energy", "-f", "npt.edr", "-o", "npt_thermodynamics.xvg"], "stdin": "Temperature\nPressure\nDensity\nVolume\n\n"}
+{"time_unix": 1794406845.8666327, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "energy", "-f", "md.edr", "-o", "md_thermodynamics.xvg"], "stdin": "Temperature\nPressure\nDensity\nVolume\n\n"}
+{"time_unix": 1794406845.9882739, "argv": ["/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx", "check", "-f", "md.xtc"], "stdin": null}

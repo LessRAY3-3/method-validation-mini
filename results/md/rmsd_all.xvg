@@ -1,15 +1,15 @@
-# This file was created Tue Nov 10 12:49:53 2026
+# This file was created Tue Nov 10 15:12:23 2026
 # Created by:
 #                   :-) GROMACS - gmx rms, 2026.4-Homebrew (-:
 # 
 # Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
 # Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
-# Working dir:  <project>
+# Working dir:  /Users/lessray/Desktop/kimi code/method-validation-mini
 # Command line:
 #   gmx rms -s results/md/md.tpr -f results/md/md_all_fit.xtc -o results/md/rmsd_all.xvg -tu ns
 # gmx rms is part of G R O M A C S:
 #
-# Great Red Oystrich Makes All Chemists Sane
+# GROningen Mixture of Alchemy and Childrens' Stories
 #
 @    title "RMSD"
 @    xaxis  label "Time (ns)"

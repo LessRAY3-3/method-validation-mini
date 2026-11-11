@@ -1,0 +1,79 @@
+{
+  "declared_utc": "2026-11-10T15:03:46.641316+00:00",
+  "status": "proposal_only_not_executed",
+  "context": "After exploratory analysis of first three 11ns trajectories; do not relabel exploration as preregistered confirmation",
+  "preferred_question": "Does the same starting configuration show similar short-time behavior across additional velocity seeds?",
+  "preferred_design": {
+    "new_seeds": [
+      20261113,
+      20261114,
+      20261115
+    ],
+    "nvt_ps": 100,
+    "npt_ps": 100,
+    "production_ns_each": 11,
+    "starting_structure": "same original minim.gro",
+    "environment": "same Ubuntu CUDA GROMACS2026.3 as original batch",
+    "analysis": "freeze current audited and deep-dive code hashes before new trajectories; analyze original three and new three as separate batches first",
+    "windows_ns": [
+      [
+        0,
+        11
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "endpoints": [
+      "shared-reference backbone RMSD",
+      "NMR1 and all38-reference CA/internal RMSD",
+      "Q with7/8/9A native cutoffs",
+      "Y3-P19 sidechain minimum distance, fractions above5/6/7A"
+    ],
+    "claim_limit": "New seed replication of a post hoc hypothesis, conditional on one starting configuration; not a folding-probability or convergence estimate",
+    "contact_sensitivity": {
+      "native_cutoff_A": [
+        7,
+        8,
+        9
+      ],
+      "retention_factor": [
+        1.1,
+        1.2,
+        1.3
+      ],
+      "report_all": true,
+      "reason": "Exploratory Q ranking reversed at factor1.3; freeze and report the full grid in future data"
+    }
+  },
+  "alternative_question": "Does the observed geometry recur on longer continuations?",
+  "alternative_design": {
+    "seeds": [
+      20261110,
+      20261111,
+      20261112
+    ],
+    "extend_each_to_ns": 20,
+    "additional_production_total_ns": 27,
+    "preserve_original_11ns_outputs": true,
+    "new_data_windows_ns": [
+      [
+        11,
+        20
+      ],
+      [
+        17,
+        20
+      ]
+    ],
+    "method": "continue original checkpoints on the same environment, without fresh velocities; isolated extension output roots",
+    "claim_limit": "Same trajectories extended, n remains3; recurrence absence in9ns does not prove equilibrium"
+  },
+  "stopping_rule": "Complete each chosen batch at its fixed duration, retain all outcomes, stop only technical failures; never stop or selectively extend based on a favorable metric",
+  "not_combined": "Do not run both alternatives automatically; answer the scientific question before choosing computation. No new MD launched this turn."
+}

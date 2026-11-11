@@ -1,0 +1,20 @@
+{
+  "pid": 4536,
+  "start_unix": 1794324096.4534302,
+  "argv": [
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/python",
+    "-u",
+    "scripts/run_gpu_formal_queue.py",
+    "--gmx",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/env/bin/gmx",
+    "--threads",
+    "4",
+    "--gpu-id",
+    "0",
+    "--study",
+    "confirmation",
+    "--protocol",
+    "config/experiments/md_confirmation_protocol.json"
+  ],
+  "cwd": "/home/lessray/codex-runs/method-validation-20261110-gpu"
+}

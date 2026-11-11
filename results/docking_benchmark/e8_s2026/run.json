@@ -1,0 +1,39 @@
+{
+  "exhaustiveness": 8,
+  "seed": 2026,
+  "command": [
+    ".conda/bin/vina",
+    "--receptor",
+    "data/prepared/1iep_receptor.pdbqt",
+    "--ligand",
+    "data/prepared/1iep_ligand.pdbqt",
+    "--config",
+    "config/1iep_box.txt",
+    "--scoring",
+    "vina",
+    "--exhaustiveness",
+    "8",
+    "--num_modes",
+    "9",
+    "--energy_range",
+    "3",
+    "--seed",
+    "2026",
+    "--cpu",
+    "1",
+    "--out",
+    "results/docking_benchmark/e8_s2026/poses.pdbqt"
+  ],
+  "started_utc": "2026-11-10T07:29:27.112392+00:00",
+  "status": "complete",
+  "vina_exit_code": 0,
+  "vina_elapsed_seconds": 42.038038375088945,
+  "export_exit_code": 0,
+  "finished_utc": "2026-11-10T07:30:11.179335+00:00",
+  "output_sha256": {
+    "poses.pdbqt": "4da3eda1a6e9bdb0d4c81b80212905234285416ab5691595269fcf7ba2e6381b",
+    "poses.sdf": "0bc05665c4529ad7ff94b908347d5bf94cf4279154ec2b84ec9711130cdf31e5",
+    "vina.log": "8834f0b60f09e322806b0d57e3dbff6ddfa6c1c421eb0ab26f17311e9b3698e7",
+    "export.log": "46697751e50d017877e54304343a0f7bfe36dc31e41de3f84c8f84b1f95b1184"
+  }
+}

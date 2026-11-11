@@ -1,0 +1,53 @@
+{
+  "status": "complete_descriptive_comparison",
+  "completed_utc": "2026-11-10T15:54:56.567566+00:00",
+  "original_seeds": [
+    20261110,
+    20261111,
+    20261112
+  ],
+  "confirmation_seeds": [
+    20261113,
+    20261114,
+    20261115
+  ],
+  "n_trajectories_per_batch": 3,
+  "n_combined_trajectories": 6,
+  "input_sha256": {
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/confirmation_analysis/summary.json": "887bb813d3b77d68d9f895c24ab7805df4e57b67765133bcfd3398b8644e8e2a",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_confirmation_preparation/original_batch_same_analysis/summary.json": "c5d85f2bd93ffe714321bf075f608ea8ce8f8214082fec2a43197a352ff01557",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_confirmation_preparation/original_batch_same_analysis/copy_verification.json": "470e7209f48dec31f3280c0b23b8a1ab16b48ddd34e55c40c8b6f23ced468d7d",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_confirmation_preparation/original_batch_same_analysis/per_trajectory_windows.csv": "0375b7ca1c5122db90493c8ee4f830cbd4ae2e4722b4e9bfe50b1a09b92d39b2",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_confirmation_preparation/original_batch_same_analysis/threshold_sensitivity.csv": "2cc08f169e8fb1505e4ddddb13d1c04a0867e43c368767f9bbfb4dd2d2f41953",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_confirmation_preparation/original_batch_same_analysis/all_reference_window_results.csv": "bc40661323a077b182c475891b777e2eea90a52979e755d87afd76cf381f0ca5",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_confirmation_preparation/original_batch_same_analysis/all_q_windows.csv": "ca59475ece04b4dd9f5c2fe88394144df4ac1f2189410b85dd769ba05de538ed",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_confirmation_preparation/original_batch_same_analysis/selected_contact_occupancies.csv": "a63d74a6915dfb54eed60924be0307e99c854816cb9be57d798e8f2aa20ef84b",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/confirmation_analysis/per_trajectory_windows.csv": "a2b4c54ba92e5e828e5b2c795d15dbb78e3511395b6d9bec33d0826a5baca7af",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/confirmation_analysis/threshold_sensitivity.csv": "62006b8fed7323b4e340df44543d8a6963ed3ace919fd35110026bf57569c75a",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/confirmation_analysis/all_reference_window_results.csv": "b124a0a72ac0a02d7265328f4d7e85260a8af666210597a891c0532fd3b4c7b2",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/confirmation_analysis/all_q_windows.csv": "9069aaf6e6f6a1acd2600dc2a4f90f94a07ae23c1549c68d605f8d0841c4c7e1",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/confirmation_analysis/selected_contact_occupancies.csv": "912281653152f269f73370b6decb8e770ab1f2856622bc0f69032a1acea08e1d",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/setup/confirmation/old_audited_timeseries/seed_20261110/timeseries.csv": "08fd2d41a5befa9c4cc8f9cefed06a18aa3fcfa5aec0170dd50faad9676df639",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/setup/confirmation/old_audited_timeseries/seed_20261111/timeseries.csv": "1b95a20fd0230af7b456519ebe1f94311f96f18eb5d3f77fc5601d8fe6ab1333",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/setup/confirmation/old_audited_timeseries/seed_20261112/timeseries.csv": "a724ca661945f3e6203c62825da337477b57b6990d6b3b2dd775312aadbb9715",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/confirmation_analysis/aggregate_analysis/seed_20261113/timeseries.csv": "af4b27e76e18a699b5af323d88f20aa56136d1fdf7c186de3a265e61471aef4a",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/confirmation_analysis/aggregate_analysis/seed_20261114/timeseries.csv": "254db4d995603f93c0fe9ce185177de3ec25d46b8764bac66603f0d710b51217",
+    "/home/lessray/codex-runs/method-validation-20261110-gpu/results/md_replicates_gpu_confirmation/confirmation_analysis/aggregate_analysis/seed_20261115/timeseries.csv": "a03014bd68439e95ad467dcc69130098491b9b73dfb7c54becab8b00beef2f97"
+  },
+  "script_sha256": "2c13e36f17593ea5e5328c70f7f1a9c83c1ca9153184e0d30adfa2524ea5fef8",
+  "limitations": [
+    "New batch separately reported before six-run descriptive combination.",
+    "Both batches share one minimized starting configuration.",
+    "No p-values or binary replication-success label.",
+    "Selected contacts excluded by reference cutoff are retained with empty occupancy in all_selected_contact_records.csv; only included contacts enter statistics, never imputed zero.",
+    "NMR range measures reference-choice sensitivity, not confidence intervals.",
+    "Episodes are consecutive saved-sample spans, not exact state lifetimes.",
+    "Frames and windows are correlated; n is trajectories."
+  ],
+  "output_sha256": {
+    "all_per_trajectory_values.csv": "a304dfeb8d7c6a14565d4ef42d3a1427de93d980bced66d2867d5ac8e6cd3b8a",
+    "six_trajectory_comparison.png": "d23a1074d35011e59e5dc0ec22761565d523dbf27a000274353074792194d2ed",
+    "all_selected_contact_records.csv": "38f4d7f5a7d37ae432975dc146c035c93db86e680ae4c67b44a52ec5d88ff1db",
+    "batch_and_combined_descriptive_summary.csv": "3459c7b4ffba35cf7a994942d9f72233e0941727a4db705ba2c055faf4b45157"
+  }
+}

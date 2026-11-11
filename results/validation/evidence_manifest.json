@@ -1,0 +1,135 @@
+{
+  "status": "local archive; not uploaded",
+  "files": [
+    {
+      "path": "results/md/md.tpr",
+      "bytes": 292752,
+      "sha256": "d0cf2a9c409b23f5f946529659e307e03a1e9670263bfca3130a10e268b6efc6"
+    },
+    {
+      "path": "results/md/md.xtc",
+      "bytes": 2965960,
+      "sha256": "1162535049ebf608ac4e5bc1e23ee4d751a78d24062329917c0309fc64fb7c38"
+    },
+    {
+      "path": "results/md/md.cpt",
+      "bytes": 202336,
+      "sha256": "04c13ff559c280e28cdc7e0f96b1537d511c690f8c1861c38955a344ef886dc3"
+    },
+    {
+      "path": "results/md/md_extended.tpr",
+      "bytes": 292752,
+      "sha256": "847884dae9076c1896f25bf52a73077aa0dae806cf080a848d2ad48af8cc2f7a"
+    },
+    {
+      "path": "results/md/md_extended.xtc",
+      "bytes": 14713968,
+      "sha256": "30bf8f984a1bdba531f37a280345752e3bbabb6d400bbb4c5ec5611c4d149e08"
+    },
+    {
+      "path": "results/md/md_extended.cpt",
+      "bytes": 202388,
+      "sha256": "54b19061b257281855f0d6bab09c52e612ef85476576b663f19b8c57194ada06"
+    },
+    {
+      "path": "results/md/md_extended2.tpr",
+      "bytes": 292752,
+      "sha256": "b9272b75154b9e4875772e6445a099cb304aab639cc44dcad1bb08c0206d6d87"
+    },
+    {
+      "path": "results/md/md_extended2.xtc",
+      "bytes": 14714364,
+      "sha256": "cd292b2b20a94c798aa19f0dc2eb3d5731b31bf5f45f99fde6c9fe3b1e601563"
+    },
+    {
+      "path": "results/md/md_extended2.cpt",
+      "bytes": 202388,
+      "sha256": "0ad87696a1ea9d8f3103b36a0656458b965e073c9f57f6f8ca79371de23c556b"
+    },
+    {
+      "path": "results/md/topol.top",
+      "bytes": 89069,
+      "sha256": "7efa54ab3d3accce5278183a853aaac6624a5abe3971fce91997ab9b051627d2"
+    },
+    {
+      "path": "results/md/posre.itp",
+      "bytes": 5047,
+      "sha256": "fbec4a871c1db716b064b6c6538b5ea4c8e88ab9c9bd33d478e2c80ed925fdc6"
+    },
+    {
+      "path": "config/ions.mdp",
+      "bytes": 156,
+      "sha256": "ada3b2f5ebb33fa08b50d53800ab34435c6fa7e89f77217c9cca183325828da0"
+    },
+    {
+      "path": "config/md.mdp",
+      "bytes": 500,
+      "sha256": "969f481a99f1ead18cc77bd9da151dd25d69f85f6047921afa204d4d1125afd7"
+    },
+    {
+      "path": "config/minim.mdp",
+      "bytes": 139,
+      "sha256": "20f548432f9564aa05b97a6118052d4e7322386a1d2d12bb8736dd01704bee65"
+    },
+    {
+      "path": "config/npt.mdp",
+      "bytes": 540,
+      "sha256": "3e157df22955742616c9b9fd51fbe5eabc0662dc0b30159f7d9fd94c4a11aaf4"
+    },
+    {
+      "path": "config/nvt.mdp",
+      "bytes": 473,
+      "sha256": "d49ec95077bcc32b570a3d6ba985e523f98abb5bbfdf4585aa88ddb2d658eac8"
+    },
+    {
+      "path": "report/evidence/colabfold_repeat.txt",
+      "bytes": 1760,
+      "sha256": "0afa2d0f052332994a93b89e50240b3d313ebae46e53a3c847e7497cd7958007"
+    },
+    {
+      "path": "report/evidence/docking_e32_s2026.txt",
+      "bytes": 2100,
+      "sha256": "c10c2c9d3a20bbb5bb76e341dc1e1c466ec0f9030acbe34316b08959915b47d1"
+    },
+    {
+      "path": "report/evidence/docking_e32_s20261110.txt",
+      "bytes": 2104,
+      "sha256": "107b202dafe1ee79e240eb863c17fe3c8e491a1cffb4ec31bc5bc01e931e393b"
+    },
+    {
+      "path": "report/evidence/docking_e32_s42.txt",
+      "bytes": 2098,
+      "sha256": "9f7bad3910ca0715df15fe98725e50aeafeec39e1364a4fc4afa2537095e9599"
+    },
+    {
+      "path": "report/evidence/docking_e8_s42.txt",
+      "bytes": 2097,
+      "sha256": "2575ceee390a3e5215383ca88704d7bd3a23fbe407661a46ec1d6e113437306f"
+    },
+    {
+      "path": "report/evidence/md_extended2.txt",
+      "bytes": 10005,
+      "sha256": "7ee3b0646f363eadaec1da619c58001a92b02a6b612c163e9fa55d14f583ec7c"
+    },
+    {
+      "path": "report/evidence/md_extension.txt",
+      "bytes": 3470,
+      "sha256": "40b9e2b29ab68347ec9c16b2e7d9745b84429a1bcd5f8ee74e3479449705c416"
+    },
+    {
+      "path": "report/evidence/md_workflow.txt",
+      "bytes": 58932,
+      "sha256": "0cd63a296f2d0e91efcaa35a1b52692283e778642011d97b2f245df846904e66"
+    },
+    {
+      "path": "report/evidence/prepare_ligand.txt",
+      "bytes": 486,
+      "sha256": "250c3b9a6b3d87e6038662ea95d4613a95c9a335ce0dfd7f0a78e07be456d8ed"
+    },
+    {
+      "path": "report/evidence/prepare_receptor.txt",
+      "bytes": 747,
+      "sha256": "b61b94f9e42654450b9128430b45b974c78749847b7dd355a7c491b063c8c161"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+               :-) GROMACS - gmx convert-tpr, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx convert-tpr -s results/md/md.tpr -extend 5000 -o results/md/md_extended.tpr
+
+Reading file results/md/md.tpr, VERSION 2026.4-Homebrew (single precision)
+
+Back Off! I just backed up results/md/md_extended.tpr to results/md/#md_extended.tpr.1#
+
+GROMACS reminds you: "In the Meantime, Take Care of Yourself aaand Eachother" (J. Springer)
+
+Input file:
+  Run start step                                     0     
+  Run start time                                     0 ps  
+  Step to be made during run                    500000     
+  Runtime for the run                             1000 ps  
+  Run end step                                  500000     
+  Run end time                                    1000 ps  
+
+Extending remaining runtime by 5000 ps
+
+Output file:
+  Run start step                                     0     
+  Run start time                                     0 ps  
+  Step to be made during run                   3000000     
+  Runtime for the run                             6000 ps  
+  Run end step                                 3000000     
+  Run end time                                    6000 ps  
+
+                  :-) GROMACS - gmx mdrun, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx mdrun -s results/md/md_extended.tpr -cpi results/md/md.cpt -deffnm results/md/md_extended -nt 6 -noappend
+
+Reading file results/md/md_extended.tpr, VERSION 2026.4-Homebrew (single precision)
+Changing nstlist from 10 to 50, rlist from 1 to 1.111
+
+Using 1 MPI thread
+Using 6 OpenMP threads 
+
+starting mdrun 'Protein in water'
+3000000 steps,   6000.0 ps (continuing from step 500000,   1000.0 ps).
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:    31173.441     5195.575      600.0
+                         1h26:35
+                 (ns/day)    (hour/ns)    (ms/step)  (Matom*steps/s) 
+Performance:       83.148        0.289        2.078            4.013 
+
+GROMACS reminds you: "Science may never come up with a better office communication system than the coffee break." (Earl Wilson)
+
+                 :-) GROMACS - gmx energy, 2026.4-Homebrew (-:
+
+Executable:   /opt/homebrew/bin/../Cellar/gromacs/2026.4/bin/gmx
+Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2026.4
+Working dir:  ${PROJECT_ROOT}
+Command line:
+  gmx energy -f results/md/md_extended.edr -o results/md/md_extended_temperature_pressure.xvg
+
+
+-------------------------------------------------------
+Program:     gmx energy, version 2026.4-Homebrew
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int *, char **)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -f
+    File 'results/md/md_extended.edr' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------

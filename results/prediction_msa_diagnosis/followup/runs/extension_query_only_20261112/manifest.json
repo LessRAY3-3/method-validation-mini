@@ -1,0 +1,53 @@
+{
+  "spec": {
+    "id": "extension_query_only_20261112",
+    "condition": "query_only",
+    "seed": 20261112,
+    "recycles": 3,
+    "extra_args": []
+  },
+  "started_utc": "2026-11-10T07:54:42.105851+00:00",
+  "finished_utc": "2026-11-10T07:54:46.419147+00:00",
+  "command": [
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/.colabfold/bin/python",
+    "-m",
+    "colabfold.batch",
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/results/prediction_msa_diagnosis/followup/inputs/query_only.a3m",
+    "/Users/lessray/Desktop/kimi code/method-validation-mini/results/prediction_msa_diagnosis/followup/runs/extension_query_only_20261112",
+    "--data",
+    "/Users/lessray/Library/Caches/colabfold",
+    "--model-type",
+    "alphafold2_ptm",
+    "--model-order",
+    "1",
+    "--num-models",
+    "1",
+    "--num-seeds",
+    "1",
+    "--random-seed",
+    "20261112",
+    "--num-recycle",
+    "3",
+    "--rank",
+    "plddt",
+    "--compile-mode",
+    "fast"
+  ],
+  "plan_sha256": "7898cbd03f301bd0cec663e44eb63b7d598a912e07b46b8976200523eac2e7b0",
+  "input_sha256": "97fad2bc48015ade619bc53981ac0e373e57b224ad2b8770ade6ed96ad0b37ad",
+  "weights_sha256": "5e564f79af5bcd54ccef6e2a6bb0ff01015d01650ebc41d4575e35f0de9ecc84",
+  "outputs_sha256": {
+    "query_only_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261112.pdb": "25473661834f9704178c5a294c8bd59ff204d757f787ae072ba5b09b3299fa67",
+    "query_only_predicted_aligned_error_v1.json": "1356005fc4d43f0d21731d8c4112488d3115fa1ffa15c88256f86d8ac9f4b481",
+    "query_only.a3m": "e75d3a9ef1211e490e3b9e49c665e7067cdf67299bade0965a45c299c43c714e",
+    "run.log": "f2bc778e203b8bcca212e6410d9eb42603c27f96ffbaa7955f7f57d88d72f16d",
+    "config.json": "7a94b3bf6b5dd53bd13ab9d8c0d6a34e71e2f5f0d747558d7c0dc895df160ea4",
+    "query_only.done.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "query_only_pae.png": "a6aa7c4c5b7da4d97764eb740ccbf9f725c2d6019b17058ab2d90ebe4969d737",
+    "log.txt": "f2bc778e203b8bcca212e6410d9eb42603c27f96ffbaa7955f7f57d88d72f16d",
+    "query_only_plddt.png": "c2094f378db276767b0163cac0a90a3713bf54da0e6e7c669795b22a32cafa45",
+    "query_only_coverage.png": "302a04d317b4317ae3124c8aae46ba4ff66d0edfd47d3146a17205deae7f38a7",
+    "cite.bibtex": "e7a700949b57d86b804f63abda492679b5711262fc5d7e9f81835bd95fa8cf94",
+    "query_only_scores_rank_001_alphafold2_ptm_model_1_seed_20261112.json": "c83448ac532fb635be4c760a022b06b915d8ce75dd91c5adedbbb9c0bcff0532"
+  }
+}

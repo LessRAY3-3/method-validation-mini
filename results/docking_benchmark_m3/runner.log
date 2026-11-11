@@ -1,0 +1,109 @@
+e=1 seed=42: complete, 5.0s
+e=8 seed=42: complete, 34.0s
+e=1 seed=2026: complete, 6.3s
+e=8 seed=2026: complete, 33.9s
+e=32 seed=42: complete, 136.9s
+e=1 seed=20261110: complete, 4.6s
+e=8 seed=20261110: complete, 32.8s
+e=32 seed=2026: complete, 136.0s
+e=1 seed=20261111: complete, 4.3s
+e=8 seed=20261111: complete, 33.6s
+e=32 seed=20261110: complete, 134.8s
+e=1 seed=20261112: complete, 5.3s
+e=8 seed=20261112: complete, 34.8s
+e=32 seed=20261111: complete, 138.3s
+e=32 seed=20261112: complete, 132.6s
+Matplotlib is building the font cache; this may take a moment.
+{
+  "protocol_sha256": "a79e0f99c5b871dda5f207d00bc1822aecaba7a3ce45d1bb6c9d69703d872ef1",
+  "complete_runs": 15,
+  "saved_poses": 57,
+  "native_contact_residues": [
+    "A:ALA269",
+    "A:ALA380",
+    "A:ARG362",
+    "A:ASP381",
+    "A:GLU286",
+    "A:GLY321",
+    "A:HIS361",
+    "A:ILE313",
+    "A:ILE360",
+    "A:LEU248",
+    "A:LEU370",
+    "A:LYS271",
+    "A:MET290",
+    "A:MET318",
+    "A:PHE317",
+    "A:PHE382",
+    "A:THR315",
+    "A:TYR253",
+    "A:VAL256",
+    "A:VAL289",
+    "A:VAL299"
+  ],
+  "native_contact_count": 21,
+  "groups": [
+    {
+      "exhaustiveness": 1,
+      "n": 5,
+      "top1_successes": 1,
+      "top1_success_fraction": 0.2,
+      "top1_wilson95": [
+        0.03622410863243014,
+        0.6244653702374747
+      ],
+      "any_saved_successes": 1,
+      "any_saved_success_fraction": 0.2,
+      "any_saved_wilson95": [
+        0.03622410863243014,
+        0.6244653702374747
+      ],
+      "median_top1_rmsd_angstrom": 12.285635836981289,
+      "median_vina_elapsed_seconds": 5.002551250014221
+    },
+    {
+      "exhaustiveness": 8,
+      "n": 5,
+      "top1_successes": 5,
+      "top1_success_fraction": 1.0,
+      "top1_wilson95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "any_saved_successes": 5,
+      "any_saved_success_fraction": 1.0,
+      "any_saved_wilson95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "median_top1_rmsd_angstrom": 0.37106333691163823,
+      "median_vina_elapsed_seconds": 33.92176854098216
+    },
+    {
+      "exhaustiveness": 32,
+      "n": 5,
+      "top1_successes": 5,
+      "top1_success_fraction": 1.0,
+      "top1_wilson95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "any_saved_successes": 5,
+      "any_saved_success_fraction": 1.0,
+      "any_saved_wilson95": [
+        0.5655175352168251,
+        1.0
+      ],
+      "median_top1_rmsd_angstrom": 0.37106333691163823,
+      "median_vina_elapsed_seconds": 135.97829783297493
+    }
+  ],
+  "independent_rmsd_check": "All saved poses agree with RDKit enumeration + NumPy within 1e-8 angstrom",
+  "contact_caveat": "Binary residue contacts use a geometric 4A threshold; no bond type, affinity or pharmacological inference. High recovery does not imply correct ligand orientation.",
+  "limitations": [
+    "One prepared co-crystal system; seed success fractions do not establish cross-target accuracy",
+    "Wall-clock timing includes contention from concurrent local work; not a hardware performance benchmark",
+    "n=5 seeds per effort; Wilson intervals are descriptive and do not model target/preparation uncertainty.",
+    "Energy-window filtered saved poses are not the complete conformational search history."
+  ]
+}

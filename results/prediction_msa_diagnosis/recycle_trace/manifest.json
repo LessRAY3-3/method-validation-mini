@@ -1,0 +1,30 @@
+{
+  "plan_sha256": "adc77da56dd6d8ef31a32cad2b3627054b6ddf2d28e5914092a021df6ba609d5",
+  "outputs": {
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.r8.pdb": "57481c44a6d5447bab5035588698190364e26d1082e36036942c5d730c635a0f",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.r9.pdb": "895dfaf184cc926ef75287e6153f3588c9cdb319183db167d9a419625166a412",
+    "deduplicated_saved_msa_scores_rank_001_alphafold2_ptm_model_1_seed_20261110.json": "b7a775244b8e8c53e7f183c4de97e627b9e64ef3ab94cd86b9faee88a178a3c8",
+    "run.log": "46a2e11fbefc566966dbe9ebb2ccfa56915b426ac38fd66f31ef7cbeba158e4e",
+    "config.json": "3302f848b0a4cef38df546cb56ddc55beed0e610e0768701108e3418887153d0",
+    "deduplicated_saved_msa_predicted_aligned_error_v1.json": "658bacc7be438b5ade8672a557a52dae8b980f930c25cc10f65b05919a3aee89",
+    "deduplicated_saved_msa.a3m": "e225ea270615d1ac135453b5e8015747a2adefa65eaef2868e66dee18f22ebba",
+    "deduplicated_saved_msa_plddt.png": "775b4dd05ccc16a6dbdd4a944eda616710596f8a4009524aa4f3b2a58ce79aba",
+    "log.txt": "46a2e11fbefc566966dbe9ebb2ccfa56915b426ac38fd66f31ef7cbeba158e4e",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.r10.pdb": "6727c424503609b2b1ca068b57a7c6ae0ee08c7f969909d54fe3412f3af47e03",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.r11.pdb": "a0fd031707e7e4f2201360038fa393089143122707276adf30c37829f9a2b62b",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.r12.pdb": "147dcd273bd4c71ebf3d39f19805a6b99f1761ed1415d5ff4f07a88e2ad35adb",
+    "cite.bibtex": "e7a700949b57d86b804f63abda492679b5711262fc5d7e9f81835bd95fa8cf94",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.r1.pdb": "ef1936d20d9eb96cbdff813e28feee5b08d2c5cf3eec9c9980b94dd6a6be319e",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.r0.pdb": "831e299a89c101051d8a3b02ceee9560520f217b97cc9f497059d656da343aae",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.r2.pdb": "9a884dc18d343ce9e6174d6b45338ec5618eb17e603bfdad08c2f6e3faf07e76",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.r3.pdb": "5e1056c90ba940a3c66955ec45dd45769213cc70815795d15b71087f7e1f98db",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.r7.pdb": "900e93520f2ad97113f28150237760ea4d657d19f211237ed1ee760cee0e2964",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.r6.pdb": "93046a4c131e84429d2939ec9a76ac0c5f4f65a2a0d9fc237f6ace74eda962d6",
+    "deduplicated_saved_msa.done.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "deduplicated_saved_msa_coverage.png": "f1687e0e57c31eb9b8168d35ed5202a4c531d4863d12d4bd75a5defb224e96c1",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.r4.pdb": "1a2547efec251b00552cab479717f166d902b0ae2fbb50b17a0a0eaed5aae340",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.r5.pdb": "d7a43569b6c777b4990aac1f654fe056c2afad8cf327ca0c608f5a47417d315c",
+    "deduplicated_saved_msa_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_20261110.pdb": "147dcd273bd4c71ebf3d39f19805a6b99f1761ed1415d5ff4f07a88e2ad35adb",
+    "deduplicated_saved_msa_pae.png": "9a3e4d362fa5dea116aa3842e5166fcf30efb456a766216ba9a5c53a0e0fb9c1"
+  }
+}

@@ -1,0 +1,37 @@
+# This file was created Wed Nov 11 22:09:39 2026
+# Created by:
+#                 :-) GROMACS - gmx rmsf, 2026.3-conda_forge (-:
+# 
+# Executable:   /home/lessray/codex-runs/method-validation-20261110-gpu/env/bin.AVX2_256/gmx
+# Data prefix:  /home/lessray/codex-runs/method-validation-20261110-gpu/env
+# Working dir:  /home/lessray/codex-runs/method-validation-20261110-gpu/results/md_factorial/D/seed_20261113
+# Command line:
+#   gmx rmsf -s md.tpr -f md_fit.xtc -o rmsf_ca.xvg -res -fit
+# gmx rmsf is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.2224
+    2   0.1042
+    3   0.0800
+    4   0.0633
+    5   0.0550
+    6   0.0428
+    7   0.0506
+    8   0.0698
+    9   0.0774
+   10   0.0836
+   11   0.0625
+   12   0.0731
+   13   0.0690
+   14   0.0905
+   15   0.1180
+   16   0.0906
+   17   0.0878
+   18   0.0982
+   19   0.1141
+   20   0.2091

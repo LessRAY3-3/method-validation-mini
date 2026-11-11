@@ -1,0 +1,11 @@
+{
+  "snapshot_note": "Exact source at completion of this exploratory analysis; no new dynamics",
+  "sha256": {
+    "scripts/analyze_md_reference_ensemble.py": "35137a44dc4e05360e9c636961721300cd58e8b888fc1ed4683735c78f82dafc",
+    "scripts/analyze_md_local_geometry.py": "e2809ea3a5c2e1a2b5fcf888a0110490e742ef1cc112c0b32725615efcbf5cb3",
+    "scripts/analyze_md_contact_sensitivity.py": "6afefe3687e27ca6cafe1d80567c628a118db5469f5392e3047105d24f5ece25",
+    "scripts/analyze_md_temporal_robustness.py": "0fddda1bd2d43719dc5b1e83d3ac63135c3bb7abdd206a73befd90e8b600b303",
+    "scripts/analyze_md_torsions.py": "7c2b8793608de7eb30736110e5f78acf9cc7c93933666ed8a702ea3c158dae00",
+    "scripts/render_md_torsion_snapshots.py": "972e2006ad8e238bfca8e5c0966c7826f4a6ade212d4327f148c453440622025"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "seed": 42,
+    "raw_dedup_query_feature_equal_when_mask_disabled": true,
+    "all_bert_masks_zero": true
+  },
+  {
+    "seed": 2026,
+    "raw_dedup_query_feature_equal_when_mask_disabled": true,
+    "all_bert_masks_zero": true
+  },
+  {
+    "seed": 20261110,
+    "raw_dedup_query_feature_equal_when_mask_disabled": true,
+    "all_bert_masks_zero": true
+  }
+]

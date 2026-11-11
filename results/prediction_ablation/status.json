@@ -1,0 +1,52 @@
+{
+  "phase": "completed before stop could reach the sequential runner; process exit 0; no remaining inference",
+  "updated_utc": "2026-11-10T07:31:56.128478+00:00",
+  "runs": [
+    {
+      "condition": "query_only",
+      "seed": 42,
+      "state": "completed"
+    },
+    {
+      "condition": "query_only",
+      "seed": 2026,
+      "state": "completed"
+    },
+    {
+      "condition": "query_only",
+      "seed": 20261110,
+      "state": "completed"
+    },
+    {
+      "condition": "deduplicated_saved_msa",
+      "seed": 42,
+      "state": "completed"
+    },
+    {
+      "condition": "deduplicated_saved_msa",
+      "seed": 2026,
+      "state": "completed"
+    },
+    {
+      "condition": "deduplicated_saved_msa",
+      "seed": 20261110,
+      "state": "completed"
+    },
+    {
+      "condition": "raw_saved_msa",
+      "seed": 42,
+      "state": "completed"
+    },
+    {
+      "condition": "raw_saved_msa",
+      "seed": 2026,
+      "state": "completed"
+    },
+    {
+      "condition": "raw_saved_msa",
+      "seed": 20261110,
+      "state": "completed"
+    }
+  ],
+  "no_background_worker_managed_by_this_file": true
+}

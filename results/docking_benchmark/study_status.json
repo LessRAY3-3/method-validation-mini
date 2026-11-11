@@ -1,0 +1,69 @@
+{
+  "status": "paused_at_user_request",
+  "completed": 6,
+  "pending": 9,
+  "running": 0,
+  "complete_experiment_analyzed": false,
+  "runs": [
+    {
+      "run": "e1_s2026",
+      "status": "complete"
+    },
+    {
+      "run": "e1_s20261110",
+      "status": "pending"
+    },
+    {
+      "run": "e1_s20261111",
+      "status": "pending"
+    },
+    {
+      "run": "e1_s20261112",
+      "status": "pending"
+    },
+    {
+      "run": "e1_s42",
+      "status": "complete"
+    },
+    {
+      "run": "e32_s2026",
+      "status": "complete"
+    },
+    {
+      "run": "e32_s20261110",
+      "status": "pending"
+    },
+    {
+      "run": "e32_s20261111",
+      "status": "pending"
+    },
+    {
+      "run": "e32_s20261112",
+      "status": "pending"
+    },
+    {
+      "run": "e32_s42",
+      "status": "complete"
+    },
+    {
+      "run": "e8_s2026",
+      "status": "complete"
+    },
+    {
+      "run": "e8_s20261110",
+      "status": "pending"
+    },
+    {
+      "run": "e8_s20261111",
+      "status": "pending"
+    },
+    {
+      "run": "e8_s20261112",
+      "status": "pending"
+    },
+    {
+      "run": "e8_s42",
+      "status": "complete"
+    }
+  ]
+}

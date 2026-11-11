@@ -8,6 +8,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
+from md_windows import window_metrics
+
 root = Path(__file__).resolve().parents[1]
 md_dir = root / "results/md"
 fig_dir = root / "figures"
@@ -19,44 +21,34 @@ def load(name):
     return np.loadtxt(md_dir / name, comments=["#", "@"])
 
 
-def window_values(data, index, time_scale):
-    time = data[:, 0] * time_scale
-    values = data[:, index]
-    result = []
-    for start in range(total_ns):
-        selected = (time >= start) & (time <= start + 1)
-        x = time[selected]
-        y = values[selected]
-        slope = np.polyfit(x, y, 1)[0]
-        result.append((float(y.mean()), float(y.std()), float(slope)))
-    return result
-
-
 rmsd = load(f"rmsd_all{tag}.xvg")
 gyrate = load(f"gyrate_all{tag}.xvg")
 hbond = load(f"hbond_all{tag}.xvg")
-window_metrics = {
-    "rmsd": window_values(rmsd, 1, 1.0),
-    "gyrate": window_values(gyrate, 1, 0.001),
-    "hbond": window_values(hbond, 1, 0.001),
+metrics = {
+    "rmsd": window_metrics(rmsd, total_ns, "ns"),
+    "gyrate": window_metrics(gyrate, total_ns, "ps"),
+    "hbond": window_metrics(hbond, total_ns, "ps"),
 }
 rows = []
 for window in range(total_ns):
     rmsf = load(f"rmsf_ca_{window * 1000}_{(window + 1) * 1000}{tag}.xvg")
+    if rmsf.shape != (20, 2) or not np.isfinite(rmsf).all() or not np.array_equal(rmsf[:, 0], np.arange(1, 21)):
+        raise ValueError("Expected finite C-alpha RMSF for residues 1 through 20")
     row = {
         "window_ns": f"{window}–{window + 1}",
-        "rmsd_mean_nm": window_metrics["rmsd"][window][0],
-        "rmsd_within_window_sd_nm": window_metrics["rmsd"][window][1],
-        "rmsd_slope_nm_per_ns": window_metrics["rmsd"][window][2],
-        "gyrate_mean_nm": window_metrics["gyrate"][window][0],
-        "hbond_mean": window_metrics["hbond"][window][0],
+        "frames": metrics["rmsd"][window][3],
+        "rmsd_mean_nm": metrics["rmsd"][window][0],
+        "rmsd_within_window_sd_nm": metrics["rmsd"][window][1],
+        "rmsd_slope_nm_per_ns": metrics["rmsd"][window][2],
+        "gyrate_mean_nm": metrics["gyrate"][window][0],
+        "hbond_mean": metrics["hbond"][window][0],
         "rmsf_mean_nm": float(rmsf[:, 1].mean()),
         "rmsf_max_nm": float(rmsf[:, 1].max()),
         "rmsf_max_residue": int(rmsf[np.argmax(rmsf[:, 1]), 0]),
     }
     rows.append(row)
 with (md_dir / f"stability_windows{tag}.csv").open("w", newline="") as handle:
-    writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+    writer = csv.DictWriter(handle, fieldnames=list(rows[0]), lineterminator="\n")
     writer.writeheader()
     writer.writerows(rows)
 
@@ -70,6 +62,9 @@ criteria = {
 summary = {
     "trajectory": f"continuous {total_ns} ns trajectory analyzed in {total_ns} one-ns windows",
     "frames_expected": total_ns * 100 + 1,
+    "frames_observed": {"rmsd": len(rmsd), "gyrate": len(gyrate), "hbond": len(hbond)},
+    "window_policy": "Integer ps; [start, end), final window includes endpoint; 100 frames per window, 101 in final window",
+    "rmsf_fit": "C-alpha least-squares refit by gmx rmsf -fit after backbone preprocessing",
     "criteria": criteria,
     "all_project_plateau_criteria_met": bool(all(criteria.values())),
     "interpretation": "These are project-specific descriptive heuristics, not proof of thermodynamic convergence or folding stability.",

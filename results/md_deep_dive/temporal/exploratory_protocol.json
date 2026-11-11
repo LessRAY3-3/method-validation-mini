@@ -1,0 +1,60 @@
+{
+  "declared_utc": "2026-11-10T15:02:29.163955+00:00",
+  "status": "exploratory analysis specified after observing seed20261110 early deviation; not preregistered confirmation",
+  "seeds": [
+    20261110,
+    20261111,
+    20261112
+  ],
+  "windows_ns": [
+    [
+      0,
+      11
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      8,
+      11
+    ]
+  ],
+  "posthoc_window_sensitivity_ns": [
+    [
+      7,
+      11
+    ],
+    [
+      9,
+      11
+    ]
+  ],
+  "block_sizes_ns": [
+    0.1,
+    0.5,
+    1.0
+  ],
+  "block_rule": "Nonoverlapping complete blocks on [0,11) or [8,11); final 11ns frame excluded, all seeds same rule. Blocks remain correlated and are not independent replicates.",
+  "autocorrelation": "Mean-centered sum(x_t*x_tlag)/sum(x_t^2), [8,11) 300 frames; no ESS, error bars, stationarity or significance claims",
+  "sidechain_thresholds_angstrom": [
+    5,
+    6,
+    7
+  ],
+  "episode_rule": "Strictly > threshold; contiguous sampled frames only; reported span=(last_time-first_time), single frame span0. Crossing between samples unknown; not a state or folding probability.",
+  "statistical_unit": "Trajectory n=3; all per-seed results retained",
+  "input_sha256": {
+    "results/md_replicates_gpu/aggregate_analysis_audited/seed_20261110/timeseries.csv": "08fd2d41a5befa9c4cc8f9cefed06a18aa3fcfa5aec0170dd50faad9676df639",
+    "results/md_replicates_gpu/aggregate_analysis_audited/seed_20261111/timeseries.csv": "1b95a20fd0230af7b456519ebe1f94311f96f18eb5d3f77fc5601d8fe6ab1333",
+    "results/md_replicates_gpu/aggregate_analysis_audited/seed_20261112/timeseries.csv": "a724ca661945f3e6203c62825da337477b57b6990d6b3b2dd775312aadbb9715"
+  }
+}
